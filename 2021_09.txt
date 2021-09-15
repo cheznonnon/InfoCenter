@@ -1,0 +1,89 @@
+
+
+----------==========----------==========----------==========----------
+
+
+"Eat Your Own Catfood."
+
+
+----------==========----------==========----------==========----------
+
+
+Change Log
+
+
+2021/09/30
+
+
+BUGFIX
+
+
+NEW_FEATURE
+
+
+----------==========----------==========----------==========----------
+
+
+Change Log
+
+
+2021/09/20
+
+
+BUGFIX
+
+
+	Nonnon Paint
+		Multi-Layer : Renamer : overlay position
+			OLD : inaccurate
+			NEW : fixed
+		Multi-Layer : fast mode : when Blend or Blur is changed
+			OLD : not resync
+			NEW : fixed
+		Multi-Layer : Grabber : Quick Stretch
+			OLD : garbage displayed
+			NEW : fixed
+	Nonnon White Noise
+		register menu
+			OLD : not fluent ui
+			NEW : fixed
+	Wheel Axl
+		register menu
+			OLD : not fluent ui
+			NEW : fixed
+
+
+NEW_FEATURE
+
+
+	CatPad
+		status bar
+			NEW : more padding is added
+	Nonnon Freecell
+		halo effect
+			NEW : color will be changed when puttable
+	Nonnon Paint
+		Hamburger Button
+			NEW : re-tuned
+	Nonnon Spider
+		halo effect
+			NEW : color will be changed when puttable
+	Nyaurism
+		Resizer and Formatter : group box
+			NEW : more padding is added
+
+
+----------==========----------==========----------==========----------
+
+
+Change Log
+
+
+2021/09/10
+
+
+zzz...
+
+
+----------==========----------==========----------==========----------
+
