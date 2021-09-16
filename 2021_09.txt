@@ -43,6 +43,9 @@ BUGFIX
 		Multi-Layer : Grabber : Quick Stretch
 			OLD : garbage displayed
 			NEW : fixed
+		Multi-Layer : Whole Grab
+			OLD : garbage displayed
+			NEW : fixed
 	Nonnon White Noise
 		register menu
 			OLD : not fluent ui
@@ -65,6 +68,8 @@ NEW_FEATURE
 	Nonnon Paint
 		Hamburger Button
 			NEW : re-tuned
+		Multi-Layer : Layer Menu
+			NEW : "Thicken Lines" available
 	Nonnon Spider
 		halo effect
 			NEW : color will be changed when puttable
