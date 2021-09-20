@@ -70,6 +70,8 @@ NEW_FEATURE
 			NEW : re-tuned
 		Multi-Layer : Layer Menu
 			NEW : "Thicken Lines" available
+		Multi-Layer : Layer Menu
+			NEW : "Thin Lines" available
 	Nonnon Spider
 		halo effect
 			NEW : color will be changed when puttable
