@@ -18,6 +18,24 @@ Change Log
 BUGFIX
 
 
+	win32/win_txtbox/17_draw.c
+		n_win_txtbox_round_corner()
+			OLD : inaccurate calculation
+			NEW : fixed
+
+	Nonnon Paint
+		Multi-Layer : Renamer : overlay position
+			OLD : once fixed but not fixed yet
+			NEW : fixed
+		Multi-Layer : Renamer : Classic Style
+			OLD : border is overwritten
+			NEW : fixed
+		Resizer : Preview : WinXP or earlier
+			OLD : not redrawn
+			NEW : fixed
+			[!] : input popup and when focused
+
+
 NEW_FEATURE
 
 
