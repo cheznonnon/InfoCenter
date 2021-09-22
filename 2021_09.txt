@@ -22,6 +22,11 @@ BUGFIX
 		n_win_txtbox_round_corner()
 			OLD : inaccurate calculation
 			NEW : fixed
+	win32/win_simplemenu.c
+		n_win_simplemenu_close()
+			OLD : not faded out in some cases
+			NEW : fixed
+			[!] : notification area menu
 
 	Nonnon Paint
 		Multi-Layer : Renamer : overlay position
