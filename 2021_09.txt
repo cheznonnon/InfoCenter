@@ -44,6 +44,13 @@ BUGFIX
 NEW_FEATURE
 
 
+	All
+		GDI+ DLL
+			NEW : removed from release
+			[!] : currently unused
+			[!] : project_nonnon.zip still has DLLs
+
+
 ----------==========----------==========----------==========----------
 
 
