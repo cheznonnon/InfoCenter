@@ -39,6 +39,10 @@ BUGFIX
 			OLD : not redrawn
 			NEW : fixed
 			[!] : input popup and when focused
+		Multi-Layer : Zoom-Out, pen input then Zoom-In
+			OLD : garbages are displayed
+			NEW : fixed
+			[!] : data are safe
 
 
 NEW_FEATURE
@@ -71,11 +75,13 @@ BUGFIX
 			OLD : not resync
 			NEW : fixed
 		Multi-Layer : Grabber : Quick Stretch
-			OLD : garbage displayed
+			OLD : garbages are displayed
 			NEW : fixed
+			[!] : data are safe
 		Multi-Layer : Whole Grab
-			OLD : garbage displayed
+			OLD : garbages are displayed
 			NEW : fixed
+			[!] : data are safe
 	Nonnon White Noise
 		register menu
 			OLD : not fluent ui
