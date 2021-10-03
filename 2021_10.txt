@@ -55,6 +55,10 @@ NEW_FEATURE
 		n_bmp_gradient()
 			NEW : 20% faster than older
 
+	Nonnon Paint
+		Multi-Layer : Save : initialization
+			NEW : faster than older
+
 
 ----------==========----------==========----------==========----------
 
