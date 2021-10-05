@@ -48,6 +48,12 @@ Change Log
 BUGFIX
 
 
+	Character Map
+		UI : behavior
+			OLD : not natural
+			NEW : fixed
+
+
 NEW_FEATURE
 
 
