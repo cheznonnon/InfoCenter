@@ -37,6 +37,9 @@ BUGFIX
 		TxtBox : Ctrl + Wheeling
 			OLD : font cache misbehaves
 			NEW : fixed
+	OrangeCat
+		readme
+			NEW : typo is fixed
 
 
 NEW_FEATURE
