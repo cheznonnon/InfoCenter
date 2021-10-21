@@ -21,6 +21,20 @@ BUGFIX
 NEW_FEATURE
 
 
+	Nonnon Paint
+		Key Bindings : F2
+			NEW : fork by current date and time available
+		Layer Menu : "Add A New Layer"
+			NEW : add a new layer
+		Readme
+			NEW : some topics are added
+			[!] : about radiosity
+	Wheel Axl
+		engine
+			OLD : history buffer
+			NEW : time-out
+
+
 ----------==========----------==========----------==========----------
 
 

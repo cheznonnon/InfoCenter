@@ -27,9 +27,6 @@ gradient() ‚ª‚Q‚O“‘¬‚­‚È‚Á‚½ƒjƒƒ
 
 [ ‚P‚OŒŽ‚Q‚O“ú ]
 
-žƒjƒ…[ƒtƒB[ƒ`ƒƒ[
-
-
 žƒoƒOƒtƒBƒNƒX
 
 ¡CatPad
@@ -44,6 +41,23 @@ Ctrl + ƒzƒC[ƒ‹‚ÅƒtƒHƒ“ƒgƒTƒCƒY‚ð•ÏX‚·‚é‚ÆƒLƒƒƒbƒVƒ…‚ªXV‚³‚ê‚È‚¢‚Ì‚ð’¼‚µ‚½ƒjƒ
 [ ‚P‚OŒŽ‚R‚O“ú ]
 
 žƒjƒ…[ƒtƒB[ƒ`ƒƒ[
+
+¡Wheel Axl
+
+ƒGƒ“ƒWƒ“‚ð—š—ðŒ^‚©‚çƒ^ƒCƒ€ƒAƒEƒgŒ^‚É•Ï‚¦‚½ƒjƒƒ
+‚½‚¾•Ï‚¦‚½‚¾‚¯‚Å‚Í‚¿‚á‚ñ‚Æ“®‚©‚É‚Ì‚É‚¿‚å‚Á‚Æ×H‚·‚é‚Æ‚Æ‚Ä‚àŠŠ‚ç‚©‚É‚È‚éƒjƒƒ
+‚µ‚©‚µ‰½ŒÌ‚±‚ê‚ÅãŽè‚­‚¢‚­‚©‚ª•ª‚©‚Á‚Ä‚¢‚È‚¢ƒjƒƒ
+
+¡Nonnon Paint
+
+F2 ƒL[‚ð‰Ÿ‚·‚Æ¡‚Ì“ú•t‚ÆŽžŠÔ‚ÅƒtƒH[ƒN‚·‚éƒjƒƒ
+
+ƒŒƒCƒ„[ƒƒjƒ…[‚É "Add A New Layer" ‚ð’Ç‰Á‚µ‚½ƒjƒƒ
+¡‚ÌŠ‚Í‘‚â‚·‚±‚Æ‚¾‚¯‚ª‚Å‚«‚éƒjƒƒ
+Œ¸‚ç‚µ‚½‚¢ê‡‚Í INI ƒtƒ@ƒCƒ‹‚ð’¼Ú•ÒW‚µ‚Ä—~‚µ‚¢ƒjƒƒ
+
+ƒŠ[ƒhƒ~[‚ÉƒgƒsƒbƒN‚ð‘«‚µ‚½ƒjƒƒ
+Å‹ßƒ‰ƒWƒIƒVƒeƒB‚ª—‰ð‚Å‚«‚é‚æ‚¤‚É‚È‚Á‚½ƒjƒƒ
 
 
 žƒoƒOƒtƒBƒNƒX
