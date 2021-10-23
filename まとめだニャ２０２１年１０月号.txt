@@ -45,12 +45,13 @@ Ctrl + ƒzƒC[ƒ‹‚ÅƒtƒHƒ“ƒgƒTƒCƒY‚ð•ÏX‚·‚é‚ÆƒLƒƒƒbƒVƒ…‚ªXV‚³‚ê‚È‚¢‚Ì‚ð’¼‚µ‚½ƒjƒ
 ¡Wheel Axl
 
 ƒGƒ“ƒWƒ“‚ð—š—ðŒ^‚©‚çƒ^ƒCƒ€ƒAƒEƒgŒ^‚É•Ï‚¦‚½ƒjƒƒ
-‚½‚¾•Ï‚¦‚½‚¾‚¯‚Å‚Í‚¿‚á‚ñ‚Æ“®‚©‚É‚Ì‚É‚¿‚å‚Á‚Æ×H‚·‚é‚Æ‚Æ‚Ä‚àŠŠ‚ç‚©‚É‚È‚éƒjƒƒ
+‚½‚¾•Ï‚¦‚½‚¾‚¯‚Å‚Í‚¿‚á‚ñ‚Æ“®‚©‚È‚¢‚Ì‚É‚¿‚å‚Á‚Æ×H‚·‚é‚Æ‚Æ‚Ä‚àŠŠ‚ç‚©‚É‚È‚éƒjƒƒ
 ‚µ‚©‚µ‰½ŒÌ‚±‚ê‚ÅãŽè‚­‚¢‚­‚©‚ª•ª‚©‚Á‚Ä‚¢‚È‚¢ƒjƒƒ
 
 ¡Nonnon Paint
 
 F2 ƒL[‚ð‰Ÿ‚·‚Æ¡‚Ì“ú•t‚ÆŽžŠÔ‚ÅƒtƒH[ƒN‚·‚éƒjƒƒ
+•’Ê‚ÉƒŠƒl[ƒ€‚µ‚½‚¢ê‡‚Í Explorer ‚ðŽg‚Á‚Ä—~‚µ‚¢ƒjƒƒ
 
 ƒŒƒCƒ„[ƒƒjƒ…[‚É "Add A New Layer" ‚ð’Ç‰Á‚µ‚½ƒjƒƒ
 ¡‚ÌŠ‚Í‘‚â‚·‚±‚Æ‚¾‚¯‚ª‚Å‚«‚éƒjƒƒ
@@ -61,6 +62,12 @@ F2 ƒL[‚ð‰Ÿ‚·‚Æ¡‚Ì“ú•t‚ÆŽžŠÔ‚ÅƒtƒH[ƒN‚·‚éƒjƒƒ
 
 
 žƒoƒOƒtƒBƒNƒX
+
+¡OrangeCat
+
+Info View ‚ÌŒŸõ‚ÌŽž‚É "Find" ‚Æo‚½‚è‚Å‚È‚©‚Á‚½‚è‚·‚é‚Ì‚ÅƒRƒƒ“ƒgƒAƒEƒg‚µ‚½ƒjƒƒ
+¡‚ÌŠ‚Í’¼‚¹‚È‚¢ƒjƒƒ
+‚±‚ê‚ÍƒtƒH[ƒJƒX‚ª‚È‚¢Žž‚ÌƒvƒŒ[ƒXƒzƒ‹ƒ_[‚¾ƒjƒƒ
 
 ----------==========----------==========----------==========----------
 

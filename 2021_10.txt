@@ -18,6 +18,12 @@ Change Log
 BUGFIX
 
 
+	OrangeCat
+		Info View : Search : place holder
+			OLD : not working accurately
+			NEW : comment-out
+
+
 NEW_FEATURE
 
 
