@@ -18,6 +18,10 @@ Change Log
 BUGFIX
 
 
+	Nekomimi Nina
+		fixed camera : when a window is maximized
+			OLD : misbehave
+			NEW : fixed
 	OrangeCat
 		Info View : Search : place holder
 			OLD : not working accurately
