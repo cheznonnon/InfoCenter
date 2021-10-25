@@ -42,7 +42,9 @@ NEW_FEATURE
 	Wheel Axl
 		engine
 			OLD : history buffer
-			NEW : time-out
+			NEW : strong history buffer
+			[!] : for a mouse driver's bug
+			[!] : heuristic approach with some side-effect
 
 
 ----------==========----------==========----------==========----------
