@@ -1,0 +1,68 @@
+
+
+----------==========----------==========----------==========----------
+
+
+"Eat Your Own Catfood."
+
+
+----------==========----------==========----------==========----------
+
+
+Change Log
+
+
+2021/11/30
+
+
+BUGFIX
+
+
+NEW_FEATURE
+
+
+----------==========----------==========----------==========----------
+
+
+Change Log
+
+
+2021/11/20
+
+
+BUGFIX
+
+
+NEW_FEATURE
+
+
+----------==========----------==========----------==========----------
+
+
+Change Log
+
+
+2021/11/10
+
+
+BUGFIX
+
+
+	game/direct2d.c
+		n_direct2d_init()
+			OLD : comment typo
+			NEW : fixed
+
+	All
+		DWM : some system themes
+			OLD : hard to recognize
+			NEW : fixed
+			[!] : for Surface Pro 3 default theme
+			[?] : Surface Pro 3 default theme has white color
+
+
+NEW_FEATURE
+
+
+----------==========----------==========----------==========----------
+
