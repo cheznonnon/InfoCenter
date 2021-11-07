@@ -53,6 +53,11 @@ BUGFIX
 			OLD : comment typo
 			NEW : fixed
 
+	win32/win_combobox.c
+		popup size : height
+			OLD : a little large
+			NEW : fixed
+
 	All
 		DWM : some system themes
 			OLD : hard to recognize
