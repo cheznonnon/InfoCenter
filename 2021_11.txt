@@ -64,9 +64,26 @@ BUGFIX
 			NEW : fixed
 			[!] : for Surface Pro 3 default theme
 			[?] : Surface Pro 3 default theme has white color
+	Nonnon Paint
+		Multi-Layer : layer scroll is ON : when renamer is visible : scrolled
+			OLD : keep on showing
+			NEW : fixed
+		Multi-Layer : Quick Stretch : when cancelled
+			OLD : cache misbehaves
+			NEW : fixed
 
 
 NEW_FEATURE
+
+
+	win32/win_txtbox.c
+		.scroll_callback
+			NEW : call when scroll status is changed
+
+	Nonnon Paint
+		Key Bindings : F5
+			NEW : clear cache
+			[!] : use when garbage is displayed
 
 
 ----------==========----------==========----------==========----------
