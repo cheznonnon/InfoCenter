@@ -33,7 +33,23 @@ Change Log
 BUGFIX
 
 
+	neutral/memory.c
+		Non-Windows environment
+			OLD : compile error
+			NEW : fixed
+
+	Nonnon Paint
+		Multi-Layer : Whole Grab
+			OLD : cache misbehaves
+			NEW : fixed
+
+
 NEW_FEATURE
+
+
+	Nonnon Paint
+		readme
+			NEW : "32-bit memory limitation" is added
 
 
 ----------==========----------==========----------==========----------
