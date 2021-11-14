@@ -59,7 +59,7 @@ TxtBox に手を入れる必要があったニャ
 
 リネーマーの挙動を更に直したニャ
 
-■neural/memory.c
+■neutral/memory.c
 
 Windows でない環境でコンパイルエラーになるのを直したニャ
 
