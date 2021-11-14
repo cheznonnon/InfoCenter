@@ -42,6 +42,9 @@ BUGFIX
 		Multi-Layer : Whole Grab
 			OLD : cache misbehaves
 			NEW : fixed
+		Multi-Layer : layer scroll is ON : when renamer is invisible
+			OLD : misbehaves
+			NEW : fixed
 
 
 NEW_FEATURE
