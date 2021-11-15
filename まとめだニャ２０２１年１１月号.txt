@@ -63,6 +63,15 @@ TxtBox に手を入れる必要があったニャ
 
 Windows でない環境でコンパイルエラーになるのを直したニャ
 
+■win32/win_flier.c
+
+n_win_filer_delete() でメモリリーク、ダブルフリーになるのを直したニャ
+
+■OrangeCat
+
+Ctrl + Delete でクラッシュするのを直したニャ
+n_win_filer_delete() の問題だニャ
+
 
 [ １１月３０日 ]
 

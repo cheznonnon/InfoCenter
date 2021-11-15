@@ -38,6 +38,12 @@ BUGFIX
 			OLD : compile error
 			NEW : fixed
 
+	win32/win_flier.c
+		n_win_filer_delete()
+			OLD : crash
+			NEW : fixed
+			[!] : leak and double-free
+
 	Nonnon Paint
 		Multi-Layer : Whole Grab
 			OLD : cache misbehaves
@@ -45,6 +51,11 @@ BUGFIX
 		Multi-Layer : layer scroll is ON : when renamer is invisible
 			OLD : misbehaves
 			NEW : fixed
+	OrangeCat
+		Ctrl + Delete
+			OLD : crash
+			NEW : fixed
+			[!] : n_win_filer_delete() causes
 
 
 NEW_FEATURE
