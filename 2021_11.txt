@@ -64,6 +64,9 @@ NEW_FEATURE
 	Nonnon Paint
 		readme
 			NEW : "32-bit memory limitation" is added
+	Wheel Axl
+		engine : after time-out
+			NEW : re-tuned
 
 
 ----------==========----------==========----------==========----------
