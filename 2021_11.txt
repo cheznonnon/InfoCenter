@@ -18,7 +18,25 @@ Change Log
 BUGFIX
 
 
+	game/game.c
+		at exit
+			OLD : do nothing
+			NEW : ShowWindow() with SW_HIDE
+			[!] : for "Close" tooltip problem
+
+	OrangeCat
+		Info View : when read-only : frame padding color
+			OLD : default background
+			NEW : same as input field
+
+
 NEW_FEATURE
+
+
+	Nonnon Paint
+		Resizer : Preview : when image size is larger than preview area
+			OLD : X:0 y:0
+			NEW : centering position available
 
 
 ----------==========----------==========----------==========----------
