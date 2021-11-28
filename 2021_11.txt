@@ -24,6 +24,11 @@ BUGFIX
 			NEW : ShowWindow() with SW_HIDE
 			[!] : for "Close" tooltip problem
 
+	win32/win_txtbox/07_metrics.c
+		n_win_txtbox_metrics() : Win8 or later : Fluent UI is OFF
+			OLD : Vista style is used
+			NEW : fixed
+
 	OrangeCat
 		Info View : when read-only : frame padding color
 			OLD : default background
@@ -34,9 +39,9 @@ NEW_FEATURE
 
 
 	Nonnon Paint
-		Resizer : Preview : when image size is larger than preview area
-			OLD : X:0 y:0
-			NEW : centering position available
+		Resizer : Preview : location
+			OLD : Resizer window
+			NEW : main canvas
 
 
 ----------==========----------==========----------==========----------
