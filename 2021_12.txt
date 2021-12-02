@@ -48,6 +48,11 @@ Change Log
 BUGFIX
 
 
+	win32/win_txtbox/22_proc_mouse.c
+		n_win_txtbox_caret_on_timer()
+			OLD : always do
+			NEW : non-LISTBOX only
+			[?] : unused and heavy if ON
 	win32/win_inputpopup
 		Fluent UI : metrics
 			OLD : inaccurate
@@ -57,6 +62,10 @@ BUGFIX
 		extension : add/find : when a name is empty
 			OLD : you can do
 			NEW : fixed
+		combo flyer : wheeling : hover highlight
+			OLD : heavy
+			NEW : fixed
+			[x] : n_win_txtbox_caret_on_timer() causes
 
 
 NEW_FEATURE

@@ -16,9 +16,15 @@
 
 拡張子で空文字列でセーブや検索ができてしまうのを直したニャ
 
+コンボのフライヤーのホイールを回した時の処理が重たいのを直したニャ
+
 ■win32/win_inputpopup.c
 
 Fluent UI でウィンドウ全体とボタンの位置がずれる問題を直したニャ
+
+■win32/win_txtbox/22_proc_mouse.c
+
+LISTBOX の時に n_win_txtbox_caret_on_timer() が重たいのを直したニャ
 
 
 [ １２月２０日 ]
