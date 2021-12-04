@@ -48,6 +48,20 @@ Change Log
 BUGFIX
 
 
+	all
+		n_win_scale() : usage
+			OLD : unclear
+			NEW :   clear
+			[!] : return value "double" is very troublesome
+	win32/win/stdsize.c
+		High-DPI : n_win_stdsize()
+			OLD : calculation is inaccurate
+			NEW : fixed
+			[!] : too narrow
+	win32/win_txtbox/07_metrics.c
+		High-DPI
+			OLD : no padding at right side
+			NEW : fixed
 	win32/win_txtbox/22_proc_mouse.c
 		n_win_txtbox_caret_on_timer()
 			OLD : always do
@@ -69,6 +83,11 @@ BUGFIX
 
 
 NEW_FEATURE
+
+
+	nmixer
+		dakmode
+			NEW : accent color is used
 
 
 ----------==========----------==========----------==========----------

@@ -9,6 +9,9 @@
 
 ◇ニューフィーチャー
 
+■nmixer
+
+ダークモードの時にアクセントカラーを使うようにしたニャ
 
 ◇バグフィクス
 
@@ -25,6 +28,20 @@ Fluent UI でウィンドウ全体とボタンの位置がずれる問題を直したニャ
 ■win32/win_txtbox/22_proc_mouse.c
 
 LISTBOX の時に n_win_txtbox_caret_on_timer() が重たいのを直したニャ
+これはコンボボックスの時も含むニャ
+
+■win32/win_txtbox/07_metrics.c
+
+高 DPI の時に右側にパディングが付かないのを直したニャ
+
+■win32/win/stdsize.c
+
+n_win_stdsize() が高 DPI の時に計算が狂うのを直したニャ
+
+■all
+
+n_win_scale() の使い方を明示的に変更したニャ
+いつぞやに double にしてから至る所でトラブルを巻き起こしているからだニャ
 
 
 [ １２月２０日 ]
