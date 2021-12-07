@@ -53,6 +53,12 @@ BUGFIX
 			OLD : unclear
 			NEW :   clear
 			[!] : return value "double" is very troublesome
+
+	neutral/wav/filter.c
+		n_wav_normalize_partial() : peak value
+			OLD : left/right separated
+			NEW : integrated
+
 	win32/win/stdsize.c
 		High-DPI : n_win_stdsize()
 			OLD : calculation is inaccurate
@@ -84,6 +90,11 @@ BUGFIX
 
 NEW_FEATURE
 
+
+	neutral/wav/filter.c
+		n_wav_marsian_partial() : unit to change sound
+			OLD : relative value
+			NEW :    fixed value
 
 	nmixer
 		dakmode
