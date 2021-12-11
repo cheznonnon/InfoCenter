@@ -60,6 +60,10 @@ n_win_scale() の使い方を明示的に変更したニャ
 
 ◇バグフィクス
 
+■Nonnon Paint
+
+Resizer の Color Option を使うと何度も更新がかかるのを直したニャ
+
 
 [ １２月３０日 ]
 

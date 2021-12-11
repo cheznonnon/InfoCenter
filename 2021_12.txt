@@ -33,6 +33,12 @@ Change Log
 BUGFIX
 
 
+	Nonnon Paint
+		Resizer : Color Option : remake preview
+			OLD : too many times
+			NEW : fixed
+
+
 NEW_FEATURE
 
 
