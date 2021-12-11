@@ -97,7 +97,7 @@ NEW_FEATURE
 			NEW :    fixed value
 
 	nmixer
-		dakmode
+		darkmode
 			NEW : accent color is used
 
 
