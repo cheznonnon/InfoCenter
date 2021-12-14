@@ -42,6 +42,15 @@ BUGFIX
 NEW_FEATURE
 
 
+	game/click.c
+		n_game_click_mouse_threshold() : accepted area
+			NEW : larger than older
+
+	Nonnon Freecell
+		double-click
+			NEW : easier than older
+
+
 ----------==========----------==========----------==========----------
 
 
