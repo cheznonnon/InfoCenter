@@ -37,6 +37,10 @@ BUGFIX
 		Resizer : Color Option : remake preview
 			OLD : too many times
 			NEW : fixed
+		Grabber : Clipboard support
+			OLD : disabled
+			NEW : fixed
+			[x] : NEW_FEATURE @ 2021/08/20
 
 
 NEW_FEATURE
