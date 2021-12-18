@@ -49,6 +49,11 @@ NEW_FEATURE
 	Nonnon Freecell
 		double-click
 			NEW : easier than older
+	Nonnon Paint
+		Multi-Layer : Layer Window : Scrollers
+			NEW : delayed application available
+		Grabber : Scroller : "Blend"
+			NEW : delayed application available
 
 
 ----------==========----------==========----------==========----------
