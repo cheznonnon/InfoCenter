@@ -18,7 +18,28 @@ Change Log
 BUGFIX
 
 
+	win32/win_txtbox/07_metrics.c
+		n_win_txtbox_metrics_vertical_spacing()
+			OLD : lack of metrics()
+			NEW : fixed
+			[!] : need to calculate
+	win32/win_simplemenu.c
+		WinVista/7
+			OLD : menu will be hidden in some cases
+			NEW : fixed
+
+	Watchcat
+		Process View : when a window is resized : scroll position
+			OLD : misbehave
+			NEW : fixed
+
+
 NEW_FEATURE
+
+
+	Watchcat
+		Process View
+			NEW : line number available
 
 
 ----------==========----------==========----------==========----------
