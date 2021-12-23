@@ -18,6 +18,14 @@ Change Log
 BUGFIX
 
 
+	neutral/txt.c
+		n_txt_load_internal() : Unicode LE/BE BOM only
+			OLD : misbehave
+			NEW : fixed
+	win32/win_txtbox/04_codec.c
+		n_win_txtbox_txt_load_internal() : Unicode LE/BE BOM only
+			OLD : misbehave
+			NEW : fixed
 	win32/win_txtbox/07_metrics.c
 		n_win_txtbox_metrics_vertical_spacing()
 			OLD : lack of metrics()
@@ -28,6 +36,10 @@ BUGFIX
 			OLD : menu will be hidden in some cases
 			NEW : fixed
 
+	CatPad
+		Unicode LE/BE BOM only
+			OLD : misbehave
+			NEW : fixed
 	Watchcat
 		Process View : when a window is resized : scroll position
 			OLD : misbehave
@@ -37,9 +49,19 @@ BUGFIX
 NEW_FEATURE
 
 
+	win32/win/fluent_ui.c
+		n_win_fluent_ui_progress()
+			NEW : a little lighter
+
+	CatPad
+		zero byte file : default format
+			OLD : ANSI / Non-Unicode
+			NEW : UTF-8
 	Watchcat
 		Process View
 			NEW : line number available
+		Win10 : at launch
+			NEW : flicker is reduced
 
 
 ----------==========----------==========----------==========----------

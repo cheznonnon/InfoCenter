@@ -86,6 +86,16 @@ Resizer の Color Option を使うと何度も更新がかかるのを直したニャ
 
 プロセスビューにライン番号が付いたニャ
 
+Win10 で起動時のちらつきが軽減されたニャ
+
+■高速化
+
+n_win_fluent_ui_progress() が少し軽くなったニャ
+
+■CatPad
+
+ゼロバイトのファイルのデフォルトフォーマットを UTF-8 に変えたニャ
+
 ◇バグフィクス
 
 ■Watchcat
@@ -100,6 +110,10 @@ n_win_txtbox_metrics_vertical_spacing() は metrics() を呼び出す必要があるニャ
 
 WinVista/7 でメニューが隠れてしまうのを直したニャ
 具体的には猫の手でインプットポップアップが出ている時だニャ
+
+■n_txt_load_internal() と n_win_txtbox_txt_load_internal()
+
+Little Endian と Big Endian で BOM しかないファイルの扱いが間違っているのを直したニャ
 
 ----------==========----------==========----------==========----------
 
