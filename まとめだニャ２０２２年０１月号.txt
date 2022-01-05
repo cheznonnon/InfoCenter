@@ -23,6 +23,12 @@
 
 Fluent UI の時のボーダーが綺麗になったニャ
 
+■win32/win/fluent_ui.c
+
+n_win_fluent_ui_bmp_roundframe_main() を廃止したニャ
+半透明時に描画エラーが出るためだニャ
+シンプルな場合は新しく作った n_win_fluent_ui_roundframe() が使えるニャ
+
 ◇バグフィクス
 
 ■win32/win/fluent_ui.c
@@ -31,9 +37,23 @@ n_win_fluent_ui_label() でテキストが大きい時にクリッピングしないのを直したニャ
 
 n_gdi_frame_rectframe() のリンクエラーが出るのを直したニャ
 
+n_win_fluent_ui_bmp_desktop() が Win2000 以前で機能しないのを直したニャ
+アルファ値がゼロになっているという問題だニャ
+
 ■win32/win_simplemenu.c
 
 ヘッダをクリックした時にフリッカするのを直したニャ
+
+■win32/win_inputpopup.c
+
+Win2000 より古いバージョンで、
+数字だけのモードでアルファベットボタンがグレーアウトしないのを直したニャ
+
+■Nonnon Paint
+
+Win2000 より古いバージョンで起動時にペンボタンがフェードするのを直したニャ
+
+リサイザーでサイズを変更した時にプレビューが反映されないことがあるのを直したニャ
 
 
 [ ０１月２０日 ]

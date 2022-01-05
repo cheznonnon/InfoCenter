@@ -55,9 +55,24 @@ BUGFIX
 		n_win_fluent_ui_progress()
 			OLD : link error
 			NEW : fixed
+		n_win_fluent_ui_bmp_desktop() : Win2000 or earlier
+			OLD : not applied / alpha value has transparent
+			NEW : fixed
+	win32/win_inputpopup.c
+		Win2000 or earlier : number only : alphabet buttons
+			OLD : not grayed out
+			NEW : fixed
 	win32/win_simplemenu.c
 		header : when clicked
 			OLD : flicker
+			NEW : fixed
+
+	Nonnon Paint
+		Win2000 or earlier : at launch : icon buttons : focus to pen button
+			OLD : not smooth
+			NEW : fixed
+		Resizer : Preview : size input fields
+			OLD : not applied in some cases
 			NEW : fixed
 
 
@@ -65,10 +80,14 @@ NEW_FEATURE
 
 
 	neutral/bmp/ui/rectframe.c
-		reelased
+		released
 			NEW : moved from n_gdi_frame_rectframe()
 			[!] : for fixing a link error
 
+	win32/win/fluent_ui.c
+		n_win_fluent_ui_bmp_roundframe_main()
+			NEW : removed
+			[?] : a bug is found
 	win32/win_combobox.c
 		Fluent UI : popup : border
 			NEW : more beautiful than older
