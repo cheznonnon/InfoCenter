@@ -58,15 +58,27 @@ BUGFIX
 		n_win_fluent_ui_bmp_desktop() : Win2000 or earlier
 			OLD : not applied / alpha value has transparent
 			NEW : fixed
+	win32/win/txtbox/24_subclass.c
+		n_win_txtbox_subclass() : Tab tweaker
+			OLD : not notify to a parent window
+			NEW : fixed
 	win32/win_inputpopup.c
 		Win2000 or earlier : number only : alphabet buttons
 			OLD : not grayed out
 			NEW : fixed
+		High-DPI : Fluent UI
+			OLD : button corner appears
+			NEW : patched
+			[!] : a small tweak fixes
 	win32/win_simplemenu.c
 		header : when clicked
 			OLD : flicker
 			NEW : fixed
 
+	CatPad
+		Tab tweaker
+			OLD : save button is not activated
+			NEW : fixed
 	Nonnon Paint
 		Win2000 or earlier : at launch : icon buttons : focus to pen button
 			OLD : not smooth
@@ -83,6 +95,9 @@ NEW_FEATURE
 		released
 			NEW : moved from n_gdi_frame_rectframe()
 			[!] : for fixing a link error
+	neutral/bmp/ui/roundframe.c
+		released
+			NEW : UI maker
 
 	win32/win/fluent_ui.c
 		n_win_fluent_ui_bmp_roundframe_main()
@@ -99,6 +114,11 @@ NEW_FEATURE
 		round rect
 			NEW : more beautiful than older
 			[!] : but there is trade-off
+
+	OrangeCat
+		X Button 1
+			NEW : navigation back is supported
+			[!] : forward is not supported because there is no such code
 
 
 ----------==========----------==========----------==========----------
