@@ -24,19 +24,29 @@
 
 ■win32/win_combobox.c
 
-Fluent UI の時のボーダーが綺麗になったニャ
+Fluent UI の時のラウンドレクトが廃止されたニャ
+複数のバグが出たためだニャ
+これから作業するニャ
 
 ■win32/win/fluent_ui.c
 
 n_win_fluent_ui_bmp_roundframe_main() を廃止したニャ
 半透明時に描画エラーが出るためだニャ
-シンプルな場合は新しく作った n_bmp_roundframe() が使えるニャ
+シンプルな場合は新しく作った n_bmp_ui_roundframe() が使えるニャ
 
 ■OrangeCat
 
 マウスの X ボタンと呼ばれるものをサポートしたニャ
 最近 Classic IntelliMouse を買ったらボタンが２つ付いてきたためだニャ
 ただし「進む」というインフラはないから「戻る」だけだニャ
+
+■neutral/bmp/detect.c
+
+n_bmp_roundrect_detect_coeff() に不完全なコードがあったのを削除したニャ
+
+n_bmp_roundrect_detect_coeff_fast() の高速バージョンを作ったニャ
+ある種の処理とは互換性が悪いのでこういう実装になったニャ
+例えば game/progressbar.c なんかだと誤作動するニャ
 
 ◇バグフィクス
 
@@ -60,6 +70,7 @@ Win2000 より古いバージョンで、
 
 高 DPI で Flent UI の時にボタンのコーナーが見えてしまうのを直したニャ
 直したというかパディングを入れて上手くごまかしたニャ
+これはマイクロソフトが Windows 11 でも使っている手法だニャ
 
 ■Nonnon Paint
 
@@ -70,6 +81,20 @@ Win2000 より古いバージョンで起動時にペンボタンがフェードするのを直したニャ
 ■CatPad
 
 タブの増減をしたときに上書きボタンが有効にならないのを直したニャ
+
+■win32/win/txtbox/07_metrics.c
+
+n_win_txtbox_metrics_canvas() のキャンバスサイズの計算が間違っているのを直したニャ
+高 DPI で顕著に狂いが出るニャ
+
+■Watchcat
+
+リサイズすると再描画に失敗することがあるのを直したニャ
+
+選択状態で更新がかかった時に
+１：描画エラーが出る
+２：メモリリークが起こる
+のを直したニャ
 
 
 [ ０１月２０日 ]

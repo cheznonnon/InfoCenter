@@ -48,6 +48,12 @@ Change Log
 BUGFIX
 
 
+	neutral/bmp/detect.c
+		n_bmp_roundrect_detect_coeff()
+			OLD : incomplete code
+			NEW : removed
+			[!] : n_bmp_roundrect_detect_coeff_fast() has enabled code
+
 	win32/win/fluent_ui.c
 		n_win_fluent_ui_label()
 			OLD : no clip
@@ -57,6 +63,14 @@ BUGFIX
 			NEW : fixed
 		n_win_fluent_ui_bmp_desktop() : Win2000 or earlier
 			OLD : not applied / alpha value has transparent
+			NEW : fixed
+	win32/win/txtbox/07_metrics.c
+		n_win_txtbox_metrics_canvas() : canvas size calculation
+			OLD : inaccurate
+			NEW : fixed
+	win32/win/txtbox/12_line.c
+		n_win_txtbox_line_select_by_string()
+			OLD : misbehave
 			NEW : fixed
 	win32/win/txtbox/24_subclass.c
 		n_win_txtbox_subclass() : Tab tweaker
@@ -76,7 +90,7 @@ BUGFIX
 			NEW : fixed
 
 	CatPad
-		Tab tweaker
+		tab tweaker
 			OLD : save button is not activated
 			NEW : fixed
 	Nonnon Paint
@@ -85,6 +99,17 @@ BUGFIX
 			NEW : fixed
 		Resizer : Preview : size input fields
 			OLD : not applied in some cases
+			NEW : fixed
+	Watchcat
+		Process Viewer
+			OLD : draw error when resized
+			NEW : fixed
+		Process Viewer : selection
+			OLD : draw error
+			NEW : fixed
+			[x] : bug of n_win_txtbox_line_select_by_string()
+		Process Viewer : selection
+			OLD : memory leak
 			NEW : fixed
 
 
@@ -98,6 +123,10 @@ NEW_FEATURE
 	neutral/bmp/ui/roundframe.c
 		released
 			NEW : UI maker
+	neutral/bmp/detect.c
+		n_bmp_roundrect_detect_coeff_fast()
+			NEW : faster version
+			[!] : some logic is not compatible
 
 	win32/win/fluent_ui.c
 		n_win_fluent_ui_bmp_roundframe_main()
@@ -105,7 +134,9 @@ NEW_FEATURE
 			[?] : a bug is found
 	win32/win_combobox.c
 		Fluent UI : popup : border
-			NEW : more beautiful than older
+			OLD : round rect frame
+			NEW : rectangle frame
+			[!] : I cannot implement now, but I am working now
 	win32/win_simplemenu.c
 		drop shadow
 			OLD : win32 region based
