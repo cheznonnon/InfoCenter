@@ -28,6 +28,8 @@ Fluent UI の時のラウンドレクトが廃止されたニャ
 複数のバグが出たためだニャ
 これから作業するニャ
 
+旧来の四角形のモードとシステムのラウンドとオリジナルのラウンドが選べるようになったニャ
+
 ■win32/win/fluent_ui.c
 
 n_win_fluent_ui_bmp_roundframe_main() を廃止したニャ
@@ -47,6 +49,10 @@ n_bmp_roundrect_detect_coeff() に不完全なコードがあったのを削除したニャ
 n_bmp_roundrect_detect_coeff_fast() の高速バージョンを作ったニャ
 ある種の処理とは互換性が悪いのでこういう実装になったニャ
 例えば game/progressbar.c なんかだと誤作動するニャ
+
+■win32/win_scrollbar.c
+
+親ウィンドウの n_bmp のバッファに書き込むモードが実装されたニャ
 
 ◇バグフィクス
 
@@ -95,6 +101,10 @@ n_win_txtbox_metrics_canvas() のキャンバスサイズの計算が間違っているのを直したニ
 １：描画エラーが出る
 ２：メモリリークが起こる
 のを直したニャ
+
+■TxtBox : スモールボタン
+
+高 DPI の時に右側に上書きされてしまう問題を直したニャ
 
 
 [ ０１月２０日 ]

@@ -72,6 +72,10 @@ BUGFIX
 		n_win_txtbox_line_select_by_string()
 			OLD : misbehave
 			NEW : fixed
+	win32/win/txtbox/16_smallbutton.c
+		Fluent UI : High-DPI : right-side corner
+			OLD : overwritten
+			NEW : fixed
 	win32/win/txtbox/24_subclass.c
 		n_win_txtbox_subclass() : Tab tweaker
 			OLD : not notify to a parent window
@@ -137,6 +141,9 @@ NEW_FEATURE
 			OLD : round rect frame
 			NEW : rectangle frame
 			[!] : I cannot implement now, but I am working now
+		Mode
+			NEW : implemented
+			[!] : you can choose system compatible or nonnon original mode
 	win32/win_simplemenu.c
 		drop shadow
 			OLD : win32 region based
@@ -145,6 +152,10 @@ NEW_FEATURE
 		round rect
 			NEW : more beautiful than older
 			[!] : but there is trade-off
+	win32/win_scrollbar.c
+		.bmp_parent
+			NEW : use parent's n_bmp buffer
+			[!] : for round rect window
 
 	OrangeCat
 		X Button 1
