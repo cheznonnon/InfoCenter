@@ -137,11 +137,7 @@ NEW_FEATURE
 			NEW : removed
 			[?] : a bug is found
 	win32/win_combobox.c
-		Fluent UI : popup : border
-			OLD : round rect frame
-			NEW : rectangle frame
-			[!] : I cannot implement now, but I am working now
-		Mode
+		.mode
 			NEW : implemented
 			[!] : you can choose system compatible or nonnon original mode
 	win32/win_simplemenu.c
