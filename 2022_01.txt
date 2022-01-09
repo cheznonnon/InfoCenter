@@ -51,8 +51,13 @@ BUGFIX
 	neutral/bmp/detect.c
 		n_bmp_roundrect_detect_coeff()
 			OLD : incomplete code
-			NEW : removed
-			[!] : n_bmp_roundrect_detect_coeff_fast() has enabled code
+			NEW : fixed
+		n_bmp_roundrect_detect_coeff() : calculus of "coeff"
+			OLD : inaccurate
+			NEW : fixed
+		n_bmp_ellipse_detect_coeff() : calculus of "coeff"
+			OLD : inaccurate
+			NEW : fixed
 
 	win32/win/fluent_ui.c
 		n_win_fluent_ui_label()
@@ -127,15 +132,15 @@ NEW_FEATURE
 	neutral/bmp/ui/roundframe.c
 		released
 			NEW : UI maker
-	neutral/bmp/detect.c
-		n_bmp_roundrect_detect_coeff_fast()
-			NEW : faster version
-			[!] : some logic is not compatible
+
+	project/cardgenerator/cardgenerator.c
+		Dark Mode : corner
+			NEW : more beautfiful than older
 
 	win32/win/fluent_ui.c
 		n_win_fluent_ui_bmp_roundframe_main()
 			NEW : removed
-			[?] : a bug is found
+			[?] : a bug was found
 	win32/win_combobox.c
 		.mode
 			NEW : implemented
@@ -153,6 +158,10 @@ NEW_FEATURE
 			NEW : use parent's n_bmp buffer
 			[!] : for round rect window
 
+	All
+		Toolband : DWM is ON : round corner : when a window gets/loses focus
+			OLD : slow
+			NEW : fast
 	OrangeCat
 		X Button 1
 			NEW : navigation back is supported
