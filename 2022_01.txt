@@ -33,7 +33,24 @@ Change Log
 BUGFIX
 
 
+	win32/win_inputpopup.c
+		WM_CLOSE : TxtBox : set focus
+			OLD : misbehave
+			NEW : fixed
+
+	Neko no Te
+		Find : when a string is modified : input field
+			OLD : not refreshed
+			NEW : fixed
+			[!] : win32/win_inputpopup.c causes
+
+
 NEW_FEATURE
+
+
+	win32/win_txtbox.c
+		performance
+			NEW : lighter than older
 
 
 ----------==========----------==========----------==========----------
@@ -109,6 +126,10 @@ BUGFIX
 		Resizer : Preview : size input fields
 			OLD : not applied in some cases
 			NEW : fixed
+	OrangeCat
+		WinVista : Menu : "Explorer"
+			OLD : menu remains as garbage
+			NEW : fixed
 	Watchcat
 		Process Viewer
 			OLD : draw error when resized
@@ -166,6 +187,9 @@ NEW_FEATURE
 		X Button 1
 			NEW : navigation back is supported
 			[!] : forward is not supported because there is no such code
+	Wheel Axl
+		EXE icon
+			NEW : released
 
 
 ----------==========----------==========----------==========----------
