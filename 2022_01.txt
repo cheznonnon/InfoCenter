@@ -43,6 +43,10 @@ BUGFIX
 			OLD : not refreshed
 			NEW : fixed
 			[!] : win32/win_inputpopup.c causes
+	Nonnon Paint
+		Mirror : Icon
+			OLD : hard-coded gradient
+			NEW : themed solid color
 
 
 NEW_FEATURE
