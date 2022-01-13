@@ -133,6 +133,19 @@ Fluent UI のコーナーの描画が速くなったニャ
 
 Fluent UI でない時に矢印アイコンをシステムに近いものに変えたニャ
 
+■Felis
+
+マウスの X ボタンをサポートしたニャ
+進むと戻るが有効になるニャ
+
+■Marie / Nonnon Paint / OrangeCat
+
+WIC Windows Imaging Component をサポートしたニャ
+ただし x64 版だけだニャ
+TIFF とか特殊なファイルが開けるようになるニャ
+ただし開くだけで保存はできないニャ
+Webp は Win10 なら開くことができるニャ
+
 
 ◇バグフィクス
 
