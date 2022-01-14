@@ -60,11 +60,11 @@ NEW_FEATURE
 			NEW : Windows Imaging Component Support
 
 	All
-		x64 : Windows Imaging Component Support
+		Windows Imaging Component Support
 			NEW : implemented
 			[!] : TIFF : WinXP SP2 or later
 			[!] : Webp : Win10 or later
-			[x] : read-only
+			[x] : currently read-only
 	Felis
 		X Buttons : Navigation Back / Forward
 			NEW : supported
