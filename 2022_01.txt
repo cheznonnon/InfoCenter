@@ -37,7 +37,15 @@ BUGFIX
 		WM_CLOSE : TxtBox : set focus
 			OLD : misbehave
 			NEW : fixed
+	win32/win_txtbox.c
+		clipping and padding
+			OLD : inaccurate
+			NEW : fixed
 
+	All
+		Win9x : TxtBox
+			OLD : upper side is not drawn
+			NEW : fixed
 	Neko no Te
 		Find : when a string is modified : input field
 			OLD : not refreshed
@@ -52,9 +60,23 @@ BUGFIX
 NEW_FEATURE
 
 
+	win32/win_txtbox/05_misc.c
+		renamed
+			OLD : n_win_txtbox_scaling()
+			NEW : n_win_txtbox_scale_set()
+			[!] : .scale_double will be set too
+	win32/win_txtbox/07_metrics.c
+		n_win_txtbox_metrics()
+			OLD : messy
+			NEW : separated by function
 	win32/win_txtbox.c
 		performance
 			NEW : lighter than older
+		.combo_popup_onoff
+			NEW : up-graded as N_WIN_TXIBOX_STYLE_CMB_POP
+		N_WIN_TXIBOX_STYLE_CMB_POP
+			NEW : Nonnon Original Popup
+			[!] : currently not perfect
 	win32/wic.c
 		released
 			NEW : Windows Imaging Component Support
