@@ -90,6 +90,11 @@ NEW_FEATURE
 	Felis
 		X Buttons : Navigation Back / Forward
 			NEW : supported
+	hunyapiyo3
+		color scheme
+			OLD : hard-coded
+			NEW : system themed
+			[x] : not tweaked when high-contrast themes
 
 
 ----------==========----------==========----------==========----------
