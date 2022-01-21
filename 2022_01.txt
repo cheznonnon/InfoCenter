@@ -34,7 +34,7 @@ NEW_FEATURE
 
 	win32/win_txtbox.c
 		misc.c and draw.c
-			OLD : separated into a few files
+			NEW : separated into a few files
 
 
 ----------==========----------==========----------==========----------
