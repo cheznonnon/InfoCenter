@@ -22,6 +22,10 @@ BUGFIX
 		n_gdi_frame_roundframe_main()
 			OLD : black_invisible
 			NEW : black_invisible / white_invisible
+	win32/win_txtbox.c
+		left arrow key : when selected
+			OLD : misbehave
+			NEW : fixed
 
 	INI2GDI
 		round corner
@@ -35,6 +39,8 @@ NEW_FEATURE
 	win32/win_txtbox.c
 		misc.c and draw.c
 			NEW : separated into a few files
+		win32/win_txtbox/*.c
+			NEW : filenames are changed
 
 
 ----------==========----------==========----------==========----------
