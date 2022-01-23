@@ -22,9 +22,16 @@ BUGFIX
 		n_gdi_frame_roundframe_main()
 			OLD : black_invisible
 			NEW : black_invisible / white_invisible
+	win32/win_simplemenu.c
+		Fluent UI : blur effect
+			OLD : black color is excluded
+			NEW : fixed
 	win32/win_txtbox.c
 		left arrow key : when selected
 			OLD : misbehave
+			NEW : fixed
+		round rect : border : .border_pxl_sx/sy
+			OLD : not used (.scale is used)
 			NEW : fixed
 
 	INI2GDI
