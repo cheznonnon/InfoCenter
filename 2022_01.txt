@@ -38,11 +38,15 @@ BUGFIX
 		round corner
 			OLD : zero (black_invisible) is used
 			NEW : fixed
+			[!] : you can use .frame_corner_color to set color
 
 
 NEW_FEATURE
 
 
+	win32/gdi.c
+		..frame_corner_color
+			NEW : to set corner color
 	win32/win_txtbox.c
 		misc.c and draw.c
 			NEW : separated into a few files
