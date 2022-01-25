@@ -18,10 +18,25 @@ Change Log
 BUGFIX
 
 
-	win32/gdi/frame.c
-		n_gdi_frame_roundframe_main()
-			OLD : black_invisible
-			NEW : black_invisible / white_invisible
+	neutral/memory.c
+		debugging is on #1
+			OLD : compile error
+			NEW : fixed
+		debugging is on #2
+			OLD : misbehave with neutral/bmp/table/*.c
+			NEW : fixed
+			[!] : atexit() based approach is not flexible
+
+	project/cardgenerator/cardgenerator.c
+		n_cardgenerator_card()
+			OLD : memory leak
+			NEW : fixed
+
+	win32/win/mutex.c
+		n_win_mutex_init()
+			OLD : use of n_posix_false
+			NEW : FALSE
+			[!] : important to compile
 	win32/win_simplemenu.c
 		Fluent UI : blur effect
 			OLD : black color is excluded
@@ -38,14 +53,29 @@ BUGFIX
 		round corner
 			OLD : zero (black_invisible) is used
 			NEW : fixed
-			[!] : you can use .frame_corner_color to set color
+			[!] : you can use "frame_corner_color" to set color
+	hunyapiyo3
+		.bmp_question
+			OLD : not free()'d
+			NEW : fixed
+	Nonnon Freecell
+		source code : n_freecell_watcher()
+			OLD : memory leak
+			NEW : fixed
 
 
 NEW_FEATURE
 
 
+	neutral/memory.c
+		n_memory_copy()
+			NEW : faster than older
+			[!] : using memcpy()
+		n_memory_copy_slow()
+			NEW : using memmove()
+
 	win32/gdi.c
-		..frame_corner_color
+		.frame_corner_color
 			NEW : to set corner color
 	win32/win_txtbox.c
 		misc.c and draw.c
