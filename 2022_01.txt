@@ -31,11 +31,17 @@ BUGFIX
 		n_cardgenerator_card()
 			OLD : memory leak
 			NEW : fixed
+	project/ini21gdi.c
+		round corner
+			OLD : zero (black_invisible) is used
+			NEW : fixed
+			[!] : you can use "frame_corner_color" to set color
 
 	win32/win/mutex.c
 		n_win_mutex_init()
 			OLD : use of n_posix_false
 			NEW : FALSE
+			[?] : neutral/memory.c uses this file
 			[!] : important to compile
 	win32/win_simplemenu.c
 		Fluent UI : blur effect
@@ -49,18 +55,8 @@ BUGFIX
 			OLD : not used (.scale is used)
 			NEW : fixed
 
-	INI2GDI
-		round corner
-			OLD : zero (black_invisible) is used
-			NEW : fixed
-			[!] : you can use "frame_corner_color" to set color
-	hunyapiyo3
-		.bmp_question
-			OLD : not free()'d
-			NEW : fixed
-	Nonnon Freecell
-		source code : n_freecell_watcher()
-			OLD : memory leak
+	All
+		memory leak
 			NEW : fixed
 
 

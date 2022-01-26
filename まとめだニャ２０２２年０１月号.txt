@@ -198,7 +198,7 @@ draw.c は３０００行もあって管理限界を超えていたニャ
 
 ■neutral/memory.c
 
-n_memory_copy() を安全でないが高速なモードに変えたニャ
+n_memory_copy() を安全じゃないけど高速なモードに変えたニャ
 ベンチマークを取ったら memove() より memcpy() の方が速いことが判明したためだニャ
 
 
@@ -224,19 +224,24 @@ Fluent UI の時にぼかしから黒が除外されるのを直したニャ
 
 コンパイルエラーになるのを直したニャ
 
-■hunyapiyo3
+■メモリ解放漏れを直したニャ
 
-GameConsole の側でダブルフリーの可能性が発見されたニャ
+長年の開発で問題が沢山発見されたニャ
+でもほとんどが１回だけ初期化されるものの終了時の解放漏れだったニャ
+動的にリークが増えていくということはないニャ
 
-.bmp_question が終了時に開放されない問題を直したニャ
+hunyapiyo3
+Card Generator
+Nonnon Freecell
+Nonnon Spider
 
-■Card Generator
-
-メモリ解放漏れを直したニャ
-
-■Nonnon Freecell
-
-メモリ解放漏れを直したニャ
+CatPad
+Felis
+n_attrib
+nmidi
+Nyaurism
+Pen Trainer
+Project Checker
 
 ----------==========----------==========----------==========----------
 
