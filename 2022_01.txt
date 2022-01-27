@@ -58,17 +58,33 @@ BUGFIX
 	All
 		memory leak
 			NEW : fixed
+	OrangeCat
+		focus keeper
+			OLD : not working
+			NEW : fixed
 
 
 NEW_FEATURE
 
 
+	all
+		type check
+			NEW : stricter than older
+			[!] : but not done yet
 	neutral/memory.c
 		n_memory_copy()
 			NEW : faster than older
 			[!] : using memcpy()
 		n_memory_copy_slow()
 			NEW : using memmove()
+	neutral/posix.c
+		64-bit version : Visual C++ : suppressing feature
+			NEW : reduced
+	neutral/type.c
+		n_type_int, n_type_gfx
+			NEW : general purpose type macro
+			[!] : n_type_gfx (s32) for graphics coordination
+			[!] : n_type_int (s64) for index and counter
 
 	win32/gdi.c
 		.frame_corner_color
