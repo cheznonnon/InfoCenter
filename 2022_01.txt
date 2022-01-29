@@ -54,9 +54,22 @@ BUGFIX
 		round rect : border : .border_pxl_sx/sy
 			OLD : not used (.scale is used)
 			NEW : fixed
+		caret : moving right
+			OLD : blink
+			NEW : fixed
+		search : delete highlighted text
+			OLD : caret warps
+			NEW : fixed
 
 	All
 		memory leak
+			NEW : fixed
+		VC++ : silent cast
+			NEW : some files are fixed
+			[!] : ArcDrop and GameConsole related files
+	Felis
+		Access List : font
+			OLD : not themed font
 			NEW : fixed
 	OrangeCat
 		focus keeper
