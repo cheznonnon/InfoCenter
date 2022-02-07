@@ -54,6 +54,10 @@ NEW_FEATURE
 	all
 		self drop shadow
 			NEW : more Win11-like shadow available
+	win32/win_txtobx.c
+		vertical scroll
+			OLD : by lines
+			NEW : by pixels : experimental
 
 
 ----------==========----------==========----------==========----------
