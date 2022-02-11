@@ -33,7 +33,36 @@ Change Log
 BUGFIX
 
 
+	neutral/bmp/draw.c
+		n_bmp_roundrect() : use "blur"
+			OLD : possibility of access violation
+			NEW : fixed
+
+	win32/win_simplemenu.c
+		Fluent UI : blur area
+			OLD : round corner is included
+			NEW : fixed
+	win32/win_txtbox.c
+		when horizontally scrolled : right side padding
+			OLD : not painted : garbage appears
+			NEW : fixed
+
+
 NEW_FEATURE
+
+
+	neutral/bmp/draw.c
+		n_bmp_roundrect()
+			NEW : faster than older
+
+	win32/win_*.c
+		n_bmp_new() for the first initialization
+			NEW : use n_bmp_1st() instead
+			[!] : faster than older
+	win32/win_txtobx.c
+		vertical scroll
+			OLD : by lines
+			NEW : by pixels : experimental
 
 
 ----------==========----------==========----------==========----------
@@ -48,16 +77,28 @@ Change Log
 BUGFIX
 
 
+	win32/win_combobox.c
+		nonnon original slide animation
+			OLD : inaccurate behavior
+			NEW : fixed
+	win32/win_txtbox.c
+		combination with win32/win_combobox.c
+			NEW : better than older
+
+
 NEW_FEATURE
 
+
+	neutral/bmp/*.c
+		n_type_*
+			NEW : supported
+	neutral/bmp/filter.c
+		n_bmp_antialias() : multi-threading
+			NEW : faster than older
 
 	all
 		self drop shadow
 			NEW : more Win11-like shadow available
-	win32/win_txtobx.c
-		vertical scroll
-			OLD : by lines
-			NEW : by pixels : experimental
 
 
 ----------==========----------==========----------==========----------
