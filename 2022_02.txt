@@ -21,6 +21,12 @@ BUGFIX
 NEW_FEATURE
 
 
+	win32/win_txtobx.c
+		vertical scroll
+			OLD : by lines
+			NEW : by pixels : experimental
+
+
 ----------==========----------==========----------==========----------
 
 
@@ -33,9 +39,24 @@ Change Log
 BUGFIX
 
 
+	all
+		printf()-like APIs
+			OLD : "%d",   (int) 64-bit integer : inaccurate
+			NEW : "%lld",       64-bit integer
+			[!] : data will be broken after this parameter
+			[!] : GCC's bug
+
+	neutral/bmp/detect.c
+		n_bmp_roundrect_detect_coeff()
+			OLD : inaccurate behavior
+			NEW : fixed
+			[x] : slower than older
 	neutral/bmp/draw.c
 		n_bmp_roundrect() : use "blur"
 			OLD : possibility of access violation
+			NEW : fixed
+		n_bmp_roundrect()
+			OLD : ".blend" is not used
 			NEW : fixed
 
 	win32/win_simplemenu.c
@@ -46,23 +67,40 @@ BUGFIX
 		when horizontally scrolled : right side padding
 			OLD : not painted : garbage appears
 			NEW : fixed
+		combo popup : when cancelled
+			OLD : black area is drawn for scrollbar position
+			NEW : fixed
+		non-monospace fonts
+			OLD : not auto vertically scrolled
+			NEW : fixed
+
+	Nonnon Paint
+		ANIS/Unicode version : Multi-Layer
+			OLD : crash
+			NEW : fixed
+			[x] : NEW_FEATURE @ 2022/02/10
+	OrangeCat
+		Info View : Drives : color
+			OLD : not clear
+			NEW : fixed
 
 
 NEW_FEATURE
 
 
+	neutral/bmp/ui/roundframe.c
+		n_bmp_ui_roundframe()
+			NEW : faster than older
 	neutral/bmp/draw.c
 		n_bmp_roundrect()
 			NEW : faster than older
+		n_bmp_roundrect_blend()
+			NEW : macro for n_bmp_roundrect_main()
 
 	win32/win_*.c
 		n_bmp_new() for the first initialization
 			NEW : use n_bmp_1st() instead
 			[!] : faster than older
-	win32/win_txtobx.c
-		vertical scroll
-			OLD : by lines
-			NEW : by pixels : experimental
 
 
 ----------==========----------==========----------==========----------

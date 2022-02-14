@@ -34,17 +34,18 @@ TxtBox との連携を強化した結果だニャ
 
 ◇ニューフィーチャー
 
-■TxtBox
-
-縦スクロールバーの単位が行からピクセルになったニャ
-
 ■win32/win_*.c
 
 いくつかのファイルで n_bmp_new() を n_bmp_1st() に置き換えたニャ
+これは少しだけ効率がよくなることを意味しているニャ
 
 ■neutral/bmp/draw.c
 
 n_bmp_roudrect() が高速になったニャ
+
+■neutral/bmp/ui/roundframe.c
+
+n_bmp_ui_roundframe() が高速になったニャ
 
 
 ◇バグフィクス
@@ -59,12 +60,45 @@ n_bmp_roudrect() が高速になったニャ
 
 ■neutral/bmp/draw.c
 
+n_bmp_roundrect()
 "blur" のオプションを使う時にアクセス違反になる可能性を修正したニャ
+".blend" が通常時に使われないのを直したニャ
+
+■neutral/bmp/detect.c
+
+n_bmp_roundrect_detect_coeff()
+ある種の時に計算が狂うのを直したニャ
+少し遅くなるニャ
+
+■Nonnon Paint
+
+ANSI/Unicode 版でマルチレイヤーでクラッシュする問題を直したニャ
+０２月１０日から発生するバグだニャ
+なんとなく GCC 3.x は 64-bit 整数で printf() 系の API が誤作動する気がするニャ
+追記 : これは正しい認識だニャ・printf() 系の API ではキャストを使ってはダメだニャ
+
+■TxtBox
+
+モノスペースのフォントを渡さないと画面外へのキャリッジリターンが働かないのを直したニャ
+nmemo とか Felis のアクセスリストで発生する問題だニャ
+
+■OrangeCat
+
+Info View のドライブでゲージの色が見分けづらいのを直したニャ
+
+■all
+
+printf() 系 API で 64-bit 整数の扱いがシビアなのでちゃんと "%lld" を使うようにしたニャ
+MinGW GCC には (int) のキャストとかをするとそれ以降のパラメータが壊れてしまうバグがあるニャ
 
 
 [ ０２月２８日 ]
 
 ◇ニューフィーチャー
+
+■TxtBox
+
+縦スクロールバーの単位が行からピクセルになる予定だニャ
 
 
 ◇バグフィクス
