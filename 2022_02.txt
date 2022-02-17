@@ -45,6 +45,9 @@ BUGFIX
 			NEW : "%lld",       64-bit integer
 			[!] : data will be broken after this parameter
 			[!] : GCC's bug
+		integer overflow prevention
+			NEW : revised
+			[!] : you may get warnings
 
 	neutral/bmp/detect.c
 		n_bmp_roundrect_detect_coeff()
@@ -58,6 +61,13 @@ BUGFIX
 		n_bmp_roundrect()
 			OLD : ".blend" is not used
 			NEW : fixed
+	neutral/bmp.c
+		fundamental limitation
+			OLD : size over INT_MAX
+			NEW : width and height are over SHRT_MAX, size over SHRT_MAX * SHRT_MAX
+	neutral/png.c
+		fundamental limitation
+			NEW : follow .BMP limitation
 
 	win32/win_simplemenu.c
 		Fluent UI : blur area
@@ -72,6 +82,9 @@ BUGFIX
 			NEW : fixed
 		non-monospace fonts
 			OLD : not auto vertically scrolled
+			NEW : fixed
+		ONELINE : caret size : height
+			OLD : insufficient in lower side
 			NEW : fixed
 
 	Nonnon Paint
@@ -96,6 +109,9 @@ NEW_FEATURE
 			NEW : faster than older
 		n_bmp_roundrect_blend()
 			NEW : macro for n_bmp_roundrect_main()
+	neutral/bmp.c
+		n_bmp_alpha_tool(), n_bmp_alpha_process()
+			NEW : faster than older
 
 	win32/win_*.c
 		n_bmp_new() for the first initialization
