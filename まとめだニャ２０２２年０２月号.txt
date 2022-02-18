@@ -54,6 +54,11 @@ n_bmp_ui_roundframe() ‚ª‚‘¬‚É‚È‚Á‚½ƒjƒƒ
 
 ‰¡‚ÉƒXƒNƒ[ƒ‹‚µ‚½Žž‚É‰E’[‚ÉƒSƒ~‚ªo‚é‚Ì‚ð’¼‚µ‚½ƒjƒƒ
 
+ƒ‚ƒmƒXƒy[ƒX‚ÌƒtƒHƒ“ƒg‚ð“n‚³‚È‚¢‚Æ‰æ–ÊŠO‚Ö‚ÌƒLƒƒƒŠƒbƒWƒŠƒ^[ƒ“‚ª“­‚©‚È‚¢‚Ì‚ð’¼‚µ‚½ƒjƒƒ
+nmemo ‚Æ‚© Felis ‚ÌƒAƒNƒZƒXƒŠƒXƒg‚Å”­¶‚·‚é–â‘è‚¾ƒjƒƒ
+
+ONELINE ‚ÌŽž‚ÉƒLƒƒƒŒƒbƒg‚ª‰º•ûŒü‚É•s‘«‚·‚é‚Ì‚ð’¼‚µ‚½ƒjƒƒ
+
 ¡win32/win_simplemenu.c
 
 ƒ‰ƒEƒ“ƒhƒR[ƒi[‚ªƒuƒ‰[‘ÎÛ—Ìˆæ‚É‚È‚Á‚Ä‚µ‚Ü‚¤‚Ì‚ð’¼‚µ‚½ƒjƒƒ
@@ -77,13 +82,6 @@ ANSI/Unicode ”Å‚Åƒ}ƒ‹ƒ`ƒŒƒCƒ„[‚ÅƒNƒ‰ƒbƒVƒ…‚·‚é–â‘è‚ð’¼‚µ‚½ƒjƒƒ
 ‚È‚ñ‚Æ‚È‚­ GCC 3.x ‚Í 64-bit ®”‚Å printf() Œn‚Ì API ‚ªŒëì“®‚·‚é‹C‚ª‚·‚éƒjƒƒ
 ’Ç‹L : ‚±‚ê‚Í³‚µ‚¢”FŽ¯‚¾ƒjƒƒEprintf() Œn‚Ì API ‚Å‚ÍƒLƒƒƒXƒg‚ðŽg‚Á‚Ä‚Íƒ_ƒ‚¾ƒjƒƒ
 
-¡TxtBox
-
-ƒ‚ƒmƒXƒy[ƒX‚ÌƒtƒHƒ“ƒg‚ð“n‚³‚È‚¢‚Æ‰æ–ÊŠO‚Ö‚ÌƒLƒƒƒŠƒbƒWƒŠƒ^[ƒ“‚ª“­‚©‚È‚¢‚Ì‚ð’¼‚µ‚½ƒjƒƒ
-nmemo ‚Æ‚© Felis ‚ÌƒAƒNƒZƒXƒŠƒXƒg‚Å”­¶‚·‚é–â‘è‚¾ƒjƒƒ
-
-ONELINE ‚ÌŽž‚ÉƒLƒƒƒŒƒbƒg‚ª‰º•ûŒü‚É•s‘«‚·‚é‚Ì‚ð’¼‚µ‚½ƒjƒƒ
-
 ¡OrangeCat
 
 Info View ‚Ìƒhƒ‰ƒCƒu‚ÅƒQ[ƒW‚ÌF‚ªŒ©•ª‚¯‚Ã‚ç‚¢‚Ì‚ð’¼‚µ‚½ƒjƒƒ
@@ -96,6 +94,11 @@ MinGW GCC ‚É‚Í (int) ‚ÌƒLƒƒƒXƒg‚Æ‚©‚ð‚·‚é‚Æ‚»‚êˆÈ~‚Ìƒpƒ‰ƒ[ƒ^‚ª‰ó‚ê‚Ä‚µ‚Ü‚¤ƒoƒ
 ¡ƒrƒbƒgƒ}ƒbƒvŽü‚è
 
 ®”ƒI[ƒo[ƒtƒ[ˆ—‚ðŒ©’¼‚µ‚½ƒjƒƒ
+
+¡win32/win_inputpopup.c, win_combobox.c
+
+”L‚ÌŽè‚ÅƒEƒBƒ“ƒhƒE‚Ì—]”’‚ðƒNƒŠƒbƒN‚µ‚½‚Æ‚«‚Éƒzƒo[ó‘Ô‚È‚Ì‚ÉƒNƒŠƒbƒN“ü—Í‚ª“ü‚é‚Ì‚ð’¼‚µ‚½ƒjƒƒ
+‚©‚È‚èž‚Ý“ü‚Á‚½–â‘è‚¾‚Á‚½ƒjƒƒ
 
 
 [ ‚O‚QŒŽ‚Q‚W“ú ]

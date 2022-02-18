@@ -69,6 +69,10 @@ BUGFIX
 		fundamental limitation
 			NEW : follow .BMP limitation
 
+	win32/win_combobox.c
+		Neko no Te
+			OLD : use inputpopup, click empty area, hover then popup will appear
+			NEW : fixed
 	win32/win_simplemenu.c
 		Fluent UI : blur area
 			OLD : round corner is included
