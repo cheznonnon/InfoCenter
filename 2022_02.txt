@@ -117,6 +117,10 @@ NEW_FEATURE
 		n_bmp_alpha_tool(), n_bmp_alpha_process()
 			NEW : faster than older
 
+	project/readme
+		winnt.txt
+			NEW : "Win10 Low Graphics Performance" is added
+
 	win32/win_*.c
 		n_bmp_new() for the first initialization
 			NEW : use n_bmp_1st() instead
