@@ -12,7 +12,6 @@
 ¡All
 
 Win11 ‚Ì‚æ‚¤‚È‰e‚ªo‚¹‚é‚æ‚¤‚É‚È‚Á‚½ƒjƒƒ
-Win7 ‚¾‚Æd‚½‚¢‚Ì‚Å Win8 ˆÈ~‚ÅƒIƒ“‚É‚È‚éƒjƒƒ
 
 ¡neutral/bmp/*.c
 
@@ -63,6 +62,8 @@ nmemo ‚Æ‚© Felis ‚ÌƒAƒNƒZƒXƒŠƒXƒg‚Å”­¶‚·‚é–â‘è‚¾ƒjƒƒ
 
 ONELINE ‚ÌŽž‚ÉƒLƒƒƒŒƒbƒg‚ª‰º•ûŒü‚É•s‘«‚·‚é‚Ì‚ð’¼‚µ‚½ƒjƒƒ
 
+Vista/7 ‚Å DWM ‚ªƒIƒ“‚ÌŽž‚ÉƒRƒ“ƒeƒLƒXƒgƒƒjƒ…[‚ªo‚È‚¢‚Ì‚ð’¼‚µ‚½ƒjƒƒ
+
 ¡win32/win_simplemenu.c
 
 ƒ‰ƒEƒ“ƒhƒR[ƒi[‚ªƒuƒ‰[‘ÎÛ—Ìˆæ‚É‚È‚Á‚Ä‚µ‚Ü‚¤‚Ì‚ð’¼‚µ‚½ƒjƒƒ
@@ -111,7 +112,12 @@ MinGW GCC ‚É‚Í (int) ‚ÌƒLƒƒƒXƒg‚Æ‚©‚ð‚·‚é‚Æ‚»‚êˆÈ~‚Ìƒpƒ‰ƒ[ƒ^‚ª‰ó‚ê‚Ä‚µ‚Ü‚¤ƒoƒ
 
 ¡TxtBox
 
-cƒXƒNƒ[ƒ‹ƒo[‚Ì’PˆÊ‚ªs‚©‚çƒsƒNƒZƒ‹‚É‚È‚é—\’è‚¾ƒjƒƒ
+cƒXƒNƒ[ƒ‹ƒo[‚Ì’PˆÊ‚ªs‚©‚çƒsƒNƒZƒ‹‚É‚È‚éƒjƒƒ
+ƒXƒNƒ[ƒ‹ƒo[‚Ì–îˆóƒ{ƒ^ƒ“‚ð‰Ÿ‚·‚Æs‚Å‚»‚ë‚¦‚é‚æ‚¤‚É‚µ‚½ƒjƒƒ
+
+¡Project Checker
+
+ƒtƒ@ƒCƒ‹‚Ì”äŠr‚ÌŽž‚Éˆá‚¢‚Ì‚ ‚éÅ‰‚Ìs‚ð•ñ‚·‚éƒjƒƒ
 
 
 žƒoƒOƒtƒBƒNƒX

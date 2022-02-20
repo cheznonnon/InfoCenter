@@ -24,7 +24,11 @@ NEW_FEATURE
 	win32/win_txtobx.c
 		vertical scroll
 			OLD : by lines
-			NEW : by pixels : experimental
+			NEW : by pixels
+
+	Project Checker
+		file comparison
+			NEW : report the first different line number
 
 
 ----------==========----------==========----------==========----------
@@ -89,6 +93,9 @@ BUGFIX
 			NEW : fixed
 		ONELINE : caret size : height
 			OLD : insufficient in lower side
+			NEW : fixed
+		Vista/7 : DWM is ON
+			OLD : no context menu appears
 			NEW : fixed
 
 	Nonnon Paint
