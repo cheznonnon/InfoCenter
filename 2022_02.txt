@@ -18,14 +18,36 @@ Change Log
 BUGFIX
 
 
+	CatPad
+		closed when minimized window
+			OLD : restore position will be zero
+			NEW : fixed
+
+
 NEW_FEATURE
 
+
+	@restore_window
+		released
+			NEW : sample of restoring position and size
+			[!] : currently no useful module available
+			[!] ; you need to implement manually
+
+	win32/win/set.c
+		.restore_*
+			NEW : backup for a restored window
+			[!] : n_win_set() doesn't touch these parameters
+			[!] ; you need to implement manually
 
 	win32/win_txtobx.c
 		vertical scroll
 			OLD : by lines
 			NEW : by pixels
 
+	Nonnon Paint
+		Resizer : wait cursor
+			OLD : throbber
+			NEW : arrow with throbber
 	Project Checker
 		file comparison
 			NEW : report the first different line number

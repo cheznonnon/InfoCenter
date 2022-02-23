@@ -119,8 +119,20 @@ MinGW GCC ‚É‚Í (int) ‚ÌƒLƒƒƒXƒg‚Æ‚©‚ð‚·‚é‚Æ‚»‚êˆÈ~‚Ìƒpƒ‰ƒ[ƒ^‚ª‰ó‚ê‚Ä‚µ‚Ü‚¤ƒoƒ
 
 ƒtƒ@ƒCƒ‹‚Ì”äŠr‚ÌŽž‚Éˆá‚¢‚Ì‚ ‚éÅ‰‚Ìs‚ð•ñ‚·‚éƒjƒƒ
 
+¡CatPad
+
+ƒEƒBƒ“ƒhƒE‚ÌÅ‘å‰»‚ðŠo‚¦‚é‚æ‚¤‚É‚È‚Á‚½ƒjƒƒ
+ˆÈ‘Oƒo[ƒWƒ‡ƒ“ŠÔ‚ÌŒÝŠ·«‚Å–â‘è‚ªo‚ÄŽÀ‘•‚ðÁ‚µ‚Ä‚¢‚½ƒjƒƒ
+¡‚ÌŠ‚Í•Ö—˜‚Èƒ‚ƒWƒ…[ƒ‹‚ð’ñ‹Ÿ‚Å‚«‚È‚¢‚Ì‚ÅƒTƒ“ƒvƒ‹‚ðŽQl‚É‚µ‚Ä—~‚µ‚¢ƒjƒƒ
+@restore_window ‚Æ‚¢‚¤ƒtƒHƒ‹ƒ_‚ðì‚Á‚Ä‚¨‚¢‚½ƒjƒƒ
+‚±‚Ì’†‚É n_win ‚ðŽg‚Á‚ÄƒŠƒXƒgƒA‚·‚é•û–@‚ð‘‚¢‚½ƒjƒƒ
+
 
 žƒoƒOƒtƒBƒNƒX
+
+¡CatPad
+
+Å¬‰»‚µ‚Ä•Â‚¶‚é‚ÆƒEƒBƒ“ƒhƒEˆÊ’u‚ªƒ[ƒ‚É‚È‚é‚Ì‚ð’¼‚µ‚½ƒjƒƒ
 
 ----------==========----------==========----------==========----------
 
