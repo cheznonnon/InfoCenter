@@ -18,6 +18,10 @@ Change Log
 BUGFIX
 
 
+	win32/win_txtobx.c
+		a caret at offscreen
+			NEW : many bugs are fixed
+
 	CatPad
 		closed when minimized window
 			OLD : restore position will be zero
