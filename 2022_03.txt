@@ -51,20 +51,5 @@ BUGFIX
 NEW_FEATURE
 
 
-	neutral/bmp/draw.c
-		n_bmp_roundrect() : "blur"
-			NEW : deprecated
-			[?] : not fast
-		n_bmp_roundrect() : n_bmp_roundrect_bmp_map
-			NEW : for faster processing
-
-	All
-		combobox
-			NEW : faster/lighter than older
-	OrangeCat
-		external DnD
-			NEW : re-tuned
-
-
 ----------==========----------==========----------==========----------
 
