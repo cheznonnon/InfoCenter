@@ -48,7 +48,19 @@ Change Log
 BUGFIX
 
 
+	neutral/string_path.c
+		n_string_path_terminate()
+			OLD : typo
+			NEW : fixed
+
+
 NEW_FEATURE
+
+
+	neutral/string.c
+		n_string_int2str()
+			NEW : 64-bit integer to string converter
+			[!] : with "%lld" bug
 
 
 ----------==========----------==========----------==========----------

@@ -9,8 +9,19 @@
 
 ◇ニューフィーチャー
 
+■neutral/string.c
+
+n_string_int2str() が実装されたニャ
+printf() 系 API の "%lld" の問題に対処するためのものだニャ
+64-bit 整数を文字列にするものだニャ
+内部的には何ビットでも対応できるニャ
+
 
 ◇バグフィクス
+
+■neutral/string_path.c
+
+n_string_path_terminate() のコメントにタイポがあるのを直したニャ
 
 
 [ ０３月２０日 ]
