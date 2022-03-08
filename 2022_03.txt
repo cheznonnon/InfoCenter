@@ -53,6 +53,10 @@ BUGFIX
 			OLD : typo
 			NEW : fixed
 
+	win32/win_inputpopup.c
+		removed
+			[?] : there is a compatibility hell with TxtBox
+
 
 NEW_FEATURE
 
