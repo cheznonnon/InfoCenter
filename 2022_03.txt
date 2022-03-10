@@ -36,6 +36,12 @@ BUGFIX
 NEW_FEATURE
 
 
+	win32/win_inputpopup.c
+		revived
+			NEW : revamped
+			[!] : usage is changed a little
+
+
 ----------==========----------==========----------==========----------
 
 
