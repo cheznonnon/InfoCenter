@@ -33,6 +33,15 @@ Change Log
 BUGFIX
 
 
+	Nonnon Paint
+		Multi-Layer : layer window : shift key is pressed
+			OLD : misbehave
+			NEW : fixed
+		Multi-Layer : layer window : swap
+			OLD : heavy
+			NEW : set 500 msec. interval to apply
+
+
 NEW_FEATURE
 
 
