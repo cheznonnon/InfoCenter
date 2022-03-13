@@ -33,6 +33,23 @@ Change Log
 BUGFIX
 
 
+	win32/ole/IDropSource.c
+		n_IDropSource_QueryContinueDrag()
+			OLD : typo
+			NEW : fixed
+	win32/win_filer.c
+		n_win_filer_merge()
+			OLD : typo
+			NEW : fixed
+	win32/win_txtbox.c
+		full-width characters : right side : when longer than screen
+			OLD : the last character is not drawn
+			NEW : fixed
+
+	CatPad
+		source code : catpad_main.c
+			OLD : typo
+			NEW : fixed
 	Nonnon Paint
 		Multi-Layer : layer window : shift key is pressed
 			OLD : misbehave
@@ -49,6 +66,19 @@ NEW_FEATURE
 		revived
 			NEW : revamped
 			[!] : usage is changed a little
+	win32/win_txtbox.c
+		n_win_txtbox_grabNDrag()
+			NEW : grab 'n' drag helper
+			[!] : you neede to implement at toplevel WndProc()
+
+	All
+		System Tray Icon
+			NEW : recreate when File Explorer has crashed
+			[!] : using RegisterWindowMessage( "TaskbarCreated" )
+	CatPad
+		TxtBox
+			NEW : GrabNDrag available
+			[!] : drag with middle button to smooth-scroll
 
 
 ----------==========----------==========----------==========----------
