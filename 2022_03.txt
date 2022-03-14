@@ -57,6 +57,10 @@ BUGFIX
 		Multi-Layer : layer window : swap
 			OLD : heavy
 			NEW : set 500 msec. interval to apply
+	OrangeCat
+		menu : .LNK maker
+			OLD : possibility of access violation
+			NEW : fixed
 
 
 NEW_FEATURE
