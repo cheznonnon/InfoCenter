@@ -54,6 +54,9 @@ BUGFIX
 		Vista : Web Browser
 			OLD : semi-transparent / broken image
 			NEW : fixed
+		Addressbar : Classic Style
+			OLD : color scheme is not beautiful
+			NEW : fixed
 	Nonnon Paint
 		Multi-Layer : layer window : shift key is pressed
 			OLD : misbehave
