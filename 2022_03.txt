@@ -50,6 +50,10 @@ BUGFIX
 		source code : catpad_main.c
 			OLD : typo
 			NEW : fixed
+	Felis
+		Vista : Web Browser
+			OLD : semi-transparent / broken image
+			NEW : fixed
 	Nonnon Paint
 		Multi-Layer : layer window : shift key is pressed
 			OLD : misbehave
@@ -66,6 +70,9 @@ BUGFIX
 NEW_FEATURE
 
 
+	win32/ole/*.c
+		source code
+			NEW : refreshed
 	win32/win_inputpopup.c
 		revived
 			NEW : revamped
@@ -81,8 +88,12 @@ NEW_FEATURE
 			[!] : using RegisterWindowMessage( "TaskbarCreated" )
 	CatPad
 		TxtBox
-			NEW : GrabNDrag available
-			[!] : drag with middle button to smooth-scroll
+			NEW : Grab N Drag available
+			[!] : drag with middle button to scroll
+	Felis
+		Browser
+			NEW : Grab N Drag available
+			[!] : currently Vista or later only
 
 
 ----------==========----------==========----------==========----------
