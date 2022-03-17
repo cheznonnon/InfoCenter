@@ -45,10 +45,17 @@ BUGFIX
 		full-width characters : right side : when longer than screen
 			OLD : the last character is not drawn
 			NEW : fixed
+		CPU usage
+			OLD : too high
+			NEW : fixed
+			[!] : scrollbars cause
 
 	CatPad
 		source code : catpad_main.c
 			OLD : typo
+			NEW : fixed
+		CPU usage
+			OLD : too high
 			NEW : fixed
 	Felis
 		Vista : Web Browser
