@@ -57,6 +57,9 @@ BUGFIX
 		Addressbar : Classic Style
 			OLD : color scheme is not beautiful
 			NEW : fixed
+		X button support
+			OLD : you can input when inactive window
+			NEW : fixed
 	Nonnon Paint
 		Multi-Layer : layer window : shift key is pressed
 			OLD : misbehave
@@ -84,6 +87,12 @@ NEW_FEATURE
 		n_win_txtbox_grabNDrag()
 			NEW : grab 'n' drag helper
 			[!] : you neede to implement at toplevel WndProc()
+		N_WIN_TXTBOX_OPTION_EDITBOX_LINENUM
+			NEW : faster than older
+		glyph cache : WinVista or later
+			OLD : 0x4000
+			NEW : 0xffff
+			[!] : more memory more speed
 
 	All
 		System Tray Icon
