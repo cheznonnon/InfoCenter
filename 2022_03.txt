@@ -78,6 +78,10 @@ BUGFIX
 		menu : .LNK maker
 			OLD : possibility of access violation
 			NEW : fixed
+		launch from desktop shortcut
+			OLD : a busy cursor appears for a while
+			NEW : fixed
+			[x] : File Explorer's bug
 
 
 NEW_FEATURE
@@ -112,7 +116,7 @@ NEW_FEATURE
 	Felis
 		Browser
 			NEW : Grab N Drag available
-			[!] : currently Vista or later only
+			[!] : Win2000 or later only
 
 
 ----------==========----------==========----------==========----------
