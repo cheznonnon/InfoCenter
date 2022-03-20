@@ -21,6 +21,12 @@ BUGFIX
 NEW_FEATURE
 
 
+	win32/win/grab_n_drag.c
+		released
+			NEW : Grab N Drag helper fucntions
+			[!] : inertia/friction is implemented (a little flaky)
+
+
 ----------==========----------==========----------==========----------
 
 
@@ -49,6 +55,9 @@ BUGFIX
 			OLD : too high
 			NEW : fixed
 			[!] : scrollbars cause
+		when you turn IME on : when a caret is out of screen
+			OLD : redraw error
+			NEW : fixed
 
 	CatPad
 		source code : catpad_main.c
@@ -66,6 +75,9 @@ BUGFIX
 			NEW : fixed
 		X button support
 			OLD : you can input when inactive window
+			NEW : fixed
+		source code : mouse gesture : n_felis_is_draggable()
+			OLD : always returns "true"
 			NEW : fixed
 	Nonnon Paint
 		Multi-Layer : layer window : shift key is pressed
