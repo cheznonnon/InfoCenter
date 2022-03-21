@@ -18,6 +18,15 @@ Change Log
 BUGFIX
 
 
+	win32/win_txtbox.c
+		source code
+			OLD : typo
+			NEW : fixed
+		when Explorer or Taskbar is hovered
+			OLD : redraw error on scrollbar
+			NEW : fixed
+
+
 NEW_FEATURE
 
 
