@@ -18,6 +18,12 @@ Change Log
 BUGFIX
 
 
+	source code
+		usage of n_string_parameter()
+			OLD : inaccurate usage is found
+			NEW : fixed
+			[!] : calling OrangeCat from ProjectChecker is affected (crash)
+
 	win32/win_txtbox.c
 		source code
 			OLD : typo
@@ -25,6 +31,10 @@ BUGFIX
 		when Explorer or Taskbar is hovered
 			OLD : redraw error on scrollbar
 			NEW : fixed
+		IME : scroll lock : when input space characters
+			OLD : blink
+			NEW : patched
+			[!] : delay 250 msec. to apply
 
 
 NEW_FEATURE
@@ -34,6 +44,11 @@ NEW_FEATURE
 		released
 			NEW : Grab N Drag helper fucntions
 			[!] : inertia/friction is implemented (a little flaky)
+	win32/win_scrollbar.c
+		Version 9.0
+			OLD : n_win_scrollbar_direct_render
+			NEW : N_WIN_SCROLLBAR_OPTION_DIRECT_RENDER
+			[!] : you can set via .option
 
 
 ----------==========----------==========----------==========----------
