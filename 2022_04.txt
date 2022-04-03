@@ -1,0 +1,70 @@
+
+
+----------==========----------==========----------==========----------
+
+
+"Eat Your Own Catfood."
+
+
+----------==========----------==========----------==========----------
+
+
+Change Log
+
+
+2022/04/30
+
+
+BUGFIX
+
+
+NEW_FEATURE
+
+
+----------==========----------==========----------==========----------
+
+
+Change Log
+
+
+2022/04/20
+
+
+BUGFIX
+
+
+NEW_FEATURE
+
+
+----------==========----------==========----------==========----------
+
+
+Change Log
+
+
+2022/04/10
+
+
+BUGFIX
+
+
+	Nonnon Paint
+		Multi-Layer : INI writer : make a new layer, swapped and save it
+			OLD : new layer section will be top of a INI file
+			NEW : fixed
+		Multi-Layer : Grabber : Eraser : Mix 100
+			OLD : not working
+			NEW : fixed
+
+
+NEW_FEATURE
+
+
+	Nonnon Paint
+		Multi-Layer : save
+			NEW : same or not checker available
+			[!] : faster than older with SSDs (maybe)
+
+
+----------==========----------==========----------==========----------
+
