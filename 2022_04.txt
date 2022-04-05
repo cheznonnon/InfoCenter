@@ -55,6 +55,9 @@ BUGFIX
 		Multi-Layer : Grabber : Eraser : Mix 100
 			OLD : not working
 			NEW : fixed
+		Multi-Layer : Menu
+			OLD : not followed by context
+			NEW : fixed
 
 
 NEW_FEATURE
@@ -64,6 +67,10 @@ NEW_FEATURE
 		Multi-Layer : save
 			NEW : same or not checker available
 			[!] : faster than older with SSDs (maybe)
+		Multi-Layer : name
+			NEW : a name started from "*" will be a special layer
+			[!] : read-only, excluded from whole preview/grab
+			[!] : for background, vanishing point and dessin layers
 
 
 ----------==========----------==========----------==========----------
