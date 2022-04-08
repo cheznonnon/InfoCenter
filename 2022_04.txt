@@ -48,6 +48,10 @@ Change Log
 BUGFIX
 
 
+	CatPad
+		TxtBox : CPU usage
+			OLD : too high
+			NEW : fixed
 	Nonnon Paint
 		Multi-Layer : INI writer : make a new layer, swapped and save it
 			OLD : new layer section will be top of a INI file
@@ -66,7 +70,7 @@ NEW_FEATURE
 	Nonnon Paint
 		Multi-Layer : save
 			NEW : same or not checker available
-			[!] : faster than older with SSDs (maybe)
+			[!] : faster than older with SSDs
 		Multi-Layer : name
 			NEW : a name started from "*" will be a special layer
 			[!] : read-only, excluded from whole preview/grab
