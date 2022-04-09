@@ -51,7 +51,7 @@ BUGFIX
 	CatPad
 		TxtBox : CPU usage
 			OLD : too high
-			NEW : fixed
+			NEW : fixed (finally)
 	Nonnon Paint
 		Multi-Layer : INI writer : make a new layer, swapped and save it
 			OLD : new layer section will be top of a INI file
@@ -62,11 +62,21 @@ BUGFIX
 		Multi-Layer : Menu
 			OLD : not followed by context
 			NEW : fixed
+	OrangeCat
+		Grab N Drag : when a cursor doesn't move after middle button is released
+			OLD : size all
+			NEW : arrow
+		Grab N Drag : jump with pager after grab-n-drag'ed
+			OLD : item view is not refreshed
+			NEW : fixed
 
 
 NEW_FEATURE
 
 
+	All
+		256px cat icons
+			NEW : larger eyes
 	Nonnon Paint
 		Multi-Layer : save
 			NEW : same or not checker available
