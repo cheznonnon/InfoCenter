@@ -33,7 +33,19 @@ Change Log
 BUGFIX
 
 
+	CatPad
+		TxtBox : IME is ON
+			OLD : right side remains while caret blinking
+			NEW : fixed
+			[x] : BUGFIX @ 2022/04/10
+
+
 NEW_FEATURE
+
+
+	neutral/bmp/ui/roundframe.c
+		n_bmp_ui_roundframe_shadow()
+			NEW : re-tuned
 
 
 ----------==========----------==========----------==========----------
@@ -54,7 +66,7 @@ BUGFIX
 			NEW : fixed (finally)
 	Nonnon Paint
 		Multi-Layer : INI writer : make a new layer, swapped and save it
-			OLD : new layer section will be top of a INI file
+			OLD : new layer section will be top of an INI file
 			NEW : fixed
 		Multi-Layer : Grabber : Eraser : Mix 100
 			OLD : not working

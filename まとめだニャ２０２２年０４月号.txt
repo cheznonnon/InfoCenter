@@ -50,8 +50,17 @@ Grab N Drag を使った後にページャーでジャンプするとビューが更新されないのを直した
 
 ◇ニューフィーチャー
 
+■neutral/bmp/ui/roundframe.c
+
+n_bmp_ui_roundframe_shadow() をチューンしなおしたニャ
+
 
 ◇バグフィクス
+
+■CatPad : TxtBox
+
+IME がオンの時にキャレットの右端が残るのを直したニャ
+１０日分のリグレッションだニャ
 
 
 [ ０４月３０日 ]
