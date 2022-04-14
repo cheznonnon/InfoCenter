@@ -54,6 +54,9 @@ NEW_FEATURE
 	neutral/bmp/ui/roundframe.c
 		n_bmp_ui_roundframe_shadow()
 			NEW : re-tuned
+	neutral/bmp.c
+		multi-thread : granularity
+			NEW : re-tuned
 
 
 ----------==========----------==========----------==========----------
