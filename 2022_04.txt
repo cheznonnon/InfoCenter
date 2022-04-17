@@ -33,6 +33,11 @@ Change Log
 BUGFIX
 
 
+	neutral/bmp/ui/roudframe.c
+		n_bmp_ui_roundframe() : multi-thread
+			OLD : always
+			NEW : by pixel count
+
 	win32/win_txtbox.c
 		.canvas_pxl_sx
 			OLD : inaccurate calculation
@@ -57,6 +62,14 @@ NEW_FEATURE
 	neutral/bmp.c
 		multi-thread : granularity
 			NEW : re-tuned
+
+	Nonnon Paint
+		Pen : logic
+			NEW : re-arranged
+		Multi-Layer : Pen : Whole Eraser
+			NEW : working with all layers
+			[!] : enabled when pen input is started while pressing Tab key
+			[!] : for searching garbage pixels
 
 
 ----------==========----------==========----------==========----------
