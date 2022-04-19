@@ -38,9 +38,20 @@ BUGFIX
 			OLD : always
 			NEW : by pixel count
 
+	win32/win_combobox.c
+		pressed : small button
+			OLD : hover state is released
+			NEW : fixed
+	win32/win_smallbutton_direct.c
+		when size is small : background color
+			OLD : draw error
+			NEW : fixed
 	win32/win_txtbox.c
 		.canvas_pxl_sx
 			OLD : inaccurate calculation
+			NEW : fixed
+		ONELINE : Classic Style
+			OLD : black area is made
 			NEW : fixed
 
 	CatPad
@@ -69,7 +80,7 @@ NEW_FEATURE
 		Multi-Layer : Pen : Whole Eraser
 			NEW : working with all layers
 			[!] : enabled when pen input is started while pressing Tab key
-			[!] : for searching garbage pixels
+			[!] : for fixing garbage pixels
 
 
 ----------==========----------==========----------==========----------
