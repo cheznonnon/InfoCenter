@@ -18,7 +18,27 @@ Change Log
 BUGFIX
 
 
+	win32/win_txtbox.c
+		message redirect
+			OLD : too many times
+			NEW : fixed
+
+	Marie
+		VFW : progress seek bar
+			OLD : misbehave in some cases
+			NEW : fixed
+			[x] : smooth progression causes (disabled)
+		VFW : UI : Play button
+			OLD : not beautiful
+			NEW : fixed
+
+
 NEW_FEATURE
+
+
+	Marie
+		VFW : UI
+			NEW : system color available
 
 
 ----------==========----------==========----------==========----------
@@ -62,6 +82,10 @@ BUGFIX
 		Nonnon Paint : Whole Grab : Special Layer
 			OLD : arrow cursor but input is disabled
 			NEW : "No" cursor
+	Nonnon Paint
+		Resizer : Comboboxes
+			OLD : refresh when not changed
+			NEW : fixed
 
 
 NEW_FEATURE
