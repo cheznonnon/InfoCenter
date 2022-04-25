@@ -22,6 +22,9 @@ BUGFIX
 		message redirect
 			OLD : too many times
 			NEW : fixed
+		LISTBOX_EFFECTS
+			OLD : verbose code and possibility of access violation
+			NEW : fixed
 
 	Marie
 		VFW : progress seek bar
