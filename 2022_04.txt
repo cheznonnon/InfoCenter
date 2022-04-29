@@ -18,13 +18,22 @@ Change Log
 BUGFIX
 
 
+	win32/win_combobox.c
+		.wparam_selection_changed
+			OLD : a message number which is already exist will be used
+			NEW : fixed
 	win32/win_txtbox.c
 		message redirect
 			OLD : too many times
 			NEW : fixed
+			[!] : COMBO : LBUTTONDOWN will not be sent, use .wparam_selection_changed
 		LISTBOX_EFFECTS
 			OLD : verbose code and possibility of access violation
 			NEW : fixed
+		small buttons
+			OLD : hovered background color will be white
+			NEW : fixed
+			[x] : BUGFIX @ 2022/04/20
 
 	Marie
 		VFW : progress seek bar
@@ -39,6 +48,19 @@ BUGFIX
 NEW_FEATURE
 
 
+	win32/win_simplemenu.c
+		left side icon space
+			NEW : no space available
+			[!] : currently under construction
+	win32/win_txtbox.c
+		IME composition window
+			OLD : scrollbars are disabled
+			NEW : follow scroll position
+
+	CatPad
+		Search History
+			NEW : beta version
+			[!] : run by menu click on a small button
 	Marie
 		VFW : UI
 			NEW : system color available
