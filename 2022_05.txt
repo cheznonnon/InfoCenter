@@ -1,0 +1,70 @@
+
+
+----------==========----------==========----------==========----------
+
+
+"Eat Your Own Catfood."
+
+
+----------==========----------==========----------==========----------
+
+
+Change Log
+
+
+2022/05/30
+
+
+BUGFIX
+
+
+NEW_FEATURE
+
+
+----------==========----------==========----------==========----------
+
+
+Change Log
+
+
+2022/05/20
+
+
+BUGFIX
+
+
+NEW_FEATURE
+
+
+----------==========----------==========----------==========----------
+
+
+Change Log
+
+
+2022/05/10
+
+
+BUGFIX
+
+
+NEW_FEATURE
+
+
+	neutral/bmp/color.c
+		n_bmp_blend_channel()
+			NEW : 1% faster than older
+	neutral/bmp/draw.c
+		n_bmp_roundrect()
+			NEW : 1% faster than older
+	neutral/bmp/filter.c
+		n_bmp_blendcopy()
+			NEW : 10% faster than older
+		n_bmp_antialias()
+			NEW : 5% faster than older
+		n_bmp_rasterizer()
+			NEW : a little faster than older
+
+
+----------==========----------==========----------==========----------
+
