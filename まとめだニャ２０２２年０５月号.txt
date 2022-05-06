@@ -9,7 +9,7 @@
 
 ◇ニューフィーチャー
 
-■neutral/bmp/filter.c, color.c, draw.c
+■neutral/bmp/filter.c, color.c, draw.c, _fastcopy()
 
 n_bmp_blendcopy() が１０％速くなったニャ
 n_bmp_antialias() が５％速くなったニャ
@@ -18,6 +18,15 @@ n_bmp_rasterizer() が少し速くなったニャ
 n_bmp_blend_channel() が１％速くなったニャ
 
 n_bmp_roundrect() が１％速くなったニャ
+
+n_bmp_fastcopy() が少し速くなったニャ
+
+■neutral/memory.c
+
+https://github.com/skywind3000/FastMemcpy
+このサイトにある memcpy_fast() を使うようにしたニャ
+いろんな処理がびっくりするぐらい速くなるニャ
+元々速いものは軽く、重たいものは速くなるニャ
 
 
 ◇バグフィクス

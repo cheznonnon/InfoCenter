@@ -51,6 +51,17 @@ BUGFIX
 NEW_FEATURE
 
 
+	floss/memcpy_fast.c
+		released
+			NEW : faster memcpy() implementation
+			[!] : thx! : https://github.com/skywind3000/FastMemcpy
+			[!] : but x64 only : GCC3 : "emmintrin.h" are missing
+
+	neutral/bmp/_fastcopy.c
+		n_bmp_fastcopy()
+			NEW : faster than older
+			[!] : x86 : a little faster
+			[!] : x64 : much faster
 	neutral/bmp/color.c
 		n_bmp_blend_channel()
 			NEW : 1% faster than older
