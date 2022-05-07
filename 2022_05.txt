@@ -48,6 +48,24 @@ Change Log
 BUGFIX
 
 
+	wi32/win_txtbox.c
+		EOL Mark Support
+			OLD : vertical scrollbar is overwritten
+			NEW : fixed
+		Canvas : right-side margin
+			OLD : too large
+			NEW : fixed
+
+	_gametest
+		Rich Dialog
+			OLD : access violation
+			NEW : fixed
+	Nonnon Paint
+		Resizer : when canvas size is changed
+			OLD : nothing happens
+			NEW : a refresh button is added
+
+
 NEW_FEATURE
 
 
@@ -55,7 +73,7 @@ NEW_FEATURE
 		released
 			NEW : faster memcpy() implementation
 			[!] : thx! : https://github.com/skywind3000/FastMemcpy
-			[!] : but x64 only : GCC3 : "emmintrin.h" are missing
+			[!] : but x64 only : GCC3 : "emmintrin.h" makes compile error
 
 	neutral/bmp/_fastcopy.c
 		n_bmp_fastcopy()
@@ -75,6 +93,14 @@ NEW_FEATURE
 			NEW : 5% faster than older
 		n_bmp_rasterizer()
 			NEW : a little faster than older
+	neutral/posix.c
+		n_posix_loop
+			NEW : infinite loop
+			[?] : for(;;) is 1% faster than while( 1 )
+
+	All
+		speed
+			NEW : faster than older
 
 
 ----------==========----------==========----------==========----------
