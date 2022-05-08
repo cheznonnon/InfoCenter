@@ -48,6 +48,13 @@ Change Log
 BUGFIX
 
 
+	win32/win_richdialog.c
+		count
+			OLD : crash when 2 or smaller
+			NEW : fixed
+		minimum size
+			OLD : do nothing
+			NEW : "desktop * 0.1" or 200 px
 	wi32/win_txtbox.c
 		EOL Mark Support
 			OLD : vertical scrollbar is overwritten
@@ -98,9 +105,39 @@ NEW_FEATURE
 			NEW : infinite loop
 			[?] : for(;;) is 1% faster than while( 1 )
 
+	project/macro.c
+		dialogs
+			OLD : Win32 MesssageBox()
+			NEW : win32/win_richdialog.c based
+			[!] : for darkmode support
+
+	win32/gdi.c
+		N_GDI_ICON_SYSTEM
+			NEW : IDI_* loader
+			[!] : gdi.c cannot use MAKEINTRESOURCE(), use special strings
+		renamed
+			OLD : N_GDI_FRAME_FLUENT_UI
+			NEW : N_GDI_FRAME_FLUENT_CHK
+		N_GDI_FRAME_FLUENT_BTN
+			NEW : button maker
+	win32/win_richdialog.c
+		button label
+			NEW : you can control via ".label"
+
 	All
 		speed
 			NEW : faster than older
+	Neko no Te
+		timer
+			OLD : GetTickCount()
+			NEW : timeGetTime()
+	Pen Trainer
+		Dak Mode is ON : Fluent UI
+			NEW : N_GDI_FRAME_FLUENT_BTN based
+	Watchcat
+		timer
+			OLD : GetTickCount()
+			NEW : timeGetTime()
 
 
 ----------==========----------==========----------==========----------
