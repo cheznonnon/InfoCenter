@@ -48,6 +48,12 @@ Change Log
 BUGFIX
 
 
+	neutral/bmp.c
+		n_bmp_flush()
+			OLD : faster code duplicates
+			NEW : fixed
+			[x] : I've forgot to write "return;"
+			[!] : maximun 50% faster
 	win32/win_richdialog.c
 		count
 			OLD : crash when 2 or smaller
@@ -67,6 +73,10 @@ BUGFIX
 		Rich Dialog
 			OLD : access violation
 			NEW : fixed
+	Marie
+		scrollbars : round corner edge
+			OLD : black
+			NEW :  gray / BTNFACE
 	Nonnon Paint
 		Resizer : when canvas size is changed
 			OLD : nothing happens
