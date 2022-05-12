@@ -33,7 +33,36 @@ Change Log
 BUGFIX
 
 
+	win32/win_groupbox.c
+		when size gets small
+			OLD : draw error
+			NEW : fixed
+	win32/win_inputpopup.c
+		timer : ID
+			OLD : zero
+			NEW : id_get()
+		timer : HWND
+			OLD : not the same between Set nad Kill
+			NEW : fixed
+
+	Nyaurism
+		Formatter : CPU Usage
+			OLD : too high
+			NEW : fixed
+
+
 NEW_FEATURE
+
+
+	all
+		timer
+			OLD : SetTimer() / KillTimer()
+			NEW : Nonnon Original Timer
+			[!] : resolution will be 1 msec. from 10 msec.
+			[!] : currentlu OFF because of buggy
+		timer : Sleep( 1 )
+			OLD : always
+			NEW : when false by PeekMessage()
 
 
 ----------==========----------==========----------==========----------
