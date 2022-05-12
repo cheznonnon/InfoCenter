@@ -59,7 +59,7 @@ NEW_FEATURE
 			OLD : SetTimer() / KillTimer()
 			NEW : Nonnon Original Timer
 			[!] : resolution will be 1 msec. from 10 msec.
-			[!] : currentlu OFF because of buggy
+			[!] : currently OFF because of buggy
 		timer : Sleep( 1 )
 			OLD : always
 			NEW : when false by PeekMessage()
