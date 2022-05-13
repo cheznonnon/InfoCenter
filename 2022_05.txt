@@ -37,6 +37,10 @@ BUGFIX
 		when size gets small
 			OLD : draw error
 			NEW : fixed
+	win32/win_combobox.c
+		fade-out
+			OLD : Win32 AnimateWindow()
+			NEW : Nonnon Original
 	win32/win_inputpopup.c
 		timer : ID
 			OLD : zero
@@ -44,6 +48,10 @@ BUGFIX
 		timer : HWND
 			OLD : not the same between Set nad Kill
 			NEW : fixed
+		fade-out
+			OLD : Win32 AnimateWindow()
+			NEW : Nonnon Original
+			[!] : draw error is fixed
 
 	Nyaurism
 		Formatter : CPU Usage
@@ -59,10 +67,13 @@ NEW_FEATURE
 			OLD : SetTimer() / KillTimer()
 			NEW : Nonnon Original Timer
 			[!] : resolution will be 1 msec. from 10 msec.
-			[!] : currently OFF because of buggy
+			[!] : currently OFF because of unstable
 		timer : Sleep( 1 )
 			OLD : always
 			NEW : when false by PeekMessage()
+		timer : WM_TIMER : when WPARAM is zero
+			OLD : misbehave
+			NEW : fixed
 
 
 ----------==========----------==========----------==========----------
