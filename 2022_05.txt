@@ -53,6 +53,14 @@ BUGFIX
 			NEW : Nonnon Original
 			[!] : draw error is fixed
 
+	CatPad
+		source code : catpad_main.c
+			OLD : not used in NonnonApps
+			NEW : removed
+	Nekomimi Nina
+		fixed camera at startup
+			NEW : not used
+			[?] : misbehave when a window is resized
 	Nyaurism
 		Formatter : CPU Usage
 			OLD : too high
@@ -63,11 +71,6 @@ NEW_FEATURE
 
 
 	all
-		timer
-			OLD : SetTimer() / KillTimer()
-			NEW : Nonnon Original Timer
-			[!] : resolution will be 1 msec. from 10 msec.
-			[!] : currently OFF because of unstable
 		timer : Sleep( 1 )
 			OLD : always
 			NEW : when false by PeekMessage()
