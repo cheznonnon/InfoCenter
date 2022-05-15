@@ -33,6 +33,11 @@ Change Log
 BUGFIX
 
 
+	neutral/bmp/pattern.c
+		n_bmp_pattern_polkadot() : margin
+			OLD : not used
+			NEW : fixed
+
 	win32/win_groupbox.c
 		when size gets small
 			OLD : draw error
@@ -77,6 +82,10 @@ NEW_FEATURE
 		timer : WM_TIMER : when WPARAM is zero
 			OLD : misbehave
 			NEW : fixed
+
+	Nonnon Paint
+		INI2GDI : "base_margin"
+			NEW : pitch/margin for polkadot
 
 
 ----------==========----------==========----------==========----------
