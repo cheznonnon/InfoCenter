@@ -66,6 +66,10 @@ BUGFIX
 		fixed camera at startup
 			NEW : not used
 			[?] : misbehave when a window is resized
+	Nonnon Paint
+		Multi-Layer : Clear Canvas : when Whole Grab is ON
+			OLD : crash
+			NEW : fixed
 	Nyaurism
 		Formatter : CPU Usage
 			OLD : too high
