@@ -87,6 +87,15 @@ NEW_FEATURE
 			OLD : misbehave
 			NEW : fixed
 
+	neutral/bmp/detect.c
+		n_bmp_squircle_detect()
+			NEW : squircle detector
+	neutral/bmp/draw.c
+		n_bmp_squircle()
+			NEW : squircle drawer
+			[!] : currently experimental
+			[!] : heavy
+
 	Nonnon Paint
 		INI2GDI : "base_margin"
 			NEW : pitch/margin for polkadot

@@ -104,6 +104,15 @@ PeekMessage() が false の時に実行しないといけないのに気付いたニャ
 水玉模様にピッチが付けられるようになったニャ
 INI2GDI に "base_margin" が新設されているので値をセットするニャ
 
+■neutral/bmp/detect.c, draw.c
+
+n_bmp_squircle() が実装されたニャ
+
+iPhone とか Android で見かける辺が曲線になっているラウンドレクトだニャ
+
+今の所は実験段階だニャ
+かなり重たいと思うニャ
+
 
 ◇バグフィクス
 
