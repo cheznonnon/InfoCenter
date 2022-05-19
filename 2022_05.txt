@@ -99,6 +99,11 @@ NEW_FEATURE
 	Nonnon Paint
 		INI2GDI : "base_margin"
 			NEW : pitch/margin for polkadot
+	OrangeCat
+		Style : "Material"
+			NEW : Google-esque theme
+		Item View : rendering engine
+			NEW : a little faster than older
 
 
 ----------==========----------==========----------==========----------
