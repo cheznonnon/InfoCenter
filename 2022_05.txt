@@ -43,15 +43,21 @@ BUGFIX
 			OLD : draw error
 			NEW : fixed
 	win32/win_combobox.c
-		fade-out
+		fade-out #1
 			OLD : Win32 AnimateWindow()
 			NEW : Nonnon Original
+		fade-out #2
+			OLD : not smooth in main area and popup
+			NEW : fixed
+		fade-out #3
+			OLD : scrollbar area will be empty
+			NEW : fixed
 	win32/win_inputpopup.c
 		timer : ID
 			OLD : zero
 			NEW : id_get()
 		timer : HWND
-			OLD : not the same between Set nad Kill
+			OLD : not the same between Set and Kill
 			NEW : fixed
 		fade-out
 			OLD : Win32 AnimateWindow()
@@ -93,8 +99,6 @@ NEW_FEATURE
 	neutral/bmp/draw.c
 		n_bmp_squircle()
 			NEW : squircle drawer
-			[!] : currently experimental
-			[!] : heavy
 
 	Nonnon Paint
 		INI2GDI : "base_margin"
