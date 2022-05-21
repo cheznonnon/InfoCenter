@@ -18,7 +18,31 @@ Change Log
 BUGFIX
 
 
+	neutral/bmp/filter.c
+		n_bmp_flush_copy()
+			OLD : macro definition error
+			NEW : fixed
+
+	CatPad
+		History Popup : empty string
+			OLD : registered
+			NEW : fixed
+
+
 NEW_FEATURE
+
+
+	neutral/bmp/color.c
+		n_bmp_composite_pixel_fast()
+			NEW : parameter "trans_onoff" is added
+			[!] : usage is changed
+	neutral/bmp/filter.c
+		n_bmp_*copy()
+			NEW : a little faster
+
+	Nonnon Paint
+		draw engine
+			NEW : a little lighter
 
 
 ----------==========----------==========----------==========----------
