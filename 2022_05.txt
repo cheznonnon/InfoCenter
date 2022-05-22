@@ -27,6 +27,10 @@ BUGFIX
 		History Popup : empty string
 			OLD : registered
 			NEW : fixed
+	Nonnon Paint
+		WinTab : Mix is 100
+			OLD : misbehave
+			NEW : fixed
 
 
 NEW_FEATURE
@@ -43,6 +47,10 @@ NEW_FEATURE
 	Nonnon Paint
 		draw engine
 			NEW : a little lighter
+		pen #1
+			NEW : lighter than older
+		pen #2
+			NEW : smoother than older
 
 
 ----------==========----------==========----------==========----------
