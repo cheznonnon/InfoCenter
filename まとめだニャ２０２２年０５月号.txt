@@ -182,6 +182,28 @@ Welcome! のダイアログがダークモードに対応したニャ
 
 ペンが少し滑らかになったニャ
 
+■neutral/bmp/fade.c
+
+n_bmp_fade_always_on() が名前とは裏腹に常にオンにならないのを直したニャ
+
+■win32/win_checkbox.c
+
+少し見た目を変えたニャ
+
+■neutral/bmp/transform.c
+
+n_bmp_scaler_big() が高速になったニャ
+
+■game/transition.c
+
+N_GAME_TRANSITION_DIZZY を調整したニャ
+N_GAME_TRANSITION_WHIRL も調整したニャ
+
+■neutral/bmp/detect.c
+
+n_bmp_bezier_detect() を廃止したニャ
+品質の高い線が引けないためだニャ
+
 
 ◇バグフィクス
 
@@ -193,6 +215,10 @@ Welcome! のダイアログがダークモードに対応したニャ
 
 WinTab のプレッシャーが Mix 100 の時に誤作動するのを直したニャ
 具体的には太さが変動してしまうニャ
+
+■win32/win_checkbox.c
+
+フェードが適切にかからない問題を直したニャ
 
 ----------==========----------==========----------==========----------
 

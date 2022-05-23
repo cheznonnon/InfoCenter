@@ -18,6 +18,10 @@ Change Log
 BUGFIX
 
 
+	neutral/bmp/fade.c
+		n_bmp_fade_always_on()
+			OLD : not always
+			NEW : fixed
 	neutral/bmp/filter.c
 		n_bmp_flush_copy()
 			OLD : macro definition error
@@ -36,13 +40,30 @@ BUGFIX
 NEW_FEATURE
 
 
+	game/transition.c
+		N_GAME_TRANSITION_DIZZY
+			NEW : re-tuned
+		N_GAME_TRANSITION_WHIRL
+			NEW : re-tuned
+
 	neutral/bmp/color.c
 		n_bmp_composite_pixel_fast()
 			NEW : parameter "trans_onoff" is added
 			[!] : usage is changed
+	neutral/bmp/detect.c
+		n_bmp_bezier_detect()
+			NEW : removed
+			[?] : this module cannot draw an accurate line
 	neutral/bmp/filter.c
 		n_bmp_*copy()
 			NEW : a little faster
+	neutral/bmp/transform.c
+		n_bmp_scaler_big()
+			NEW : faster than older
+
+	win32/win_checkbox.c
+		UI
+			NEW : re-tuned
 
 	Nonnon Paint
 		draw engine
