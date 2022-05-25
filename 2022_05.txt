@@ -31,6 +31,9 @@ BUGFIX
 		History Popup : empty string
 			OLD : registered
 			NEW : fixed
+		0 byte files : default : UTF-8
+			OLD : all file types
+			NEW : ".txt" and ".html" only
 	Nonnon Paint
 		WinTab : Mix is 100
 			OLD : misbehave
@@ -61,6 +64,9 @@ NEW_FEATURE
 		n_bmp_scaler_big()
 			NEW : faster than older
 
+	win32/gdi.c
+		HORIZONTAL : between icon and text
+			NEW : margin available
 	win32/win_checkbox.c
 		UI
 			NEW : re-tuned
@@ -72,6 +78,9 @@ NEW_FEATURE
 			NEW : lighter than older
 		pen #2
 			NEW : smoother than older
+		edge
+			NEW : behavior is changed
+			[!] : not compatible with older version
 
 
 ----------==========----------==========----------==========----------

@@ -107,7 +107,6 @@ INI2GDI に "base_margin" が新設されているので値をセットするニャ
 ■neutral/bmp/detect.c, draw.c
 
 n_bmp_squircle() が実装されたニャ
-
 iPhone とか Android で見かける辺が曲線になっているラウンドレクトだニャ
 
 ■OrangeCat
@@ -182,6 +181,8 @@ Welcome! のダイアログがダークモードに対応したニャ
 
 ペンが少し滑らかになったニャ
 
+edge の動作を変えたニャ
+
 ■neutral/bmp/fade.c
 
 n_bmp_fade_always_on() が名前とは裏腹に常にオンにならないのを直したニャ
@@ -204,12 +205,19 @@ N_GAME_TRANSITION_WHIRL も調整したニャ
 n_bmp_bezier_detect() を廃止したニャ
 品質の高い線が引けないためだニャ
 
+■win32/gdi.c
+
+HORIZONTAL の時にアイコンとテキストの間に余白が作られるニャ
+
 
 ◇バグフィクス
 
 ■CatPad
 
 履歴ポップアップで空文字列が登録されてしまうのを直したニャ
+
+ゼロバイトファイルのデフォルトを UTF-8 にする機能があるニャ
+それを ".txt" と ".html" の時だけに限定するニャ
 
 ■Nonnon Paint
 
