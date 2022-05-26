@@ -53,6 +53,10 @@ NEW_FEATURE
 		n_bmp_composite_pixel_fast()
 			NEW : parameter "trans_onoff" is added
 			[!] : usage is changed
+		n_bmp_blend_channel_min_value
+			NEW : minimal value for blending
+			[!] : default is 0.0
+			[!] : for older behavior, use 1.0
 	neutral/bmp/detect.c
 		n_bmp_bezier_detect()
 			NEW : removed
@@ -81,6 +85,9 @@ NEW_FEATURE
 		edge
 			NEW : behavior is changed
 			[!] : not compatible with older version
+		pen #3
+			NEW : 1px line will go special mode
+			[!] : more useful than older
 
 
 ----------==========----------==========----------==========----------
