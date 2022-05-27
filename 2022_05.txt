@@ -53,10 +53,10 @@ NEW_FEATURE
 		n_bmp_composite_pixel_fast()
 			NEW : parameter "trans_onoff" is added
 			[!] : usage is changed
-		n_bmp_blend_channel_min_value
-			NEW : minimal value for blending
-			[!] : default is 0.0
-			[!] : for older behavior, use 1.0
+		n_bmp_blend_channel_force_move
+			NEW : force rounding on/off
+			[!] : default is false
+			[!] : for older behavior, use true
 	neutral/bmp/detect.c
 		n_bmp_bezier_detect()
 			NEW : removed
@@ -75,6 +75,9 @@ NEW_FEATURE
 		UI
 			NEW : re-tuned
 
+	Nonnon FTP
+		readme
+			NEW : "a bug of Windows" is added
 	Nonnon Paint
 		draw engine
 			NEW : a little lighter

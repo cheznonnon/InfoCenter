@@ -213,9 +213,17 @@ HORIZONTAL の時にアイコンとテキストの間に余白が作られるニャ
 
 ■neutral/bmp/color.c
 
-n_bmp_blend_channel_min_value で無理やり丸め込むのを制御できるようになったニャ
+n_bmp_blend_channel_force_move で無理やり丸め込むのを制御できるようになったニャ
 デフォルトは仕様が変わってオフになるニャ
 理由はその方が綺麗だからだニャ
+
+■OrangeCat
+
+スタイルが "Material" の時はトランジションがゼルダスクロールに変わるニャ
+
+■Favorites2HTML
+
+ダークモードに対応したニャ
 
 
 ◇バグフィクス
