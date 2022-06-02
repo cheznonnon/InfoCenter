@@ -1,0 +1,76 @@
+
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Nonnon Wheel Axl
+
+	Mouse Wheel Accelerator
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+HowToUse
+
+	run
+
+		sticky always
+
+		+ see notification area (system tray)
+
+	[ notification area ]
+
+		menu click
+
+			close
+
+		ctrl + menu click
+
+			startup register/unregister menu will appear
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Known Problems
+
+	[ Support Status ]
+
+		Win9x
+
+			not working
+
+			+ maybe impossible
+
+		Win2000
+
+			OK
+
+		WinXP
+
+			OK
+
+		WinVista
+
+			OK
+
+		Win8.1
+
+			OK
+
+		Win10
+
+			not working
+
+			+ currently impossible
+			+ Win10 is too much buggy
+
+		ListView Controls
+
+			GUI named "List View" ignores Wheel Axl
+
+
+	[ the first input will ignore sometimes ]
+
+		for suppressing reverse movement
+
+		+ a bug of Windows mouse driver
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+

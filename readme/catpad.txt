@@ -1,0 +1,325 @@
+
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+CatPad
+
+	Text Editor
+
+	+ catpad.exe was integrated into Nonnon Apps
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+HowToUse : Icon Buttons
+
+	Topmost
+
+		make a window topmost
+
+	Save
+
+		an overwrite button
+
+	Config
+
+		change format
+
+	Font Chooser
+
+		choose a font
+
+	Calculator
+
+		call "calc.exe"
+
+	Hex Dump
+
+		binary viewer on/off
+
+		+ heavy, use for small files
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+HowToUse : Find
+
+	Input Field
+
+		add a query, enter key to find
+
+		[ Line Number ]
+
+		start with "#"
+
+		+ "#10" means "jump to line number 10"
+
+		[ Resizer ]
+
+		you can resize to drag left edge
+		double-click to set default size
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+HowToUse : Key Binding
+
+	Ctrl + F
+
+		change focus between input field and editor
+
+	F3
+
+		find the next word
+
+	F5
+
+		output today's date
+
+	Ctrl + F5
+
+		output a name of day-of-week
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Details : new.txt
+
+	"new.txt" is always loaded at startup
+
+		use your memorandum
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Details : Config
+
+	Character Set
+
+		Non-Unicode
+
+			+ old format which include double-byte code
+			+ one byte or two bytes per a character
+
+		Unicode Little Endian
+
+			+ used in Windows
+			+ two bytes per a character
+
+		Unicode Big Endian
+
+			+ used in Macintosh (maybe)
+			+ two bytes per a character
+
+		Unicode UTF-8
+
+			+ used in Unix
+			+ one byte to four bytes per a character
+
+	Newline
+
+		CR
+
+			+ used in Macintosh
+			+ use one character
+
+		CRLF
+
+			+ used in Windows
+			+ use two characters
+
+		LF
+
+			+ used in Unix
+			+ use one character
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Details : INI file
+
+	posx posy
+
+		window position
+
+	rcsx rcsy
+
+		window size
+
+		+ Real Client Size X/Y
+
+	max
+
+		is window maximized or not
+
+	lf
+
+		font information (LOGFONT structure)
+
+	find
+
+		a query
+
+	find_sx
+
+		width of an input field
+
+	txtbox
+
+		Nonnon Txtbox
+
+		+ 0 = off, 1 = on
+
+		+ default is on
+
+	tab
+		Tab Marker 
+
+		+ only when Txtbox is on
+
+		+ only the first character is used
+
+		+ "auto" is special
+		+ a vertical line is drawn
+
+	eol
+
+		End of Line Marker
+
+		+ only when Txtbox is on
+
+		+ "auto" is special
+		+ ANSI    : "<" will be drawn
+		+ Unicode : "Leftwards Arrow With Hook" will be drawn
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Details : Nonnon Txtbox
+
+	Click
+
+		when focus is set
+
+			move a caret
+
+		when focus is not set
+
+			set focus and move a caret
+
+	Double Click
+
+		editor
+
+			select a word
+
+		on line number
+
+			select a whole line
+
+	Middle Click
+
+		when focus is set
+
+			nothing to happen
+
+		when focus is not set
+
+			set focus and not move a caret
+
+		on line number
+
+			find a caret
+
+	Menu Click
+
+		popup-menu
+
+	Triple Click
+
+		select a whole line
+
+	Ctrl + Arrow
+
+		move per a word
+
+	Ctrl + Click
+
+		select
+
+	Ctrl + Z
+
+		undo
+
+	Ctrl + X
+
+		cut
+
+	Ctrl + C
+
+		copy
+
+	Ctrl + V
+
+		paste
+
+	Ctrl + Tab
+
+		multi-line tab adder
+
+	Ctrl + Backspace
+
+		multi-line tab remover
+
+	Shift + Arrow
+
+		select
+
+	Home, End, Page Up, Page Down
+
+		move
+
+	Delete
+
+		delete a selected text
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Details : Font Zoomer
+
+	Ctrl + Mouse Wheel
+
+		text size up/down
+
+
+	Ctrl + Mouse Wheel Button
+
+		reset to default size
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Known Problems
+
+	Load
+
+		UTF-8 detection will fail with some files
+
+
+	Load
+
+		zero byte files will be handled as UTF-8
+
+
+	Save
+
+		you cannot make a zero length file
+
+		+ a newline will be added always
+
+	Cursor
+
+		why is ibeam not used?
+
+		+ I don't like ibeam
+
+
+	Default HTML Editor
+
+		error when use "nonnonapps.exe -catpad"
+		use "CatPad.lnk" instead
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+

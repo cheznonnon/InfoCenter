@@ -1,0 +1,324 @@
+
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Nonnon Game Console
+
+	[ Esc : Forced Shutdown ]
+
+		use when no response
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+CAR-RACE 2
+
+	Funny Race Game
+
+	[ Input : Keyboard / Gamepad joyGetPos() / Gamepad XInput ]
+
+		Arrow Keys / Cross
+
+			move
+
+		Z / Button1,4 / X,Y
+
+			accelerator
+
+		X / Button2,3 / A,B
+
+			gunfire
+
+	[ Rivals ]
+
+		Drunken (a green car)
+
+			drunken will never die!
+
+		F*rrari (a red car)
+
+			the supercar
+
+		Kn*ght Rider (a black car)
+
+			so-called K.I.T.T. : the accurate machine
+
+	[ Hit Point ]
+
+		Drunken (a green car)
+
+			 1 shot
+
+		F*rrari (a red car)
+
+			 3 shots
+
+		Kn*ght Rider (a black car)
+
+			10 shots
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+hunyapiyo2
+
+	Puzzle Game
+
+	[ Rule ]
+
+		make a combo with the same cat blocks
+
+		you have 30 sec. for a session
+		you can get [combo x 500 msec] when 7 combo or more
+
+	[ Input ]
+
+		Click : select a block
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+hunyapiyo3
+
+	Brain Trainer
+
+	[ Rule ]
+
+		1 : you can see 3x3 cat panels for 1 second only
+		2 : you need to answer the same panel layout
+		3 : press "Go!" button to check the answer
+
+		+ the cat panels have 4 patterns
+
+		[ About Short-Term Memory (STM) ]
+
+			+ it is said STM can handle 5 to 9 items
+			+ it is said STM can remember for 18 seconds
+
+	[ Input : Main ]
+
+		Click : turn a cat panel
+
+			     Click : Ascending
+			Menu Click : Descending
+
+		Wheel : turn a cat panel
+
+			        Up : Descending
+			      Down : Ascending
+
+		[ Ascending ]
+
+		? - rainbow - black - himalayan - chinchilla - ?
+
+		[ Descending ]
+
+		? - chinchilla - himalayan - black - rainbow - ?
+
+		+ you get no penalty when you remain "?"
+		+ no penalty too when you choose different panels
+
+	[ Input : Result Screen ]
+
+		Click
+
+			switch between your input and an answer
+			+ all panels
+
+		Menu Click
+
+			switch between your input and an answer
+			+ one panel
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+LINE MASHER 2
+
+	Retro Shooter
+
+	[ Input : Keyboard / Gamepad ]
+
+		Arrow Keys / Cross
+
+			move left / move right
+
+		Space / any buttons
+
+			fire
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Nekomimi Nina
+
+	Jump-N-Run
+
+	[ Input : Keyboard / Gamepad joyGetPos() / Gamepad XInput ]
+
+		Up
+
+			enter a door or a warp point
+
+		Z / Button1,4 / X,Y
+
+			dash
+
+		X / Button2,3 / A,B
+
+			jump
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Nekomimi Nina RPG
+
+	Battle Game
+
+	[ Input ]
+
+		Up/Down
+
+			change an action
+
+		Space
+
+			select an action
+
+	[ Font ]
+
+		this game is designed with "Trebuchet MS"
+		when the font is missing, use "Arial" instead
+		but layout will not be perfect
+
+		Win95/98 and WinNT4.0 may not have "Trebuchet MS"
+
+		you can freely download, install if you need
+
+		+ official release is currently on Internet Archives
+		+ the file name will be "trebuc32.exe"
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Nonnon Freecell
+
+	Freecell Solitaire
+
+	[ Rule ]
+
+		[ Stock ]
+
+			top-right area
+			put the same suit cards from A(1) to K(13)
+
+		[ Tableau ]
+
+			you cannot stack the same suit cards
+
+			you can stack different color cards
+			+ reds   (hearts and diamonds)
+			+ blacks (spades and clubs)
+
+	[ Input ]
+
+		Drag And Drop
+
+			move a card
+
+		Double Click
+
+			auto-move to the Stock
+
+	[ Titlebar Menu ]
+
+		[ Replay ]
+
+			undo the current session
+
+		[ New Game ]
+
+			start a new game
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+NonnonGame
+
+	Game Sample
+
+	[ Input : Keyboard / Gamepad / Mouse ]
+
+		Arrow Keys / Cross / Drag and Drop
+
+			move
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Nonnon Spider
+
+	Spider Solitaire
+
+	[ Rule ]
+
+		stack the same suit cards from 13 to 1
+		you can move many cards at once when well stacked
+
+		you can stack a different suit card
+		but you cannot move many cards at once
+
+	[ Input ]
+
+		Drag And Drop : move a card / cards
+		Menu Click    : deal new ten cards
+
+	[ Titlebar Menu ]
+
+		[ Replay ]
+
+			undo the current session
+
+		[ Difficulty Settings ]
+
+			Suit 1 : Easy   : hearts only
+			Suit 2 : Middle : hearts and spades
+			Suit 4 : Hard   : all 4 suit
+
+			+ written in nonnon_win.ini
+
+	[ Known Problems ]
+
+		You might not win sometimes
+
+			shuffle algorithm is completely random
+
+			+ try a different approach with "Replay"
+
+
+		The rule is different from MS Spider Solitaire
+
+			backed cards are not implemented
+
+			a : easier to solve
+			b : easy to implement
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Known Problems
+
+	[ Win7 : output no sounds suddenly ]
+
+		1 : run regedit
+		2 : find this key
+
+			HKEY_CURRENT_USER
+			Software
+			Microsoft
+			Internet Explorer
+			LowRegistry
+			Audio
+			PolicyConfig
+
+		3 : delete it
+
+		+ details are unknown
+
+
+	[ Shortcut(.LNK) icons are not accurate ]
+
+		see "win9x.txt" or "winnt.txt"
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+

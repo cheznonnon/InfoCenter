@@ -1,0 +1,1317 @@
+
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Nonnon Paint
+
+	Graphics Editor
+
+	+ nonnon_paint.exe was integrated into Nonnon Apps
+
+
+	hand-made-only-painter
+
+		for everyone who loves painting
+
+
+	good
+
+		image with sharp contrast
+
+		+ dot-based, pop-art
+
+
+		image with complexity
+
+		+ fine art
+
+	bad
+
+		accurate geometric objects
+
+		+ 3D, draw-based
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+HowToUse
+
+	Open
+
+		drop an image file
+
+		[ from ]
+
+		a : supported files or directories (when layer)
+		b : shortcut (.lnk)
+
+		[ to ]
+
+		a : window
+		b : .exe (stand-alone version only)
+		c : shortcut (.lnk) (included NonnonApps)
+
+
+	Save
+
+		press a diskette icon button
+
+		+ a formatter dialog will appear
+		+ automatically reduce size by used colors
+
+
+	Close
+
+		press the close button
+
+		+ never say "Do you really want to exit?" or like that
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Tool Window
+
+	[ Scrollbars ]
+
+
+	Size
+
+		pen size
+
+
+	Mix
+
+		smoothness
+
+		+ percentage between a canvas and a picked color
+		+ nothing will happen when 0, only for exercise
+
+
+	Boost
+
+		precision booster
+
+		+ useful when pen size is 1px or 3px
+
+		+ zero means OFF
+
+
+	Air
+
+		air brush
+
+		+ zero means OFF
+
+
+	Zoom
+
+		stretch a canvas
+
+
+	A R G B
+
+		set a color
+
+		+ menu-click to pick a color on a canvas
+
+
+		[ how to move all scrollbars together ]
+
+		a : click a color part (at left side)
+		b : Ctrl + scrolling
+
+
+		[ Auto Color Synchronizer ]
+
+		+ synchronize the color between many Nonnon Paints
+
+
+	[ Icon Buttons : Upper ]
+
+
+	1 : Tool Switcher
+
+		switching between "Pen Mode" and "Tool Mode"
+
+
+	2 : Blank
+
+
+	3 : Clipboard
+
+		you can switch In/Out with menu click or wheel
+
+		[ Blue Mode ]
+
+		load from clipboard
+
+		+ WinXP : screenshot : alpha value will be mixed
+		+ use Alpha Tweaker
+
+		[ Pink Mode ]
+
+		copy to clipboard
+
+
+	4 : Resizer
+
+		a window will appear
+
+		+ see below for details
+
+
+	5 : Save
+
+		an overwrite button
+
+		+ menu-click to change formats
+		+ rotation : BMP => ICO => CUR => JPG => PNG => Layer
+
+		+ you can also use a wheel to change formats
+
+
+	[ Icon Buttons : Lower ]
+
+
+	[ Pen Mode ]
+
+
+	1 : Pen
+
+		round pen
+
+
+		[ How to draw a straight line ]
+
+			press Space key when start to draw
+
+
+	2 : Filling
+
+		flushing with a picked color into a closed area
+
+		+ as same as "bucket tool" or "closed area"
+
+
+	3 : Grabber
+
+		cut and paste tool
+
+
+		[ Usage ]
+
+			1 : drag to select an area
+			2 : drag to move
+			3 : menu-click to paste
+
+			+ to clear selection, press a button again
+
+			+ you can start to drag from a hamburger area
+
+
+		[ Checkbox : Per-Pixel Alpha Blending ]
+
+			alpha value will be used
+
+
+		[ Scrollbar : Blend ]
+
+			Global Blending On/Off
+
+
+		[ Key Bindings ]
+
+			Insert : paste
+			Delete : make an area empty
+			Arrow  : move a grabbed area
+
+			Ctrl+A : "Neutral" : select all
+			Ctrl+C : "Drag OK" : copy / re-grabbing
+			Ctrl+V : "Drag OK" : paste
+
+
+		[ Double Click ]
+
+			"Neutral" : select all
+			"Drag OK" : reset to starting position
+
+
+		[ Quick Stretch ]
+
+			[ Proportional ]
+
+			1 : start to drag while pressing Ctrl key
+			2 : dialog will appear
+
+			[ Transform ]
+
+			1 : start to drag while pressing Ctrl key and Shift key
+			2 : dialog will appear
+
+
+		[ Quick Layer ]
+
+			you can paint on the grabbed area
+			select another tool while "Drag OK"
+
+			+ too much complicated tool, use carefully!
+
+			[ Eraser ]
+
+				canvas color will be copied to the grabbed area
+
+				1 : colorpicker : pick from gray margin
+				2 : paint it
+
+				+ you can use any full-transparent colors
+
+
+		[ Drop2Load ]
+
+			you can drop a file as a grabbed area
+
+			[ Load Position ]
+
+				+ on a canvas      : cursor position
+				+ on a tool window : zero
+
+
+		[ Drop2Save ]
+
+			1 : drop the area out of canvas window
+			2 : then the area will be saved
+
+			[ Saved Location ]
+
+				a : Desktop or Explorer
+				b : nonnon_win folder
+
+			[ How to enable Explorer drag and drop ]
+
+				1 : Folder Options
+				2 : "Display full path in the title bar"
+				3 : check it
+
+
+	4 : Blank
+
+
+	5 : Color History
+
+		recently used colors will be set
+		click to pick
+
+		+ arranged by black/white/history in order
+
+		[ Quick Colors ]
+
+		you can easily choice relative colors
+
+		+ left   : gamma 0.5 : darker
+		+ center : gamma 1.0 : no change
+		+ right  : gamma 1.5 : lighter
+
+
+	[ Tool Mode ]
+
+		[ Applied area ]
+
+			[ Pen / Fill ]
+
+				all canvas and the grabbed area
+
+			[ Grabber ]
+
+				the grabbed area
+				all canvas when not grabbed
+
+
+	1 : Shrink : 1/2
+
+		less memory, less precision
+
+
+	2 : Enlarge : x2
+
+		more memory, more precision
+
+
+	3 : Mirror
+
+		left side right effect
+
+		+ for adjusting balance or for removing distortion
+
+
+	4 : Rotate : Left
+	5 : Rotate : Right
+
+		make a round
+
+		+ for adjusting balance or for removing distortion
+
+		+ for adjusting CRT monitor's pixel balance
+		+ flat monitors are free with this problem
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Resizer
+
+	Resize Option
+
+		margin color will be white
+
+
+		Center
+
+			auto-centering
+
+		Fit
+
+			proportional stretching
+
+			+ "Lock X" : Y will be auto-calculated
+			+ "Lock Y" : X will be auto-calculated
+
+		Tile
+
+			copy as repeating pattern
+
+		Top-Left
+
+			original image remains in top-left corner
+
+		Transform
+
+			stretching
+
+		Pixelart 2x
+		Pixelart 3x
+		Cel Art 2x
+
+			enlarge with special algorithm
+
+			+ 2x will be twice, 3x will be 3 times larger
+
+			+ "Pixelart" : effective with dot-based images
+			+ "Cel Art"  : effective with anime-like images
+
+
+	Size
+
+		input fields for output size
+
+
+	Round
+
+		rotate by degree ( -360 <=> 0 <=> +360 )
+
+
+	---
+
+
+	Color Option
+
+		Color Reduction
+
+			Nonnon Smart Color Reduction
+
+			+ use with PNG files for shrinking size
+			+ this can reduce 20% to 50%
+
+		Grayscale
+
+			output grayscaled bitmap
+
+			+ simple average based algorithm
+
+		Monochrome
+
+			output black and white image
+
+		Reverse
+
+			output RGB reversed image
+
+			+ ( 255 - n ) is used
+
+		Noise Removal Mask
+
+			color reduction + monochrome
+
+			[ Usage ]
+
+			1 : Fill
+				fill background color with white
+			2 : Grabber
+				grab all canvas
+			3 : Resizer
+				apply "Noise Removal Mask"
+			4 : Fill
+				flush black by an unused color
+			5 : Color Replacer
+				replace black for white
+			6 : Fill
+				pick a full-transparent color by margin
+				flush an unused color by full-transparent
+			7 : Grabber
+				1 : turn "Per-Pixel Alpha Blending" on
+				2 : paste the grabbed area
+
+
+		Vanishing Point
+
+			output helper grid
+
+			+ double-click the preview to set
+			+ double-menu-click to unset
+
+			+ usage dialog will appear when not set
+
+			+ use dessin or upper layer for temporary use
+
+
+		Contour
+
+			contour helper
+
+			[ Usage ]
+
+			1 : Fill
+				fill background color with invisible color
+			2 : Contour
+				use this
+
+			+ black only, use Reverse or so to set color
+			+ if you want thick edge, use this many times
+
+
+		None
+
+			do nothing
+
+
+	Gamma
+
+		gamma correction, for tweaking brightness
+
+		+ image will become black at 0.0
+		+ image will become white at 2.0 by adjustment
+
+
+	Color Wheel
+
+		tweak color itself
+
+		+ for changing color after painted
+		+ useless for whole canvas, useful for Grabber
+
+		+ this is the same as Hue in HSL colorspace
+
+
+	Vividness
+
+		tweak vividness
+
+		+ this is the same as Saturation in HSL colorspace
+
+
+	Sharpness
+
+		tweak sharpness
+
+		+  plus value :   sharpen filter
+		+ minus value : smoothing filter
+
+		+ smoothing filter is also known as "Anti-alias"
+		+ use before shrinking
+
+
+	Contrast
+
+		tweak contrast
+
+		+ very strong tool, use a little value
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Titlebar Menu
+
+	+ you can call menu in two ways
+
+		a : menu click on a title bar
+		b : click a hamburger button
+
+	Preview
+
+		preview window on/off
+
+		+ BMP : resampled image : black background
+		+ PNG : resampled image : black background
+		+ ICO : original size   : Explorer background
+		+ CUR : original size   : Desktop background
+
+		+ CUR : cursor preview also available
+
+		[ Useful Features ]
+
+			+ you can resize a window to stretch test
+			+ double-click to restore default
+
+
+	---
+
+
+	Grid
+
+		helper grid on/off
+
+		+ useful when free-handed images
+		+ display canvas centerline and guideline
+
+
+	Pixel Grid
+
+		add frame around a pixel
+
+		+ useful when dot-based images
+
+
+	Thumbnail
+
+		zoom 1 preview
+
+		+ you can drag a window
+
+
+	Gray Canvas
+
+		make canvas grayed and bit-reversed
+
+		+ bit-reverse makes colors more distinct
+
+		+ data are safe, displayed data only applied
+
+
+	---
+
+
+	Clear Canvas / Clear Grabbed Area
+
+		make a canvas empty
+
+		[ How to make a color balanced area ]
+
+			1 : Grabber : select all
+			2 : Clear Canvas : choose a color
+			3 : tweak blend ratio
+			4 : paste it
+			5 : Fill : margin
+
+			+ you can tweak everything
+			+ like RGB / CMY / Black / White
+
+
+	Alpha Tweaker
+
+		Clear
+
+			set visible to all alpha values
+
+
+		Reverse
+
+			reverse all alpha values
+
+
+	Color Replacer
+
+		replace a color for another color
+
+		+ for dot-based images
+
+
+	---
+
+
+	Output ini2gdi.ini
+
+		output ini2gdi.ini
+
+		+ this INI file will be bitmap when dropped
+		+ instruction is written in the INI file
+
+
+	---
+
+
+	Used Colors
+
+		report how many colors are used
+
+		+ a little heavy
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Wheel Mouse Support
+
+	Canvas
+
+		wheeling     : zooming
+		wheel button : grab and drag scrolling
+
+
+	Scrollbars
+
+		wheeling     : scroll up/down when a cursor is hovering
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Keyboard Support
+
+	Delete
+
+		same as "Clear Canvas"
+
+
+	Arrow
+
+		Pen and Fill : with    Shift Key : move a cursor
+		Pen and Fill : without Shift Key : scroll
+		Grabber      : move a grabbed area
+
+
+	Enter
+
+		Pen and Fill : input
+
+
+	1/2/3/4/5/6/7/8/9/0
+
+		Titlebar Menu   : "1" will be "Preview"
+
+
+	A/B/C/D/E
+
+		Icon Buttons #1 : "E" will be "Save"
+
+
+	F/G/H/I/J
+
+		Icon Buttons #2 : "F" will be "Pen"
+
+
+	K/L/M/N/O
+
+		Icon Buttons #3 : "K" will be "Shrink : 1/2"
+
+
+	P/Q/R/S/T/U/V/W/X/Y
+
+		P/Q : Size  up/down
+		R/S : Mix   up/down
+		T/U : Boost up/down
+		V/W : Air   up/down
+		X/Y : Zoom  up/down
+
+
+	Z
+
+		Quick Eraser
+
+		+ color will be eraser color while pressing
+
+
+	Shift
+
+		Pen and Fill : Zoom Screen
+
+		+ you can zoom in/out when click a screen
+
+	F2
+
+		fork the current image
+
+		+ rename to today's date and time
+		+ a confirmation dialig will appear
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Tablet Support
+
+	[!] : you can turn off via INI file
+
+		wintab = 0/1
+
+
+	Pen
+
+		WinTab API will be used for cursor position
+		pressure is supported
+
+
+	Eraser
+
+		white/transparent color will be used
+
+
+	[ Known Problems ]
+
+	Windows 10 : input has lag
+
+		see winnt.txt for details
+
+		+ Win10 has special setting to resolve this problem
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Icons(.ico) and Cursors(.cur) Support
+
+	see "curico.txt" for more details
+
+	a single icon/cursor is directly editable
+	you need unpack multi-icons/multi-cursors to edit
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+PNG Support
+
+	typical format only available
+
+	[ Limitaion ]
+
+		saved format might be different from opened format
+
+		only basic information will be saved
+		file size may bloat
+		automatically convert to minimal size
+
+		less colors make better compression
+
+
+	[ Transparent Support ]
+
+		Index-Color : tRNS
+		Full-Color  : 32bit
+
+		+ 32bit : IE6 displays inaccurately
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Jpeg Support
+
+	fully supported by libjpeg
+
+	[ Limitaion ]
+
+		transparent color is not supported by format
+
+	[ Formatter ]
+
+		Q means quality
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Multi-Layer Support
+
+	at first, you need to save with a save button
+
+	this is very complicated tool, use carefully
+
+	[ Format ]
+
+		a folder which has "nonnon_paint.ini" and "0.png"
+
+		+ default least layer number is 16 layers
+		+ you can control via "nonnon_paint.ini"
+
+		+ don't remove "0.png"
+
+		+ used layers will be saved
+
+	[ Layer Window UI ]
+
+		+ layer order is upside down with Photoshop or GIMP
+		+ because of easy to implement and to be scalable
+
+		+ "nonnon_win.ini" : "layer_scroll" : scrollbar on/off
+		+ you can use this when you use 16 or more layers
+
+		click
+
+			select an editable layer
+
+			[ click + shift key ]
+
+			a grabbed area moves to a selected layer
+
+			+ underline when a layer has a grabbed area
+
+		double click
+
+			[ TxtBox ]
+
+			visibility on/off
+
+			+ bold font is used when ON
+
+			[ titlebar ]
+
+			shade on/off
+
+			+ getting titlebar only
+
+		menu click
+
+			[ Up/Down ]
+
+			layer up/down
+
+			+ Ctrl + Arrow keys are the same meaning
+
+			[ Rename ]
+
+			you can name each layer
+
+			+ you can use enter key to turn on/off
+			+ available when a layer window has focus
+
+			[ All On/Off ]
+
+			all layers turn on/off
+
+			[ This Only ]
+
+			turn off except for a selected layer
+
+			[ Grabber : Move Here ]
+
+			the same as click + shift key
+
+			[ Thicken Lines ]
+			[ Thin Lines ]
+
+			thicken/thin lines
+
+			+ background : argb(   0,255,255,255 )
+			+ foreground : argb( 255,  0,  0,  0 )
+
+		"Whole Preview" checkbox
+
+			virtually all layers are visible
+
+		"Whole Grab" checkbox
+
+			effect many layers at once
+
+			+ this will apply only visible layers
+
+		"Blur" scroller
+
+			for focus blur emulation
+
+			+ you need not to break images
+
+		"Blend" scroller
+
+			opacity 0% to 100%
+
+		key input
+
+			it works when a cursor is on the layer window
+
+		[ Special Layer ]
+
+			a name started by "*" is handled as special
+
+			+ Read-only     : not editable
+			+ Whole Grab    : ignored
+			+ Whole Preview : ignored
+
+			+ for Background, Vanishing Point and Dessin
+
+	[ Basic UI ]
+
+		Pen and Fill
+
+			these will be applied visible layers only
+
+			+ a cursor is changed "No" when not editable
+
+			Pen with Tab Key
+
+				all layers are painted at the same time
+
+				+ use when garbage pixels are not found
+				+ very strong tool, use carefully
+
+		Color Picker
+
+			Ctrl Key
+
+				from a current composited canvas
+
+		Save
+
+			you can save via layer saver only
+			other savers mean to save as one image
+
+		Resizer
+
+			resize will be applied a whole layer
+
+			color option will be applied visible layers only
+
+		Buttons on a Tool Window
+
+			effect will be applied a whole layer
+
+		Menu Effect ("Clear Canvas" or so)
+
+			effect will be applied visible layers only
+
+	[ How to use ]
+
+		[ Open ]
+
+		drop a folder or drop "nonnon_paint.ini"
+
+		[ Workflow ]
+
+		line for upper layer, color for lower layer
+
+		+ this is like animation cel
+
+	[ Known Problems ]
+
+		heavy
+
+			machine power is required
+			+ many CPU cores make better performance
+
+			+ turn off visibility in unused layers
+
+		layer integration (combine)
+
+			you cannot combine two layers as one
+
+			+ integration logic is not programmed yet
+			+ I think that it is impossible
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Details : Trouble Shooter
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Multi-Layer : Not saved
+
+	if you meet troubles, press F11 key
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Silently exited, or "Memory is insufficient" error happens
+
+	32-bit CPU has limitation
+
+		+ there is 3 or 4 GB limit
+
+		+ 2048x2048 @ 30 layers uses approx. 600MB
+
+		+ Nonnon Paint uses x2 or x3 memory internally at max
+		+ a : display cache : desktop size
+		+ b : Resizer cache : duplication
+		+ c : fast mode #1  : same size as one layer
+		+ d : fast mode #2  : same size as one layer
+
+	[ Solution ]
+
+		use 64-bit version if possible
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Garbage is displayed in some cases
+
+	your data are safe
+
+	[ Solution ]
+
+	a : clear cache
+
+		press F5 key
+
+	b : run under safemode
+
+		Nonnon Paint will be very heavy under safemode
+
+		1 : edit "nonnon_win.ini"
+		2 : set "fast_mode" zero (default is "1")
+		3 : overwrite "nonnon_win.ini"
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+How to paint beautifully
+
+	[ Solution ]
+
+	use the perspective method
+	use Vanishing Point on Resizer
+
+
+	[ HowTo ]
+
+	1 : draw a horizontal line for eyeline
+
+		feel like as if you'd be in a canvas
+		for eyes-on-camera shot, use eyes' height
+		for portrait images, use breast's height
+
+
+	2 : set a center point(vanishing point) on the line
+
+		outgoer lines from the point make 3D-atmosphere
+
+		+ Vanishing Point can make helper lines automatically
+
+
+	3 : set a center point of each objects on the outgoer line
+
+		imagine invisible parts like cutaway drawing
+
+
+	4 : arrange sizes
+
+		all lines are related each other
+		compare between one line and all other lines
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Distortion and Transformation
+
+	[ Solution ]
+
+	use helper grid
+	Grabber : use "Stretch"
+
+
+	[ Reason ]
+
+	the angle between a monitor and your face causes this problem
+	but it is difficult to avoid
+
+
+	[ Tips ]
+
+	transformed image has only one vanishing point
+	distorted image has many vanishing points like Picaso's works
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Line doesn't follow the mouse/tablet move
+
+	[ Solution ]
+
+	freehand  : use shorter strokes, and shape them
+	dot-based : use 100 for Mix
+
+
+	[ Reason ]
+
+	Nonnon Paint cannot get cursor position smoothly when...
+
+	a : when you move a pen quickly
+	b : while heavy processing
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Color Picker is not working
+
+	[ Solution ]
+
+	stop "Windows Ink" or "Digital Ink"
+
+	+ method is different by Windows versions or drivers
+	+ for example, WACOM in control panel has this setting
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Extra Informations
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Anti-Shake
+
+	it will be input when you move a cursor two dots or more
+
+	+ but, I wonder, very effective with older tablets
+	+ high-class/newer tablets don't need this feature
+
+
+	you can turn on/off this feature
+
+	1 : open "nonnon_win.ini"
+	2 : find "[Nonnon Paint]"
+	3 : find "antishake"
+	4 : set  "0"(OFF) or "1"(ON)
+	5 : save "nonnon_win.ini"
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+How to take a screenshot
+
+	press "Clipboard" button after key pressing
+
+
+	Desktop
+
+		press a "PrintScrn" key
+
+
+	Window
+
+		press a "PrintScrn" key while pressing "Alt" key
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+HowTo : Ray-tracing method
+
+	1 : decide light's position and color
+	2 : turn Mix to 1
+	3 : turn Air to 1
+	4 : use large pen size
+	5 : slightly rub with pen through light's direction
+	6 : shape again
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+HowTo : Feels-Like-Skething-On-A-Paper Method
+
+	1 : sketch with grayscale colors
+	2 : filter with Gamma 1.7
+	3 : back to 1
+
+	grayscaled images only have lightness information
+	so you need not to choose color while sketching phase
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+HowTo : Auto-Contour
+
+	1 : make background color to be solid color
+	2 : do "Fill" background with full-transparent color
+	3 : save temporarily with "Drop2Save"
+	4 : Titlebar Menu : output "ini2gdi.ini"
+	5 : rewrite like this
+
+		style       = smooth contour
+		icon        = tmp.png,0
+		icon_size   = width height
+		icon_fxsize = 4
+
+	6 : drop ini2gdi.ini into canvas
+
+	very heavy, it may need several minutes
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Color
+
+	Grayscale (black-gray-white)
+
+		all of RGB have the same value
+
+
+	CMY
+
+		two among RGB have 255, another has 0
+
+
+	Complementary colors
+
+		RGB + CMY = Grayscale
+
+
+	Light-brightness
+
+		by the average among RGB
+
+
+	Vivid-brightness
+
+		by the range between the most and the least among RGB
+
+
+	+ human eyes feels brighter green, red, blue in order
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Lighting and Shading
+
+	Light : Strong
+
+		at right angle among light source, surface and eyes
+
+
+	Light : Weak
+
+		at nearer surface with light
+
+
+	Light : Weak   : reflection
+
+		in shade or shadow
+
+
+	Shadow
+
+		dark side genarated by itself
+
+
+	Shade
+
+		dark side in other's shadow
+
+
+	+ it is much different in each materials
+	+ "reflection" also means like a mirror effect
+	+ light has more and more lights and shadows/shades in itself
+
+	+ you can shape with the perspective method
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Image and Viewpoint
+
+	light exists among light source, surface and eyes
+	but an image has own viewpoint
+
+	you will fail when using your eyes and monitor position
+	there are two viewpoints by an image and a monitor
+
+	+ hint : light also moves when your head moves
+
+	Nonnon Paint has rotation/mirror/grid for this problem
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Radiosity Method
+
+	ray-tracing is accurate but hard to trace
+	radiosity is simple and is used as the latest 3D algorithm
+
+	[ Rule ]
+
+		1 : handle as if there is self-light
+
+		+ this is like cheating
+		+ easy to understand
+
+		2 : handle as if there is reflection
+
+		+ imagine objects around an image
+		+ then reflection shape is determined
+
+		3 : use amoeba-like, jellybean-like shape
+
+		+ near part to eyes has priority
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+

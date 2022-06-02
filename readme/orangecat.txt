@@ -1,0 +1,502 @@
+
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+OrangeCat
+
+	File Manager
+
+	+ orangecat.exe was integrated into Nonnon Apps
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+HowToUse : Breadcrumb Navigation Bar
+
+	Click
+
+		Another Folder : move
+		Current Folder : refresh
+
+
+	Wheel Button Click
+
+		open in new window
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+HowToUse : Item View
+
+	Click
+
+		select
+
+
+	Double-Click
+
+		Folder : move
+		File   : open
+
+
+	Wheel Button Click
+
+		Folder : open in new window
+		File   : open in new window with item selection
+
+		+ multiple items available
+
+
+	Menu Click
+
+		Hovered     : Information View
+		Not Hovered : Search View (Name Search)
+
+
+	Ctrl Key + Click
+
+		multiple focus selection
+
+
+	Ctrl Key + Menu Click
+
+		Hovered     : Explorer Context Menu
+		Not Hovered : Search View (Text Search)
+
+
+	Ctrl Key + Wheeling or Page Up/Down
+
+		Gallery Mode On/Off
+
+		+ icon size will be changed
+		+ image files will be previewed when not minimum size
+
+
+	Ctrl Key + Wheel Button Click
+
+		reset Gallery Mode
+
+
+	Shift Key + Click
+
+		multiple focus selection
+
+
+	Shift Key + Wheeling or Page Up/Down
+
+		text size changer
+
+
+	Shift Key + Wheel Button Click
+
+		reset text size
+
+
+	Drag And Drop
+
+		[ Operation ]
+
+		Target |  File  | Folder   | Current Folder
+		============================================
+		Left   |  Open  | Move     | Shortcut
+		Middle |  Open  | Shortcut | Shortcut
+		Right  |  Open  | Copy     | Duplicate
+
+
+		[ OrangeCat <=> OrangeCat ]
+
+		Breadcrumb Bar     : Folder
+		Folder             : Folder
+		EXE File           : File
+		LNK File           : File/Folder
+		Another OrangeCat  : File/Folder
+
+
+		[ OrangeCat <=> Application ]
+
+		Explorer           : Folder
+		OLE Supported Apps : File
+
+
+		[ Margin Dragging ]
+
+		multiple focus selection
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+HowToUse : Information View
+
+	Input Field
+
+		rename
+
+		+ you can drop a file to an replace name
+
+
+	Menu Click / Enter Key
+
+		exit
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+HowToUse : Search View
+
+	Input Field
+
+		set a keyword
+
+		Name : capital/small letters are handled as same
+		Text : case sensitive search
+
+		+ you can refine results when searching twice or more
+		+ to reset, click a breadcrumb of a current folder
+
+		+ Name : you can use wildcard
+		+ '?'  : for a single character
+		+ '*'  : for multiple characters
+
+		+ Text : binary files handled as non-unicode text
+
+
+	Menu Click / Enter Key
+
+		go/exit
+
+
+	Escape Key
+
+		stop searching
+
+		+ use when busy
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+HowToUse : Scroll Pager
+
+	Click
+
+		Shaft : direct jump
+
+
+	Wheeling
+
+		scrolling
+
+
+	Key : Page Up/Down
+
+		line scrolling
+
+
+	Drag And Drop
+
+		Thumb
+
+			smooth scrolling
+
+		Item Dragging
+
+			auto-scroll
+
+			+ wait for 200 msec.
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Details : INI file
+
+	view
+
+		the last setting will be written
+
+		"logo"     : Logo View
+		"icon"     : Icon View
+		"path"     : Path View
+		"date"     : Date View
+		"size"     : Size View
+
+
+	icon
+
+		the last setting will be written
+
+		"16"        : small
+		"24"        : old start menu uses this
+		"32"        : medium in older versions
+		"48"        : medium in Vista or later, XP uses too
+		"64"        : Win2000 supports this
+		"256"       : Vista or later, so called jumbo icon
+
+
+	BPP
+
+		the last setting will be written
+
+		"4"         :  16 colors
+		"8"         : 256 colors
+		"32"        : Full Color
+
+
+	style
+
+		the last setting will be written
+
+		""         : auto-selection : once
+		"auto"     : auto-selection : always
+		"classic"  :    Classic style
+		"luna"     :    XP-like style
+		"aero"     : Vista-like style
+		"8"        :  Win8-like style
+		"fluent"   : Win11-like style
+		"aqua"     : old Mac OS X-like style
+
+
+	gallery
+
+		the last setting will be written
+
+		""         : auto-selection : once
+		"0"        : auto-selection : once
+
+
+	fade
+
+		no touch : you can override this setting
+
+		""         : auto-selection : once
+		"auto"     : auto-selection : always
+		"off"      : fade effect off
+		"on"       : fade effect on
+
+
+	DWM
+
+		no touch : you can override this setting
+
+		""         : auto-selection : once
+		"auto"     : auto-selection : always
+		"off"      : DWM mode off
+		"on"       : DWM mode on
+
+		+ for internal debugging
+		+ ON : useless with WinXP or earlier
+
+
+	smooth
+
+		no touch : you can override this setting
+
+		""         : auto-selection : once
+		"auto"     : auto-selection : always
+		"off"      : font smoothing off
+		"on"       : font smoothing on
+
+
+	text
+
+		the last setting will be written
+
+		""         : auto-selection : once
+		"0"        : auto-selection : once
+		"-11"      : text size
+
+		+ newer version of Windows has minus value
+
+
+	dragsel
+
+		no touch : you can override this setting
+
+		""         : auto-selection : once
+		"auto"     : auto-selection : always
+		"dot"      : drag selection : dotted line rectangle
+		"alpha"    : drag selection : alpha blend rectangle
+
+
+	icon_rc
+
+		no touch : you can override this setting
+
+		""         : auto-selection : once
+		"auto"     : auto-selection : always
+		"off"      : Explorer compatible mode
+		"on"       : Nonnon original mode
+
+
+	sort
+
+		no touch : you can override this setting
+
+		""         : auto-selection : default is see below
+		"auto"     : auto-selection : default is see below
+		"charcode" : by character code
+		"nonnon"   : by Explorer compatible mode
+		"explorer" : by CompareString() API
+
+		[ default ]
+
+		Win7 or later : Unicode version : "explorer"
+		Win7 or later : ANSI    version : "nonnon"
+		else          : "nonnon"
+
+		+ for digit sorting
+		+ a little different sorting between two modes
+
+
+	tooltip
+
+		no touch : you can override this setting
+
+		""         : auto-selection : default is "tooltip"
+		"auto"     : auto-selection : default is "tooltip"
+		"none"     : off
+		"tooltip"  : a file name appears at bottom-left corner
+		"caption"  : a file name appears at window title
+		"both"     : "tooltip" and "caption"
+
+
+	richtip
+
+		no touch : you can override this setting
+
+		""         : auto-selection : once
+		"auto"     : auto-selection : default is "on"
+		"off"      : off
+		"on"       : size for files, count for folders
+
+
+	show_lnk
+
+		no touch : you can override this setting
+
+		""         : auto-selection : once
+		"auto"     : auto-selection : default is "off"
+		"off"      : hide ".lnk"
+		"on"       : show ".lnk"
+
+
+	thread
+
+		no touch : you can override this setting
+
+		""         : auto-selection : once
+		"auto"     : auto-selection : default is "on"
+		"off"      : multi-thread preloader : off
+		"on"       : multi-thread preloader : on
+
+		[ Supported Environment ]
+
+			Win2000 or later
+
+			CPU has two or more cores
+			+ Hyper Threading is included
+
+
+	header
+
+		the last setting will be written
+
+		headers status in a window title menu
+
+		+ default value = "off off off off on"
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Details : Key Binding
+
+	Tab
+
+		move focus between breadcrumb and item view
+
+
+	Arrows
+
+		move focus
+
+
+	Enter
+
+		Open / Run
+
+		+ when an item or a breadcrumb button has focus
+
+
+	Backspace
+
+		navigate back
+
+
+	Menu
+
+		swtich to Info View
+
+
+	Delete
+
+		move a selected item to "Recycle Bin"
+
+		[ Force Deletion ]
+
+		Shift + Delete : Explorer
+		Ctrl  + Delete : Internal File I/O
+
+
+	Ctrl + F
+
+		Name Search
+
+
+	Ctrl + G
+
+		Text Search
+
+
+	Ctrl + C
+
+		copy
+
+
+	Ctrl + V
+
+		paste
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Details : Commandline Option
+
+	"-find:name"
+
+		Search View : name search
+
+
+	"-find:text"
+
+		Search View : text search
+
+
+	"-folder_as_item"
+
+		handle a folder as an item
+
+
+	"-link:off"
+
+		handle shortcut(.LNK) as a file
+
+
+	"-set:-1-1,320,240"
+
+		set initial position and size
+		"-1" means default
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Known Problems
+
+	How to enable Explorer drag and drop
+
+		1 : Folder Options
+		2 : "Display full path in the title bar"
+		3 : check it
+
+		+ but some paths are not available
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+

@@ -1,0 +1,146 @@
+
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Troubleshooter
+
+	Windows 95/98/Me
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Win9x : Icon is inaccurate
+
+	[ Solution ]
+
+	reboot as safe mode
+
+	+ press F8 key while startup
+	+ Win98/Me : you can use "msconfig" too
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Win9x : I cannot drag-and-drop onto some Shortcut files(.LNK)
+
+	[ Example ]
+
+	"c:\path\exename.exe -option" + "dropped_file"
+
+
+	[ Solution ]
+
+	use OrangeCat
+
+
+	[ Details ]
+
+	Explorer doesn't support command-line option
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Win95 : Wheel Mouse doesn't work
+
+	Microsoft IntelliPoint driver is needed
+
+	+ IntelliPoint 3.x is installable in Win95b
+	+ IntelliPoint 4.0 needs IE5.0
+
+	+ MS Download Center hasn't IntelliPoint 3.x and IE5.0
+	+ please search if needed
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Win95 : Programs don't run
+
+	[ Conditions ]
+
+	MSVCRT.DLL is not exist on your system
+
+	+ MSVCRT == Microsoft Visual C Runtime Library
+
+
+	[ Solution ]
+
+	a : install "Internet Explorer 4" or later
+
+	[!] : "integrated desktop installation" is needed
+
+
+	b : searching with "msvcrt download"
+
+	[!] : please find just the same name
+
+
+	[ Details ]
+
+	the DLL needs to be in one of three folders
+
+	1 : nonnon_win
+	2 : Windows
+	3 : Windows\System
+
+	+ IE4 requires Windows\System\MSVCRT.DLL silently
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Win95 : Icons are not beautiful
+
+	[ Solution ]
+
+	1 : use Nonnon Watchcat
+
+
+	2 : set directly
+
+		run "regedit.exe"
+
+
+		HKEY_CURRENT_USER
+		Control Panel
+		Desktop
+		WindowMetrics
+
+		+ select one-by-one
+
+
+		Shell Icon BPP
+
+		+ please make if not exist
+		+ check : space is important
+
+
+		REG_SZ
+
+		+ menu -> edit -> "new" -> "as string"
+
+
+		16
+
+		+ this means "use all colors"
+
+
+		system reboot is needed
+	
+
+	3 : download "Windows 95 Font Smoother"
+
+
+		W95GRAY.EXE
+
+		+ http://www.microsoft.com/typography/free.htm
+		+ Free
+
+
+		one of "PLUS! for Windows95"'s components
+
+		+ Win98 or later have this function
+
+
+		after installing
+
+		+ "Display Properties" -> "Plus!" tab
+		+ "Visual settings"
+		+ "Show icons using all possible colors"
+		+ check
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+

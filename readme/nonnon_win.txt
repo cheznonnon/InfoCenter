@@ -1,0 +1,259 @@
+
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Nonnon Win
+
+	Keep-It-Simple Softwares
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+License
+
+	GPL : GNU GENERAL PUBLIC LICENSE
+
+	"Project Nonnon" has source code
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Helper Components
+
+	libjpeg-turbo
+
+		libjpeg-turbo enables fast .JPG loading
+
+		+ used in x64 version
+
+	libjpeg with x86 SIMD extension
+
+		http://cetus.sakura.ne.jp/softlab/
+
+		libjpeg SIMD enables fast .JPG loading
+
+		+ used in Unicode/ANSI version
+
+	Zlib
+
+		http://www.zlib.net/
+
+		Zlib enables .ZIP and .PNG support
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Privacy Policy
+
+	all programs are portable
+
+	+ "nonnon_win.ini" has your data
+	+ "Nyaurism" will make "nyaurism.ini"
+
+	Registry Usage
+
+		[ Felis ]
+
+			HKEY_CURRENT_USER
+			Software
+			Microsoft
+			Internet Explorer
+			Main
+			FeatureControl
+			FEATURE_BROWSER_EMULATION
+
+			felis.exe : REG_DWORD : 11000 (ver * 1000)
+
+			+ newer versions need this setting
+
+		[ Nonnon Apps ]
+
+			HKEY_CURRENT_USER
+			Software
+			Classes
+			Applications
+			NonnonApps.exe
+
+			IsHostApp : REG_SZ : "" (empty text)
+
+			+ 7 or later : for run an EXE from OrangeCat
+			+ taskbar behavior will be changed
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Global Tips : Triple Clicking
+
+	all input-fields support triple-click feature like webbrowser
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Global Tips : Hovering While Dragging
+
+	application window gets focus when you wait a little moment
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Global Tips : Top/Bottom Border Double-Click
+
+	a resizable window will maximize vertically like Win7
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Global Tips : middle button double click
+
+	a window will be centered
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Global Tips : File Association
+
+	use "Neko no Te"
+	you can register anything you want
+
+	+ you can use "Marie" to know icon number
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Global Tips : OLE IPicture Interface
+
+	Windows native image loader function
+
+		you can load .GIF and .JPG files
+		but you cannot save as these formats
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Global Tips : Vista or later : Desktop Window Manager Support
+
+	[ Transparent Window Support ]
+
+		VisualStyle Compatibility setting is used internally
+
+		+ you can turn off via "File Properties"
+		+ Win8 or later hasn't this setting
+
+
+	[ Direct2D Support ]
+
+		    Name     | Classic | UxTheme |   DWM   |
+		--------------------------------------------
+		Game Console |   OFF   |   OFF   |   ON    |
+		Marie        |   OFF   |   OFF   |   OFF   |
+		Nonnon Paint |   OFF   |   OFF   |   ON    |
+		etc.         |   OFF   |   OFF   |   OFF   |
+
+		+ move or remove DLL to turn off
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Global Tips : Dark Mode Support
+
+	you can enable via INI file
+
+		write below text in nonnon_win.ini
+
+		[NonnonWin]
+		darkmode = on
+
+		"on" "off" and "auto" are available
+		default is "auto", Win10 only
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Global Tips : Fluent UI Support
+
+	you can enable via INI file
+
+		write below text in nonnon_win.ini
+
+		[NonnonWin]
+		fluent_ui = on
+
+		"on" "off" and "auto" are available
+		default is "auto"
+
+		when turned on
+
+		+ Win8 or later
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Trouble-shooter : Open/Save
+
+	read-only or permission denied
+
+		modify with file property
+
+
+	path name is too long
+
+		move or rename the file/folder
+
+
+	for bitmap files
+
+		some special formats are not supported
+
+		convert with "paint.exe"
+		"save as..." with 24bit full color
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Details : ANSI version and Unicode version
+
+	ANSI
+
+		Win9x : system language only available
+		WinNT : system language only available
+
+
+	Unicode
+
+		Win9x : not running
+		WinNT : all languages available
+
+
+	Possible Problem in ANSI version
+
+		[ files and folders ]
+
+		+ file open/save error by some path name
+		+ roman alphabet (ASCII code set) is safe
+
+
+		[ CatPad ]
+
+		+ some kind of text files are not editable
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Developing Environment
+
+	Development
+
+		MinGW
+		http://www.mingw.org/
+
+
+	Compatibility
+
+		Windows 95b OSR2
+		Windows 98 Second Edition
+		Windows Me
+		Windows NT 4.0 Workstation SP6
+		Windows 2000 Professional SP4
+		Windows XP Home SP3
+		Windows Vista Business
+		Windows 7 Home Premium SP1
+		Windows 8.1 Pro
+		Windows 10 Pro
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Disclaimer
+
+	programmers must know everything about their programs,
+	so if a program generates many bugs or weird behaviors
+	programmers cannot know why immediately
+
+	...please wait for the future version (?)
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+

@@ -1,0 +1,187 @@
+
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Curico
+
+	Nonnon Paint Cursor and Icon Support Details
+
+	+ curico.exe was integrated into Nonnon Paint
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+HowToUse : Save Option
+
+
+	Icon : "Favicon" check box
+
+		fullcolor format ON/OFF
+
+
+	Cursor : hot spot
+
+		center of clicking
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+HowToUse : drop to EXE or a window
+
+
+	Folder <=> Multi-Icon/Cursor
+
+
+	[ Multi-Icon/Cursor ??? ]
+
+		a single file which contains many icons/cursors
+
+		[!] : Nonnon Paint cannot handle directly
+
+
+	[ PNG ]
+
+		PNG-Icon/Cursor <=> PNG file
+
+
+	[ Vista or later ]
+
+		a 256x256-sized icon will be scaled
+
+
+	[ Naming ]
+
+		"folder\000.ico" <=> "folder.multi.ico"
+		"folder\000.cur" <=> "folder.multi.cur"
+
+		extension of the first loadable file is used
+		if the folder has PNG only, ".ICO" is used
+
+		Priority : CUR => ICO => PNG
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Details
+
+	[ Explorer uses... ]
+
+		16	small
+		32	large
+		32	normal
+		48	98    : "Use large icons"
+		48	XP    : Tiles
+		48      Vista : Middle
+		64      Vista : Large
+		256     Vista : Extra Large
+		last	XP    : Thumbnails / Filmstrip
+
+		if there is no suitable size, another icon will be used
+		zoom-in/out is not beautiful
+
+		Vista or later : standard size will be changed by DPI
+
+		10 : behavior is changed, see below
+
+
+	[ about Favicon ]
+
+		just a fullcolor icon
+
+		put an icon named "favicon.ico" in top-level of your site
+
+		some browsers support GIF or PNG as Favicon
+		if you want to use other name, you need to edit HTML
+
+		you cannot test in local
+		clear cache and history for testing
+
+
+	[ WinXP or later : about Alpha-Icon ]
+
+		Win2000 or earlier : not displayed in Explorer
+
+
+		[ Condition ]
+
+		a : 32bit full-color format
+		b : alpha value is used
+
+		Vista or later : mask bitmap is not needed
+
+
+		[ Assignment ]
+
+		  0 : not displayed
+		255 : fully displayed
+
+		+ same as PNG
+
+
+	[ WinVista or later : about PNG-Icon ]
+
+		WinXP or earlier : not displayed in Explorer
+
+
+		[ Condition ]
+
+		ICO file format's header + PNG file
+
+
+	[ Win10 ]
+
+		a small icon has priority when ...
+
+		a : used colors are more than larger icons
+		b : alpha value is used (not 0, not 255)
+
+
+	[ How to support all Windows versions ? ]
+
+		order in a Multi-Icon is important
+
+		000.ico :  16px : all
+		001.ico :  32px : 9x/NT4/2000
+		002.ico :  48px : XP/Vista
+		003.png : 256px : Vista/7
+
+
+	[ How to Make Monochrome ICO/CUR ]
+
+		RGB(1,1,1) will be repalced RGB(0,0,0)
+
+		Pro : Win9x    : Cursor : flicker is reduced
+		Con : WinVista : Explorer displays another image
+
+
+	[ Merit of Fullcolor ]
+
+		a : transparent only image available
+		b : Explorer will not use smooth stretching to draw
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Known Problems
+
+	strange behavior when using a white pixel on top-left corner
+
+		Windows changes behavior for mask handling
+		black will be displayed, others will be transparent
+
+
+	Win95 : Explorer displays badly when larger than 255x255
+
+		Win95 doesn't support large icon
+
+
+	WinNT4 : over 256 colors
+
+		not supported : Explorer displays badly
+
+
+	WinVista or later : Explorer displays inaccurate image
+
+		Explorer's bug
+
+		Icon   : not refresh accurately
+		Cursor : display broken images always
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+

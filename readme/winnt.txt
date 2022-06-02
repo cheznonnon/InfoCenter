@@ -1,0 +1,113 @@
+
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Troubleshooter
+
+	Windows NT4.0/2000/XP/Vista/7/8/8.1/10
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+All : Icon is inaccurate
+
+	[ Solution ]
+
+	1 : run Neko no Te
+	2 : run Task Manager
+	3 : stop Explorer process
+	4 : Neko no Te   : titlebar menu : "Refresh Explorer"
+	5 : Task Manager : run Explorer
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+2000 : Programs crash or misbehave
+
+	[ Conditions ]
+
+	+ when using compatibility layer with slayerui.dll
+	+ API might misbehave if Win95/98 is set
+
+
+	[ How To Fix ]
+
+	a : turn off compatibility mode
+	b : delete C:\WINNT\AppPatch\LayerStorage.dat
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Vista or later : Low Graphics Performance in Aero Glass
+
+	[ Solution ]
+
+	use "Basic" or "Classic" theme
+
+	+ but you cannot get the same performance as XP
+
+
+	[ Details ]
+
+	Microsoft has dropped 2D acceleration
+
+	+ 30% slower than XP
+	+ Direct2D/3D cannot improve performance
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Vista or later : Explorer doesn't show a file/folder recently made
+
+	[ Conditions ]
+
+	1 : using a shortcut file (.LNK) to a folder
+	2 : the shortcut file is made by older version of Windows
+
+	Navigation Pane might have two "same name" drives
+
+
+	[ How To Fix ]
+
+	1 : boot Vista or later version
+	2 : open Explorer newly
+	3 : navigate to the target item without using .LNK
+	4 : remake .LNK file
+
+	[!] : strange short-name behavior will happen in XP or earlier
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+10 : Low Graphics Performance
+
+	[ Details ]
+
+	Win10 is 40% slower than Win8.1
+	the both of GDI and Direct2D
+
+	[ Solution ]
+
+	no solution available
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+10 : pen input has lag
+
+	[ there is a problem ]
+
+		Surface Pro 2017 (5th gen.) with Pro 3 pen
+		WACOM Bamboo Ink
+
+	[ No Problem ]
+
+		Surface Pro 3 (Win8.1) with a included pen
+		WACOM Bamboo external tablets
+
+	[ How to fix ]
+
+		+ [!] : currently translated from japanese version
+
+		1 : install Version 1809 (October 2018 Update)
+		2 : "Settings"
+		3 : "Devices"
+		4 : "Pen and Windows Ink"
+		5 : check "use a pen as a mouse with desktop apps"
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+

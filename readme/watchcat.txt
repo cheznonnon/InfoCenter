@@ -1,0 +1,129 @@
+
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Watchcat
+
+	Process Viewer
+
+	+ watchcat.exe was integrated into Nonnon Apps
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Process List
+
+	double click to close the selected process
+
+	+ using WM_CLOSE (safe closing)
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Icon Buttons
+
+	Top-Most Button
+
+		set the main window top-most
+
+
+	The Black Cat Button
+
+		enable forced termination
+
+		Win9x : if using with "Kernel32", system will halt
+
+
+	Window Size Button
+
+		display GUI parts information under a cursor
+
+
+	Class and Styles Button
+
+		display GUI parts information under a cursor
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Titlebar Menu
+
+	1 : Startup Cleaner
+
+		clean auto-startup programs in registry
+		saving as .REG and delete keys
+
+
+		[ How to handle ".reg" ]
+
+		double click
+
+		+ restore into registry
+
+
+		popupmenu -> edit
+
+		+ open with notepad
+		+ like : "registered name" = "EXE path"
+
+
+		[ How to Manage ]
+
+		restore
+		delete
+		make a shortcut in "startup"
+		for backup
+
+
+		[ Targets ]
+
+		HKEY_CURRENT_USER, HKEY_LOCAL_MACHINE
+		Software
+		Microsoft
+		Windows
+		CurrentVersion
+
+		Run			9x/NT
+		RunOnce			9x/NT
+		RunOnceEx		9x
+		RunServices		9x
+		RunServicesOnce		9x
+
+
+	2 : Full Color Icons
+
+		+ only Win95, NT4.0 users need this feature
+
+
+		[ Win95 / NT4.0 ]
+
+		16 color mode is used
+		full color mode is optional
+
+
+		[ Win98/Me/2000/XP ]
+
+		full color mode is used
+		16 color mode is still selectable
+		you can use "Display Properties" to turn on/off
+
+
+		[ WinVista or later ]
+
+		full color only
+		there is no registry key
+
+
+		see "win9x.txt" for more details
+
+
+		[ When applied? ]
+
+		set immediately, but later applied
+
+		Win9x   : after reboot
+		Win2000 : after redraw
+		WinXP   : after re-logon
+
+
+	3 : ---
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+

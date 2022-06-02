@@ -1,0 +1,540 @@
+
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Neko no Te
+
+	Association Tweaker
+
+	??? the association ???
+
+	a : click-to-open mechanism
+	b : setting of ".exe" for ".???"
+
+	+ neko_no_te.exe was integrated into Nonnon Apps
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+HowToUse : user interface
+
+	Basic Usage
+
+		1 : select items with comboboxes
+		2 : press "Go!" button
+
+
+	Extensions
+
+		like ".BMP"
+		almost files have this part in their names
+
+		Explorer might hide this part
+
+		"File Types" will be synchronized automatically
+		you can turn off with a "+" button
+
+
+	File Types
+
+		icon path
+		.EXE path, which is used by Explorer
+
+
+	Go!
+
+		combobox items will be used, not in input fields
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+HowToUse : Add/Find
+
+	1 : set a query word to an input field below a combobox
+	2 : press an icon button at the right side
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+HowToUse : making new data
+
+	1 : you can drop a file when check box is checked
+
+		edit by yourself if needed
+
+		[ Extensions ]
+
+			".bmp" and ".BMP" will be the same
+
+		[ File Types ]
+
+			"%1" will be a opened file name
+
+			%1 and/or "%1"
+			some applications don't support the both
+
+			default is "%1"
+			because many applications support this
+
+
+	2 : press "Add" button
+
+		"Find" first for safety
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Details : Neko no Te's behavior
+
+
+	Win2000 or later
+
+		set as "per user setting"
+
+
+	Deletes Explorer's association-history
+
+		Explorer could display broken images by these data
+
+
+	"Command" will be "Open"
+
+		and it will be "Default Command"
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Details : Titlebar Menu
+
+	+ Please be careful with deletion
+	+ confirmation dialog will appear
+
+
+	Run "regedit.exe"
+
+		run Windows Registry Editor
+
+
+	---
+
+
+	Delete Extension
+
+		delete extension from the registry
+
+
+	Delete File Type
+
+		delete filetype from the registry
+
+
+	---
+
+
+	Refresh
+
+		refresh with latest data
+
+
+	Refresh Explorer
+
+		1 : send SHChangeNotify() with SHCNE_ASSOCCHANGED
+		2 : an icon cache file will be deleted
+
+		+ Win9x : restarting as safe mode is needed
+
+		+ WinNT : restarting Explorer may be needed
+
+			1 : Ctrl + Alt + Del
+			2 : Task Manager
+			3 : stop the task/process of Explorer
+			4 : restart Explorer (a new task)
+
+			+ a little different by Windows versions
+
+
+	---
+
+	Tweak New File
+
+		a new window will appear
+		see below "Details : New File Tweaker"
+
+	---
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Details : New File Tweaker
+
+	tweak new file making machanism
+
+	[ new file ? ]
+
+		1 : menu click on Explorer
+		2 : "New"
+		3 : template files will appear
+
+	[ UI ]
+
+		[ Radio Buttons ]
+
+		System
+			HKEY_LOCAL_MACHINE\Software\Classes
+
+			+ Administrator rights may be needed
+
+		User
+			HKEY_CURRENT_USER\Software\Classes
+
+			+ Win9x/NT4.0 don't support this
+
+
+		[ Extension ]
+
+		a currenty selected extension is used
+
+		Label
+			Register : (Registered)
+				already exist
+			Register : (Not registered)
+				not registered
+		Button
+			Register
+				add "NullFile" to the registry
+			Unregister
+				delete "NullFile" from the registry
+
+		Input Field : "Template"
+
+			+ XP or later only appears
+
+			you can set a template file
+
+			+ a set file is used when you make a new file
+
+		[ File Type ]
+
+		a currenty selected "File Type" is used
+
+		Input Field : "Displayed Name"
+
+			this word is used in a context menu
+
+	[ Known Problems ]
+
+	+ when you run with Admin rights, DnD will be disabled
+
+	+ when many extensions with "NullFile" have "File Type",
+	  a context manu will show the same names
+	  (confusion will be made)
+
+	+ settings may not be applied immediately, wait a few seconds
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Details : Mechanism
+
+
+	The association database
+
+	+ Win9x, WinNT4.0
+
+		HKEY_CLASSES_ROOT
+
+		+ HKEY_LOCAL_MACHINE\Software\Classes
+
+		shared by all users
+
+
+	+ Win2000 or later
+
+		HKEY_CLASSES_ROOT
+
+		+ System : HKEY_LOCAL_MACHINE\Software\Classes
+		+ User   : HKEY_CURRENT_USER\Software\Classes
+
+		"User" has priority
+
+		per-user-setting is available
+		but, "Folder Options" cannot handle this feature
+
+
+	+ WinVista or later
+
+		a : HKEY_CLASSES_ROOT
+
+		+ same as "Win2000"
+		+ but data are protected, users cannot write into it
+
+
+		b : HKEY_CLASSES_ROOT\Applications
+
+		+ including application name and path
+
+		per-user-setting is only available
+		FileExts manages this
+
+		+ "Neko no Te" doesn't handle this feature
+
+
+
+
+	Explorer remembers the history of association
+
+		HKEY_CURRENT_USER
+		Software
+		Microsoft
+		Windows
+		CurrentVersion
+		Explorer
+		FileExts
+		.???
+
+		OpenWithList
+
+			MRU list for associated order
+
+		WinXP : OpenWithProgids
+
+			for HKEY_CLASSES_ROOT\Applications
+
+		WinVista : UserChoice
+
+			for HKEY_CLASSES_ROOT\Applications
+
+
+
+
+	HKEY_CLASSES_ROOT
+
+	1 : Extension Info(.???)
+
+		(Default)
+
+			a name of "File Type"
+
+		other data
+
+			Content Type
+				MIME types
+				like : "image/bmp"
+
+			InfoTip
+				used in a tooltip window
+
+			MP2.Last
+				WMP6.4 may use
+
+			NoOpen
+				???
+
+			XP : PerceivedType
+				for SystemFileAssociations
+
+		some keys have other child keys
+
+			OpenWithList
+				WMP6.4 may use
+
+			PersistentHandler
+				unknown : automatically generated
+
+			shellex
+				Explorer extensions
+
+			ShellNew
+				for making a new file
+
+				"NullFile" : REG_SZ : empty string
+				+ making an empty file
+
+				XP : "FileName" : REG_SZ : string
+				+ for a template file path
+
+			ShellNew-
+				when turned off by tweakui
+
+			XP : "OpenWithProgIds"
+				holding a filetype name as a key
+
+			XP : "Filetype Name"
+				sub key : ShellNew
+
+
+	2 : "File Type" Info
+
+		(Default)
+
+			this name is used in making a new file
+
+			+ Explorer doesn't show without this on a menu
+			+ "Folder Options" can set this
+			+ this relates with EditFlags or ShellNew
+
+
+		EditFlags
+
+			+ REG_DWORD : 65536
+			+ I don't know the details
+
+
+		FriendlyTypeName
+
+			+ localized name resource
+
+
+		Class ID type
+
+			CLSID
+				{ GUID }
+				+ OLE/COM uses
+
+		Command type
+
+			shell
+				value : default command
+
+			shell\<command name>
+				value : a command name
+
+			shell\<command name>\command
+				value : a path name
+
+			shellext
+				{ numbers }
+
+
+		Icon Info
+
+			DefaultIcon
+
+			1 : icon file name(.ico)
+			2 : path,icon number(from zero)
+
+			+ like : C:\folder\xxx.exe,1
+
+
+			minus value means "resource number"
+
+			+ the "resource" includes "icon resources"
+			+ "icon number" means "sorted icon resources"
+			+ names are sorted by alphabetical order
+
+
+	3 : COM database
+
+		CLSID
+		Interface
+		Typelib
+
+
+	4 : metadata
+
+		XP : Applications
+
+			application based information
+
+
+		MIME
+
+			filtype information used in the internet
+
+
+
+
+	[ How to register ]
+
+	a : Control Pannel
+
+		Win9x, NT4.0
+
+			make "File Type" directly
+
+
+		Win2000/XP
+
+			a : make "File Type" directly
+			b : choose one of "File Type"s
+
+		+ "File Type" will be named like "ft000001"
+
+
+		WinVista
+
+			register application name
+
+
+	b : WinXP : assoc.exe command
+
+
+	c : by application's self registration
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+Extra Information
+
+	Win2000 : if the icon name is "migicon.exe"
+
+		your system may not have this file
+
+
+	Win2000 : Notepad's association
+
+		you need to re-install whole system again if broken
+
+		[!] : "Neko no Te" cannot set "print"
+
+		filetype	txtfile
+				"Text Document"
+		icon		C:\WINNT\SYSTEM32\SHELL32.DLL,-152
+		open		C:\WINNT\NOTEPAD.EXE %1
+		print		C:\WINNT\NOTEPAD.EXE /p %1
+
+
+	default "File Type" for bitmap files
+
+		Paint.Picture
+
+
+	Icons aren't refreshed sometimes
+
+		please logoff or reboot
+
+
+		"TweakUI" is convenient
+
+		+ Microsoft's freeware
+
+		+ XP version has a bug
+		+ color depth gets 16 colors sometimes
+
+
+		SHChangeNotify() cannot refresh completely
+
+
+	Associate with files without extension
+
+		use "Unknown" filetype
+
+		+ change "Default Command" to open always
+
+		1 : run "regedit.exe"
+		2 : Unknown\shell
+		3 : change "openas" to "open"
+
+
+	How to know icon number
+
+		a : drop an EXE/DLL to "Marie"
+
+		b : make a shortcut file (.lnk)
+
+			1 : popupmenu
+			2 : "properties"
+			3 : "change icon"
+			4 : "refer to"
+
+			+ icon number is like this
+
+			| #0 | #4 | .. |
+			| #1 | #5 | .. |
+			| #2 | #6 | .. |
+			| #3 | #7 | .. |
+
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
