@@ -60,7 +60,9 @@ NEW_FEATURE
 
 	Nonnon White Noise
 		noise
-			NEW : pseudo-pink noise available
+			OLD : white noise
+			NEW : pink noise
+			[!] : THX! : Audacity Project
 
 
 ----------==========----------==========----------==========----------
