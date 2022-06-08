@@ -9,11 +9,24 @@
 
 ◇ニューフィーチャー
 
-■Nonnon White Noise
+■Nonnon Pink Noise
 
-ホワイトノイズからピンクノイズになったニャ
-Mac で聴いていたらこちらの方がいい感じがするからだニャ
+ホワイトノイズのピンクノイズ版だニャ
+Mac で聴いていたらこちらの方がいい感じがしたニャ
 Audacity のプロジェクトからコードを拝借したニャ
+
+■Nonnon Apps
+
+いくつかの "Nonnon" で始まるショートカット名から "Nonnon" を取ったニャ
+OrangeCat で見やすくするためだニャ
+
+■neutral/wav/filter.c
+
+n_wav_pinknoise() が実装されたニャ
+
+■Nyaurism
+
+"Base - Pink Noise" が実装されたニャ
 
 
 ◇バグフィクス

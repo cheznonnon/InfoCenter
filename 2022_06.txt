@@ -58,11 +58,21 @@ BUGFIX
 NEW_FEATURE
 
 
-	Nonnon White Noise
-		noise
-			OLD : white noise
-			NEW : pink noise
+	neutral/wav/filter.c
+		n_wav_pinknoise()
+			NEW : pink noise generator
+
+	Nonnon Apps
+		shortcut names
+			OLD : "Nonnon *"
+			NEW : "*" except for Nonnon Paint
+	Nonnon Pink Noise
+		released
+			NEW : pink noise generator
 			[!] : THX! : Audacity Project
+	Nyaurism
+		effect : "Base - Pink Noise"
+			NEW : pink noise generator
 
 
 ----------==========----------==========----------==========----------
