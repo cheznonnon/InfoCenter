@@ -20,6 +20,10 @@ Audacity のプロジェクトからコードを拝借したニャ
 いくつかの "Nonnon" で始まるショートカット名から "Nonnon" を取ったニャ
 OrangeCat で見やすくするためだニャ
 
+隠しパラメータ "-nonnon_special" を作ったニャ
+nmixer と Pink Noise と Wheel Axl を一回で呼ぶニャ
+自分用だニャ
+
 ■neutral/wav/filter.c
 
 n_wav_pinknoise() が実装されたニャ
@@ -35,6 +39,10 @@ n_wav_pinknoise() が実装されたニャ
 
 n_win_main() の戻り値を int に変えたニャ
 スタンドアロン版を作っていて VC++ で WPARAM で文句が付くからだニャ
+
+■OrangeCat
+
+Aqua のスタイルの時ダークモードだとホバーエフェクトがぎこちないのを直したニャ
 
 
 [ ０６月２０日 ]

@@ -54,6 +54,11 @@ BUGFIX
 			NEW : int
 			[!] : for making standalone version
 
+	OrangeCat
+		Style "Aqua" : dark mode is ON : when hovered
+			OLD : glitchy
+			NEW : fixed
+
 
 NEW_FEATURE
 
@@ -66,6 +71,10 @@ NEW_FEATURE
 		shortcut names
 			OLD : "Nonnon *"
 			NEW : "*" except for Nonnon Paint
+		hidden parameter
+			NEW : "-nonnon_special"
+			[!] : call nmixer, wheel_axl, pinknoise at once
+			[!] : for myself
 	Nonnon Pink Noise
 		released
 			NEW : pink noise generator
