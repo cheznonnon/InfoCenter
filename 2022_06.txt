@@ -33,7 +33,24 @@ Change Log
 BUGFIX
 
 
+	neutral/string_path.c
+		n_string_path_short2long_is_shortname()
+			OLD : typo in function name
+			NEW : fixed
+
+
 NEW_FEATURE
+
+
+	win32/win_txtbox.c
+		N_WIN_TXTBOX_OPTION_ONELINE_MACLIKE
+			NEW : macOS/Firefox-like shadow
+		N_WIN_TXTBOX_OPTION_ONELINE_RESIZER
+			NEW : moved from CatPad
+			[!] : needed to implement MACLIKE
+		Loader : UTF-8 with no BOM
+			NEW : auto-detection test code is enabled
+			[!] : for Mac Text Edit
 
 
 ----------==========----------==========----------==========----------

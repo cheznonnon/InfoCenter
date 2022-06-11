@@ -49,8 +49,24 @@ Aqua のスタイルの時ダークモードだとホバーエフェクトがぎこちないのを直したニャ
 
 ◇ニューフィーチャー
 
+■win32/win_txtbox.c
+
+N_WIN_TXTBOX_OPTION_ONELINE_MACLIKE
+ONELINE で macOS というか Firefox のような外側にシャドウが付くニャ
+
+N_WIN_TXTBOX_OPTION_ONELINE_RESIZER
+
+MACLIKE の関係で CatPad からコードを移動したニャ
+
+BOM のない UTF-8 のファイルの自動判別のテストを有効にしたニャ
+最終的にはどうなるかまだ不透明だニャ
+
 
 ◇バグフィクス
+
+■neutral/string_path.c
+
+shortname() の関数名にタイポがあったニャ
 
 
 [ ０６月３０日 ]
