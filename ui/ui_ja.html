@@ -1,0 +1,359 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+
+<html>
+
+
+<head>
+
+	<title>NonnonWin UI</title>
+
+
+	<meta
+		http-equiv = "Content-Type"
+		content    = "text/html; charset=utf-8"
+	>
+
+
+	<style type="text/css">
+
+
+	body {
+
+		margin           : 0px;
+		padding          : 2%;
+
+		font-family      : "Segoe UI", "Trebuchet MS", sans-serif;
+		font-weight      : bold;
+
+		background-color : rgb( 222,222,222 );
+		color            : rgb( 111,111,111 );
+
+		scrollbar-3dlight-color    : rgb( 255,255,255 );
+		scrollbar-darkshadow-color : rgb( 255,255,255 );
+
+		scrollbar-shadow-color     : rgb( 222,222,222 );
+		scrollbar-highlight-color  : rgb( 222,222,222 );
+		scrollbar-base-color       : rgb( 255,255,255 );
+		scrollbar-face-color       : rgb( 255,255,255 );
+
+		scrollbar-arrow-color      : rgb(   0,200,255 );
+
+	}
+
+
+	a {
+
+		font-weight      : bold;
+
+		color            : rgb( 200,  0,150 );
+
+	}
+
+
+	.header_big {
+
+		font-size        : 150%;
+		font-weight      : bold;
+
+	}
+
+
+	.header {
+
+		font-size        : 150%;
+		font-weight      : bold;
+
+	}
+
+
+	table {
+
+		width            : 600px;
+
+		font-size        : 100%;
+
+		background-color : rgb( 255,255,255 );
+
+		border-width     : 1px;
+		border-style     : solid;
+		border-color     : rgb(   0,200,255 );
+
+	}
+
+
+	tr.title {
+
+		height           : 80px;
+
+		font-size        : 120%;
+
+		background-color : rgb(   0,200,255 );
+		color            : rgb( 255,255,255 );
+
+	}
+
+
+	td {
+
+		padding          : 4px;
+
+	}
+
+
+	td.center {
+
+		text-align       : center;
+		vertical-align   : middle;
+
+	}
+
+
+	::selection {
+
+		background-color : rgb(   0,200,255 );
+		color            : rgb( 255,255,255 );
+
+	}
+
+	::-moz-selection {
+
+		background-color : rgb(   0,200,255 );
+		color            : rgb( 255,255,255 );
+
+	}
+
+
+	.header_big::selection {
+
+		background-color : rgb( 255,255,255 );
+		color            : rgb(   0,200,255 );
+
+	}
+
+	.header_big::-moz-selection {
+
+		background-color : rgb( 255,255,255 );
+		color            : rgb(   0,200,255 );
+
+	}
+
+
+	pre {
+
+		font-family      : "Meiryo", sans-serif;
+
+	}
+
+
+	</style>
+
+</head>
+
+
+<body>
+<center>
+
+
+<table>
+
+
+<tr class="title">
+
+	<td class="center">
+
+		<b class="header_big">
+
+			Nonnon Win UI カタログ
+
+		</b>
+
+	</td>
+
+</tr>
+
+
+<tr>
+
+	<td class="center">
+
+<pre>
+
+<img src="./image/neko_32x32.png">
+
+Nonnon Win のインフラを紹介するニャ
+
+
+[ 互換性 ]
+
+Win95 でも問題なく動くニャ
+
+高ＤＰＩ、ビジュアルスタイル、DWM、ダークモード、Fluent UI に対応しているニャ
+Fluent UI は今の所はフェイクだニャ
+理由は Win11 のマシンを持っていないからだニャ
+
+
+[ win_button.c ]
+
+アイコンボタンだニャ
+XP のビジュアルスタイルでテーマが適用されないため作ったニャ
+
+<img src="./image/win_button.png">
+
+テキストだけにもできるニャ
+
+<img src="./image/win_button_text.png">
+
+
+[ win_calendar.c ]
+
+日付を表示するニャ
+今の所表示だけでイベントは発生しないニャ
+
+<img src="./image/win_calendar.png">
+
+
+[ win_checkbox.c ]
+
+チェックボックスだニャ
+フェードイン・フェードアウトがちゃんと実装されているニャ
+
+<img src="./image/win_checkbox.png">
+
+
+[ win_colorpicker.c ]
+
+色を選択できる機能だニャ
+色の所をクリックするとグレースケール機能をオンオフできるニャ
+
+<img src="./image/win_colorpicker.png">
+
+
+[ win_combobox.c ]
+
+コンボボックスだニャ
+ホイールを回した時の挙動の良さが自慢だニャ
+
+<img src="./image/win_combobox.png">
+
+
+[ win_filer.c ]
+
+ファイル I/O の GUI 部分だニャ
+
+<img src="./image/win_filer.png">
+
+
+[ win_groupbox.c ]
+
+グループボックスだニャ
+
+<img src="./image/win_groupbox.png">
+
+
+[ win_inputpopup.c ]
+
+入力補助ツールだニャ
+配置が QWERTY でないのは意図的だニャ
+
+<img src="./image/win_inputpopup.png">
+
+
+[ win_radiobutton.c ]
+
+ラジオボタンだニャ
+
+<img src="./image/win_radiobutton.png">
+
+
+[ win_scrollbar.c ]
+
+スクロールバーだニャ
+色んなスタイルが実装されているニャ
+
+<img src="./image/win_scrollbar.png">
+
+
+[ win_simplemenu.c ]
+
+メニューだニャ
+macOS のように半透明になるニャ
+
+<img src="./image/win_simplemenu.png">
+
+
+[ win_sizegrip.c ]
+
+サイズグリップだニャ
+高 DPI でも適切に描画できるニャ
+
+<img src="./image/win_button.png">
+
+
+[ win_smallbutton.c ]
+[ win_smallbutton_direct.c ]
+
+エディットコントロールと拙作 TxtBox に小さなボタンを付けることができるニャ
+
+<img src="./image/win_smallbutton.png">
+
+
+[ win_statusbar_ownerdraw.c ]
+
+ステータスバーのフェイクでダークモード対応版だニャ
+使い方をコモンコントロールと似せているので簡単に実装できるはずだニャ
+
+<img src="./image/win_smallbutton.png">
+
+
+[ win_systray.c ]
+
+通知領域に常駐するプログラムを作る時に使うニャ
+
+<img src="./image/win_systray.png">
+
+
+[ win_txtbox.c ]
+
+いろんなコントロールになるものだニャ
+
+◆LISTBOX◆
+
+n_txt の内容を表示するものだニャ
+
+macOS のように縞々にできるニャ
+行番号を付けることができるニャ
+
+<img src="./image/win_txtbox_listbox.png">
+
+◆ONELINE◆
+
+一行エディット、入力フィールドだニャ
+
+◆EDITBOX◆
+
+テキストエディタだニャ
+
+macOS のように縞々にできるニャ
+行番号を付けることができるニャ
+
+◆CMBBOX◆
+
+コンボボックスのインフラだニャ
+
+</pre>
+
+
+	</td>
+
+</tr>
+
+
+</table>
+
+
+</center>
+</body>
+
+
+</html>
+
