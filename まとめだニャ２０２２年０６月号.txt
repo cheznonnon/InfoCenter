@@ -52,14 +52,17 @@ Aqua のスタイルの時ダークモードだとホバーエフェクトがぎこちないのを直したニャ
 ■win32/win_txtbox.c
 
 N_WIN_TXTBOX_OPTION_ONELINE_MACLIKE
-ONELINE で macOS というか Firefox のような外側にシャドウが付くニャ
+ONELINE で macOS ような外側にぼかしが付くニャ
 
 N_WIN_TXTBOX_OPTION_ONELINE_RESIZER
-
 MACLIKE の関係で CatPad からコードを移動したニャ
 
-BOM のない UTF-8 のファイルの自動判別のテストを有効にしたニャ
-最終的にはどうなるかまだ不透明だニャ
+BOM のない UTF-8 のファイルの強制変換モードを作ったニャ
+
+■CatPad
+
+ドロップ時に Ctrl キーを押すと UTF-8 として扱うニャ
+この機能は将来変更される可能性があるニャ
 
 
 ◇バグフィクス
@@ -67,6 +70,10 @@ BOM のない UTF-8 のファイルの自動判別のテストを有効にしたニャ
 ■neutral/string_path.c
 
 shortname() の関数名にタイポがあったニャ
+
+■win32/win_combobox.c
+
+ポップアップが表示されている時にウィンドウを閉じるとクラッシュするのを直したニャ
 
 
 [ ０６月３０日 ]
