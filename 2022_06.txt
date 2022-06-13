@@ -33,6 +33,10 @@ Change Log
 BUGFIX
 
 
+	neutral/ini.c
+		same or not checker
+			NEW : removed
+			[?] : crash in Nonnon Paint
 	neutral/string_path.c
 		n_string_path_short2long_is_shortname()
 			OLD : typo in function name
@@ -41,6 +45,15 @@ BUGFIX
 	win32/win_combobox.c
 		popup : close a parent window when a popup is appeared
 			OLD : crash
+			NEW : fixed
+	win32/win_scrollbar.c
+		some comments
+			OLD : not accurate
+			NEW : fixed
+
+	Nonnon Paint
+		Multi Layer : F2 "Fork" 
+			OLD : crash in some cases
 			NEW : fixed
 
 
