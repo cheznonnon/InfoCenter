@@ -50,6 +50,13 @@ BUGFIX
 		some comments
 			OLD : not accurate
 			NEW : fixed
+	win32/win_simplemenu.c
+		Light Theme
+			NEW : re-tuned
+	win32/win_txtbox.c
+		EDITBOX : High DPI
+			OLD : black lines at the left side
+			NEW : fixed
 
 	Nonnon Paint
 		Multi Layer : F2 "Fork" 

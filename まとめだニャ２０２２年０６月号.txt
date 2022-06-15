@@ -88,6 +88,14 @@ Nonnon Paint でクラッシュしたためだニャ
 
 F2 "Fork" をマルチレイヤーに使うとクラッシュすることがあるのを直したニャ
 
+■win32/win_txtbox.c
+
+EDITBOX : Fluent UI がオフで高 DPI の時に右端に黒い領域ができるのを直したニャ
+
+■win32/win_simplemenu.c
+
+ライトの配色をもっと見やすくしたニャ
+
 
 [ ０６月３０日 ]
 
