@@ -33,6 +33,11 @@ Change Log
 BUGFIX
 
 
+	game/sound/vfw.c
+		include guard
+			OLD : missing
+			NEW : fixed
+
 	neutral/ini.c
 		same or not checker
 			NEW : removed
@@ -42,6 +47,10 @@ BUGFIX
 			OLD : typo in function name
 			NEW : fixed
 
+	win32/win_button.c
+		Visual Style : icon
+			OLD : not clipped
+			NEW : fixed
 	win32/win_combobox.c
 		popup : close a parent window when a popup is appeared
 			OLD : crash
@@ -55,13 +64,14 @@ BUGFIX
 			NEW : re-tuned
 	win32/win_txtbox.c
 		EDITBOX : High DPI
-			OLD : black lines at the left side
+			OLD : black lines at the right side
 			NEW : fixed
 
-	Nonnon Paint
-		Multi Layer : F2 "Fork" 
-			OLD : crash in some cases
+	All
+		Rich Dialog based Diaogs
+			OLD : crash when closed before a sound playback
 			NEW : fixed
+			[x] : buggy : Win32 PlaySound() API causes
 
 
 NEW_FEATURE
