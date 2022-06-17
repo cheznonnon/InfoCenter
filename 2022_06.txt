@@ -46,6 +46,12 @@ BUGFIX
 		n_string_path_short2long_is_shortname()
 			OLD : typo in function name
 			NEW : fixed
+		n_string_path_ext_get_cch()
+			OLD : access violation
+			NEW : fixed
+		n_string_path_ext_get()
+			OLD : double-NUL is not written
+			NEW : fixed
 
 	win32/win_button.c
 		Visual Style : icon
@@ -71,7 +77,7 @@ BUGFIX
 		Rich Dialog based Diaogs
 			OLD : crash when closed before a sound playback
 			NEW : fixed
-			[x] : buggy : Win32 PlaySound() API causes
+			[x] : n_string_path_ext_get_cch() causes
 
 
 NEW_FEATURE

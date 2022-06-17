@@ -71,6 +71,8 @@ BOM のない UTF-8 のファイルの強制変換モードを作ったニャ
 
 shortname() の関数名にタイポがあったニャ
 
+n_string_path_ext_get() でアクセス違反とダブル NUL にならない問題を直したニャ
+
 ■win32/win_combobox.c
 
 ポップアップが表示されている時にウィンドウを閉じるとクラッシュするのを直したニャ
@@ -87,7 +89,6 @@ Nonnon Paint でクラッシュしたためだニャ
 ■All
 
 ダイアログを使うとクラッシュすることがあるのを直したニャ
-Win32 PlaySound() API のバグだったニャ
 
 ■win32/win_txtbox.c
 
