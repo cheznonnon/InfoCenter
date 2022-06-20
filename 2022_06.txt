@@ -57,6 +57,9 @@ BUGFIX
 		Visual Style : icon
 			OLD : not clipped
 			NEW : fixed
+		Light Theme
+			OLD : system highlight color
+			NEW : accent color based
 	win32/win_combobox.c
 		popup : close a parent window when a popup is appeared
 			OLD : crash
@@ -74,7 +77,7 @@ BUGFIX
 			NEW : fixed
 
 	All
-		Rich Dialog based Diaogs
+		Rich Dialog based Dialogs
 			OLD : crash when closed before a sound playback
 			NEW : fixed
 			[x] : n_string_path_ext_get_cch() causes
@@ -93,6 +96,12 @@ NEW_FEATURE
 			NEW : force conversion mode is added
 			[!] : set n_win_txtbox_txt_load_force_utf8
 			[!] : for Mac Text Edit
+
+	All : Toolband
+		Win8 support
+			NEW : deprecated
+			[?] : too much complicated
+			[!] : band color will be button face
 
 
 ----------==========----------==========----------==========----------
