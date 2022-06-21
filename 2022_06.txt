@@ -75,12 +75,19 @@ BUGFIX
 		EDITBOX : High DPI
 			OLD : black lines at the right side
 			NEW : fixed
+		LISTBOX : EFFECTS
+			OLD : text highlight area is insufficient
+			NEW : fixed
 
 	All
 		Rich Dialog based Dialogs
 			OLD : crash when closed before a sound playback
 			NEW : fixed
 			[x] : n_string_path_ext_get_cch() causes
+	Nonnon Apps
+		Favorites2HTML : dark mode : link color
+			OLD : too dark
+			NEW : fixed
 
 
 NEW_FEATURE

@@ -98,6 +98,8 @@ Nonnon Paint でクラッシュしたためだニャ
 
 EDITBOX : Fluent UI がオフで高 DPI の時に右端に黒い領域ができるのを直したニャ
 
+LISTBOX : LISTBOX_EFFECTS : ハイライトが足りなくなるのを直したニャ
+
 ■win32/win_simplemenu.c
 
 ライトの配色をもっと見やすくしたニャ
@@ -116,6 +118,10 @@ EDITBOX : Fluent UI がオフで高 DPI の時に右端に黒い領域ができるのを直したニャ
 
 Win8 のタイトルバーと同じ色にするのを廃止したニャ
 あまりに複雑で手に負えないからだニャ
+
+■Favorites2HTML
+
+ダークモードの時にリンクの色が暗すぎるのを直したニャ
 
 
 [ ０６月３０日 ]
