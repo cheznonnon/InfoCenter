@@ -18,7 +18,18 @@ Change Log
 BUGFIX
 
 
+	Nonnon Typing
+		when input quickly
+			OLD : jammed
+			NEW : fixed
+
+
 NEW_FEATURE
+
+
+	neutral/posix.c
+		n_posix_stat_is_file() : when path is empty
+			NEW : faster than older
 
 
 ----------==========----------==========----------==========----------
