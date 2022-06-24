@@ -18,6 +18,11 @@ Change Log
 BUGFIX
 
 
+	neutral/string_path.c
+		n_string_path_short2long() : under non-Windows
+			OLD : compile error
+			NEW : fixed
+
 	Nonnon Typing
 		when input quickly
 			OLD : jammed
@@ -30,6 +35,9 @@ NEW_FEATURE
 	neutral/posix.c
 		n_posix_stat_is_file() : when path is empty
 			NEW : faster than older
+		macOS support
+			NEW : partially added
+			[!] : currently no compile errors but not working
 
 
 ----------==========----------==========----------==========----------
