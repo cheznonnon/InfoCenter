@@ -23,6 +23,14 @@ BUGFIX
 			OLD : compile error
 			NEW : fixed
 
+	win32/win_txtbox.c
+		caret : when out-of-screen
+			OLD : a first line is painted by background color
+			NEW : fixed
+		caret : EDITBOX : when lost focus
+			OLD : not redrawn
+			NEW : fixed
+
 	Nonnon Typing
 		when input quickly
 			OLD : jammed
