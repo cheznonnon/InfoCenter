@@ -30,6 +30,9 @@ BUGFIX
 		caret : EDITBOX : when lost focus
 			OLD : not redrawn
 			NEW : fixed
+		at launch : when shift key is pressed
+			OLD : not drawn
+			NEW : fixed
 
 	Nonnon Typing
 		when input quickly
