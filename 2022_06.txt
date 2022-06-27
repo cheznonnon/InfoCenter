@@ -50,6 +50,15 @@ NEW_FEATURE
 			NEW : partially added
 			[!] : currently no compile errors but not working
 
+	win32/win_txtbox.c
+		stripe color
+			NEW: re-tuned
+			[!] : default will be gray, IME On will be old default
+
+	OrangeCat
+		dark mode : special color
+			NEW : re-tuned
+
 
 ----------==========----------==========----------==========----------
 
