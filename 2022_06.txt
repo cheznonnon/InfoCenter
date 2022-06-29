@@ -43,12 +43,15 @@ BUGFIX
 NEW_FEATURE
 
 
+	mac
+		released
+			NEW : macOS helper functions
+
 	neutral/posix.c
 		n_posix_stat_is_file() : when path is empty
 			NEW : faster than older
 		macOS support
-			NEW : partially added
-			[!] : currently no compile errors but not working
+			NEW : added
 
 	win32/win_txtbox.c
 		stripe color
