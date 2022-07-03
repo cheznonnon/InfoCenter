@@ -11,7 +11,7 @@
 
 ■mac
 
-n_imageview.c がリリースされたニャ
+n_imageview.c と n_scrollview.c がリリースされたニャ
 テンプレートファイルだニャ
 DnD を手動で実装する方法のサンプルだニャ
 
