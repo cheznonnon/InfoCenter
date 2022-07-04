@@ -51,6 +51,11 @@ BUGFIX
 NEW_FEATURE
 
 
+	mac/image.c
+		n_mac_image_text()
+			NEW : draw NSString into NSImage
+			[!] : vertical centering available
+			[!] : etched shadow available
 	mac/n_imageview.c
 		released
 			NEW : manual DnD sample template
