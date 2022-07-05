@@ -48,6 +48,17 @@ Change Log
 BUGFIX
 
 
+	neutral/png.c
+		n_png_compress() : under 256 colors with alpha
+			OLD : not made / broken image will be saved
+			NEW : fixed
+
+	Nonnon Paint
+		Formatter : PNG
+			OLD : you cannot make an image under 256 colors with alpha
+			NEW : fixed
+
+
 NEW_FEATURE
 
 
@@ -63,6 +74,9 @@ NEW_FEATURE
 		released
 			NEW : manual DnD sample template
 			[!] : grab N drag sample also implemented
+	mac/sound.c
+		released
+			NEW : sound player wrapper
 	mac/window.c
 		n_mac_window_image2window()
 			NEW : NSScrollView is implemented
