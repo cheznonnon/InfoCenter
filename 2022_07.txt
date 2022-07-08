@@ -70,6 +70,18 @@ NEW_FEATURE
 	mac/n_imageview.c
 		released
 			NEW : manual DnD sample template
+	mac/n_listbox.c
+		released
+			NEW : Nonnon Original Listbox
+			[!] : in Mac world, there is no listbox
+	mac/n_textfield.c
+		released
+			NEW : wrapper of NSTextField
+			[!] : for accurate DnD
+	mac/n_textview.c
+		released
+			NEW : sample template
+			[!] : I've made before mac/n_listbox.c is made
 	mac/n_scrollview.c
 		released
 			NEW : manual DnD sample template
