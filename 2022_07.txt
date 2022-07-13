@@ -33,7 +33,21 @@ Change Log
 BUGFIX
 
 
+	game/*.c
+		inline
+			OLD : inline
+			NEW : n_posix_inline
+			[!] : for Mac support
+
+
 NEW_FEATURE
+
+
+	mac
+		all
+			NEW : more features are added
+		n_game.c
+			NEW : simple game engine by NSView subclass
 
 
 ----------==========----------==========----------==========----------
