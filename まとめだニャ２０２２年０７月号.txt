@@ -51,6 +51,10 @@ n_game.c が追加されたニャ
 
 Mac に対応するため inline を n_posix_inline に置き換えたニャ
 
+■neutral/posix.c
+
+n_posix_tickcount() が Windows でない環境で正常に動かないのを直したニャ
+
 
 [ ０７月３０日 ]
 

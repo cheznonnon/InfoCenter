@@ -39,6 +39,11 @@ BUGFIX
 			NEW : n_posix_inline
 			[!] : for Mac support
 
+	neutral/posix.c
+		n_posix_tickcount() : Non-Windows environment
+			OLD : inaccurate behavior
+			NEW : fixed
+
 
 NEW_FEATURE
 
