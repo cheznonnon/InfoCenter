@@ -43,6 +43,9 @@ BUGFIX
 		n_posix_tickcount() : Non-Windows environment
 			OLD : inaccurate behavior
 			NEW : fixed
+		n_posix_sleep() : Non-Windows environment
+			OLD : inaccurate behavior
+			NEW : fixed
 
 
 NEW_FEATURE
