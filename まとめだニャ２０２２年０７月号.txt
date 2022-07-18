@@ -44,6 +44,14 @@ n_png_compress() でアルファ付き２５６色以下のファイルが作れないのを直したニャ
 
 n_game.c が追加されたニャ
 
+Marie, Project Checker, hunyapiyo3 まで移植したニャ
+
+■neutral/bmp.c
+
+n_bmp_flip_onoff が付いたニャ
+オンにすると上下が反対になるニャ
+劇薬なので慎重に使うニャ
+
 
 ◇バグフィクス
 
@@ -55,6 +63,11 @@ Mac に対応するため inline を n_posix_inline に置き換えたニャ
 
 n_posix_tickcount() が Windows でない環境で正常に動かないのを直したニャ
 n_posix_sleep() も Windows でない環境で正常に動かないのを直したニャ
+
+■Nonnon Paint
+
+ペンサイズが 1px の時と 3px の時に適切に動かないのを直したニャ
+いくつかの問題がもつれていたニャ
 
 
 [ ０７月３０日 ]

@@ -47,6 +47,11 @@ BUGFIX
 			OLD : inaccurate behavior
 			NEW : fixed
 
+	Nonnon Paint
+		Pen : 1px and 3px
+			OLD : misbehave by some Mix values
+			NEW : fixed
+
 
 NEW_FEATURE
 
@@ -56,6 +61,12 @@ NEW_FEATURE
 			NEW : more features are added
 		n_game.c
 			NEW : simple game engine by NSView subclass
+
+	neutral/bmp.c
+		n_bmp_flip_onoff
+			NEW : upside-down option
+			[!] : for performance on Mac
+			[!] : very strong tool, use carefully
 
 
 ----------==========----------==========----------==========----------
