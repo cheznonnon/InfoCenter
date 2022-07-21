@@ -52,6 +52,10 @@ n_bmp_flip_onoff が付いたニャ
 オンにすると上下が反対になるニャ
 劇薬なので慎重に使うニャ
 
+■project/cardgenerator.c
+
+Mac に対応したニャ
+
 
 ◇バグフィクス
 
@@ -74,8 +78,27 @@ n_posix_sleep() も Windows でない環境で正常に動かないのを直したニャ
 
 ◇ニューフィーチャー
 
+■Nonnon for Mac
+
+Marie / Project Checker / Freecell / hunyapiyo3 ができたニャ
+野良アプリでいいのならダウンロードするニャ
+やり方は調べるのニャ
+今の所 macOS 10.15 Catalina 以降と intel CPU がサポート対象だニャ
+M1 M2 とか Retina ディスプレイで動くのかは正直謎だニャ
+
+将来的には１００円でアプリストアで売りたいと思っているニャ
+
 
 ◇バグフィクス
+
+■project/cardgenerator.c
+
+Mac 対応でファウンデーション画像が上下反転しているのを直したニャ
+
+■mac/window.c
+
+n_mac_window_image2window() が正確に動くようになったニャ
+クライアント領域を指定して枠を自動処理するには setContentSize メソッドを使うニャ
 
 ----------==========----------==========----------==========----------
 

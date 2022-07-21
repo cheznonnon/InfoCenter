@@ -18,7 +18,24 @@ Change Log
 BUGFIX
 
 
+	mac/window.c
+		n_mac_window_image2window() : window size
+			NEW : accurate than older
+
+	project/cardgenerator.c
+		Mac Support : foundation image
+			OLD : not flipped
+			NEW : fixed
+
+
 NEW_FEATURE
+
+
+	Nonnon for Mac
+		released
+			NEW : Marie / Project Checker / Freecell / hunyapiyo3 are available
+			[!] : please search how to install
+			[!] : macOS 10.15 Catalina with intel CPU only supported
 
 
 ----------==========----------==========----------==========----------
@@ -67,6 +84,10 @@ NEW_FEATURE
 			NEW : upside-down option
 			[!] : for performance on Mac
 			[!] : very strong tool, use carefully
+
+	project/cardgenerator.c
+		code
+			NEW : Mac is supported
 
 
 ----------==========----------==========----------==========----------
