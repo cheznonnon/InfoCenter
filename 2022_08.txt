@@ -1,0 +1,71 @@
+
+
+----------==========----------==========----------==========----------
+
+
+"Eat Your Own Catfood."
+
+
+----------==========----------==========----------==========----------
+
+
+Change Log
+
+
+2022/08/30
+
+
+BUGFIX
+
+
+NEW_FEATURE
+
+
+----------==========----------==========----------==========----------
+
+
+Change Log
+
+
+2022/08/20
+
+
+BUGFIX
+
+
+NEW_FEATURE
+
+
+----------==========----------==========----------==========----------
+
+
+Change Log
+
+
+2022/08/10
+
+
+BUGFIX
+
+
+	mac/window.c
+		n_mac_window_image2window()
+			OLD : inaccurate behavior
+			NEW : fixed
+
+
+NEW_FEATURE
+
+
+	mac/n_listbox.c
+		Fake Scroller
+			NEW : overlay scroller is available
+	mac/window.c
+		n_mac_cursor_positon_get()
+			NEW : cursor position getter
+		n_mac_window_is_hovered_offsset_by_rect()
+			NEW : is_hovered checker
+
+
+----------==========----------==========----------==========----------
+
