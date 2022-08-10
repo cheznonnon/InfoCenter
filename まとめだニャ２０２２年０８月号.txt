@@ -16,13 +16,21 @@
 ■mac/window.c
 
 n_mac_cursor_positon_get() でカーソル位置を取得できるニャ
-n_mac_window_is_hovered_offsset_by_rect() で更に当たり判定ができるニャ
+n_mac_window_is_hovered_offset_by_rect() で更に当たり判定ができるニャ
+
+■mac/n_textfield.c
+
+DnD の時にフィールドがフェードするニャ
 
 ◇バグフィクス
 
 ■mac/window.c
 
 n_mac_window_image2window() が適当な動きをするのを直したニャ
+
+■neutral/bmp/ui/roundframe.c
+
+グレースケールでない色でエッジが綺麗でないのを直したニャ
 
 
 [ ０８月２０日 ]

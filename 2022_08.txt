@@ -53,6 +53,11 @@ BUGFIX
 			OLD : inaccurate behavior
 			NEW : fixed
 
+	neutral/bmp/ui/roundframe.c
+		n_bmp_ui_roundframe() : not gray-scaled color
+			OLD : artifacts in an inner frame
+			NEW : fixed
+
 
 NEW_FEATURE
 
@@ -60,10 +65,13 @@ NEW_FEATURE
 	mac/n_listbox.c
 		Fake Scroller
 			NEW : overlay scroller is available
+	mac/n_textfield.c
+		DnD
+			NEW : fade effect for droppable sign available
 	mac/window.c
 		n_mac_cursor_positon_get()
 			NEW : cursor position getter
-		n_mac_window_is_hovered_offsset_by_rect()
+		n_mac_window_is_hovered_offset_by_rect()
 			NEW : is_hovered checker
 
 
