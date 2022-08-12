@@ -37,6 +37,12 @@ n_mac_window_image2window() が適当な動きをするのを直したニャ
 
 ◇ニューフィーチャー
 
+■Nonnon for Mac
+
+Freecell がリサイザブルウィンドウになったニャ
+
+Freecell にフェードインが付いたニャ
+
 
 ◇バグフィクス
 

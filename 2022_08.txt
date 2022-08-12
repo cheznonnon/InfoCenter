@@ -36,6 +36,14 @@ BUGFIX
 NEW_FEATURE
 
 
+	Nonnon for Mac
+		Freecell : window
+			OLD : fixed
+			NEW : resizable
+		Freecell
+			NEW : fade-in available
+
+
 ----------==========----------==========----------==========----------
 
 
