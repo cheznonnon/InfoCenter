@@ -34,8 +34,8 @@ BUGFIX
 
 
 	win32/win_txtbox.c
-		triple click : when full-width and half-width characters are mixed
-			OLD : caret moves the left most side
+		triple click
+			OLD : caret moves the left most side in some cases
 			NEW : fixed
 
 
