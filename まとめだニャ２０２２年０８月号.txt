@@ -39,12 +39,26 @@ n_mac_window_image2window() が適当な動きをするのを直したニャ
 
 ■Nonnon for Mac
 
-Freecell がリサイザブルウィンドウになったニャ
+Freecell がもっと Win32 版に近くなったニャ
 
-Freecell にフェードインが付いたニャ
+・リサイザブルウィンドウになったニャ
+・フェードインが付いたニャ
+・シャドウが付いたニャ
+
+Project Checker に行番号が付いたニャ
+Project Checker に違う行を指摘する機能を復活させたニャ
+
+■Game Console
+
+Freecell と Spider のドロップシャドウが自然になったニャ
+Mac 版のいい影響だニャ
 
 
 ◇バグフィクス
+
+■win32/win_txtbox.c
+
+行の中に半角と全角が混在した時にトリプルクリックするとキャレットが先頭に移動するのを直したニャ
 
 
 [ ０８月３０日 ]

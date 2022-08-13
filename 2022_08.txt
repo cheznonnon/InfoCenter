@@ -33,15 +33,31 @@ Change Log
 BUGFIX
 
 
+	win32/win_txtbox.c
+		triple click : when full-width and half-width characters are mixed
+			OLD : caret moves the left most side
+			NEW : fixed
+
+
 NEW_FEATURE
 
 
-	Nonnon for Mac
-		Freecell : window
+	Game Console
+		Freecell and Spider : drop shadow
+			NEW : more natural than older
+	Nonnon Freecell for Mac
+		window
 			OLD : fixed
 			NEW : resizable
-		Freecell
+		when launched
 			NEW : fade-in available
+		drop shadow
+			NEW : revived
+	Project Checker for Mac
+		line number
+			NEW : implemented
+		text comaparison
+			NEW : output the first different line number
 
 
 ----------==========----------==========----------==========----------
