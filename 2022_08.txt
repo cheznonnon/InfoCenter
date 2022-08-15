@@ -70,6 +70,8 @@ NEW_FEATURE
 			NEW : implemented
 		text comaparison
 			NEW : output the first different line number
+		Complete Mode
+			NEW : implemented
 
 
 ----------==========----------==========----------==========----------

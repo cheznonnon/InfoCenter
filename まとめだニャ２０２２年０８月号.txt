@@ -45,8 +45,11 @@ Freecell がもっと Win32 版に近くなったニャ
 ・フェードインが付いたニャ
 ・シャドウが付いたニャ
 
-Project Checker に行番号が付いたニャ
-Project Checker に違う行を指摘する機能を復活させたニャ
+Project Checker がもっと Win32 版に近くなったニャ
+
+・行番号が付いたニャ
+・違う行を指摘する機能を復活させたニャ
+・"Complete Mode" が付いたニャ
 
 ■Game Console
 
