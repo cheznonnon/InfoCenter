@@ -40,6 +40,10 @@ BUGFIX
 		scroller #2
 			OLD : capture-like behavior is not implemented
 			NEW : fixed
+		parent object
+			OLD : NSScrollView
+			NEW : NSView
+			[!] : for keyboard event
 
 	win32/win_txtbox.c
 		triple click
