@@ -33,6 +33,10 @@ Change Log
 BUGFIX
 
 
+	mac/n_game.c
+		key input
+			OLD : does not happen
+			NEW : fixed
 	mac/n_listbox.c
 		scroller #1
 			OLD : thumb handling is a little inaccurate
@@ -54,6 +58,9 @@ BUGFIX
 NEW_FEATURE
 
 
+	mac/n_game.c
+		logic
+			NEW : refreshed
 	mac/n_txtbox.c
 		released
 			NEW : currently implemented as n_txt viewer
@@ -61,6 +68,12 @@ NEW_FEATURE
 	Game Console
 		Freecell and Spider : drop shadow
 			NEW : more natural than older
+	Marie for Mac
+		resampler
+			NEW : implemented
+			[!] : default is ON
+		source code
+			NEW : refactored
 	Nonnon Freecell for Mac
 		window
 			OLD : fixed
