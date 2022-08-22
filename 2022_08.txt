@@ -21,6 +21,17 @@ BUGFIX
 NEW_FEATURE
 
 
+	mac/n_txtbox.c
+		double click and triple click
+			NEW : implemented
+		multi-line copy
+			NEW : implemented
+		display newlines
+			NEW : implemented
+		keyboard input
+			NEW : partially implemented
+
+
 ----------==========----------==========----------==========----------
 
 
