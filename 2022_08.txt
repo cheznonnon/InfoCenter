@@ -26,10 +26,14 @@ NEW_FEATURE
 			NEW : implemented
 		multi-line copy
 			NEW : implemented
-		display newlines
+		visible newlines and tabs
 			NEW : implemented
 		keyboard input
-			NEW : partially implemented
+			NEW : implemented
+			[!] : IME is not implemented yet
+		save
+			NEW : implemented
+			[!] : Unicode LE/BE/UTF-8(no BOM) only
 
 
 ----------==========----------==========----------==========----------
