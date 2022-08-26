@@ -18,6 +18,17 @@ Change Log
 BUGFIX
 
 
+	win32/win_smallbutton_direct.c
+		double click
+			OLD : not handled
+			NEW : accept
+
+	CatPad
+		Search Field : icon button
+			OLD : rapid fire is not available
+			NEW : fixed
+
+
 NEW_FEATURE
 
 
