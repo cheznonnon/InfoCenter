@@ -45,6 +45,9 @@ NEW_FEATURE
 		save
 			NEW : implemented
 			[!] : Unicode LE/BE/UTF-8(no BOM) only
+		undo
+			NEW : implemented
+			[!] : smarter than Win32 version
 
 
 ----------==========----------==========----------==========----------
