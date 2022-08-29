@@ -18,6 +18,12 @@ Change Log
 BUGFIX
 
 
+	floss/zlib.c
+		deflate.c and tree.c
+			OLD : crash
+			NEW : revert to old version
+			[!] : many warnings are revived
+
 	win32/win_smallbutton_direct.c
 		double click
 			OLD : not handled
@@ -27,6 +33,11 @@ BUGFIX
 		Search Field : icon button
 			OLD : rapid fire is not available
 			NEW : fixed
+	Nonnon Paint
+		Save : PNG
+			OLD : crash
+			NEW : fixed
+			[!] : Mac supported code causes
 
 
 NEW_FEATURE
