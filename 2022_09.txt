@@ -1,0 +1,74 @@
+
+
+----------==========----------==========----------==========----------
+
+
+"Eat Your Own Catfood."
+
+
+----------==========----------==========----------==========----------
+
+
+Change Log
+
+
+2022/09/30
+
+
+BUGFIX
+
+
+NEW_FEATURE
+
+
+----------==========----------==========----------==========----------
+
+
+Change Log
+
+
+2022/09/20
+
+
+BUGFIX
+
+
+NEW_FEATURE
+
+
+----------==========----------==========----------==========----------
+
+
+Change Log
+
+
+2022/09/10
+
+
+BUGFIX
+
+
+	mac/_mac.c
+		n_mac_topmost()
+			OLD : not working
+			NEW : fixed
+
+
+NEW_FEATURE
+
+
+	CatPad for Mac
+		Save Button
+			NEW : implemented
+		Search Field
+			NEW : implemented
+		Topmost Window
+			NEW : implemented
+		Run Calculator
+			NEW : implemented
+		Dump
+			NEW : implemented
+
+
+----------==========----------==========----------==========----------
+
