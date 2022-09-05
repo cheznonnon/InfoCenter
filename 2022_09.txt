@@ -52,6 +52,10 @@ BUGFIX
 		n_mac_topmost()
 			OLD : not working
 			NEW : fixed
+	mac/n_txtbox.c
+		Save : Unicode LE/BE
+			OLD : broken
+			NEW : fixed
 
 
 NEW_FEATURE
@@ -67,6 +71,12 @@ NEW_FEATURE
 		Run Calculator
 			NEW : implemented
 		Dump
+			NEW : implemented
+		IME
+			NEW : implemented
+		Accent Composition
+			NEW : implemented
+		Blinking Caret
 			NEW : implemented
 
 
