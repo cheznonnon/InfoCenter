@@ -56,6 +56,15 @@ BUGFIX
 		Save : Unicode LE/BE
 			OLD : broken
 			NEW : fixed
+		Save : N_TXT_UNICODE_UTF8_NO_BOM
+			NEW : seaprated from N_TXT_UNICODE_UTF
+			[!] : if there is BOM at loading, set BOM at saving when _UTF
+			[!] : else no BOM will be added when UTF8_NO_BOM
+
+	win32/win_txtbox/00_helper.c
+		n_win_txtbox_is_accentmark_char()
+			OLD : code alignment error
+			NEW : fixed
 
 
 NEW_FEATURE

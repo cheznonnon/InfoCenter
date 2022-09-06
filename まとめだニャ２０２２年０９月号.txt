@@ -42,6 +42,13 @@ n_mac_topmost() が機能しないのを直したニャ
 
 Unicode LE/BE の保存が壊れているのを直したニャ
 
+UTF8_NO_BOM を作って BOM のあるものは付けて保存するようにしたニャ
+
+■win32/win_txtbox/00_helper.c
+
+n_win_txtbox_is_accentmark_char() のコードに体裁の問題があったのを直したニャ
+スペースを入れる位置がおかしいというものだニャ
+
 
 [ ０９月２０日 ]
 
