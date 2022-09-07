@@ -60,6 +60,22 @@ BUGFIX
 			NEW : seaprated from N_TXT_UNICODE_UTF
 			[!] : if there is BOM at loading, set BOM at saving when _UTF
 			[!] : else no BOM will be added when UTF8_NO_BOM
+		double click
+			OLD : invalid value will be set
+			NEW : fixed
+		key bindings : enter key
+			OLD : internal confusion will occur
+			NEW : fixed
+		paste
+			OLD : crash
+			NEW : fixed
+			[x] : realloc() causes
+
+	neutral/vector.c
+		Mac : n_vector_load_on_memory()
+			OLD : crash
+			NEW : patched
+			[x] : realloc() causes
 
 	win32/win_txtbox/00_helper.c
 		n_win_txtbox_is_accentmark_char()
@@ -86,6 +102,8 @@ NEW_FEATURE
 		Accent Composition
 			NEW : implemented
 		Blinking Caret
+			NEW : implemented
+		Middle Button Grag N Drag
 			NEW : implemented
 
 
