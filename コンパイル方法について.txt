@@ -3,184 +3,187 @@
 
 Project Nonnon
 
-	�R���p�C�����@�ɂ���
+	コンパイル方法について
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-Details : �����_�E�����[�h����΂����̂�
+Details : 何をダウンロードすればいいのか
 
-	GitHub �ł͓��t�Ń����[�X���Ǘ�����Ă��܂�
+	GitHub では日付でリリースが管理されています
 
-		+ �v���W�F�N�g�����ł� 10/20/30 ���ɒ��ԃ����[�X���Ă��܂�
-		+ ���̂��� 30 ���̃����[�X�� GitHub �Ō��J���Ă��܂�
+		+ プロジェクト内部では 10/20/30 日に中間リリースしています
+		+ そのうち 30 日のリリースを GitHub で公開しています
 
-	�ŐV�ł̃y�[�W���J���� ZIP �̍��ڂ��N���b�N���܂�
-	��ʂ��J�ڂ����� "Download" ��I�т܂�
-	�ǂ��Ƀ_�E�����[�h����邩�̓u���E�U�� Windows �ɂ���ĈႢ�܂�
+	最新版のページを開いて ZIP の項目をクリックします
+	画面が遷移したら "Download" を選びます
+	どこにダウンロードされるかはブラウザや Windows によって違います
 
 	[ nonnon_win_ansi.zip ]
 
-		ANSI (A) �łƌĂ΂�� Win9x (95/98/Me) �Ŏ��s�ł�����̂ł�
-		NT �̌n��ł����s�ł���̂ł����V�X�e�����ꂵ�������܂���
+		ANSI (A) 版と呼ばれる Win9x (95/98/Me) で実行できるものです
+		NT の系列でも実行できるのですがシステム言語しか扱えません
 
-		+ MinGW GCC �ɂ���č쐬����Ă��܂�
+		+ MinGW GCC によって作成されています
 
 	[ nonnon_win_unicode.zip ]
 
-		Unicode (W) �ł� Win9x �ł͎��s�ł��܂���
-		WinNT(NT4/2000/XP/Vista/7/8/8.1/10) �Ŏ��s�ł��܂�
-		64-bit �łł����s�ł��܂�
+		Unicode (W) 版で Win9x では実行できません
+		WinNT(NT4/2000/XP/Vista/7/8/8.1/10) で実行できます
+		64-bit 版でも実行できます
 
-		+ MinGW GCC �ɂ���č쐬����Ă��܂�
+		+ MinGW GCC によって作成されています
 
 	[ nonnon_win_x64.zip ]
 
-		64-bit �ł� 64-bit �� Windows �Ŏ��s�ł��܂�
-		32-bit OS �ł͎��s�ł��܂���
+		64-bit 版で 64-bit 版 Windows で実行できます
+		32-bit OS では実行できません
 
-		+ Visual C++ �ō쐬����Ă��܂�
+		+ Visual C++ で作成されています
 
 	[ project_nonnon.zip ]
 
-		�\�[�X�R�[�h�ł�
-		�A�C�R����T�E���h�Ƃ��������\�[�X�������Ă��܂�
+		ソースコードです
+		アイコンやサウンドといったリソースも入っています
 
-		�o�b�`�t�@�C�����g���Ă���̂ŊȒP�ɃR���p�C���ł��܂�
-		NonnonApps �� GameConsole �łȂ��P�̂� EXE ���~�������ɂ��g���܂�
+		バッチファイルを使っているので簡単にコンパイルできます
+		NonnonApps や GameConsole でなく単体の EXE が欲しい時にも使えます
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
-Details : ZIP �t�@�C���̃Z�L�����e�B�̉���
+Details : ZIP ファイルのセキュリティの解除
 
-	GitHub ���� ZIP ���_�E�����[�h������ȉ��̎葱��������Ă�������
+	GitHub から ZIP をダウンロードしたら以下の手続きを取ってください
 
-	�V�����o�[�W������ Windows �̓Z�L�����e�B�@�\�������Ă��܂�
-	�_�E�����[�h������ȉ��̎葱���𓥂ޕK�v������܂�
+	新しいバージョンの Windows はセキュリティ機能を持っています
+	ダウンロードしたら以下の手続きを踏む必要があります
 
-	[ �������@ ]
+	[ 解除方法 ]
 
-		1 : ZIP �t�@�C���̃v���p�e�B���J���܂�
-		2 : ���ɂ��� "�Z�L�����e�B" �����܂�
-		3 : �u���b�N�̉��������܂��iOS �ɂ�菭���Ⴂ������܂��j
-		4 : "�K�p" �{�^���������܂�
-		5 : ZIP �t�@�C����W�J���܂�
+		1 : ZIP ファイルのプロパティを開きます
+		2 : 下にある "セキュリティ" を見ます
+		3 : ブロックの解除をします（OS により少し違いがあります）
+		4 : "適用" ボタンを押します
+		5 : ZIP ファイルを展開します
 
-	Defender ���[�z�����w�E������A
-	�ꕔ�̃t�@�C�����𓀂���Ȃ���肪����܂�
+	Defender が擬陽性を指摘したり、
+	一部のファイルが解凍されない問題があります
 
-	�M���ł���Ǝv���Ȃ� ArcDrop ���g���Ă݂Ă�������
-	+ ArcDrop �� TestLabs �ɒu���Ă���܂�
+	信頼できると思うなら ArcDrop を使ってみてください
+	+ ArcDrop は TestLabs に置いてあります
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 How To Compile : #1 : MinGW
 
-	1 : "MinGW" �v���W�F�N�g�� GCC ���C���X�g�[�����܂�
+	1 : "MinGW" プロジェクトの GCC をインストールします
 
-		+ MinGW w64 �͑z��ɓ����Ă��Ȃ��̂Ŏg���܂���
-		+ GitHub �� "TestLabs" �ɓ���g���Ă��� GCC3 �� ZIP ������܂�
+		+ MinGW w64 は想定に入っていないので使えません
+		+ GitHub の "TestLabs" に日常使っている GCC3 の ZIP があります
 
-	2 : GCC �Ɋ��ϐ����Z�b�g���܂�
+	2 : GCC に環境変数をセットします
 
-		+ �������Ƃ𕷂��Ȃ��ꍇ�ċN�����T�C���A�E�g���Ă݂ĉ�����
+		+ いうことを聞かない場合再起動かサインアウトしてみて下さい
 
-		�V�X�e���̃v���p�e�B���g���܂�
-		�V�X�e���̏ڍאݒ���N���b�N���܂�
+		システムのプロパティを使います
+		システムの詳細設定をクリックします
 
-		1 :�^�u "�ڍאݒ�"
-		2 : �{�^�� "���ϐ�(N)..."
-		3 : "���[�U�[�̊��ϐ�"
-		4 : �{�^�� "�V�K(N)..."
-		5 : �E�B���h�E "�V�������[�U�[�ϐ�"
-		6 : "�ϐ���(N):" "PATH"
-		7 : "�ϐ��l:" "C:\MinGW\bin;"
-		8 : "OK" �{�^���������܂�
+		1 :タブ "詳細設定"
+		2 : ボタン "環境変数(N)..."
+		3 : "ユーザーの環境変数"
+		4 : ボタン "新規(N)..."
+		5 : ウィンドウ "新しいユーザー変数"
+		6 : "変数名(N):" "PATH"
+		7 : "変数値:" "C:\MinGW\bin;"
+		8 : "OK" ボタンを押します
 
-		"OK" �Ƃ� "�K�p" �{�^���͏d�v�Ȃ̂ŕK�������Ă�������
+		"OK" とか "適用" ボタンは重要なので必ず押してください
 
-	3 : �o�b�`�t�@�C���ŃR���p�C���ł���悤�ɂȂ�܂�
+	3 : バッチファイルでコンパイルできるようになります
 
-	4 : �ǉ��R���|�[�l���g��K�v�Ȃ�R�s�[���܂�
+	4 : 追加コンポーネントを必要ならコピーします
 
-		�G���[���o��ꍇ�ȉ��̃t�@�C���ɖڂ�ʂ��Ă�������
+		エラーが出る場合以下のファイルに目を通してください
 
 		+ nonnon/neutral/jpg.c
 		+ nonnon/win32/wintab.c
 
-		��{�̓w�b�_�i.h�j�ƃ��C�u�����i.lib�j�ɂȂ�܂�
-		�w�b�_�� "include �ɁA���C�u������ "lib" �ɃR�s�[���܂�
-		+ VC++ �ł͓o�^���邾���ŃR�s�[�͕K�v����܂���
+		基本はヘッダ（.h）とライブラリ（.lib）になります
+		ヘッダは "include に、ライブラリは "lib" にコピーします
+		+ VC++ では登録するだけでコピーは必要ありません
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
 How To Compile : #2 : Visual C++ 2017
 
-	1 : "Visual Studio Community Edition" ���C���X�g�[�����܂�
+	1 : "Visual Studio Community Edition" をインストールします
 
-	2 : ��̃v���W�F�N�g�����܂�
+	2 : 空のプロジェクトを作ります
 
-	3 : "C:/User/[���[�U�[��]/source/repos" ���ۑ��ꏊ�ɂȂ�܂�
+		+ NTFS でないとエラーが出る可能性があります
+		+ exFat でバージョン 15.9.50 ぐらいから問題が発生しています
 
-		+ �t�H���_���ړ����Ă��R���p�C���͒ʂ�܂�
+	3 : "C:/User/[ユーザー名]/source/repos" が保存場所になります
 
-	4 : �\�[�X�R�[�h���R�s�[���܂�
+		+ フォルダを移動してもコンパイルは通ります
 
-		+ "repos/[�v���W�F�N�g��]/[�v���W�F�N�g��]/*.c"
-		+ "repos/[�v���W�F�N�g��]/nonnon/*"
+	4 : ソースコードをコピーします
 
-	5 : �\�[�X�R�[�h��o�^���܂�
+		+ "repos/[プロジェクト名]/[プロジェクト名]/*.c"
+		+ "repos/[プロジェクト名]/nonnon/*"
 
-		1 : "�\�[�X �t�@�C��" �Ƀ��C���� C �t�@�C�����h���b�v���܂�
-		2 : ���\�[�X�t�@�C���� "���\�[�X �t�@�C��" �Ƀh���b�v���܂�
+	5 : ソースコードを登録します
 
-		+ [ �� ]
-		+ "hunyapiyo3.c"  �� "�\�[�X �t�@�C��" �@�� DnD ���܂�
-		+ "hunyapiyo3.rc" �� "���\�[�X �t�@�C��" �� DnD ���܂�
+		1 : "ソース ファイル" にメインの C ファイルをドロップします
+		2 : リソースファイルは "リソース ファイル" にドロップします
 
-	6 : �v���p�e�B��ҏW���܂�
+		+ [ 例 ]
+		+ "hunyapiyo3.c"  を "ソース ファイル" 　に DnD します
+		+ "hunyapiyo3.rc" を "リソース ファイル" に DnD します
 
-		�c�[���o�[�� "Release" "x64" �ł��邱�Ƃ��m�F���܂�
+	6 : プロパティを編集します
 
-		+ "x86" �̓G���[�ɂȂ�̂ŃT�|�[�g����܂���
+		ツールバーが "Release" "x64" であることを確認します
 
-		+ �ݒ�� "Debug" "Release" "x86" and "x64" �ŕʁX�ɂȂ��Ă��܂�
+		+ "x86" はエラーになるのでサポートされません
 
-		1 : �\�����[�V���� �G�N�X�v���[���[
-		2 : [�v���W�F�N�g��] �����j���[�N���b�N
-		3 : "�v���p�e�B"
+		+ 設定は "Debug" "Release" "x86" and "x64" で別々になっています
+
+		1 : ソリューション エクスプローラー
+		2 : [プロジェクト名] をメニュークリック
+		3 : "プロパティ"
 
 			1 : "C/C++"
-			2 : "�S��"
-			3 : "�����v���Z�b�T�ɂ��R���p�C��"
-			4 : "�͂�(/MP)"
+			2 : "全般"
+			3 : "複数プロセッサによるコンパイル"
+			4 : "はい(/MP)"
 
-			1 : "�����J�["
-			2 : �}�j�t�F�X�g�t�@�C��
-			3 : "�}�j�t�F�X�g�t�@�C���̐���"
-			4 : "������(/MANIFEST:NO)"
+			1 : "リンカー"
+			2 : マニフェストファイル
+			3 : "マニフェストファイルの生成"
+			4 : "いいえ(/MANIFEST:NO)"
 
-			1 : "�����J�["
-			2 : "�V�X�e��"
-			3 : "�T�u�V�X�e��"
+			1 : "リンカー"
+			2 : "システム"
+			3 : "サブシステム"
 			4 : "Windows(/SUBSYSTEM:WINDOWS)"
 
-		4 : �ǉ��R���|�[�l���g��o�^���܂�
+		4 : 追加コンポーネントを登録します
 
-			�ȉ��̃t�@�C�����Q�Ƃ��Ă�������
+			以下のファイルを参照してください
 
 			"nonnon/neutral/jpg.c"
 			"nonnon/win32/wintab.c"
 
-			���Ȃ�߂�ǂ������̂Ŋo�債�Ă�������
+			かなりめんどくさいので覚悟してください
 
-	7 : ���r���h���܂�
+	7 : リビルドします
 
-		�u�r���h�v���Ǝ��s���邱�Ƃ�����̂ōŏ��͕K���u���r���h�v���܂�
-		���s�����ꍇ�́u�N���[���v���ĉ�����
+		「ビルド」だと失敗することがあるので最初は必ず「リビルド」します
+		失敗した場合は「クリーン」して下さい
 
-		"repos/[�v���W�F�N�g��]/X64/Release" �� .EXE ���o�͂���܂�
+		"repos/[プロジェクト名]/X64/Release" に .EXE が出力されます
 
-		+ NonnonWin �� x64 �݂̂̃T�|�[�g�ł�
+		+ NonnonWin は x64 のみのサポートです
 
 ::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
 
