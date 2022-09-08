@@ -118,11 +118,10 @@ How To Compile : #2 : Visual C++ 2017
 	1 : "Visual Studio Community Edition" をインストールします
 
 	2 : 空のプロジェクトを作ります
+	3 : "C:/User/[ユーザー名]/source/repos" が保存場所になります
 
 		+ NTFS でないとエラーが出る可能性があります
 		+ exFat でバージョン 15.9.50 ぐらいから問題が発生しています
-
-	3 : "C:/User/[ユーザー名]/source/repos" が保存場所になります
 
 		+ フォルダを移動してもコンパイルは通ります
 
