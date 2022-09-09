@@ -52,6 +52,11 @@ BUGFIX
 		n_mac_topmost()
 			OLD : not working
 			NEW : fixed
+	mac/image.c
+		n_mac_image_text_draw()
+			NEW : removed
+			[!] : use other modules
+			[?] : bad quality
 	mac/n_txtbox.c
 		Save : Unicode LE/BE
 			OLD : broken
@@ -70,6 +75,9 @@ BUGFIX
 			OLD : crash
 			NEW : fixed
 			[x] : realloc() causes
+		Non-Unicode files
+			OLD : crash
+			NEW : error dialog will appear
 
 	neutral/vector.c
 		Mac : n_vector_load_on_memory()
@@ -81,6 +89,11 @@ BUGFIX
 		n_win_txtbox_is_accentmark_char()
 			OLD : code alignment error
 			NEW : fixed
+	win32/win_simplemenu.c
+		n_win_simplemenu_draw_internal() : header line
+			OLD : inaccurate
+			NEW : fixed
+			[x] : NEW_FEATURE @ 2022/04/30
 
 
 NEW_FEATURE
