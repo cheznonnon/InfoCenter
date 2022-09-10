@@ -81,6 +81,16 @@ n_mac_image_text_draw() を廃止したニャ
 
 ダークモードの時のテキスト反転色がアクセントカラーと同じになってしまうのを直したニャ
 
+■neutral/time.c
+
+Mac の時に n_time_compare_mtime() でタイムスタンプが違うと言い出すことがあるニャ
+exFAT の仕様の問題だニャ
+
+■Project Checker for Mac
+
+exFAT のドライブにあるファイルと比較すると更新日時が同じなのに違うと言い出すのを直したニャ
+Mac のファイルシステムと exFAT の互換性の問題だニャ
+
 
 [ ０９月２０日 ]
 

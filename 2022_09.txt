@@ -79,6 +79,10 @@ BUGFIX
 			OLD : crash
 			NEW : error dialog will appear
 
+	neutral/time.c
+		Mac : n_time_compare_mtime()
+			OLD : exFAT reports even numbers only
+			NEW : fixed
 	neutral/vector.c
 		Mac : n_vector_load_on_memory()
 			OLD : crash
@@ -94,6 +98,12 @@ BUGFIX
 			OLD : inaccurate
 			NEW : fixed
 			[x] : NEW_FEATURE @ 2022/04/30
+
+	Project Checker for Mac
+		comparison between a Macintosh HDD and an exFAT drive
+			OLD : same time but reported as modified ("[!]")
+			NEW : fixed
+			[?] : problem of file system specification
 
 
 NEW_FEATURE
@@ -118,6 +128,8 @@ NEW_FEATURE
 			NEW : implemented
 		Middle Button Grag N Drag
 			NEW : implemented
+		Menu Bar : "File Info"
+			NEW : you can know unicode / newline / file path
 
 
 ----------==========----------==========----------==========----------
