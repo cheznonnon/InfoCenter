@@ -33,7 +33,33 @@ Change Log
 BUGFIX
 
 
+	mac/n_txtbox.c
+		Paste : multi-line selected
+			OLD : misbehave
+			NEW : fixed
+
+	@project
+		x64 synchronizer
+			OLD : use exFAT drive
+			NEW : use "C:\" drive
+			[!] : VC++ needs NTFS in recent update
+
+
 NEW_FEATURE
+
+
+	hunyapiyo3
+		icon : 256px
+			NEW : replaced
+			[!] : the same with Mac version
+	Nonnon Freecell
+		icon : 256px
+			NEW : replaced
+			[!] : the same with Mac version
+	Nonnon Spider
+		icon : 256px
+			NEW : replaced
+			[!] : like Freecell
 
 
 ----------==========----------==========----------==========----------
@@ -62,7 +88,7 @@ BUGFIX
 			OLD : broken
 			NEW : fixed
 		Save : N_TXT_UNICODE_UTF8_NO_BOM
-			NEW : seaprated from N_TXT_UNICODE_UTF
+			NEW : separated from N_TXT_UNICODE_UTF
 			[!] : if there is BOM at loading, set BOM at saving when _UTF
 			[!] : else no BOM will be added when UTF8_NO_BOM
 		double click
