@@ -48,6 +48,10 @@ BUGFIX
 NEW_FEATURE
 
 
+	mac/n_txtbox.c
+		IME Support
+			NEW : partial selection is supported
+
 	hunyapiyo3
 		icon : 256px
 			NEW : replaced
