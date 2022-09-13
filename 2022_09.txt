@@ -33,6 +33,11 @@ Change Log
 BUGFIX
 
 
+	mac/_mac.c
+		n_mac_desktop_size()
+			OLD : inaccurate behavior
+			NEW : fixed
+			[!] : copy and paste error
 	mac/n_txtbox.c
 		Paste : multi-line selected
 			OLD : misbehave
