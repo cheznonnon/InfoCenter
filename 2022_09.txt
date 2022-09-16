@@ -56,6 +56,8 @@ NEW_FEATURE
 	mac/n_txtbox.c
 		IME Support
 			NEW : partial selection is supported
+		Paste
+			NEW : scroll to the last pasted line
 
 	hunyapiyo3
 		icon : 256px
