@@ -67,6 +67,11 @@ NEW_FEATURE
 		icon : 256px
 			NEW : replaced
 			[!] : the same with Mac version
+	Nonnon Paint
+		Grabber
+			NEW : animated frame available
+		Grabber : reselect
+			NEW : implemented
 	Nonnon Spider
 		icon : 256px
 			NEW : replaced
