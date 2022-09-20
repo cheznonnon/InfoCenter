@@ -59,6 +59,17 @@ NEW_FEATURE
 		Paste
 			NEW : scroll to the last pasted line
 
+	neutral/bmp/draw.c
+		renamed
+			OLD : n_bmp_circle()
+			NEW : n_bmp_hoop()
+		n_bmp_circle()
+			NEW : simpler and faster than older
+			[!] : usage is changed
+
+	CatPad for Mac
+		icon buttons
+			NEW : use a system accent color
 	hunyapiyo3
 		icon : 256px
 			NEW : replaced
@@ -72,6 +83,9 @@ NEW_FEATURE
 			NEW : animated frame available
 		Grabber : reselect
 			NEW : implemented
+	Nonnon Paint for Mac
+		released
+			NEW : under construction version
 	Nonnon Spider
 		icon : 256px
 			NEW : replaced
