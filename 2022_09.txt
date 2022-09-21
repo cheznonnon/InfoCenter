@@ -21,6 +21,21 @@ BUGFIX
 NEW_FEATURE
 
 
+	mac/n_button.c
+		frame
+			NEW : always show option is added
+		click
+			NEW : path-through option is added
+
+	Nonnon Paint for Mac
+		Icon Buttons
+			NEW : partially implemented
+		Pen, Fill and Grabber
+			NEW : the same as Win32 version
+		Save
+			NEW : you can save only as loaded format
+
+
 ----------==========----------==========----------==========----------
 
 
