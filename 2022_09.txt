@@ -18,6 +18,17 @@ Change Log
 BUGFIX
 
 
+	mac/n_txtbox.c
+		key input : tab
+			OLD : not accepted
+			NEW : fixed
+
+	CatPad for Mac
+		key input : tab
+			OLD : you cannot input
+			NEW:  fixed
+
+
 NEW_FEATURE
 
 
