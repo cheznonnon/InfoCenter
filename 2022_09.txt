@@ -37,7 +37,14 @@ NEW_FEATURE
 			NEW : always show option is added
 		click
 			NEW : path-through option is added
+	mac/n_scrollbar.c
+		released
+			NEW : ported from Win32
+			[!] : simple mode only implemented
 
+	CatPad for Mac
+		Scroll Wheeling
+			NEW:  re-tuned
 	Nonnon Paint for Mac
 		Icon Buttons
 			NEW : partially implemented
