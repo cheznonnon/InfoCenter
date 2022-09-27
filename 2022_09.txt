@@ -27,6 +27,13 @@ BUGFIX
 		key input : tab
 			OLD : you cannot input
 			NEW:  fixed
+	Nonnon Paint
+		Grabber : Animated Frame
+			OLD : stretch is not supported
+			NEW : fixed
+		Grabber : Resizer : size is changed : when cancelled
+			OLD : misbehave
+			NEW : fixed
 
 
 NEW_FEATURE
@@ -52,6 +59,10 @@ NEW_FEATURE
 			NEW : the same as Win32 version
 		Save
 			NEW : you can save only as loaded format
+	Nonnon Paint
+		Resizer
+			NEW : tab focus avaialble
+			[!] : input popup is obsoleted because of conflict
 
 
 ----------==========----------==========----------==========----------
