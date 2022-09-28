@@ -59,10 +59,15 @@ NEW_FEATURE
 			NEW : the same as Win32 version
 		Save
 			NEW : you can save only as loaded format
+		Formatter
+			NEW : you can choose file type to save
 	Nonnon Paint
 		Resizer
 			NEW : tab focus avaialble
 			[!] : input popup is obsoleted because of conflict
+		Grabber : Animated Frame
+			NEW : refactored
+			[!] : faster than older
 
 
 ----------==========----------==========----------==========----------
