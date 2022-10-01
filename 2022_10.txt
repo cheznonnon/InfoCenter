@@ -1,0 +1,64 @@
+
+
+----------==========----------==========----------==========----------
+
+
+"Eat Your Own Catfood."
+
+
+----------==========----------==========----------==========----------
+
+
+Change Log
+
+
+2022/10/30
+
+
+BUGFIX
+
+
+NEW_FEATURE
+
+
+----------==========----------==========----------==========----------
+
+
+Change Log
+
+
+2022/10/20
+
+
+BUGFIX
+
+
+NEW_FEATURE
+
+
+----------==========----------==========----------==========----------
+
+
+Change Log
+
+
+2022/10/10
+
+
+BUGFIX
+
+
+NEW_FEATURE
+
+
+	Nonnon Paint for Mac
+		Multi-Layer
+			NEW : viewer is implemented
+		Grabber : Frame
+			NEW : animated frame available
+		Grabber : Key Bindings
+			NEW : Ctrl+C and Ctrl+V available
+
+
+----------==========----------==========----------==========----------
+
