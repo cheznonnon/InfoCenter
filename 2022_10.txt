@@ -53,7 +53,7 @@ NEW_FEATURE
 
 	Nonnon Paint for Mac
 		Multi-Layer
-			NEW : viewer is implemented
+			NEW : basic editing is implemented
 		Grabber : Frame
 			NEW : animated frame available
 		Grabber : Key Bindings
