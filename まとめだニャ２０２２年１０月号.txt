@@ -11,11 +11,14 @@
 
 ■Nonnon Paint for Mac
 
-Win32 のマルチレイヤーが簡易編集できるようになったニャ
-
 Grabber の選択枠がアニメーションするニャ
 
 Grabber で Ctrl+C と Ctrl+V ができるようになったニャ
+
+Win32 のマルチレイヤーが編集できるようになったニャ
+まだ少し機能が足りていないニャ
+
+Clear Canvas と Color Replacer が付いたニャ
 
 
 ◇バグフィクス
