@@ -48,6 +48,22 @@ Change Log
 BUGFIX
 
 
+	mac/n_txtbox.c
+		scroller calculation
+			OLD : inaccurate
+			NEW : fixed
+	mac/draw.c
+		n_mac_draw_frame()
+			OLD : NSRectFill()
+			NEW : NSFrameRect()
+
+
+	CatPad for Mac
+		out of canvas
+			OLD : inaccurate behavior
+			NEW : fixed
+
+
 NEW_FEATURE
 
 

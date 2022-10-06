@@ -32,6 +32,14 @@ Alpha Tweaker が付いたニャ
 
 エンターを押して画面外に出る時のコードに誤りがあったニャ
 
+■mac/n_txtbox.c
+
+スクローラーの計算違いを直したニャ
+
+■mac/draw.c
+
+n_mac_draw_frame() が NSFrameRect() ベースに変えたニャ
+
 
 [ １０月２０日 ]
 
