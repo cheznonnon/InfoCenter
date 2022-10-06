@@ -63,6 +63,14 @@ NEW_FEATURE
 			NEW : implemented
 		Menu : Color Replacer
 			NEW : implemented
+		Multi-Layer : Eraser
+			NEW : whole eraser is supported
+		F2 Fork
+			NEW : rename to current date
+		Menu : Alpha Tweaker
+			NEW : implemented
+		Multi-Layer : Layer Window
+			NEW : popup menu available
 
 
 ----------==========----------==========----------==========----------
