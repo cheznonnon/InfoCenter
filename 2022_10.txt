@@ -109,6 +109,8 @@ NEW_FEATURE
 		Grabber
 			NEW : lighter and faster than older
 			[!] : dramatically lighter
+		Canvas : when alpha value is not opaque
+			NEW : checler pattern available
 
 
 ----------==========----------==========----------==========----------
