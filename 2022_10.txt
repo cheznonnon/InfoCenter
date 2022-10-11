@@ -33,7 +33,33 @@ Change Log
 BUGFIX
 
 
+	mac/n_button.c
+		memory leak
+			NEW : fixed
+	mac/n_scrollbar.c
+		memory leak
+			NEW : fixed
+	mac/n_txtbox.c
+		right side margin
+			OLD : insufficient
+			NEW : fixed
+
+	CatPad for Mac
+		memory leak
+			NEW : fixed
+	Nonnon Paint for Mac
+		memory leak
+			NEW : fixed
+
+
 NEW_FEATURE
+
+
+	Nonnon Paint for Mac
+		Multi-Layer
+			NEW : 20% faster by cache mechanism
+		Multi-Layer : window
+			NEW : font is changed to system font
 
 
 ----------==========----------==========----------==========----------
@@ -110,7 +136,7 @@ NEW_FEATURE
 			NEW : lighter and faster than older
 			[!] : dramatically lighter
 		Canvas : when alpha value is not opaque
-			NEW : checler pattern available
+			NEW : checker pattern available
 
 
 ----------==========----------==========----------==========----------
