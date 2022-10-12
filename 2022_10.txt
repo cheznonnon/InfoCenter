@@ -43,6 +43,9 @@ BUGFIX
 		right side margin
 			OLD : insufficient
 			NEW : fixed
+		caret
+			OLD : alyways blinks
+			NEW : focused only
 
 	CatPad for Mac
 		memory leak
@@ -55,6 +58,17 @@ BUGFIX
 NEW_FEATURE
 
 
+	mac/n_txtbox.c
+		spec is changed
+			NEW : line number is optional by default
+			NEW : .n_mode is added
+			NEW : ONELINE available
+
+	CatPad for Mac
+		search field
+			OLD : NSSearchField
+			NEW : NonnonTxtbox
+			[!] : you can use F3 and Ctrl+F
 	Nonnon Paint for Mac
 		Multi-Layer
 			NEW : 20% faster by cache mechanism
