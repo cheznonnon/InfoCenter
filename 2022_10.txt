@@ -50,8 +50,21 @@ BUGFIX
 	CatPad for Mac
 		memory leak
 			NEW : fixed
+	hunyapiyo3
+		source code : build and run
+			OLD : crash
+			NEW : fixed
+			[x] : free() causes
+	Nonnon Freecell
+		source code : build and run
+			OLD : crash
+			NEW : fixed
+			[x] : free() causes
 	Nonnon Paint for Mac
 		memory leak
+			NEW : fixed
+		Multi-Layer : Layer Menu
+			OLD : internal confusion
 			NEW : fixed
 
 
