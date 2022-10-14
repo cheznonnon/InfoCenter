@@ -66,6 +66,13 @@ BUGFIX
 		Multi-Layer : Layer Menu
 			OLD : internal confusion
 			NEW : fixed
+		Context
+			NEW : implemented
+			[!] : up/down in layer window menu
+			[!] : width and height of Resizer Fit X/Y
+		Resizer : Resizer Option : when Grabber is used
+			OLD : image will be broken
+			NEW : fixed
 
 
 NEW_FEATURE
