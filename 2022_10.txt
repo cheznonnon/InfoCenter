@@ -73,6 +73,9 @@ BUGFIX
 		Resizer : Resizer Option : when Grabber is used
 			OLD : image will be broken
 			NEW : fixed
+		Quick Stretch : Multi-Layer
+			OLD : not supported
+			NEW : supported
 
 
 NEW_FEATURE
@@ -94,6 +97,12 @@ NEW_FEATURE
 			NEW : 20% faster by cache mechanism
 		Multi-Layer : window
 			NEW : font is changed to system font
+		DnD : Tool Window
+			NEW : supported
+		XMouse
+			NEW : implemented
+		Grabber : Drop2Save
+			NEW : implemented
 
 
 ----------==========----------==========----------==========----------
