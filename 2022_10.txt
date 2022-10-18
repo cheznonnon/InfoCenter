@@ -103,6 +103,8 @@ NEW_FEATURE
 			NEW : implemented
 		Grabber : Drop2Save
 			NEW : implemented
+		Multi-Layer : Save
+			NEW : percentage available
 
 
 ----------==========----------==========----------==========----------
