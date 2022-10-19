@@ -87,6 +87,8 @@ Grabber に Drop2Save が付いたニャ
 検索フィールドが NSSearchField から NonnonTxtbox に変わったニャ
 これで F3 キー連打とか Ctrl+F でエディタとフィールドの往復ができるようになるニャ
 
+リードミーが付いたニャ
+
 ◇バグフィクス
 
 ■mac/n_button.c
@@ -113,6 +115,9 @@ Grabber に Drop2Save が付いたニャ
 リサイザーでグラバーの時にリサイズオプションを変更すると描画が壊れるのを直したニャ
 
 Quick Stretch がマルチレイヤーに対応していないのを直したニャ
+
+リードミーのタイトルが "Favorites" になっているのを直したニャ
+コピペミスだニャ
 
 ■hunyapiyo3 と Freecell
 

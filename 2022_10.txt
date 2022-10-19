@@ -76,6 +76,10 @@ BUGFIX
 		Quick Stretch : Multi-Layer
 			OLD : not supported
 			NEW : supported
+		Readme : HTML Title
+			OLD : "Favorites"
+			NEW : "Nonnon Paint"
+			[!] : copy and paste error
 
 
 NEW_FEATURE
@@ -92,6 +96,8 @@ NEW_FEATURE
 			OLD : NSSearchField
 			NEW : NonnonTxtbox
 			[!] : you can use F3 and Ctrl+F
+		Readme
+			NEW : added
 	Nonnon Paint for Mac
 		Multi-Layer
 			NEW : 20% faster by cache mechanism
