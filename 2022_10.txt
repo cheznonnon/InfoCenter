@@ -18,7 +18,29 @@ Change Log
 BUGFIX
 
 
+	Nonnon Paint
+		source code
+			OLD : older file included
+			NEW : fixed
+	Nonnon Paint for Mac
+		Tool Window
+			OLD : not aligned
+			NEW : fixed
+
+
 NEW_FEATURE
+
+
+	mac/n_scrollbar.c
+		arrow button
+			OLD : ASCII Code
+			NEW : Unicode glyphs
+
+	nmixer
+		scrollbar
+			OLD : Nonnon Scroll Bar
+			NEW : Mac-lie Slider
+			[!] : code is full-scratched
 
 
 ----------==========----------==========----------==========----------
