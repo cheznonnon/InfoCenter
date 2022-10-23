@@ -26,6 +26,9 @@ BUGFIX
 		Tool Window
 			OLD : not aligned
 			NEW : fixed
+		Grabber : Quick Stretch
+			OLD : redraw error
+			NEW : fixed
 
 
 NEW_FEATURE
@@ -36,10 +39,14 @@ NEW_FEATURE
 			OLD : ASCII Code
 			NEW : Unicode glyphs
 
+	win32/win_slider.c
+		released
+			NEW : separated from nmixer
+
 	nmixer
 		scrollbar
 			OLD : Nonnon Scroll Bar
-			NEW : Mac-lie Slider
+			NEW : Mac-like Slider
 			[!] : code is full-scratched
 
 
