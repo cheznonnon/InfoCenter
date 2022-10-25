@@ -18,12 +18,21 @@ Change Log
 BUGFIX
 
 
+	All
+		Win10 or later : Dark Mode
+			OLD : title bar color will be white always
+			NEW : fixed
+	All
+		Win10 or later : System Timer
+			OLD : instable / heavy
+			NEW : better than older
+			[!] : not better than Win8.1
 	Nonnon Paint
 		source code
 			OLD : older file included
 			NEW : fixed
 	Nonnon Paint for Mac
-		Tool Window
+		Tool Window : scroll bars vertical align
 			OLD : not aligned
 			NEW : fixed
 		Grabber : Quick Stretch
@@ -34,6 +43,9 @@ BUGFIX
 NEW_FEATURE
 
 
+	game/timegettime.c
+		Win10 : n_game_timegettime_init()
+			NEW : higher resolution will be used
 	mac/n_scrollbar.c
 		arrow button
 			OLD : ASCII Code
