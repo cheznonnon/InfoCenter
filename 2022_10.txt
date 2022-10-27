@@ -30,6 +30,7 @@ BUGFIX
 			OLD : broken
 			NEW : fixed
 			[x] : Mac-like focus ring causes
+			[x] : NEW_FEATURE @ 2022/06/20
 	Nonnon Paint
 		source code
 			OLD : older file included
