@@ -22,11 +22,14 @@ BUGFIX
 		Win10 or later : Dark Mode
 			OLD : title bar color will be white always
 			NEW : fixed
-	All
 		Win10 or later : System Timer
 			OLD : instable / heavy
 			NEW : better than older
 			[!] : not better than Win8.1
+		Classic Style : GUI control size
+			OLD : broken
+			NEW : fixed
+			[x] : Mac-like focus ring causes
 	Nonnon Paint
 		source code
 			OLD : older file included
