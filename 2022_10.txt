@@ -42,6 +42,16 @@ BUGFIX
 		Grabber : Quick Stretch
 			OLD : redraw error
 			NEW : fixed
+		Resizer	: when scrolled
+			OLD : original image will be restored
+			NEW : fixed
+		Multi-Layer : Resizer
+			OLD : enabled but not working
+			NEW : fixed
+		Multi-Layer : Cache Mechanism
+			OLD : misbehave
+			NEW : fixed
+			[!] : heavier than older (maybe)
 
 
 NEW_FEATURE
@@ -59,6 +69,9 @@ NEW_FEATURE
 		released
 			NEW : separated from nmixer
 
+	CatPad for Mac
+		Cat Button
+			NEW : blinking is added
 	nmixer
 		scrollbar
 			OLD : Nonnon Scroll Bar
