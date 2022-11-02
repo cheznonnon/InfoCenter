@@ -60,6 +60,10 @@ NEW_FEATURE
 		Search Field
 			NEW : richer than older
 			[!] : delete button is added
+	Nonnon Paint for Mac
+		shift key
+			NEW : handle as menu-click
+			[!] : for Magic Mouse
 
 
 ----------==========----------==========----------==========----------
