@@ -1,52 +1,57 @@
-<pre style="font-family:Meiryo,sans-serif;">
+﻿<pre style="font-family:Meiryo,sans-serif;">
 </pre>
 
 ----------==========----------==========----------==========----------
 
-���܂Ƃ߂��j���Q�O�Q�Q�N�P�P����
+■まとめだニャ２０２２年１１月号
 
-[ �P�P���P�O�� ]
+[ １１月１０日 ]
 
-���j���[�t�B�[�`���[
+◇ニューフィーチャー
 
-��mac/n_txtbox.c
+■mac/n_txtbox.c
 
-���[�h�� ONELINE �� FINDBOX �ɕ��������j��
-���̂��߃I�v�V�����̌����A�C�R���̃v���p�e�B�����ύX�ɂȂ����j��
+モードを ONELINE と FINDBOX に分離したニャ
+そのためオプションの検索アイコンのプロパティ名が変更になったニャ
 
-��CatPad for Mac
+■CatPad for Mac
 
-�����t�B�[���h�������ƃ��b�`�ɂȂ����j��
+検索フィールドがもっとリッチになったニャ
 
-�^�u�C���f���g�̏C���L�[���V�t�g����I�v�V�����i�I���g�j�ɕύX�����j��
-���[�U�r���e�B�̊ϓ_���炾�j��
+タブインデントの修飾キーをシフトからオプション（オルト）に変更したニャ
+ユーザビリティの観点からだニャ
 
-��Nonnon Paint for Mac
+■Nonnon Paint for Mac
 
-�V�t�g�������Ȃ���N���b�N����ƃ��j���[�N���b�N�Ɠ����Ӗ��ɂȂ�悤�ɂ����j��
-Magic Mouse �Ή����j��
+シフトを押しながらクリックするとメニュークリックと同じ意味になるようにしたニャ
+Magic Mouse 対応だニャ
 
-���o�O�t�B�N�X
+■project/utf-8.c
 
-��Nonnon Paint for Mac
+テキストファイルを BOM 付きの UTF-8 ファイルにコンバートするニャ
+フォルダをドロップすると全部一括処理するニャ
 
-�N���b�N���Ĉړ����Ȃ��ƃJ�[�\�����ς��Ȃ��̂𒼂����j��
+◇バグフィクス
 
+■Nonnon Paint for Mac
 
-[ �P�P���Q�O�� ]
-
-���j���[�t�B�[�`���[
-
-
-���o�O�t�B�N�X
+クリックして移動しないとカーソルが変わらないのを直したニャ
 
 
-[ �P�P���R�O�� ]
+[ １１月２０日 ]
 
-���j���[�t�B�[�`���[
+◇ニューフィーチャー
 
 
-���o�O�t�B�N�X
+◇バグフィクス
+
+
+[ １１月３０日 ]
+
+◇ニューフィーチャー
+
+
+◇バグフィクス
 
 ----------==========----------==========----------==========----------
 

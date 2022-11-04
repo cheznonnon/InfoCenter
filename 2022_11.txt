@@ -62,6 +62,11 @@ NEW_FEATURE
 			NEW : FINDBOX available
 			[!] : separated
 
+	project/utf-8.c
+		utf-8.exe
+			NEW : text converter with UTF-8 with BOM
+			[!] : folder available
+
 	CatPad for Mac
 		Search Field
 			NEW : richer than older
