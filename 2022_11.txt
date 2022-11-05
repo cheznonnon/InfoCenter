@@ -48,6 +48,13 @@ Change Log
 BUGFIX
 
 
+	CatPad for Mac
+		Save : UTF-16
+			OLD : broken
+			NEW : use UTF-8 without BOM instead
+		Full-Width Space
+			OLD : not supported
+			NEW : fixed
 	Nonnon Freecell for Mac
 		Auto-complete : on the modern machines
 			OLD : too fast
