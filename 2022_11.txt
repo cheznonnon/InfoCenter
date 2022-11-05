@@ -48,6 +48,10 @@ Change Log
 BUGFIX
 
 
+	Nonnon Freecell for Mac
+		Auto-complete : on the modern machines
+			OLD : too fast
+			NEW : fixed
 	Nonnon Paint for Mac
 		Canvas : cursor : change
 			OLD : need to move a mouse
