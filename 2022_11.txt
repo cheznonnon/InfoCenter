@@ -51,10 +51,17 @@ BUGFIX
 	CatPad for Mac
 		Save : UTF-16
 			OLD : broken
-			NEW : use UTF-8 without BOM instead
+			NEW : fixed
 		Full-Width Space
 			OLD : not supported
 			NEW : fixed
+		Date and Day-of-Week
+			OLD : written in readme but not working
+			NEW : fixed
+		macOS 12 Monterey : window position and size
+			OLD : not restored
+			NEW : fixed
+			[x] : behavior is changed in Monterey
 	Nonnon Freecell for Mac
 		Auto-complete : on the modern machines
 			OLD : too fast
@@ -62,6 +69,9 @@ BUGFIX
 	Nonnon Paint for Mac
 		Canvas : cursor : change
 			OLD : need to move a mouse
+			NEW : fixed
+		Formatter : menu-click to change format
+			OLD : crash
 			NEW : fixed
 
 
@@ -86,6 +96,9 @@ NEW_FEATURE
 			OLD : Shift
 			NEW : Option (Alt)
 			[!] : for usability
+		Text2HTML
+			NEW : escapement converter
+			[!] : &amp;nbsp &amp;lt &amp;gt converter
 	Nonnon Paint for Mac
 		shift key
 			NEW : handle as menu-click
