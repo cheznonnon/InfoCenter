@@ -48,6 +48,16 @@ Change Log
 BUGFIX
 
 
+	neutral/filer.c
+		Mac : utime()
+			OLD : not supported
+			NEW : supported
+
+	mac/n_txtbox.c
+		Cut and Paste : newline handling
+			OLD : inaccurate
+			NEW : fixed
+
 	CatPad for Mac
 		Save : UTF-16
 			OLD : broken
@@ -72,6 +82,13 @@ BUGFIX
 			NEW : fixed
 		Formatter : menu-click to change format
 			OLD : crash
+			NEW : fixed
+		Input : when Zoom has big value
+			OLD : not adjusted
+			NEW : fixed
+	Project Checker for Mac
+		internal file I/O
+			OLD : timestamp is not written
 			NEW : fixed
 
 
@@ -103,6 +120,12 @@ NEW_FEATURE
 		shift key
 			NEW : handle as menu-click
 			[!] : for Magic Mouse
+	Nonnon Tools
+		released
+			NEW : zero timestamp and dot file remover is available
+	Project Checker for Mac
+		dot files
+			NEW : excluded
 
 
 ----------==========----------==========----------==========----------
