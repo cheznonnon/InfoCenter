@@ -57,6 +57,9 @@ BUGFIX
 		Cut and Paste : newline handling
 			OLD : inaccurate
 			NEW : fixed
+		Caret : tab half pitch
+			OLD : inaccurate
+			NEW : fixed
 
 	CatPad for Mac
 		Save : UTF-16
@@ -120,6 +123,8 @@ NEW_FEATURE
 		shift key
 			NEW : handle as menu-click
 			[!] : for Magic Mouse
+		Canvas
+			NEW : a little faster than older
 	Nonnon Tools
 		released
 			NEW : zero timestamp and dot file remover is available
