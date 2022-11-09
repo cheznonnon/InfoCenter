@@ -75,6 +75,9 @@ BUGFIX
 			OLD : not restored
 			NEW : fixed
 			[x] : behavior is changed in Monterey
+		Search History : when non-ASCII string like CJK characters
+			OLD : become invalid
+			NEW : fixed
 	Nonnon Freecell for Mac
 		Auto-complete : on the modern machines
 			OLD : too fast
@@ -89,6 +92,9 @@ BUGFIX
 		Input : when Zoom has big value
 			OLD : not adjusted
 			NEW : fixed
+		Zoom : when high value
+			OLD : right and bottom margins are overwritten
+			NEW : fixed
 	Project Checker for Mac
 		internal file I/O
 			OLD : timestamp is not written
@@ -98,6 +104,9 @@ BUGFIX
 NEW_FEATURE
 
 
+	mac/n_button.c
+		disabled state
+			NEW : blend available
 	mac/n_txtbox.c
 		ONELINE
 			NEW : FINDBOX available
@@ -131,6 +140,8 @@ NEW_FEATURE
 	Project Checker for Mac
 		dot files
 			NEW : excluded
+		throbber
+			NEW : implemented
 
 
 ----------==========----------==========----------==========----------
