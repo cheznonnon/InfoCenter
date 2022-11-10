@@ -78,10 +78,17 @@ BUGFIX
 		Search History : when non-ASCII string like CJK characters
 			OLD : become invalid
 			NEW : fixed
+		Paste : one character
+			OLD : error dialog appears and data are lost
+			NEW : fixed
 	Nonnon Freecell for Mac
 		Auto-complete : on the modern machines
 			OLD : too fast
 			NEW : fixed
+		Main Icon
+			OLD : too large
+			NEW : arranged
+			[!] : to reset icon cache, safe boot is needed
 	Nonnon Paint for Mac
 		Canvas : cursor : change
 			OLD : need to move a mouse
@@ -95,6 +102,21 @@ BUGFIX
 		Zoom : when high value
 			OLD : right and bottom margins are overwritten
 			NEW : fixed
+		Zoom : shaft is clicked : about zero
+			OLD : 1/2
+			NEW : 1
+		Resizer : after resized
+			OLD : title bar size is not refreshed
+			NEW : fixed
+		Main Icon
+			OLD : too large
+			NEW : arranged
+			[!] : to reset icon cache, safe boot is needed
+		Load : loaded layer then grabber load
+			OLD : broken
+			NEW : fixed
+			[!] : DnD context also implemented
+			[!] : you cannot drop while disabled state
 	Project Checker for Mac
 		internal file I/O
 			OLD : timestamp is not written
@@ -127,7 +149,7 @@ NEW_FEATURE
 			[!] : for usability
 		Text2HTML
 			NEW : escapement converter
-			[!] : &amp;nbsp &amp;lt &amp;gt converter
+			[!] : &amp;nbsp; &amp;lt; &amp;gt; converter
 	Nonnon Paint for Mac
 		shift key
 			NEW : handle as menu-click
