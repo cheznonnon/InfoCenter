@@ -33,6 +33,15 @@ Change Log
 BUGFIX
 
 
+	Nonnon Paint for Mac
+		Grabber : when Zoom has large value : frame position
+			OLD : inaccurate
+			NEW : fixed
+		Grabber : when dropped : Animation Frame
+			OLD : off
+			NEW : on
+
+
 NEW_FEATURE
 
 
