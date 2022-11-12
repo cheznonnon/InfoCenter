@@ -33,6 +33,14 @@ Change Log
 BUGFIX
 
 
+	mac/n_txtbox.c
+		Caret : half pitch
+			OLD : once fixed but not fixed yet
+			NEW : fixed
+		Copy
+			OLD : not working in some cases
+			NEW : fixed
+
 	Nonnon Paint for Mac
 		Grabber : when Zoom has large value : frame position
 			OLD : inaccurate
@@ -43,6 +51,17 @@ BUGFIX
 
 
 NEW_FEATURE
+
+
+	CatPad for Mac
+		Finder/Dock DnD
+			NEW : supported
+	Marie for Mac
+		Finder/Dock DnD
+			NEW : supported
+	Nonnon Paint for Mac
+		Finder/Dock DnD
+			NEW : supported
 
 
 ----------==========----------==========----------==========----------
