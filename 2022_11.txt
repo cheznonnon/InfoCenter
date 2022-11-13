@@ -40,6 +40,9 @@ BUGFIX
 		Copy
 			OLD : not working in some cases
 			NEW : fixed
+		LISTBOX : when focus is out of canvas
+			OLD : do nothing
+			NEW : fixed
 
 	Nonnon Paint for Mac
 		Grabber : when Zoom has large value : frame position
@@ -48,6 +51,12 @@ BUGFIX
 		Grabber : when dropped : Animation Frame
 			OLD : off
 			NEW : on
+		Multi-Layer : Menu : Up/Down
+			OLD : list is not redrawn
+			NEW : fixed
+		macOS Monterey : Tool Window and Layer Window
+			OLD : forget position
+			NEW : fixed
 
 
 NEW_FEATURE
@@ -62,6 +71,8 @@ NEW_FEATURE
 	Nonnon Paint for Mac
 		Finder/Dock DnD
 			NEW : supported
+		Multi-Layer : Listbox
+			OLD : you can swap when press shift key + arrow
 
 
 ----------==========----------==========----------==========----------
