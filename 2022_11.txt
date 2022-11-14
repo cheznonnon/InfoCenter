@@ -65,6 +65,9 @@ BUGFIX
 			OLD : not captured
 			NEW : fixed
 			[x] : XMouse conflicts
+		when restored from minimized window
+			OLD : Nonnon Paint system is broken
+			NEW : fixed
 
 
 NEW_FEATURE
