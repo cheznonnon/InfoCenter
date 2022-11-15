@@ -43,6 +43,13 @@ BUGFIX
 		LISTBOX : when focus is out of canvas
 			OLD : do nothing
 			NEW : fixed
+		Caret : selected then move a caret : from where
+			OLD : from / source
+			NEW : to   / destination
+		Caret : out-of-screen
+			OLD : centered
+			NEW : fixed
+			[!] : conflict with search ui
 
 	hunyapiyo3 for Mac
 		Result : sound interval
