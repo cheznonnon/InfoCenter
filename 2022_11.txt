@@ -50,6 +50,9 @@ BUGFIX
 			OLD : centered
 			NEW : fixed
 			[!] : conflict with search ui
+		Copy : newline
+			OLD : once patched but not completed
+			NEW : fixed
 
 	hunyapiyo3 for Mac
 		Result : sound interval
@@ -74,6 +77,9 @@ BUGFIX
 			[x] : XMouse conflicts
 		when restored from minimized window
 			OLD : Nonnon Paint system is broken
+			NEW : fixed
+		Grabber : Reselection
+			OLD : broken and inconvenient
 			NEW : fixed
 
 
