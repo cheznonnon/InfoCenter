@@ -81,6 +81,9 @@ BUGFIX
 		Grabber : Reselection
 			OLD : broken and inconvenient
 			NEW : fixed
+		XMouse
+			OLD : partially
+			NEW : all windows
 
 
 NEW_FEATURE
