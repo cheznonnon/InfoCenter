@@ -84,11 +84,31 @@ BUGFIX
 		XMouse
 			OLD : partially
 			NEW : all windows
+		Animation Frame
+			OLD : getting larger by Zoom
+			NEW : stop enlarging
+		Grab N Drag
+			OLD : not working in high Zoom value
+			NEW : fixed
+		Pen : Mix 100 : Size is not 1
+			OLD : not working
+			NEW : fixed
+		Pen : radius
+			OLD : being cut at bottom and right
+			NEW : fixed
+		Scrollbars : drag to out of a window
+			OLD : not captured
+			NEW : fixed
+			[x] : XMouse conflicts
 
 
 NEW_FEATURE
 
 
+	Mac
+		Main Menu : version info and readme : position
+			OLD : different by apps
+			NEW : same order
 	CatPad for Mac
 		Finder/Dock DnD
 			NEW : supported
