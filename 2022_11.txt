@@ -33,6 +33,10 @@ Change Log
 BUGFIX
 
 
+	mac/n_button.c
+		press 'n' run
+			OLD : misbehave
+			NEW : fixed
 	mac/n_txtbox.c
 		Caret : half pitch
 			OLD : once fixed but not fixed yet
@@ -57,6 +61,10 @@ BUGFIX
 	hunyapiyo3 for Mac
 		Result : sound interval
 			OLD : too much longer than sound length msec
+			NEW : fixed
+	Marie for Mac
+		Load : when associated
+			OLD : not smooth
 			NEW : fixed
 	Nonnon Paint for Mac
 		Grabber : when Zoom has large value : frame position
@@ -97,6 +105,13 @@ BUGFIX
 			OLD : being cut at bottom and right
 			NEW : fixed
 		Scrollbars : drag to out of a window
+			OLD : not captured
+			NEW : fixed
+			[x] : XMouse conflicts
+		Cursor : when pen : out-of-window
+			OLD : arrow is restored
+			NEW : fixed
+		Pen : out-of-window
 			OLD : not captured
 			NEW : fixed
 			[x] : XMouse conflicts
