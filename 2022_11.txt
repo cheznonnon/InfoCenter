@@ -62,6 +62,9 @@ BUGFIX
 		Result : sound interval
 			OLD : too much longer than sound length msec
 			NEW : fixed
+		source code
+			OLD : garbage spaces and tabs
+			NEW : removed
 	Marie for Mac
 		Load : when associated
 			OLD : not smooth
@@ -137,6 +140,12 @@ NEW_FEATURE
 			OLD : you can swap when press shift key + arrow
 		Zoom : shaft click
 			NEW : smarter than older
+	Project Checker for Mac
+		Menu Click
+			OLD : nothing happens
+			NEW : set focus
+		Internal File I/O
+			NEW : set not-allowed cursor while processing
 
 
 ----------==========----------==========----------==========----------
