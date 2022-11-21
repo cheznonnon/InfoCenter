@@ -26,6 +26,12 @@ BUGFIX
 			OLD : misbehave
 			NEW : fixed
 
+	Nonnon Paint for Mac
+		Tool Window Buttons and Layer Listbox
+			OLD : be input twice
+			NEW : fixed
+			[x] : delegate hell
+
 
 NEW_FEATURE
 
