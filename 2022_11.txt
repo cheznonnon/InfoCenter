@@ -18,6 +18,15 @@ Change Log
 BUGFIX
 
 
+	mac/n_txtbox.c
+		Insert Key
+			OLD : [?] is output
+			NEW : fixed
+		IME : turn off (like pressing Caps Lock) when not confirmed yet
+			OLD : misbehave
+			NEW : fixed
+
+
 NEW_FEATURE
 
 
