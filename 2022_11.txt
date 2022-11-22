@@ -25,12 +25,21 @@ BUGFIX
 		IME : turn off (like pressing Caps Lock) when not confirmed yet
 			OLD : misbehave
 			NEW : fixed
+		Caret : out-of-canvas
+			OLD : inaccurate
+			NEW : fixed
 
 	Nonnon Paint for Mac
 		Tool Window Buttons and Layer Listbox
 			OLD : be input twice
 			NEW : fixed
 			[x] : delegate hell
+		Multi-Layer : Invisible Layer
+			OLD : it seems to be disabled but editable
+			NEW : fixed
+		Cursor : Quick Layer (grabbed and use a pen)
+			OLD : not changed
+			NEW : fixed
 
 
 NEW_FEATURE
