@@ -40,6 +40,9 @@ BUGFIX
 		Cursor : Quick Layer (grabbed and use a pen)
 			OLD : not changed
 			NEW : fixed
+		Multi-Layer : Layer Window : Shift + Arrow
+			OLD : written in readme but not working
+			NEW:  fixed
 
 
 NEW_FEATURE
@@ -48,6 +51,10 @@ NEW_FEATURE
 	mac/n_txtbox.c
 		Key Bindings : Page Up/Down
 			NEW : supported
+		Delegate : usage
+			NEW : changed
+			[!] : set "self" to "delegate" and set "delegate_option"
+			[!] : default is "do nothing"
 
 
 ----------==========----------==========----------==========----------
@@ -166,7 +173,7 @@ NEW_FEATURE
 		Finder/Dock DnD
 			NEW : supported
 		Multi-Layer : Listbox
-			OLD : you can swap when press shift key + arrow
+			NEW : you can swap when press shift key + arrow
 		Zoom : shaft click
 			NEW : smarter than older
 	Project Checker for Mac
