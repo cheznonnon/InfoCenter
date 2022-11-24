@@ -29,6 +29,10 @@ BUGFIX
 			OLD : inaccurate
 			NEW : fixed
 
+	hunyapiyo3 for Mac
+		readme : switch result screen
+			OLD : Click
+			NEW : Menu Click
 	Nonnon Paint for Mac
 		Tool Window Buttons and Layer Listbox
 			OLD : be input twice
@@ -55,6 +59,14 @@ NEW_FEATURE
 			NEW : changed
 			[!] : set "self" to "delegate" and set "delegate_option"
 			[!] : default is "do nothing"
+
+	CatPad for Mac
+		Formatter
+			NEW : you can change format and newline
+	Nonnon Paint for Mac
+		INI2GDI
+			NEW : for Win32 compatibility
+			[!] : currently text is not supported
 
 
 ----------==========----------==========----------==========----------
