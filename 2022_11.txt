@@ -28,6 +28,9 @@ BUGFIX
 		Caret : out-of-canvas
 			OLD : inaccurate
 			NEW : fixed
+		Key Bindings : F5 : insertion
+			OLD : inaccurate behavior
+			NEW : fixed
 
 	hunyapiyo3 for Mac
 		readme : switch result screen
