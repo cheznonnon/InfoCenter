@@ -50,6 +50,9 @@ BUGFIX
 		Multi-Layer : Layer Window : Shift + Arrow
 			OLD : written in readme but not working
 			NEW:  fixed
+		Multi-Layer : Layer Window : swap
+			OLD : last clicked position is used
+			NEW : fixed
 
 
 NEW_FEATURE
@@ -66,10 +69,17 @@ NEW_FEATURE
 	CatPad for Mac
 		Formatter
 			NEW : you can change format and newline
+		Readme
+			NEW : "Support Forum" is added
 	Nonnon Paint for Mac
 		INI2GDI
 			NEW : for Win32 compatibility
 			[!] : currently text is not supported
+		Readme
+			NEW : "Support Forum" is added
+	Project Checker for Mac
+		Finder : when not exist
+			NEW : upper folder available
 
 
 ----------==========----------==========----------==========----------
