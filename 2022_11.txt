@@ -31,8 +31,8 @@ BUGFIX
 		Key Bindings : F5 : insertion
 			OLD : inaccurate behavior
 			NEW : fixed
-		IME Support : non-live conversion
-			OLD : a string disappears
+		insertion : if statement
+			OLD : no compile error but inaccurate
 			NEW : fixed
 
 	hunyapiyo3 for Mac
