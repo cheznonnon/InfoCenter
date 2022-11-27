@@ -31,6 +31,9 @@ BUGFIX
 		Key Bindings : F5 : insertion
 			OLD : inaccurate behavior
 			NEW : fixed
+		IME Support : non-live conversion
+			OLD : a string disappears
+			NEW : fixed
 
 	hunyapiyo3 for Mac
 		readme : switch result screen
@@ -52,6 +55,9 @@ BUGFIX
 			NEW:  fixed
 		Multi-Layer : Layer Window : swap
 			OLD : last clicked position is used
+			NEW : fixed
+		About Dialog : Cursor
+			OLD : canvas cursor is used
 			NEW : fixed
 
 
@@ -77,6 +83,10 @@ NEW_FEATURE
 			[!] : currently text is not supported
 		Readme
 			NEW : "Support Forum" is added
+		Canvas : Draw Engine
+			NEW : multi-threaded
+		Grabber
+			NEW : faster than older
 	Project Checker for Mac
 		Finder : when not exist
 			NEW : upper folder available
