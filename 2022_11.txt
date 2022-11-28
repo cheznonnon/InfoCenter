@@ -34,6 +34,9 @@ BUGFIX
 		insertion : if statement
 			OLD : no compile error but inaccurate
 			NEW : fixed
+		IME
+			OLD : non-live conversion is not available
+			NEW : refactored
 
 	hunyapiyo3 for Mac
 		readme : switch result screen
@@ -90,6 +93,9 @@ NEW_FEATURE
 	Project Checker for Mac
 		Finder : when not exist
 			NEW : upper folder available
+		window position and size
+			OLD : forget
+			NEW : remember
 
 
 ----------==========----------==========----------==========----------
