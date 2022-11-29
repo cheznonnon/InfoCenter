@@ -37,11 +37,19 @@ BUGFIX
 		IME
 			OLD : non-live conversion is not available
 			NEW : refactored
+		Dark Mode
+			OLD : some draw errors
+			NEW : fixed
+			[!] : caret color and search icon background color
+			[!] : text color also fixed
 
 	hunyapiyo3 for Mac
 		readme : switch result screen
 			OLD : Click
 			NEW : Menu Click
+		Dark Mode
+			OLD : not supported
+			NEW : supported
 	Nonnon Paint for Mac
 		Tool Window Buttons and Layer Listbox
 			OLD : be input twice
@@ -61,6 +69,9 @@ BUGFIX
 			NEW : fixed
 		About Dialog : Cursor
 			OLD : canvas cursor is used
+			NEW : fixed
+		Scrollbar : Zoom : wheeling
+			OLD : not sync'ed
 			NEW : fixed
 
 
