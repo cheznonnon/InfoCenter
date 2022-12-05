@@ -51,10 +51,5 @@ BUGFIX
 NEW_FEATURE
 
 
-	mac/n_button.c
-		disabled state
-			NEW : more gray-ish
-
-
 ----------==========----------==========----------==========----------
 
