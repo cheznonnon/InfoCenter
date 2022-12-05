@@ -51,5 +51,10 @@ BUGFIX
 NEW_FEATURE
 
 
+	mac/n_txtbox.c
+		IME
+			NEW : caret position at composition is supported
+
+
 ----------==========----------==========----------==========----------
 
