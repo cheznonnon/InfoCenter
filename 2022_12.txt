@@ -51,9 +51,35 @@ BUGFIX
 NEW_FEATURE
 
 
+	all
+		when host window lost focus
+			NEW : grayed-out possible
+			[!] : experimental : not used in main release
+			[!] : the system should do this
+	mac/image.c
+		n_mac_image_load()
+			NEW : NSImage to PNG then n_bmp converter
+			[!] : many formats available
+	mac/n_label.c
+		released
+			NEW : label with grayed-out when lost focus
+			[!] : inconvenient control
 	mac/n_txtbox.c
 		IME
 			NEW : caret position at composition is supported
+
+	Marie for Mac
+		Loader
+			NEW : NSImage available
+			[!] : macOS system native loader
+			[!] : Tiff / WebP / JPEG2000 or more available
+			[!] : load only, handled as PNG
+	Nonnon Paint for Mac
+		Loader
+			NEW : NSImage available
+			[!] : macOS system native loader
+			[!] : Tiff / WebP / JPEG2000 or more available
+			[!] : load only, handled as PNG
 
 
 ----------==========----------==========----------==========----------
