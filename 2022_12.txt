@@ -51,6 +51,10 @@ BUGFIX
 NEW_FEATURE
 
 
+	@project/dot_file_remover.c
+		released
+			NEW : Win32 version
+
 	all
 		when host window lost focus
 			NEW : grayed-out possible
@@ -74,6 +78,9 @@ NEW_FEATURE
 			[!] : macOS system native loader
 			[!] : Tiff / WebP / JPEG2000 or more available
 			[!] : load only, handled as PNG
+	Nonnon Freecell
+		Cat Icon
+			NEW : sync'ed with Mac version
 	Nonnon Paint for Mac
 		Loader
 			NEW : NSImage available

@@ -29,6 +29,15 @@ Tiff / WebP / JPEG2000 なんかがそうだニャ
 
 いろんなフォーマットが開けるようになったニャ
 
+■Nonnon Freecell : Win32
+
+アイコンを Mac のと同じにしたニャ
+
+■project/dot_file_remover.c
+
+Win32 バージョンだニャ
+Mac から移植したニャ
+
 
 ◇バグフィクス
 
