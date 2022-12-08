@@ -48,6 +48,12 @@ Change Log
 BUGFIX
 
 
+	mac/n_txtbox.c
+		IME Support : last one character : backspace is pressed
+			OLD : not deleted
+			NEW : fixed
+
+
 NEW_FEATURE
 
 
