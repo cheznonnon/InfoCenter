@@ -52,6 +52,18 @@ BUGFIX
 		IME Support : last one character : backspace is pressed
 			OLD : not deleted
 			NEW : fixed
+		bottom side margin
+			OLD ; no margin
+			NEW : added
+
+	Nonnon Paint for Mac
+		Grabber : when Zoom is under zero : scroll positions are not zero
+			OLD : not supported
+			NEW : fixed
+			[!] : code is insufficient simply
+		Multi-Layer : Grabber : when locked layers
+			OLD : selectable
+			NEW : fixed
 
 
 NEW_FEATURE
