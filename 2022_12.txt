@@ -55,6 +55,9 @@ BUGFIX
 		bottom side margin
 			OLD ; no margin
 			NEW : added
+		border : round corner
+			OLD : not the same with system
+			NEW : fixed
 
 	Nonnon Paint for Mac
 		Grabber : when Zoom is under zero : scroll positions are not zero
