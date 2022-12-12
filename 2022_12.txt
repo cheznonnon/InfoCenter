@@ -33,6 +33,16 @@ Change Log
 BUGFIX
 
 
+	hunyapiyo3 for Mac
+		Result Screen : when not correct answer : frame
+			OLD : not drawn
+			NEW : fixed
+	Nonnon Paint for Mac
+		Multi-Layer : Listbox : Arrow Keys : focus
+			OLD : line moves but focus is not moved
+			NEW : fixed
+
+
 NEW_FEATURE
 
 
