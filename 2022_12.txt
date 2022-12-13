@@ -46,6 +46,12 @@ BUGFIX
 NEW_FEATURE
 
 
+	Nonnon Paint for Mac
+		INI2GDI
+			NEW : text available
+			[!] : single line only
+
+
 ----------==========----------==========----------==========----------
 
 
@@ -63,7 +69,7 @@ BUGFIX
 			OLD : not deleted
 			NEW : fixed
 		bottom side margin
-			OLD ; no margin
+			OLD : no margin
 			NEW : added
 		border : round corner
 			OLD : not the same with system
