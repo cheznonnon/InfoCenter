@@ -46,10 +46,16 @@ BUGFIX
 NEW_FEATURE
 
 
+	Marie for Mac
+		Main App Icon
+			NEW : a little smaller
+			[!] : for Apple Guideline
 	Nonnon Paint for Mac
 		INI2GDI
 			NEW : text available
-			[!] : single line only
+		Main App Icon
+			NEW : squircled
+			[!] : to refresh, please search command-line methods
 
 
 ----------==========----------==========----------==========----------
