@@ -47,6 +47,15 @@ BUGFIX
 		Multi-Layer : Listbox : Arrow Keys : focus
 			OLD : line moves but focus is not moved
 			NEW : fixed
+		Multi-Layer : Add A New Layer
+			OLD : internal confusion
+			NEW : fixed
+		Multi-Layer : Up / Down
+			OLD : line moves but focus is not moved
+			NEW : fixed
+		Multi-Layer : Grabber : Resizer : when grabbed
+			OLD : data will be broken
+			NEW : fixed
 
 
 NEW_FEATURE
