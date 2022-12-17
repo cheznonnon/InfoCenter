@@ -65,6 +65,9 @@ NEW_FEATURE
 		n_mac_alias_resolve()
 			NEW : alias path resolver
 
+	CatPad for Mac
+		search field
+			NEW : more rounded corner
 	Marie for Mac
 		Main App Icon
 			NEW : a little smaller
@@ -79,6 +82,11 @@ NEW_FEATURE
 			[!] : to refresh, please search command-line methods
 		DnD : alias
 			NEW : resolve path
+		Preview
+			NEW : implemented
+			[!] : via menu or "1" key to toggle on/off
+		Multi-Layer : Save
+			NEW : faster than older
 
 
 ----------==========----------==========----------==========----------
