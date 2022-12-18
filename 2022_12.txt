@@ -56,6 +56,9 @@ BUGFIX
 		Multi-Layer : Grabber : Resizer : when grabbed
 			OLD : data will be broken
 			NEW : fixed
+		Multi-Layer : INI2GDI : loader
+			OLD : conflicts
+			NEW : fixed
 
 
 NEW_FEATURE
@@ -74,6 +77,8 @@ NEW_FEATURE
 			[!] : for Apple Guideline
 		DnD : alias
 			NEW : resolve path
+		Window
+			NEW : transparent titlebar available
 	Nonnon Paint for Mac
 		INI2GDI
 			NEW : text available
