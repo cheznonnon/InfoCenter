@@ -64,9 +64,15 @@ BUGFIX
 NEW_FEATURE
 
 
+	mac/*.c
+		some unused files
+			NEW : moved to "_template" folder
 	mac/_mac.c
 		n_mac_alias_resolve()
 			NEW : alias path resolver
+	mac/n_imgbox.c
+		released
+			NEW : image drawer
 
 	CatPad for Mac
 		search field
@@ -79,6 +85,10 @@ NEW_FEATURE
 			NEW : resolve path
 		Window
 			NEW : transparent titlebar available
+		Engine
+			NEW : re-implemented
+		Key Bindings : Left / Right Arrows
+			NEW : rotate available
 	Nonnon Paint for Mac
 		INI2GDI
 			NEW : text available
