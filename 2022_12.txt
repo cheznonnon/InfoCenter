@@ -59,6 +59,9 @@ BUGFIX
 		Multi-Layer : INI2GDI : loader
 			OLD : conflicts
 			NEW : fixed
+		Multi-Layer : Listbox : Rename
+			OLD : always inputtable
+			NEW : fixed
 
 
 NEW_FEATURE
