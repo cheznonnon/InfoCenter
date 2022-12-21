@@ -18,7 +18,30 @@ Change Log
 BUGFIX
 
 
+
+	Nonnon Paint for Mac
+		Multi-Layer : Layer Window : Rename : frame
+			OLD : right-side is not drawn
+			NEW : fixed
+		Preview : Key Bindings "1"
+			OLD : not working when a cursor on Tool Window
+			NEW : fixed
+		Grab N Drag : cursor
+			OLD : misbehave in some cases
+			NEW : fixed
+
+
 NEW_FEATURE
+
+
+	mac/n_txtbox.c
+		N_MAC_TXTBOX_DELEGATE_MOUSEDOWN_LEFT
+			NEW : for Nonnon Paint
+
+	Nonnon Paint for Mac
+		Multi-Layer : Layer Window : Listbox : selection : UI change at
+			OLD : mouse up
+			NEW : mouse down
 
 
 ----------==========----------==========----------==========----------
