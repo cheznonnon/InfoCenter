@@ -138,6 +138,11 @@ N_MAC_TXTBOX_DELEGATE_MOUSEDOWN_LEFT が追加になったニャ
 
 プレビューで１キーを押したときにカーソルがツールウィンドウ上にあると機能しないのを直したニャ
 
+■Nonnon for Mac
+
+全アプリで "Hardened Runtime" を有効にしたニャ
+アプリストアで売るのに必要なためだニャ
+
 
 ◇バグフィクス
 

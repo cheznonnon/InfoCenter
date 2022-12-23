@@ -38,6 +38,10 @@ NEW_FEATURE
 		N_MAC_TXTBOX_DELEGATE_MOUSEDOWN_LEFT
 			NEW : for Nonnon Paint
 
+	Nonnon for Mac
+		All : Hardened Runtime
+			NEW : enabled
+			[?] : needed to notarize (to sell in AppStore)
 	Nonnon Paint for Mac
 		Multi-Layer : Layer Window : Listbox : selection : UI change at
 			OLD : mouse up
