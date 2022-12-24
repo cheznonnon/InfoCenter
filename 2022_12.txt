@@ -56,10 +56,13 @@ NEW_FEATURE
 		Pen : Key Bindings : "X" : Quick Blur
 			NEW : pen with antialias effect
 			[!] : picked color is not used
-			[!] : shortcut for "Zoom" is deprecated
 		Resizer : Color Option : Auto White Balance
 			NEW : for pictures
 	Nonnon Paint for Win32
+		Pen : Key Bindings : "X" : Quick Blur
+			NEW : pen with antialias effect
+			[!] : picked color is not used
+			[!] : shortcut for "Zoom" is deprecated
 		Resizer : Color Option : Auto White Balance
 			NEW : for pictures
 
