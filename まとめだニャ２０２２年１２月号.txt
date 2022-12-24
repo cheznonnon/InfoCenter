@@ -138,10 +138,29 @@ N_MAC_TXTBOX_DELEGATE_MOUSEDOWN_LEFT が追加になったニャ
 
 プレビューで１キーを押したときにカーソルがツールウィンドウ上にあると機能しないのを直したニャ
 
+ペンに Quick Blur が付いたニャ
+X を押して入力を開始するとボケだけがかかるモードになるニャ
+
+リサイザーに "Auto White Balance" が付いたニャ
+
 ■Nonnon for Mac
 
 全アプリで "Hardened Runtime" を有効にしたニャ
 アプリストアで売るのに必要なためだニャ
+
+■neutral/bmp/filter.c
+
+n_bmp_flush_balance() が実装されたニャ
+ホワイトバランスを調整するニャ
+実はマクロになっていて乗数とアタックする色を調整できるニャ
+
+■Nonnon Paint for Win32
+
+リサイザーに "Auto White Balance" が付いたニャ
+
+■Marie for Mac
+
+メインアイコンのホワイトバランスを調整したニャ
 
 
 ◇バグフィクス

@@ -34,10 +34,17 @@ BUGFIX
 NEW_FEATURE
 
 
+	neutral/bmp/filter.c
+		n_bmp_flush_balance()
+			NEW : auto white balance
+
 	mac/n_txtbox.c
 		N_MAC_TXTBOX_DELEGATE_MOUSEDOWN_LEFT
 			NEW : for Nonnon Paint
 
+	Marie for Mac
+		App Icon
+			NEW : white balanced
 	Nonnon for Mac
 		All : Hardened Runtime
 			NEW : enabled
@@ -46,6 +53,15 @@ NEW_FEATURE
 		Multi-Layer : Layer Window : Listbox : selection : UI change at
 			OLD : mouse up
 			NEW : mouse down
+		Pen : Key Bindings : "X" : Quick Blur
+			NEW : pen with antialias effect
+			[!] : picked color is not used
+			[!] : shortcut for "Zoom" is deprecated
+		Resizer : Color Option : Auto White Balance
+			NEW : for pictures
+	Nonnon Paint for Win32
+		Resizer : Color Option : Auto White Balance
+			NEW : for pictures
 
 
 ----------==========----------==========----------==========----------
