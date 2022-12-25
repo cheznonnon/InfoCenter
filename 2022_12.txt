@@ -58,6 +58,8 @@ NEW_FEATURE
 			[!] : picked color is not used
 		Resizer : Color Option : Auto White Balance
 			NEW : for pictures
+		Resizer : Color Option : Squircle 256px
+			NEW : for making Mac style icon
 	Nonnon Paint for Win32
 		Pen : Key Bindings : "X" : Quick Blur
 			NEW : pen with antialias effect

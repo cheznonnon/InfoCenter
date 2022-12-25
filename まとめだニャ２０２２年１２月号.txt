@@ -142,6 +142,7 @@ N_MAC_TXTBOX_DELEGATE_MOUSEDOWN_LEFT が追加になったニャ
 X を押して入力を開始するとボケだけがかかるモードになるニャ
 
 リサイザーに "Auto White Balance" が付いたニャ
+リサイザーに "Squircle 256px" が付いたニャ
 
 ■Nonnon for Mac
 
