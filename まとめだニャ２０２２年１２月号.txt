@@ -144,6 +144,9 @@ X を押して入力を開始するとボケだけがかかるモードになる
 リサイザーに "Auto White Balance" が付いたニャ
 リサイザーに "Squircle 256px" が付いたニャ
 
+マルチレイヤーで Blur の最大値が 25 になったニャ
+これは Win32 版と同じだニャ
+
 ■Nonnon for Mac
 
 全アプリで "Hardened Runtime" を有効にしたニャ

@@ -60,6 +60,10 @@ NEW_FEATURE
 			NEW : for pictures
 		Resizer : Color Option : Squircle 256px
 			NEW : for making Mac style icon
+		Multi-Layer : Window : Blur : maximum value
+			OLD : 10
+			NEW : 25
+			[!] : same as Win32 version
 	Nonnon Paint for Win32
 		Pen : Key Bindings : "X" : Quick Blur
 			NEW : pen with antialias effect
