@@ -19,6 +19,12 @@ BUGFIX
 
 
 
+	floss/zlib.c
+		Mac
+			OLD : warnings ("bit length overflow") are output
+			NEW : use native (not used embeded code)
+			[?] : complicated link is not needed
+
 	Nonnon Paint for Mac
 		Multi-Layer : Layer Window : Rename : frame
 			OLD : right-side is not drawn
@@ -29,6 +35,9 @@ BUGFIX
 		Grab N Drag : cursor
 			OLD : misbehave in some cases
 			NEW : fixed
+		Multi-Layer : Resizer : target
+			OLD : all layers
+			NEW : follow Whole Grab On/Off
 
 
 NEW_FEATURE
