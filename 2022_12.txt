@@ -38,6 +38,12 @@ BUGFIX
 		Multi-Layer : Resizer : target
 			OLD : all layers
 			NEW : follow Whole Grab On/Off
+		Multi-Layer : Whole Grab On
+			OLD : you cannot turn on/off layer visibility
+			NEW : fixed
+		Multi-Layer : Whole Grab
+			OLD : locked layer is included
+			NEW : fixed
 
 
 NEW_FEATURE
