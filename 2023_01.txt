@@ -1,0 +1,69 @@
+
+
+----------==========----------==========----------==========----------
+
+
+"Eat Your Own Catfood."
+
+
+----------==========----------==========----------==========----------
+
+
+Change Log
+
+
+2023/01/30
+
+
+BUGFIX
+
+
+NEW_FEATURE
+
+
+----------==========----------==========----------==========----------
+
+
+Change Log
+
+
+2023/01/20
+
+
+BUGFIX
+
+
+NEW_FEATURE
+
+
+----------==========----------==========----------==========----------
+
+
+Change Log
+
+
+2023/01/10
+
+
+BUGFIX
+
+
+	mac/n_txtbox.c
+		click to focus : line number
+			OLD : not adjusted in some cases
+			NEW : re-tuned
+
+	Nonnon Paint for Mac
+		Multi-Layer : Txtbox : arrow key
+			OLD : scrollbar positions are not set
+			NEW : fixed
+		Multi-Layer : Loader : when files are not exist
+			OLD : crash
+			NEW : fixed
+
+
+NEW_FEATURE
+
+
+----------==========----------==========----------==========----------
+
