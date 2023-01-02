@@ -60,6 +60,12 @@ BUGFIX
 		Multi-Layer : Loader : when files are not exist
 			OLD : crash
 			NEW : fixed
+		Resizer
+			OLD : memory leak
+			NEW : fixed
+		Multi-Layer : Resizer
+			OLD : crash
+			NEW : fixed
 
 
 NEW_FEATURE
