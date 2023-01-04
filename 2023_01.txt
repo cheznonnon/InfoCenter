@@ -52,6 +52,9 @@ BUGFIX
 		click to focus : line number
 			OLD : not adjusted in some cases
 			NEW : re-tuned
+		decoration is on
+			OLD : selection misbehaves
+			NEW : fixed
 
 	Nonnon Paint for Mac
 		Multi-Layer : Txtbox : arrow key
@@ -66,9 +69,29 @@ BUGFIX
 		Multi-Layer : Resizer
 			OLD : crash
 			NEW : fixed
+		Multi-Layer : Rename : Shift Selection
+			OLD : misbehave
+			NEW : fixed
 
 
 NEW_FEATURE
+
+
+	mac/window.c
+		n_mac_window_centering()
+			OLD : full screen based
+			NEW : size without Dock
+
+	Marie for Mac
+		window : maxmum size
+			OLD : 80% of desktop
+			NEW : use all screen
+	Nonnon Freecell for Mac
+		window
+			NEW : centered by area without Dock
+	Nonnon Paint for Mac
+		window
+			NEW : a little larger
 
 
 ----------==========----------==========----------==========----------
