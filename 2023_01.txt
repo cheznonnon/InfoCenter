@@ -72,6 +72,20 @@ BUGFIX
 		Multi-Layer : Rename : Shift Selection
 			OLD : misbehave
 			NEW : fixed
+		Multi-Layer : Layer Window : double menu click
+			OLD : jammed when you click meny times
+			NEW : fixed
+		Pen
+			OLD : too small
+			NEW : fixed
+		Pen Size : step
+			OLD : 1
+			NEW : 2, odd number only
+			[?] : for example, 4 and 5 are the same output
+	Project Checker for Mac
+		double menu click
+			OLD : jammed when you click meny times
+			NEW : fixed
 
 
 NEW_FEATURE
