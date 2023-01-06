@@ -82,6 +82,9 @@ BUGFIX
 			OLD : 1
 			NEW : 2, odd number only
 			[?] : for example, 4 and 5 are the same output
+		Grabber : DnD
+			OLD : always handled as succeeded
+			NEW : fixed
 	Project Checker for Mac
 		double menu click
 			OLD : jammed when you click meny times
@@ -106,6 +109,8 @@ NEW_FEATURE
 	Nonnon Paint for Mac
 		window
 			NEW : a little larger
+		Resizer ; Squircle 256px
+			NEW : drop shadow available
 
 
 ----------==========----------==========----------==========----------
