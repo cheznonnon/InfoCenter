@@ -103,6 +103,8 @@ NEW_FEATURE
 		window : maxmum size
 			OLD : 80% of desktop
 			NEW : use all screen
+		Animation GIF
+			NEW : supported
 	Nonnon Freecell for Mac
 		window
 			NEW : centered by area without Dock
