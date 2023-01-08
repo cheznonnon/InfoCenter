@@ -73,7 +73,7 @@ BUGFIX
 			OLD : misbehave
 			NEW : fixed
 		Multi-Layer : Layer Window : double menu click
-			OLD : jammed when you click meny times
+			OLD : jammed when you click many times
 			NEW : fixed
 		Pen
 			OLD : too small
@@ -94,7 +94,7 @@ BUGFIX
 			NEW : fixed
 	Project Checker for Mac
 		double menu click
-			OLD : jammed when you click meny times
+			OLD : jammed when you click many times
 			NEW : fixed
 
 
