@@ -85,6 +85,13 @@ BUGFIX
 		Grabber : DnD
 			OLD : always handled as succeeded
 			NEW : fixed
+		Save : Layer
+			OLD : crash
+			NEW : fixed
+			[x] : render cache causes
+		Save : Layer #2
+			OLD : not initialized
+			NEW : fixed
 	Project Checker for Mac
 		double menu click
 			OLD : jammed when you click meny times
