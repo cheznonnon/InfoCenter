@@ -118,7 +118,7 @@ NEW_FEATURE
 	Nonnon Paint for Mac
 		window
 			NEW : a little larger
-		Resizer ; Squircle 256px
+		Resizer : Squircle 256px
 			NEW : drop shadow available
 
 
