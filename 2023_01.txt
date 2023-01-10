@@ -36,6 +36,11 @@ BUGFIX
 NEW_FEATURE
 
 
+	mac/n_txtbox.c
+		scrollbar
+			NEW : hover/press effect available
+
+
 ----------==========----------==========----------==========----------
 
 
