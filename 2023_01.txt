@@ -33,6 +33,12 @@ Change Log
 BUGFIX
 
 
+	Nonnon Paint for Mac
+		Multi-Layer : Grabber : Drop2Save
+			OLD : broken image will be output
+			NEW : fixed
+
+
 NEW_FEATURE
 
 
