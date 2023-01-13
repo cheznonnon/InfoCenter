@@ -46,6 +46,13 @@ NEW_FEATURE
 		scrollbar
 			NEW : hover/press effect available
 
+	CatPad for Mac
+		Search Field : when Ctrl+F to focus
+			NEW : select all
+	Project Checker for Mac
+		refactored
+			NEW : infrastructure is replaced
+
 
 ----------==========----------==========----------==========----------
 
