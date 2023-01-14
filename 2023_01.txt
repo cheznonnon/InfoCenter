@@ -45,6 +45,8 @@ NEW_FEATURE
 	mac/n_txtbox.c
 		scrollbar
 			NEW : hover/press effect available
+		japanese combining characters
+			NEW : supported
 
 	CatPad for Mac
 		Search Field : when Ctrl+F to focus
