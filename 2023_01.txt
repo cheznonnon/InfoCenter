@@ -37,6 +37,10 @@ BUGFIX
 		Multi-Layer : Grabber : Drop2Save
 			OLD : broken image will be output
 			NEW : fixed
+		Pen Size
+			OLD : 1 will be 2
+			NEW : fixed
+			[x] : BUGFIX @ 2023/01/10
 
 
 NEW_FEATURE
@@ -51,6 +55,10 @@ NEW_FEATURE
 	CatPad for Mac
 		Search Field : when Ctrl+F to focus
 			NEW : select all
+	Nonnon Paint for Mac
+		Multi-Layer : loader : layer index
+			NEW : continue when previous folder is the same name
+			[!] : use as quick undo
 	Project Checker for Mac
 		refactored
 			NEW : infrastructure is replaced
