@@ -41,6 +41,10 @@ BUGFIX
 			OLD : 1 will be 2
 			NEW : fixed
 			[x] : BUGFIX @ 2023/01/10
+		Multi-Layer : Whole Preview
+			OLD : not working
+			NEW : fixed
+			[x] : recent changes
 
 
 NEW_FEATURE
