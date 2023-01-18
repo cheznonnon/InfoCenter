@@ -33,6 +33,11 @@ Change Log
 BUGFIX
 
 
+	mac/n_txtbox.c
+		LISTBOX : Arrow Up/Down : auto-scroll
+			OLD : inaccurate
+			NEW : fixed
+
 	Nonnon Paint for Mac
 		Multi-Layer : Grabber : Drop2Save
 			OLD : broken image will be output
@@ -63,6 +68,8 @@ NEW_FEATURE
 		Multi-Layer : loader : layer index
 			NEW : continue when previous folder is the same name
 			[!] : use as quick undo
+		Multi-Layer : List : Arrow Up/Down
+			NEW : faster than older
 	Project Checker for Mac
 		refactored
 			NEW : infrastructure is replaced
