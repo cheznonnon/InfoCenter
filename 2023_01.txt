@@ -50,6 +50,13 @@ BUGFIX
 			OLD : not working
 			NEW : fixed
 			[x] : recent changes
+		Multi-Layer : Listbox : double-click
+			OLD : not smooth (jammed)
+			NEW : fixed
+	Project Checker for Mac
+		Multi-Layer : Listbox : double-click
+			OLD : not smooth (jammed)
+			NEW : fixed
 
 
 NEW_FEATURE
@@ -111,7 +118,7 @@ BUGFIX
 		Multi-Layer : Rename : Shift Selection
 			OLD : misbehave
 			NEW : fixed
-		Multi-Layer : Layer Window : double menu click
+		Multi-Layer : Layer Window : double click
 			OLD : jammed when you click many times
 			NEW : fixed
 		Pen
