@@ -21,6 +21,15 @@ BUGFIX
 NEW_FEATURE
 
 
+	CatPad for Mac
+		Search Field : delete button : new window after deletion
+			OLD : old string remains
+			NEW : set empty
+	Wheel Axl
+		icon : 256px
+			NEW : re-tuned
+
+
 ----------==========----------==========----------==========----------
 
 
@@ -54,7 +63,7 @@ BUGFIX
 			OLD : not smooth (jammed)
 			NEW : fixed
 	Project Checker for Mac
-		Multi-Layer : Listbox : double-click
+		Listbox : double-click
 			OLD : not smooth (jammed)
 			NEW : fixed
 
