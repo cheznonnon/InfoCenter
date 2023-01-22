@@ -25,6 +25,9 @@ BUGFIX
 		Multi-Layer : Listbox : scrollbar
 			OLD : not captured when dragged
 			NEW : fixed
+		Grabber : non multi-layer : basic filters like "2x" "1/2"
+			OLD : position will be inaccurate
+			NEW : fixed
 
 
 NEW_FEATURE
