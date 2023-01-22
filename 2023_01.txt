@@ -18,6 +18,15 @@ Change Log
 BUGFIX
 
 
+	Nonnon Paint for Mac
+		Multi-Layer : Quick Undo
+			OLD : internal confusion
+			NEW : fixed
+		Multi-Layer : Listbox : scrollbar
+			OLD : not captured when dragged
+			NEW : fixed
+
+
 NEW_FEATURE
 
 
