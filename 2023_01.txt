@@ -28,6 +28,9 @@ BUGFIX
 		Grabber : non multi-layer : basic filters like "2x" "1/2"
 			OLD : position will be inaccurate
 			NEW : fixed
+		Grabber : Per-Pixel Alpha Blending
+			OLD : drawing as UI is broken
+			NEW : fixed
 
 
 NEW_FEATURE
