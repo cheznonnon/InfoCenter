@@ -36,10 +36,19 @@ BUGFIX
 NEW_FEATURE
 
 
+	mac/n_scrollbar.c
+		Gradient Bar : enablement
+			OLD : ".grad1" is not zero
+			NEW : only in option is set
+			[!] : usage is changed
+
 	CatPad for Mac
 		Search Field : delete button : new window after deletion
 			OLD : old string remains
 			NEW : set empty
+	Nonnon Paint for Mac
+		Tool Window : Alpha Scrollbar
+			NEW : gradient bar available
 	Wheel Axl
 		icon : 256px
 			NEW : re-tuned
