@@ -18,6 +18,10 @@ Change Log
 BUGFIX
 
 
+	Marie for Mac
+		loader : memory
+			OLD : leak
+			NEW : fixed
 	Nonnon Paint for Mac
 		Multi-Layer : Quick Undo
 			OLD : internal confusion
