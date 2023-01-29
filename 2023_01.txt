@@ -35,6 +35,13 @@ BUGFIX
 		Grabber : Per-Pixel Alpha Blending
 			OLD : drawing as UI is broken
 			NEW : fixed
+		Multi-Layer : Resizer : grabbed area
+			OLD : older frame remains
+			NEW : fixed
+		Multi-Layer : Resizer : locked layer
+			OLD : included
+			NEW : excluded
+
 
 
 NEW_FEATURE
