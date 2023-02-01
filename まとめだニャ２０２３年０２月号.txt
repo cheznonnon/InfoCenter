@@ -13,6 +13,11 @@
 
 レトロシューティングゲームの移植版だニャ
 
+■Nonnon Tools for Mac
+
+"Unpack Icons" が付いたニャ
+Windows のマルチアイコンを展開するニャ
+
 
 ◇バグフィクス
 

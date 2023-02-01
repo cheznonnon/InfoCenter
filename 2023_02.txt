@@ -60,6 +60,10 @@ NEW_FEATURE
 	LINE MASHER 2 for Mac
 		released
 			NEW : retro shooter
+	Nonnon Tools for Mac
+		"Unpack Icons"
+			NEW : multi-icon unpacker
+			[!] : for Windows Icon (.ICO)
 
 
 ----------==========----------==========----------==========----------
