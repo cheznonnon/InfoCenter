@@ -15,8 +15,8 @@
 
 ■Nonnon Tools for Mac
 
-"Unpack Icons" が付いたニャ
-Windows のマルチアイコンを展開するニャ
+"Pack/Unpack Icons" が付いたニャ
+Windows のマルチアイコンをまとめたり展開したりするニャ
 
 
 ◇バグフィクス

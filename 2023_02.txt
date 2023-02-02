@@ -61,8 +61,8 @@ NEW_FEATURE
 		released
 			NEW : retro shooter
 	Nonnon Tools for Mac
-		"Unpack Icons"
-			NEW : multi-icon unpacker
+		"Pack/Unpack Icons"
+			NEW : multi-icon packer/unpacker
 			[!] : for Windows Icon (.ICO)
 
 
