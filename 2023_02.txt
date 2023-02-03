@@ -64,6 +64,9 @@ NEW_FEATURE
 		"Pack/Unpack Icons"
 			NEW : multi-icon packer/unpacker
 			[!] : for Windows Icon (.ICO)
+	Pen Trainer for Mac
+		released
+			NEW : pen trainer
 
 
 ----------==========----------==========----------==========----------

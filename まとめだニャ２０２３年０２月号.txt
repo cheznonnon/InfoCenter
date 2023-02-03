@@ -18,6 +18,10 @@
 "Pack/Unpack Icons" が付いたニャ
 Windows のマルチアイコンをまとめたり展開したりするニャ
 
+■Pen Trainer for Mac
+
+ペンの練習をするツールの移植版だニャ
+
 
 ◇バグフィクス
 
