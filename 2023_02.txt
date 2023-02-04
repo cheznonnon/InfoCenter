@@ -52,6 +52,9 @@ BUGFIX
 		Mac Version : effects
 			OLD : insufficient in size
 			NEW : fixed
+		Mac Version : descent (below baseline) like "y"
+			OLD : not drawn
+			NEW : fixed
 
 
 NEW_FEATURE
@@ -60,6 +63,9 @@ NEW_FEATURE
 	LINE MASHER 2 for Mac
 		released
 			NEW : retro shooter
+	Nonnon Freecell for Mac
+		sound playback
+			NEW : lighter than older
 	Nonnon Tools for Mac
 		"Pack/Unpack Icons"
 			NEW : multi-icon packer/unpacker
