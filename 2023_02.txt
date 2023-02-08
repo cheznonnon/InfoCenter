@@ -65,6 +65,9 @@ BUGFIX
 NEW_FEATURE
 
 
+	CatPad for Mac
+		Search Field : delete button
+			NEW : hover and fade effect availalble
 	LINE MASHER 2 for Mac
 		released
 			NEW : retro shooter
