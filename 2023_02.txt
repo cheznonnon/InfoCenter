@@ -33,6 +33,21 @@ Change Log
 BUGFIX
 
 
+	mac/n_txtfield.c
+		ellipsis
+			OLD : wordwrap (default)
+			NEW : like "long text..."
+
+	Nonnon Paint for Mac
+		Multi-Layer : Save
+			OLD : not saved in some cases
+			NEW : fixed
+			[!] : when not edited
+		Multi-Layer : Resizer
+			OLD : data will be broken
+			NEW : fixed
+
+
 NEW_FEATURE
 
 
