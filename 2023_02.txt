@@ -33,6 +33,10 @@ Change Log
 BUGFIX
 
 
+	mac/n_txtbox.c
+		decoration
+			OLD : caret is not adjusted
+			NEW : fixed
 	mac/n_txtfield.c
 		ellipsis
 			OLD : wordwrap (default)
@@ -46,9 +50,37 @@ BUGFIX
 		Multi-Layer : Resizer
 			OLD : data will be broken
 			NEW : fixed
+		Grabber : Drop a file
+			OLD : Y axis is invalid
+			NEW : fixed
+			[?] : value of X axis is used
+			[!] : copy and paste error
+		Multi-Layer : Layer Window : when italic
+			OLD : caret is not adjusted
+			NEW : fixed
+	Project Checker for Mac
+		Folder
+			OLD : inner
+			NEW : upper
+			[x] : BUGFIX @ 2023/02/10
 
 
 NEW_FEATURE
+
+
+	mac/_mac.c
+		n_mac_stdfont();
+			NEW : standard font maker
+	mac/n_txtfield.c
+		source code
+			NEW : refactored
+		property "n_folder_only"
+			NEW : folder only droppable
+
+	Nyaagle for Mac
+		released
+			NEW : local search engine
+			[?] : Monterey's Spotlight is flaky
 
 
 ----------==========----------==========----------==========----------
