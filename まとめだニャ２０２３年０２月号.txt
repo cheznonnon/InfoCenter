@@ -53,7 +53,7 @@ Monterey の Spotlight がおかしな動きをするので作ったニャ
 
 ■mac/_mac.c
 
-n_mnac_stdfont() が実装されたニャ
+n_mac_stdfont() が実装されたニャ
 
 ■mac/n_txtfield.c
 
