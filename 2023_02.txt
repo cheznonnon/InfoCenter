@@ -41,6 +41,9 @@ BUGFIX
 		ellipsis
 			OLD : wordwrap (default)
 			NEW : like "long text..."
+		right-side margin
+			OLD : insufficient
+			NEW : added
 
 	Nonnon Paint for Mac
 		Multi-Layer : Save
