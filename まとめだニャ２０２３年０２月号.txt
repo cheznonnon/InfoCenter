@@ -61,6 +61,10 @@ NSTextField への依存関係を無くしたニャ
 
 n_folder_only のプロパティが増えたニャ
 
+■Nonnon Freecell for Mac
+
+フェードインが７５０ミリ秒から１秒になったニャ
+
 
 ◇バグフィクス
 

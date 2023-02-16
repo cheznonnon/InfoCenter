@@ -80,6 +80,10 @@ NEW_FEATURE
 		property "n_folder_only"
 			NEW : folder only droppable
 
+	Nonnon Freecell for Mac
+		Fade-in
+			OLD :  750 msec.
+			NEW : 1000 msec.
 	Nyaagle for Mac
 		released
 			NEW : local search engine
@@ -107,7 +111,7 @@ BUGFIX
 		Mac Version : effects
 			OLD : insufficient in size
 			NEW : fixed
-		Mac Version : descent (below baseline) like "y"
+		Mac Version : descender (below baseline) like "y"
 			OLD : not drawn
 			NEW : fixed
 
