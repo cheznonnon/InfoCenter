@@ -33,10 +33,6 @@ Change Log
 BUGFIX
 
 
-	mac/n_txtbox.c
-		decoration
-			OLD : caret is not adjusted
-			NEW : fixed
 	mac/n_txtfield.c
 		ellipsis
 			OLD : wordwrap (default)
@@ -58,9 +54,6 @@ BUGFIX
 			NEW : fixed
 			[?] : value of X axis is used
 			[!] : copy and paste error
-		Multi-Layer : Layer Window : when italic
-			OLD : caret is not adjusted
-			NEW : fixed
 	Project Checker for Mac
 		Folder
 			OLD : inner
@@ -74,6 +67,11 @@ NEW_FEATURE
 	mac/_mac.c
 		n_mac_stdfont();
 			NEW : standard font maker
+	mac/n_txtbox.c
+		decoration
+			NEW : revamped
+			[!] : more robust than older
+			[!] : usage is changed
 	mac/n_txtfield.c
 		source code
 			NEW : refactored
@@ -84,6 +82,11 @@ NEW_FEATURE
 		Fade-in
 			OLD :  750 msec.
 			NEW : 1000 msec.
+	Nonnon Paint for Mac
+		Multi-Layer : Layer Listbox : Renamer
+			OLD : inline (buggy)
+			NEW : external window
+			[!] : Txtbox Decoration is revamped, re-implement later
 	Nyaagle for Mac
 		released
 			NEW : local search engine
