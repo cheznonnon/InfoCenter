@@ -54,6 +54,12 @@ BUGFIX
 			NEW : fixed
 			[?] : value of X axis is used
 			[!] : copy and paste error
+		Multi-Layer : Resizer : Single Layer
+			OLD : whole grabbed
+			NEW : single layer
+		Resizer : Color Option : Reverse
+			OLD : crash
+			NEW : fixed
 	Project Checker for Mac
 		Folder
 			OLD : inner
