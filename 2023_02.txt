@@ -41,6 +41,11 @@ BUGFIX
 			OLD : insufficient
 			NEW : added
 
+	neutral/zip.c
+		Mac Support
+			NEW : compilable but n_zip_encode() makes an invalid ZIP file
+			[!] : under investigation
+
 	Nonnon Paint for Mac
 		Multi-Layer : Save
 			OLD : not saved in some cases
@@ -93,6 +98,10 @@ NEW_FEATURE
 			OLD : inline (buggy)
 			NEW : external window
 			[!] : Txtbox Decoration is revamped, re-implement later
+	Nonnon Tools for Mac
+		ArcDrop
+			NEW : Win32 compatible ZIP archiver
+			[!] : for my needs
 	Nyaagle for Mac
 		released
 			NEW : local search engine
