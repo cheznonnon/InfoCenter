@@ -18,7 +18,23 @@ Change Log
 BUGFIX
 
 
+	mac/n_txtbox.c
+		LISTBOX : edit : frame
+			OLD : too small
+			NEW : fixed
+		LISTBOX : edit : decoration
+			NEW : disabled while editing
+
+
 NEW_FEATURE
+
+
+	CatPad for Mac
+		Save : blinking
+			NEW : re-tuned
+	Nonnon Paint for Mac
+		Multi-Layer : Listbox : Inline Edit
+			NEW : re-vived
 
 
 ----------==========----------==========----------==========----------
