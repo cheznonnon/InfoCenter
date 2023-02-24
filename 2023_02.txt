@@ -25,6 +25,15 @@ BUGFIX
 		LISTBOX : edit : decoration
 			NEW : disabled while editing
 
+	Marie for Mac
+		Animated GIF
+			OLD : black margin misbehaves
+			NEW : fixed
+	Nyaagle for Mac
+		when searched : list transition
+			OLD : not smooth
+			NEW : fixed
+
 
 NEW_FEATURE
 
@@ -35,6 +44,9 @@ NEW_FEATURE
 	Nonnon Paint for Mac
 		Multi-Layer : Listbox : Inline Edit
 			NEW : re-vived
+	WheelAxl for Win32
+		Icon : 256px
+			NEW : re-tuned
 
 
 ----------==========----------==========----------==========----------
