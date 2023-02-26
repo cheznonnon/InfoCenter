@@ -44,6 +44,11 @@ NEW_FEATURE
 	Nonnon Paint for Mac
 		Multi-Layer : Listbox : Inline Edit
 			NEW : re-vived
+	Nyaagle for Mac
+		Icon
+			OLD : black
+			NEW : gray
+			[!] : for dark mode
 	WheelAxl for Win32
 		Icon : 256px
 			NEW : re-tuned
