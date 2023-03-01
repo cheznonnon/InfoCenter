@@ -1,0 +1,65 @@
+
+
+----------==========----------==========----------==========----------
+
+
+"Eat Your Own Catfood."
+
+
+----------==========----------==========----------==========----------
+
+
+Change Log
+
+
+2023/03/30
+
+
+BUGFIX
+
+
+NEW_FEATURE
+
+
+----------==========----------==========----------==========----------
+
+
+Change Log
+
+
+2023/03/20
+
+
+BUGFIX
+
+
+NEW_FEATURE
+
+
+----------==========----------==========----------==========----------
+
+
+Change Log
+
+
+2023/03/10
+
+
+BUGFIX
+
+
+NEW_FEATURE
+
+
+	mac/draw.c
+		n_mac_draw_box_invert()
+			NEW : placeholder for future use
+			[!] : currently call n_mac_draw_box() only
+
+	LINE MASHER 2 for Mac
+		Starting
+			NEW : transition and sound available
+
+
+----------==========----------==========----------==========----------
+
