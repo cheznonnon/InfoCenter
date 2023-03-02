@@ -48,6 +48,17 @@ Change Log
 BUGFIX
 
 
+	Marie for Mac
+		Animated GIF Support : another image is loaded
+			OLD : integrity will be lost
+			NEW : fixed
+	Nonnon Paint for Mac
+		Multi-Layer : Layer Window : Whole Grab/Preview checkboxes
+			OLD : internal confusion
+			NEW : fixed
+			[!] : happens when you turn on/off after grabbed
+
+
 NEW_FEATURE
 
 
@@ -59,6 +70,13 @@ NEW_FEATURE
 	LINE MASHER 2 for Mac
 		Starting
 			NEW : transition and sound available
+	Pen Trainer for Mac
+		Canvas
+			OLD : control color
+			NEW : white and black
+		Pen Size
+			OLD : 12 px
+			NEW : font size / 10
 
 
 ----------==========----------==========----------==========----------
