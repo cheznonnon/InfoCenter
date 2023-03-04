@@ -57,6 +57,9 @@ BUGFIX
 			OLD : internal confusion
 			NEW : fixed
 			[!] : happens when you turn on/off after grabbed
+		Multi-Layer : Grabber : basic filters
+			OLD : sync, frame will be auto-moved
+			NEW : no sync
 
 
 NEW_FEATURE
