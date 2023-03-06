@@ -63,6 +63,9 @@ BUGFIX
 		Multi-Layer : Layer Window : Menu
 			OLD : layer names will be broken
 			NEW : fixed
+		Multi-Layer : when nonnon_paint.ini is dropped
+			OLD : not saved
+			NEW : fixed
 
 
 NEW_FEATURE
