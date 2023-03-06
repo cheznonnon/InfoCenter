@@ -60,6 +60,9 @@ BUGFIX
 		Multi-Layer : Grabber : basic filters
 			OLD : sync, frame will be auto-moved
 			NEW : no sync
+		Multi-Layer : Layer Window : Menu
+			OLD : layer names will be broken
+			NEW : fixed
 
 
 NEW_FEATURE
