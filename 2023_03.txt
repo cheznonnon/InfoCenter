@@ -66,6 +66,10 @@ BUGFIX
 		Multi-Layer : when nonnon_paint.ini is dropped
 			OLD : not saved
 			NEW : fixed
+	Pen Trainer for Mac
+		Accent Color
+			OLD : inaccurate
+			NEW : fixed
 
 
 NEW_FEATURE
