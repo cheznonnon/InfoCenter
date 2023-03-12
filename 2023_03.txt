@@ -33,6 +33,13 @@ Change Log
 BUGFIX
 
 
+	Pen Trainer for Mac
+		Accent Color
+			OLD : not changed when accent color is changed
+			NEW : fixed
+			[x] : BUGFIX @ 2023/03/10
+
+
 NEW_FEATURE
 
 
