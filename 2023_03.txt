@@ -33,6 +33,10 @@ Change Log
 BUGFIX
 
 
+	Marie for Mac
+		Animated GIF support : when associated to .GIF
+			OLD : not animated
+			NEW : fixed
 	Pen Trainer for Mac
 		Accent Color
 			OLD : not changed when accent color is changed
@@ -41,6 +45,12 @@ BUGFIX
 
 
 NEW_FEATURE
+
+
+	Nonnon Paint for Mac
+		Multi-Layer : Layer Window : Listbox : when visible
+			OLD : italic
+			NEW : italic and indicator
 
 
 ----------==========----------==========----------==========----------
