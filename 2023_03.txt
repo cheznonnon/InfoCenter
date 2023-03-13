@@ -48,9 +48,9 @@ NEW_FEATURE
 
 
 	Nonnon Paint for Mac
-		Multi-Layer : Layer Window : Listbox : when visible
-			OLD : italic
-			NEW : italic and indicator
+		Multi-Layer : Layer Window : Listbox
+			OLD : none when visible, italic when invisible
+			NEW : visible will have an indicator
 
 
 ----------==========----------==========----------==========----------
