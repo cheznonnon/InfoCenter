@@ -51,6 +51,9 @@ NEW_FEATURE
 		Multi-Layer : Layer Window : Listbox
 			OLD : none when visible, italic when invisible
 			NEW : visible will have an indicator
+	Nyaagle for Mac
+		Menu : "File Name Only"
+			NEW : search file names only
 
 
 ----------==========----------==========----------==========----------
