@@ -33,9 +33,18 @@ Change Log
 BUGFIX
 
 
+	mac/n_txtbox.c
+		scroll bar : thumb
+			OLD : bottom-side margin overwrites a thumb
+			NEW : fixed
+
 	Marie for Mac
 		Animated GIF support : when associated to .GIF
 			OLD : not animated
+			NEW : fixed
+	Nonnon Paint for Mac
+		Menu : About Window
+			OLD : a cursor is not an arrow
 			NEW : fixed
 	Pen Trainer for Mac
 		Accent Color
