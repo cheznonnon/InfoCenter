@@ -37,6 +37,8 @@ BUGFIX
 		scroll bar : thumb
 			OLD : bottom-side margin overwrites a thumb
 			NEW : fixed
+		zenkaku detection
+			NEW : 0x2500 to 0x25ff are enabled
 
 	Marie for Mac
 		Animated GIF support : when associated to .GIF
