@@ -21,6 +21,12 @@ BUGFIX
 NEW_FEATURE
 
 
+	Nonnon Paint for Mac
+		Preview
+			OLD : 0.8 * desktop size
+			NEW : 0.9
+
+
 ----------==========----------==========----------==========----------
 
 
