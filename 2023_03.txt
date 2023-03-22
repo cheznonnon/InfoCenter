@@ -25,6 +25,8 @@ NEW_FEATURE
 		Preview
 			OLD : 0.8 * desktop size
 			NEW : 0.9
+		Stricter UI Context
+			NEW : Preview is supported
 
 
 ----------==========----------==========----------==========----------
