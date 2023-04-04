@@ -1,0 +1,64 @@
+
+
+----------==========----------==========----------==========----------
+
+
+"Eat Your Own Catfood."
+
+
+----------==========----------==========----------==========----------
+
+
+Change Log
+
+
+2023/04/30
+
+
+BUGFIX
+
+
+NEW_FEATURE
+
+
+----------==========----------==========----------==========----------
+
+
+Change Log
+
+
+2023/04/20
+
+
+BUGFIX
+
+
+NEW_FEATURE
+
+
+----------==========----------==========----------==========----------
+
+
+Change Log
+
+
+2023/04/10
+
+
+BUGFIX
+
+
+NEW_FEATURE
+
+
+	Nonnon Paint for Mac
+		Resizer : Color Option : Contour
+			NEW : auto contour
+	Nyaagle for Mac
+		while processing : cursor
+			OLD : do nothing
+			NEW : busy cursor
+
+
+----------==========----------==========----------==========----------
+
