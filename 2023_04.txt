@@ -49,7 +49,7 @@ BUGFIX
 
 
 	Nonnon Paint for Win32
-		Grabber : Frame Animation : click Hamberger Button
+		Grabber : Frame Animation : click Hamburger Button
 			OLD : misbehaves
 			NEW : fixed
 		Quick Blur : cursor
