@@ -48,12 +48,30 @@ Change Log
 BUGFIX
 
 
+	Nonnon Paint for Win32
+		Grabber : Frame Animation : click Hamberger Button
+			OLD : misbehaves
+			NEW : fixed
+		Quick Blur : cursor
+			OLD : flickers
+			NEW : fixed
+
+
 NEW_FEATURE
 
+
+	mac/n_txtbox.c
+		FINDBOX : delete circle : IME
+			OLD : do nothing
+			NEW : an unconfirmed string will be empty too
 
 	Nonnon Paint for Mac
 		Resizer : Color Option : Contour
 			NEW : auto contour
+	Nonnon Paint for Win32
+		Key Binding : A to Z
+			NEW : obsoleted
+			[!] : sync to Mac version
 	Nyaagle for Mac
 		while processing : cursor
 			OLD : do nothing
