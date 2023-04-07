@@ -48,6 +48,11 @@ Change Log
 BUGFIX
 
 
+	mac/n_txtbox.c
+		Key Bindings : Up/Down Arrow : auto-scroll
+			OLD : inaccurate behavior
+			NEW : fixed
+
 	Nonnon Paint for Win32
 		Grabber : Frame Animation : click Hamburger Button
 			OLD : misbehaves
