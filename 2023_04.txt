@@ -52,6 +52,9 @@ BUGFIX
 		Key Bindings : Up/Down Arrow : auto-scroll
 			OLD : inaccurate behavior
 			NEW : fixed
+		Fake Scroller
+			OLD : a thumb overruns when many lines
+			NEW : fixed
 
 	Nonnon Paint for Win32
 		Grabber : Frame Animation : click Hamburger Button
