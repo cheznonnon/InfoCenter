@@ -84,6 +84,10 @@ NEW_FEATURE
 		while processing : cursor
 			OLD : do nothing
 			NEW : busy cursor
+		File Name Search
+			NEW : wildcard (* and ?) available
+		File Name Search
+			NEW : Shift + Enter available
 
 
 ----------==========----------==========----------==========----------

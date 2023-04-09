@@ -13,6 +13,10 @@
 
 処理中はカーソルが変わるニャ
 
+ファイル名検索の時はワイルドカードが使えるニャ
+
+Shift + Enter で常にファイル名検索ができるニャ
+
 ■Nonnon Paint for Mac
 
 Resizer の Color Option に Contour が付いたニャ
