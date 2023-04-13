@@ -33,6 +33,12 @@ Change Log
 BUGFIX
 
 
+	mac/n_txtbox.c
+		Key Bindings : Enter/Backspace : when scroll is needed
+			OLD : scrolling by "page / 2"
+			NEW : line
+
+
 NEW_FEATURE
 
 
