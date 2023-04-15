@@ -38,6 +38,11 @@ BUGFIX
 			OLD : scrolling by "page / 2"
 			NEW : line
 
+	Nonnon Paint for Mac
+		about dialog
+			OLD : after this, a canvas window will be topmost
+			NEW : fixed
+
 
 NEW_FEATURE
 
