@@ -47,6 +47,12 @@ BUGFIX
 NEW_FEATURE
 
 
+	Nonnon Paint for Mac
+		Tool Window : Save
+			NEW : menu click emulator available
+			[!] : change format whie pressing shift key
+
+
 ----------==========----------==========----------==========----------
 
 
