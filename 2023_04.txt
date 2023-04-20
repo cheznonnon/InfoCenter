@@ -36,7 +36,7 @@ BUGFIX
 	mac/n_txtbox.c
 		Key Bindings : Enter/Backspace : when scroll is needed
 			OLD : scrolling by "page / 2"
-			NEW : line
+			NEW : by line
 
 	Nonnon Paint for Mac
 		about dialog
@@ -50,7 +50,7 @@ NEW_FEATURE
 	Nonnon Paint for Mac
 		Tool Window : Save
 			NEW : menu click emulator available
-			[!] : change format whie pressing shift key
+			[!] : change format while pressing shift key
 
 
 ----------==========----------==========----------==========----------
