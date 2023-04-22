@@ -18,7 +18,18 @@ Change Log
 BUGFIX
 
 
+	mac/*.c
+		deprecated symbols
+			OLD : warned in some files
+			NEW : resolved
+
+
 NEW_FEATURE
+
+
+	neutral/html.c
+		Mac Support
+			NEW : implemented
 
 
 ----------==========----------==========----------==========----------
