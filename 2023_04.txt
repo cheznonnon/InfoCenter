@@ -26,9 +26,16 @@ BUGFIX
 
 NEW_FEATURE
 
+	mac/_mac.c
+		n_mac_webloc_resolve()
+			NEW : .weblock resolver
 
 	neutral/html.c
 		Mac Support
+			NEW : implemented
+
+	Nonnon Tools for Mac
+		Favorites2HTML
 			NEW : implemented
 
 

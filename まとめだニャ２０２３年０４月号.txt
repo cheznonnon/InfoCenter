@@ -76,6 +76,15 @@ Quick Blur でカーソルがフリッカするのを直したニャ
 
 Mac をサポートするニャ
 
+■Nonnon Tools for Mac
+
+Favorites2HTML が実装されたニャ
+
+■mac/_mac.c
+
+n_mac_webloc_resolve() ができたニャ
+ブックマークファイルを読み出すニャ
+
 
 ◇バグフィクス
 
