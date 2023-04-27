@@ -26,17 +26,26 @@ BUGFIX
 
 NEW_FEATURE
 
+
 	mac/_mac.c
 		n_mac_webloc_resolve()
 			NEW : .weblock resolver
+		n_mac_webloc_save()
+			NEW : output .webloc
 
 	neutral/html.c
 		Mac Support
 			NEW : implemented
+	neutral/string.c
+		n_string_compare()
+			NEW : Mac is supported
 
 	CatPad for Mac
 		readme
 			NEW : re-tuned
+	Nonnon Paint for Mac
+		Resizer : window
+			NEW : remember position
 	Nonnon Tools for Mac
 		Favorites2HTML
 			NEW : implemented

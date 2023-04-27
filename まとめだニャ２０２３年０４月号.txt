@@ -82,12 +82,20 @@ Favorites2HTML が実装されたニャ
 
 ■mac/_mac.c
 
-n_mac_webloc_resolve() ができたニャ
-ブックマークファイルを読み出すニャ
+n_mac_webloc_resolve(), _save() ができたニャ
+ブックマークファイル（.webloc）を読み書きするニャ
 
 ■CatPad for Mac
 
 リードミーを調整したニャ
+
+■neutral/string.c
+
+n_string_compare() が Mac をサポートするニャ
+
+■Nonnon Paint for Mac
+
+リサイザーのウィンドウが位置を覚えるようになったニャ
 
 
 ◇バグフィクス
