@@ -23,6 +23,11 @@ BUGFIX
 			OLD : warned in some files
 			NEW : resolved
 
+	LINE MASHER 2 for Mac
+		at startup
+			OLD : glitchy
+			NEW : fixed
+
 
 NEW_FEATURE
 
