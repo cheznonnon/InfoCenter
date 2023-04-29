@@ -410,12 +410,11 @@ Resizer
 
 	Color Option
 
-		Color Reduction
+		Auto White Balance
 
-			Nonnon Smart Color Reduction
+			for pictures
 
-			+ use with PNG files for shrinking size
-			+ this can reduce 20% to 50%
+			+ strong tool, not for illustrations
 
 		Grayscale
 
@@ -456,6 +455,12 @@ Resizer
 				1 : turn "Per-Pixel Alpha Blending" on
 				2 : paste the grabbed area
 
+		Color Reduction
+
+			Nonnon Smart Color Reduction
+
+			+ use with PNG files for shrinking size
+			+ this can reduce 20% to 50%
 
 		Vanishing Point
 
@@ -467,7 +472,6 @@ Resizer
 			+ usage dialog will appear when not set
 
 			+ use dessin or upper layer for temporary use
-
 
 		Contour
 
@@ -482,7 +486,6 @@ Resizer
 
 			+ black only, use Reverse or so to set color
 			+ if you want thick edge, use this many times
-
 
 		None
 
@@ -689,29 +692,11 @@ Keyboard Support
 		Titlebar Menu   : "1" will be "Preview"
 
 
-	A/B/C/D/E
+	X
 
-		Icon Buttons #1 : "E" will be "Save"
+		Quick Blur
 
-
-	F/G/H/I/J
-
-		Icon Buttons #2 : "F" will be "Pen"
-
-
-	K/L/M/N/O
-
-		Icon Buttons #3 : "K" will be "Shrink : 1/2"
-
-
-	P/Q/R/S/T/U/V/W/X/Y
-
-		P/Q : Size  up/down
-		R/S : Mix   up/down
-		T/U : Boost up/down
-		V/W : Air   up/down
-		X/Y : Zoom  up/down
-
+		+ antialias only mode
 
 	Z
 
