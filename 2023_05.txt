@@ -1,0 +1,65 @@
+
+
+----------==========----------==========----------==========----------
+
+
+"Eat Your Own Catfood."
+
+
+----------==========----------==========----------==========----------
+
+
+Change Log
+
+
+2023/05/30
+
+
+BUGFIX
+
+
+NEW_FEATURE
+
+
+----------==========----------==========----------==========----------
+
+
+Change Log
+
+
+2023/05/20
+
+
+BUGFIX
+
+
+NEW_FEATURE
+
+
+----------==========----------==========----------==========----------
+
+
+Change Log
+
+
+2023/05/10
+
+
+BUGFIX
+
+
+	CatPad for Mac
+		Icon Buttons : when system accenc color is changed
+			OLD : do nothing / app restart is needed
+			NEW : fixed
+	Nonnon Paint for Mac
+		Icon Buttons : when system accenc color is changed
+			OLD : do nothing / app restart is needed
+			NEW : fixed
+
+
+NEW_FEATURE
+
+
+----------==========----------==========----------==========----------
+
