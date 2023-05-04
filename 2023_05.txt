@@ -56,9 +56,21 @@ BUGFIX
 		Icon Buttons : when system accenc color is changed
 			OLD : do nothing / app restart is needed
 			NEW : fixed
+		Grabber : Frame Animation
+			OLD : stop while clicking
+			NEW : fixed
 
 
 NEW_FEATURE
+
+
+	Nonnon Paint for Mac
+		Grabber : Frame Animation
+			NEW : re-tuned
+	Nyaagle for Mac
+		Main Icon
+			NEW : white contour is added
+			[!] : for Dock
 
 
 ----------==========----------==========----------==========----------
