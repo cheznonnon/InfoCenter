@@ -71,6 +71,8 @@ NEW_FEATURE
 		Main Icon
 			NEW : white contour is added
 			[!] : for Dock
+		Result
+			NEW : auto sort available
 
 
 ----------==========----------==========----------==========----------
