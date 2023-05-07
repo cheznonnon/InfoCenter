@@ -48,10 +48,35 @@ Change Log
 BUGFIX
 
 
+	mac/n_txtbox.c
+		DnD : mode except for TXTBOX
+			OLD : reject at dropped
+			NEW : not accept
+
 	CatPad for Mac
 		Icon Buttons : when system accenc color is changed
 			OLD : do nothing / app restart is needed
 			NEW : fixed
+		Hardened Runtime
+			NEW : added
+		Loader : when non-Unicode
+			OLD : UI is refreshed
+			NEW : fixed
+	LINE MASHER 2 for Mac
+		App Category
+			NEW : added
+	Marie for Mac
+		App Sandbox
+			OLD : NO / using as debug mode
+			NEW : YES
+	Nyaagle for Mac
+		App Category
+			NEW : added
+		App Sandbox
+			OLD : NO / using as debug mode
+			NEW : YES
+		Hardened Runtime
+			NEW : added
 	Nonnon Paint for Mac
 		Icon Buttons : when system accenc color is changed
 			OLD : do nothing / app restart is needed
@@ -59,6 +84,14 @@ BUGFIX
 		Grabber : Frame Animation
 			OLD : stop while clicking
 			NEW : fixed
+		Debug : App Sandbox Off : Save
+			OLD : window UI misbehaves
+			NEW : fixed
+	Pen Trainer for Mac
+		App Category
+			NEW : added
+		Hardened Runtime
+			NEW : added
 
 
 NEW_FEATURE
