@@ -92,11 +92,22 @@ BUGFIX
 			NEW : added
 		Hardened Runtime
 			NEW : added
+	Pinknoise for Mac
+		App Category
+			NEW : added
+		Rosetta
+			OLD : not used
+			NEW : used
 
 
 NEW_FEATURE
 
 
+	LINE MASHER 2 for Mac
+		High Score
+			OLD : one session
+			NEW : permanent
+			[!] : menu has "Reset High Score"
 	Nonnon Paint for Mac
 		Grabber : Frame Animation
 			NEW : re-tuned
