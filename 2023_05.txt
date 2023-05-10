@@ -54,7 +54,7 @@ BUGFIX
 			NEW : not accept
 
 	CatPad for Mac
-		Icon Buttons : when system accenc color is changed
+		Icon Buttons : when system accent color is changed
 			OLD : do nothing / app restart is needed
 			NEW : fixed
 		Hardened Runtime
@@ -84,7 +84,7 @@ BUGFIX
 		Grabber : Frame Animation
 			OLD : stop while clicking
 			NEW : fixed
-		Debug : App Sandbox Off : Save
+		Debug : App Sandbox On : Save
 			OLD : window UI misbehaves
 			NEW : fixed
 	Pen Trainer for Mac
