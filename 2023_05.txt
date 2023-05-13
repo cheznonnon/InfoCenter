@@ -33,6 +33,14 @@ Change Log
 BUGFIX
 
 
+	mac/n_txtbox.c
+		double click : select a word
+			OLD : misbehaves sometimes
+			NEW : fixed
+			[!] : for my cheap mouse
+			[!] : it happens when a cursor moves a little
+
+
 NEW_FEATURE
 
 
