@@ -44,6 +44,15 @@ BUGFIX
 NEW_FEATURE
 
 
+	mac/n_txtbox.c
+		FINDBOX : magnifier icon
+			NEW : more beautiful than older
+
+	All for Mac
+		readme
+			NEW : a link to support forum is added
+
+
 ----------==========----------==========----------==========----------
 
 
