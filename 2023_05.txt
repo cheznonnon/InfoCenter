@@ -51,6 +51,12 @@ NEW_FEATURE
 	All for Mac
 		readme
 			NEW : a link to support forum is added
+	CatPad for Mac
+		neko icon : blinking
+			NEW  : re-tuned
+	Nonnon Paint for Mac
+		Grabber : Animated Frame
+			NEW : revamped
 
 
 ----------==========----------==========----------==========----------
