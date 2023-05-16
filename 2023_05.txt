@@ -40,6 +40,14 @@ BUGFIX
 			[!] : for my cheap mouse
 			[!] : it happens when a cursor moves a little
 
+	Nonnon Paint for Mac
+		color picker : global picker
+			OLD : not working in some cases
+			NEW : fixed
+		source code : method name
+			OLD : canvaspos
+			NEW : point_on_bitmap
+
 
 NEW_FEATURE
 
