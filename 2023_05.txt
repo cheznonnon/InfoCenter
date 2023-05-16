@@ -57,6 +57,9 @@ NEW_FEATURE
 	Nonnon Paint for Mac
 		Grabber : Animated Frame
 			NEW : revamped
+	Nyaagle for Mac
+		result : narrowed down
+			NEW : mixture between text and name available
 
 
 ----------==========----------==========----------==========----------
