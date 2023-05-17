@@ -33,12 +33,20 @@ Change Log
 BUGFIX
 
 
+	mac/n_button.c
+		timer : CPU usage
+			OLD : too high in some cases
+			NEW : fixed
+			[!] : maybe macOS's bug
 	mac/n_txtbox.c
 		double click : select a word
 			OLD : misbehaves sometimes
 			NEW : fixed
 			[!] : for my cheap mouse
 			[!] : it happens when a cursor moves a little
+		draw engine
+			OLD : memory leak
+			NEW : fixed
 
 	Nonnon Paint for Mac
 		color picker : global picker
