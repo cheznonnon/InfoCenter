@@ -67,9 +67,14 @@ NEW_FEATURE
 	All for Mac
 		readme
 			NEW : a link to support forum is added
+		cat icon
+			NEW : re-tuned
 	CatPad for Mac
 		neko icon : blinking
-			NEW  : re-tuned
+			NEW : re-tuned
+	Nonnon Freecell for Mac
+		readme
+			NEW : some topics are added
 	Nonnon Paint for Mac
 		Grabber : Animated Frame
 			NEW : revamped
