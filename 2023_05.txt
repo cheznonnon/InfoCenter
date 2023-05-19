@@ -47,6 +47,12 @@ BUGFIX
 		draw engine
 			OLD : memory leak
 			NEW : fixed
+		not EDITBOX : paste : multiline
+			OLD :   possible
+			NEW : impossible
+		CPU usage
+			OLD : high
+			NEW : reduced
 
 	Nonnon Paint for Mac
 		color picker : global picker
