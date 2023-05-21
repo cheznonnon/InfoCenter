@@ -18,6 +18,13 @@ Change Log
 BUGFIX
 
 
+	mac/n_txtbox.c
+		space key : caret speed
+			OLD : slow down
+			NEW : fixed
+			[x] : BUGFIX @ 2023/05/20
+
+
 NEW_FEATURE
 
 
