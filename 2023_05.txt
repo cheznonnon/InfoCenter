@@ -28,6 +28,11 @@ BUGFIX
 NEW_FEATURE
 
 
+	mac/n_txtbox.c
+		drag selection to out-of-screen
+			NEW : auto scroll available
+
+
 ----------==========----------==========----------==========----------
 
 
