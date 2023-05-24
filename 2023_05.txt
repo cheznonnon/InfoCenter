@@ -32,6 +32,13 @@ NEW_FEATURE
 		drag selection to out-of-screen
 			NEW : auto scroll available
 
+	Nonnon Paint for Mac
+		Pen : for Tablets
+			NEW : pressure is supported
+	Pen Trainer for Mac
+		Pen Size
+			NEW : a little larger
+
 
 ----------==========----------==========----------==========----------
 
