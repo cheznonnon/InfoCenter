@@ -32,9 +32,16 @@ NEW_FEATURE
 		drag selection to out-of-screen
 			NEW : auto scroll available
 
+	CatPad for Mac
+		Config
+			OLD : external window
+			NEW : sheet
 	Nonnon Paint for Mac
 		Pen : for Tablets
 			NEW : pressure is supported
+		Formatter
+			OLD : external window
+			NEW : sheet
 	Pen Trainer for Mac
 		Pen Size
 			NEW : a little larger
