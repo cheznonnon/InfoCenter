@@ -24,6 +24,11 @@ BUGFIX
 			NEW : fixed
 			[x] : BUGFIX @ 2023/05/20
 
+	Nyaagle for Mac
+		narrowed down
+			OLD : redraw error in some cases
+			NEW : fixed
+
 
 NEW_FEATURE
 
@@ -31,6 +36,12 @@ NEW_FEATURE
 	mac/n_txtbox.c
 		drag selection to out-of-screen
 			NEW : auto scroll available
+		scroller
+			NEW : a little shorter available
+			[!] : for CatPad like usage
+			[!] : set -1 for a property "n_corner_size"
+		N_MAC_TXTBOX_DELEGATE_SHIFT
+			NEW : flagsChanged redirector
 
 	CatPad for Mac
 		Config
@@ -42,6 +53,12 @@ NEW_FEATURE
 		Formatter
 			OLD : external window
 			NEW : sheet
+	Nyaagle for Mac
+		when Name Search
+			NEW : logo will be changed
+		Name Serch : temporary key
+			OLD : shift
+			NEW : option
 	Pen Trainer for Mac
 		Pen Size
 			NEW : a little larger
