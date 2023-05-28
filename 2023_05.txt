@@ -47,6 +47,13 @@ NEW_FEATURE
 		Config
 			OLD : external window
 			NEW : sheet
+	LINE MASHER 2 for Mac
+		Window #1
+			NEW : titlebar-less window
+		Window #2
+			NEW : you can drag from any areas
+		Window #3
+			NEW : double click to do centering available
 	Nonnon Paint for Mac
 		Pen : for Tablets
 			NEW : pressure is supported
