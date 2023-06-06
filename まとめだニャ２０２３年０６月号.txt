@@ -1,0 +1,67 @@
+﻿<pre style="font-family:Meiryo,sans-serif;">
+</pre>
+
+----------==========----------==========----------==========----------
+
+■まとめだニャ２０２３年０６月号
+
+[ ０６月１０日 ]
+
+◇ニューフィーチャー
+
+■all for Mac
+
+名前から "for Mac" を取ったニャ
+AppStore が要求してくるからだニャ
+
+■CatPad for Mac
+
+ソースコードでデリゲートエラーが出るニャ
+０５月３０日に導入されたバグだニャ
+
+■games for Mac
+
+AppStore で１００円で販売するようになったニャ
+"buy me a coffee!" だニャ
+
+
+◇バグフィクス
+
+■mac/n_txtbox.c
+
+IME 候補ウィンドウが適切な位置に出ないことがあるのを直したニャ
+画面の下の方で位置が反転する時に起こるニャ
+
+"Detected potentially harmful notification post rate" が修正できたニャ
+NSTrackingActiveWhenFirstResponder を付けると直るニャ
+
+■win32/gdi.c
+
+Mac での挙動がおかしいのを直したニャ
+
+■LINE MASHER 2 for Mac
+
+HiDPI でプレイできないのを直したニャ
+
+■Pen Trainer for Mac
+
+HiDPI でプレイできないのを直したニャ
+
+
+[ ０６月２０日 ]
+
+◇ニューフィーチャー
+
+
+◇バグフィクス
+
+
+[ ０６月３０日 ]
+
+◇ニューフィーチャー
+
+
+◇バグフィクス
+
+----------==========----------==========----------==========----------
+

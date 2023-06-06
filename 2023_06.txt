@@ -1,0 +1,95 @@
+
+
+----------==========----------==========----------==========----------
+
+
+"Eat Your Own Catfood."
+
+
+----------==========----------==========----------==========----------
+
+
+Change Log
+
+
+2023/06/30
+
+
+BUGFIX
+
+
+NEW_FEATURE
+
+
+----------==========----------==========----------==========----------
+
+
+Change Log
+
+
+2023/06/20
+
+
+BUGFIX
+
+
+NEW_FEATURE
+
+
+----------==========----------==========----------==========----------
+
+
+Change Log
+
+
+2023/06/10
+
+
+BUGFIX
+
+
+	mac/n_txtbox.c
+		IME candidate window
+			OLD : inaccurate position at bottom side
+			NEW : fixed
+		mouse tracking area
+			OLD : "Detected potentially harmful notification post rate"
+			NEW : fixed
+			[!] : NSTrackingActiveWhenFirstResponder can fix
+
+	win32/gdi.c
+		Mac Support : HiDPI
+			OLD : inaccurate
+			NEW : fixed
+
+	CatPad
+		source code
+			OLD : delegate error
+			NEW : fixed
+			[x] : NEW_FEATURE @ 2023/05/30
+	LINE MASHER 2
+		HiDPI
+			OLD : unplayable
+			NEW : fixed
+	Pen Trainer
+		HiDPI
+			OLD : unplayable
+			NEW : fixed
+
+
+NEW_FEATURE
+
+
+	all for Mac
+		name
+			OLD : "name for Mac"
+			NEW : "name"
+			[?] : AppStore : don't use a word "Mac"
+	games for Mac
+		AppStore
+			NEW : sold by $0.99
+			[!] : buy me a coffee!
+
+
+----------==========----------==========----------==========----------
+
