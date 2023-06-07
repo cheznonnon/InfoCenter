@@ -71,6 +71,10 @@ BUGFIX
 		HiDPI
 			OLD : unplayable
 			NEW : fixed
+	Nyaagle
+		Results : path truncation
+			OLD : possibility of access violation
+			NEW : feature is disabled
 	Pen Trainer
 		HiDPI
 			OLD : unplayable
@@ -89,6 +93,11 @@ NEW_FEATURE
 		AppStore
 			NEW : sold by $0.99
 			[!] : buy me a coffee!
+	Nonnon Pinknoise
+		name
+			OLD : Pinknoise
+			NEW : Nonnon Pinknoise
+			[?] : AppStore : "Pinknoise" is already used
 
 
 ----------==========----------==========----------==========----------
