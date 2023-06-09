@@ -93,10 +93,15 @@ NEW_FEATURE
 		AppStore
 			NEW : sold by $0.99
 			[!] : buy me a coffee!
+	Nonnon Marie
+		app name
+			OLD : "Marie"
+			NEW : "Nonnon Marie"
+			[?] : AppStore : "Marie" is already used
 	Nonnon Pinknoise
-		name
-			OLD : Pinknoise
-			NEW : Nonnon Pinknoise
+		app name
+			OLD : "Pinknoise"
+			NEW : "Nonnon Pinknoise"
 			[?] : AppStore : "Pinknoise" is already used
 
 

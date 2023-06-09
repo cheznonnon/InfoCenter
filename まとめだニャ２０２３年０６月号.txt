@@ -24,6 +24,16 @@ AppStore が要求してくるからだニャ
 AppStore で１００円で販売するようになったニャ
 "buy me a coffee!" だニャ
 
+■Nonnon Pinknoise for Mac
+
+名前を "Nonnon Pinknoise" に変えたニャ
+既に使われていると言うのが理由だニャ
+
+■Nonnon Marie for Mac
+
+名前を "Nonnon Marie" に変えたニャ
+既に使われていると言うのが理由だニャ
+
 
 ◇バグフィクス
 
