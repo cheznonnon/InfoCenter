@@ -61,6 +61,9 @@ BUGFIX
 		Mac Support : HiDPI
 			OLD : inaccurate
 			NEW : fixed
+		Mac Support
+			OLD : memory leak
+			NEW : fixed
 
 	CatPad
 		source code
@@ -71,6 +74,12 @@ BUGFIX
 		HiDPI
 			OLD : unplayable
 			NEW : fixed
+		memory leak
+			NEW : fixed
+			[x] : win32/gdi.c causes
+	Marie
+		memory leak
+			NEW : fixed
 	Nyaagle
 		Results : path truncation
 			OLD : possibility of access violation
@@ -78,6 +87,8 @@ BUGFIX
 	Pen Trainer
 		HiDPI
 			OLD : unplayable
+			NEW : fixed
+		memory leak
 			NEW : fixed
 
 
@@ -98,6 +109,9 @@ NEW_FEATURE
 			OLD : "Marie"
 			NEW : "Nonnon Marie"
 			[?] : AppStore : "Marie" is already used
+		App Store
+			NEW : sold by $0.99
+			[!] : buy me a coffee!
 	Nonnon Pinknoise
 		app name
 			OLD : "Pinknoise"

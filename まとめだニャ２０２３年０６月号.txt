@@ -34,6 +34,9 @@ AppStore で１００円で販売するようになったニャ
 名前を "Nonnon Marie" に変えたニャ
 既に使われていると言うのが理由だニャ
 
+AppStore で１００円で販売するようになったニャ
+"buy me a coffee!" だニャ
+
 
 ◇バグフィクス
 
@@ -49,18 +52,28 @@ NSTrackingActiveWhenFirstResponder を付けると直るニャ
 
 Mac での挙動がおかしいのを直したニャ
 
-■LINE MASHER 2 for Mac
+テキスト描画のメモリリークを直したニャ
+
+■LINE MASHER 2
 
 HiDPI でプレイできないのを直したニャ
 
-■Pen Trainer for Mac
+メモリリークを直したニャ
+
+■Pen Trainer
 
 HiDPI でプレイできないのを直したニャ
 
-■Nyaagle for Mac
+メモリリークを直したニャ
+
+■Nyaagle
 
 パスの省略機能がアクセス違反になる可能性があるのでコメントアウトしたニャ
 再現性がないので今の所は直せないニャ
+
+■Nonnon Marie
+
+メモリリークを直したニャ
 
 
 [ ０６月２０日 ]
