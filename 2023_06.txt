@@ -33,6 +33,28 @@ Change Log
 BUGFIX
 
 
+	mac/n_txtbox.c
+		DnD handler
+			OLD : memory leak
+			NEW : fixed
+		paste
+			OLD : access violation
+			NEW : fixed
+
+	CatPad
+		source code
+			OLD : memory leak
+			NEW : fixed
+		search
+			OLD : crash
+			NEW : fixed
+			[x] : excessive free()
+	Nonnon Freecell
+		shadow
+			OLD : possibility of access violation
+			NEW : fixed
+
+
 NEW_FEATURE
 
 
@@ -99,16 +121,16 @@ NEW_FEATURE
 		name
 			OLD : "name for Mac"
 			NEW : "name"
-			[?] : AppStore : don't use a word "Mac"
+			[?] : App Store : don't use a word "Mac"
 	games for Mac
-		AppStore
+		App Store
 			NEW : sold by $0.99
 			[!] : buy me a coffee!
 	Nonnon Marie
 		app name
 			OLD : "Marie"
 			NEW : "Nonnon Marie"
-			[?] : AppStore : "Marie" is already used
+			[?] : App Store : "Marie" is already used
 		App Store
 			NEW : sold by $0.99
 			[!] : buy me a coffee!
@@ -116,7 +138,7 @@ NEW_FEATURE
 		app name
 			OLD : "Pinknoise"
 			NEW : "Nonnon Pinknoise"
-			[?] : AppStore : "Pinknoise" is already used
+			[?] : App Store : "Pinknoise" is already used
 
 
 ----------==========----------==========----------==========----------
