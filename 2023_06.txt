@@ -40,6 +40,14 @@ BUGFIX
 		paste
 			OLD : access violation
 			NEW : fixed
+		backspace
+			OLD : access violation
+			NEW : fixed
+
+	neutral/bmp/detect.c
+		n_bmp_roundrect_detect_coeff()
+			OLD : NaN sometimes
+			NEW : fixed
 
 	CatPad
 		source code
@@ -53,9 +61,33 @@ BUGFIX
 		shadow
 			OLD : possibility of access violation
 			NEW : fixed
+	Nyaagle
+		Sandbox
+			OLD : On
+			NEW : Off
+			[?] : not working in some area
 
 
 NEW_FEATURE
+
+
+	hunyapiyo3
+		when system accent color is changed
+			OLD : restart is needed
+			NEW : auto-applied
+		dark mode on/off
+			OLD : restart is needed
+			NEW : auto-applied
+	Nonnon Freecell
+		when system accent color is changed
+			OLD : restart is needed
+			NEW : auto-applied
+		dark mode on/off
+			OLD : restart is needed
+			NEW : auto-applied
+	Pen Trainer
+		Pen
+			NEW : pressure available
 
 
 ----------==========----------==========----------==========----------
