@@ -49,6 +49,11 @@ BUGFIX
 			OLD : NaN sometimes
 			NEW : fixed
 
+	win32/gdi.c
+		Mac Support
+			OLD : inaccurate behavior
+			NEW : fixed
+
 	CatPad
 		source code
 			OLD : memory leak
@@ -78,6 +83,13 @@ NEW_FEATURE
 		dark mode on/off
 			OLD : restart is needed
 			NEW : auto-applied
+	Nonnon Marie
+		when system accent color is changed
+			OLD : restart is needed
+			NEW : auto-applied
+		dark mode on/off
+			OLD : restart is needed
+			NEW : auto-applied
 	Nonnon Freecell
 		when system accent color is changed
 			OLD : restart is needed
@@ -85,6 +97,8 @@ NEW_FEATURE
 		dark mode on/off
 			OLD : restart is needed
 			NEW : auto-applied
+		at launch : fade-in
+			NEW : lighter than older
 	Pen Trainer
 		Pen
 			NEW : pressure available
