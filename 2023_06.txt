@@ -21,6 +21,12 @@ BUGFIX
 NEW_FEATURE
 
 
+	win32/gdi.c
+		Mac Support : Text
+			NEW : cropper available
+			[!] : more accurate than older
+
+
 ----------==========----------==========----------==========----------
 
 
