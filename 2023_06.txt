@@ -18,6 +18,15 @@ Change Log
 BUGFIX
 
 
+	mac/n_button.c
+		icon
+			OLD : leak when set
+			NEW : fixed
+		icon size
+			OLD : hardcoded 32px only
+			NEW : by a given icon bitmap
+
+
 NEW_FEATURE
 
 
