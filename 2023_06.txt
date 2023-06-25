@@ -48,6 +48,10 @@ NEW_FEATURE
 			NEW : cropper available
 			[!] : more accurate than older
 
+	Nonnon Blank Screensaver
+		released
+			NEW : do nothing screen saver
+			[?] : some online downloadable screen saver makes error
 	Nonnon Pinknoise
 		UI
 			NEW : richer than older
