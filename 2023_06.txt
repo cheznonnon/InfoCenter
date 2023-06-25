@@ -23,17 +23,34 @@ BUGFIX
 			OLD : leak when set
 			NEW : fixed
 		icon size
-			OLD : hardcoded 32px only
+			OLD : hard-coded 32px only
 			NEW : by a given icon bitmap
+	mac/n_scrollbar.c
+		Dark Mode
+			OLD : restart is needed
+			NEW : change dynamically
+
+	Nonnon Paint
+		Dark Mode
+			OLD : restart is needed
+			NEW : auto-applied
 
 
 NEW_FEATURE
 
 
+	mac/n_button.c
+		colors
+			NEW : re-tuned
+
 	win32/gdi.c
 		Mac Support : Text
 			NEW : cropper available
 			[!] : more accurate than older
+
+	Nonnon Pinknoise
+		UI
+			NEW : richer than older
 
 
 ----------==========----------==========----------==========----------
