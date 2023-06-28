@@ -29,6 +29,16 @@ BUGFIX
 		Dark Mode
 			OLD : restart is needed
 			NEW : change dynamically
+	mac/n_txtbox.c
+		back space : when move to a previous line : caret
+			OLD : tail
+			NEW : previous line's tail
+			[x] : BUGFIX @ 2023/06/20
+
+	neutral/vector.c
+		n_vector_mod() : when parameter "s" is the same as "line[ index ]"
+			OLD : crash or access violation
+			NEW : fixed
 
 	Nonnon Paint
 		Dark Mode
@@ -43,15 +53,29 @@ NEW_FEATURE
 		colors
 			NEW : re-tuned
 
+	neutral/memory.c
+		n_memory_free_onoff
+			NEW : obsoleted
+			[!] : problem is resolved
+
 	win32/gdi.c
 		Mac Support : Text
 			NEW : cropper available
 			[!] : more accurate than older
 
+	Nonnon for Win32
+		source code
+			NEW : apply recent changes
+
 	Nonnon Blank Screensaver
 		released
 			NEW : do nothing screen saver
 			[?] : some online downloadable screen saver makes error
+	Nonnon CatPad
+		name
+			OLD : "CatPad"
+			NEW : "Nonnon CatPad"
+			[!] : App Store : already used
 	Nonnon Pinknoise
 		UI
 			NEW : richer than older
