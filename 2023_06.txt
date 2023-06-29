@@ -44,6 +44,10 @@ BUGFIX
 		Dark Mode
 			OLD : restart is needed
 			NEW : auto-applied
+	Pen Trainer
+		buttons : hovered while pen input
+			OLD : draw error
+			NEW : fixed
 
 
 NEW_FEATURE
