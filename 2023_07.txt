@@ -1,0 +1,77 @@
+
+
+----------==========----------==========----------==========----------
+
+
+"Eat Your Own Catfood."
+
+
+----------==========----------==========----------==========----------
+
+
+Change Log
+
+
+2023/07/30
+
+
+BUGFIX
+
+
+NEW_FEATURE
+
+
+----------==========----------==========----------==========----------
+
+
+Change Log
+
+
+2023/07/20
+
+
+BUGFIX
+
+
+NEW_FEATURE
+
+
+----------==========----------==========----------==========----------
+
+
+Change Log
+
+
+2023/07/10
+
+
+BUGFIX
+
+
+	mac/n_txtbox.c
+		scroller : thumb
+			OLD : inaccurate at bottom
+			NEW : fixed
+		NonnonTxtboxInsert : when .readonly is TRUE
+			OLD : inputtable
+			NEW : fixed
+
+	Nonnon CatPad
+		Icon Buttons : On/Off context
+			OLD : inaccurate in some cases
+			NEW : fixed
+	Nonnon Freecell
+		Dark Mode : HiDPI : card visual
+			OLD : contour is not beautiful
+			NEW : fixed
+	Nonnon Paint
+		source code : Save Panel
+			OLD : not working
+			NEW : working but comment-out'ed
+
+
+NEW_FEATURE
+
+
+----------==========----------==========----------==========----------
+
