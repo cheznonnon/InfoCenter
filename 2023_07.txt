@@ -67,10 +67,15 @@ BUGFIX
 	Nonnon Paint
 		source code : Save Panel
 			OLD : not working
-			NEW : working but comment-out'ed
+			NEW : fixed
 
 
 NEW_FEATURE
+
+
+	Nonnon Tools
+		Meny "Readme"
+			NEW : readme available
 
 
 ----------==========----------==========----------==========----------
