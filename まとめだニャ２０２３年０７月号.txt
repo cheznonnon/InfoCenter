@@ -33,8 +33,20 @@
 
 ◇ニューフィーチャー
 
+■Project Checker
+
+App Store で販売されるようになったニャ
+
+■Nonnon Paint
+
+Grabber のフレームが軽くなったニャ
 
 ◇バグフィクス
+
+■Nonnon Paint
+
+Grabber のフレームのコンテキストが厳密になったニャ
+何かした後は安全のためリサイズできなくしたニャ
 
 
 [ ０７月３０日 ]

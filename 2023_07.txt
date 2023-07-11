@@ -33,7 +33,20 @@ Change Log
 BUGFIX
 
 
+	Nonnon Paint
+		Grabber : Animation Frame
+			NEW : stricter with context
+
+
 NEW_FEATURE
+
+
+	Nonnon Paint
+		Grabber : Animation Frame
+			NEW : lighter than older
+	Project Checker
+		App Store
+			NEW : buy me a coffee!
 
 
 ----------==========----------==========----------==========----------
@@ -74,7 +87,7 @@ NEW_FEATURE
 
 
 	Nonnon Tools
-		Meny "Readme"
+		Menu "Readme"
 			NEW : readme available
 
 
