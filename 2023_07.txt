@@ -41,9 +41,12 @@ BUGFIX
 NEW_FEATURE
 
 
+	CatPad
+		Search Field
+			NEW : a long query fades out
 	Nonnon Paint
 		Grabber : Animation Frame
-			NEW : lighter than older
+			NEW : revamped
 	Project Checker
 		App Store
 			NEW : buy me a coffee!
