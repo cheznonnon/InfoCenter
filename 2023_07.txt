@@ -33,9 +33,20 @@ Change Log
 BUGFIX
 
 
+	mac/n_txtbox.c
+		a word has a newline(LF)
+			OLD : paste-able
+			NEW : fixed
+
 	Nonnon Paint
-		Grabber : Animation Frame
+		Grabber : Animation Frame : Resize Dots
 			NEW : stricter with context
+		Grabber
+			OLD : status on Tool Window is not refreshed
+			NEW : fixed
+		Grabber : Stretching : status label on Tool Window
+			OLD : "N/A"
+			NEW : "Stretching"
 
 
 NEW_FEATURE
@@ -47,6 +58,8 @@ NEW_FEATURE
 	Nonnon Paint
 		Grabber : Animation Frame
 			NEW : revamped
+		Grabber : while resizing and dragging
+			NEW : tool tip for size/position available
 	Project Checker
 		App Store
 			NEW : buy me a coffee!
