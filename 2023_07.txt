@@ -52,7 +52,20 @@ BUGFIX
 NEW_FEATURE
 
 
-	CatPad
+	mac/draw,c
+		n_mac_draw_gradient()
+			NEW : wrapper for NSGradient
+		n_mac_draw_roundrect_partial()
+			NEW : you can control top-left top-right bottm-left bottom-right
+	mac/n_txtbox.c
+		FINDBOX : text highlight
+			OLD : rectangle
+			NEW : roundrect
+		property "n_line_offset"
+			NEW : obsoleted
+			[?] : troublesome
+
+	Nonnon CatPad
 		Search Field
 			NEW : a long query fades out
 	Nonnon Paint

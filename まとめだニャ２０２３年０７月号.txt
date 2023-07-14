@@ -43,9 +43,23 @@ Grabber のフレームが新しくなったニャ
 
 Grabber でリサイズとドラッグ中は中央にツールチップが出るニャ
 
-■CatPad
+■Nonnon CatPad
 
 検索フィールドで文字列が長すぎるとフェードするニャ
+
+検索フィールドのハイライトがラウンドレクトになるニャ
+
+■mac/draw.c
+
+n_mac_draw_gradient() が実装されたニャ
+NSGradient の簡単なラッパーだニャ
+
+n_mac_draw_roundrect_partial() になったニャ
+４隅をラウンドするかどうか選べるニャ
+
+■mac/n_txtbox.c
+
+"n_line_offset" が問題が多いので廃止したニャ
 
 ◇バグフィクス
 
