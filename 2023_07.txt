@@ -68,6 +68,10 @@ NEW_FEATURE
 	Nonnon CatPad
 		Search Field
 			NEW : a long query fades out
+		Selection : when menu double-clicked
+			NEW : smart selection available
+			[!] : you can also use shift + double-click
+			[!] : Zenkaku characters are supported
 	Nonnon Paint
 		Grabber : Animation Frame
 			NEW : revamped
