@@ -18,6 +18,12 @@ Change Log
 BUGFIX
 
 
+	Nonnon Paint
+		Tool Window : Scrollbar : Alpha : thumb
+			OLD : edge is not beautiful
+			NEW : fixed
+
+
 NEW_FEATURE
 
 
