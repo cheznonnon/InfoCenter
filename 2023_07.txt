@@ -18,6 +18,11 @@ Change Log
 BUGFIX
 
 
+	mac/n_txtbox.c
+		input when a caret is out of screen
+			OLD : misbehave
+			NEW : fixed
+
 	Nonnon Paint
 		Tool Window : Scrollbar : Alpha : thumb
 			OLD : edge is not beautiful
