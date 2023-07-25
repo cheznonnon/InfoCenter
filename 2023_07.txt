@@ -22,7 +22,17 @@ BUGFIX
 		input when a caret is out of screen
 			OLD : misbehave
 			NEW : fixed
+		caret : after search
+			OLD : internal confusion
+			NEW : fixed
 
+	Nonnon CatPad
+		undo
+			OLD : not working in new text
+			NEW ; fixed
+		caret : after search
+			OLD : highlighted but line number is not set
+			NEW : fixed
 	Nonnon Paint
 		Tool Window : Scrollbar : Alpha : thumb
 			OLD : edge is not beautiful
