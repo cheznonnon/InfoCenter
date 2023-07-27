@@ -37,9 +37,22 @@ BUGFIX
 		Tool Window : Scrollbar : Alpha : thumb
 			OLD : edge is not beautiful
 			NEW : fixed
+		Layer Window : renamer : when out-of-screen : auto-scroll
+			OLD : misbehave
+			NEW : fixed
 
 
 NEW_FEATURE
+
+
+	mac/n_scrollbar.c
+		thumb : edge
+			NEW : 1px border available
+
+
+	Nonnon Paint
+		Color History
+			NEW : implemented
 
 
 ----------==========----------==========----------==========----------
