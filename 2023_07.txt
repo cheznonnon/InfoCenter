@@ -40,6 +40,9 @@ BUGFIX
 		Layer Window : renamer : when out-of-screen : auto-scroll
 			OLD : misbehave
 			NEW : fixed
+		Multi-Layer : Grabber : DnD File : locked or disabled layers
+			OLD : you can drop
+			NEW : you cannot drop
 
 
 NEW_FEATURE
