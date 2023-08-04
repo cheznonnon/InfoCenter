@@ -1,0 +1,70 @@
+
+
+----------==========----------==========----------==========----------
+
+
+"Eat Your Own Catfood."
+
+
+----------==========----------==========----------==========----------
+
+
+Change Log
+
+
+2023/08/30
+
+
+BUGFIX
+
+
+NEW_FEATURE
+
+
+----------==========----------==========----------==========----------
+
+
+Change Log
+
+
+2023/08/20
+
+
+BUGFIX
+
+
+NEW_FEATURE
+
+
+----------==========----------==========----------==========----------
+
+
+Change Log
+
+
+2023/08/10
+
+
+BUGFIX
+
+
+	Nonnon Paint
+		Multi-Layer : save as one file
+			OLD : crash
+			NEW : fixed
+
+
+NEW_FEATURE
+
+
+	Nonnon Paint
+		Lite Version
+			NEW : sold in App Store
+		Multi-Layer : save as one file
+			OLD : single-threaded
+			NEW :  multi-threaded
+			[!] : much faster than older
+
+
+----------==========----------==========----------==========----------
+
