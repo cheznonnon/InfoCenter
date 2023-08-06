@@ -64,6 +64,8 @@ NEW_FEATURE
 			OLD : single-threaded
 			NEW :  multi-threaded
 			[!] : much faster than older
+		Multi-Layer : Grabber
+			NEW : faster than older
 
 
 ----------==========----------==========----------==========----------
