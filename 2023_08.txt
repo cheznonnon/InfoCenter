@@ -52,6 +52,9 @@ BUGFIX
 		Multi-Layer : save as one file
 			OLD : crash
 			NEW : fixed
+		Lite Version : Save : when error
+			OLD : memory leak
+			NEW : fixed
 
 
 NEW_FEATURE
