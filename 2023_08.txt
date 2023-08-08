@@ -60,6 +60,10 @@ BUGFIX
 NEW_FEATURE
 
 
+	mac/window.c
+		n_mac_window_dialog_yesno()
+			NEW : Yes/No dialog
+
 	Nonnon Paint
 		Lite Version
 			NEW : sold in App Store
@@ -69,6 +73,8 @@ NEW_FEATURE
 			[!] : much faster than older
 		Multi-Layer : Grabber
 			NEW : faster than older
+		Grabber : Stretch
+			NEW : Yes/No dialog is implemented
 
 
 ----------==========----------==========----------==========----------

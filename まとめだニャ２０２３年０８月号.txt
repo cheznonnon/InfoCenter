@@ -18,6 +18,13 @@ Lite バージョンが App Store で販売されるようになったニャ
 
 マルチレイヤーで Grabber が高速になったニャ
 
+Grabber でストレッチの時に確認ダイアログが出るニャ
+
+■mac/window.c
+
+n_mac_window_dialog_yesno() が実装されたニャ
+戻り値でどっちが押されたか分かるニャ
+
 
 ◇バグフィクス
 
