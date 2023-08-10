@@ -64,6 +64,9 @@ NEW_FEATURE
 		n_mac_window_dialog_yesno()
 			NEW : Yes/No dialog
 
+	Nonnon CatPad
+		Search Field : delete circle is clicked
+			NEW : fade-out available
 	Nonnon Paint
 		Lite Version
 			NEW : sold in App Store
