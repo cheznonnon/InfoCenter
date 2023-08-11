@@ -55,6 +55,8 @@ BUGFIX
 		Lite Version : Save : when error
 			OLD : memory leak
 			NEW : fixed
+		Cursor handling
+			NEW : better than older
 
 
 NEW_FEATURE
