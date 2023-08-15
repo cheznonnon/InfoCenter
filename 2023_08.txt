@@ -36,6 +36,11 @@ BUGFIX
 NEW_FEATURE
 
 
+	Nonnon CatPad
+		Search Field : delete circle is clicked : fade-out
+			NEW : more robust than older
+
+
 ----------==========----------==========----------==========----------
 
 
