@@ -57,8 +57,34 @@ Lite バージョンでエラーの時にメモリがリークするのを直し
 
 ◇ニューフィーチャー
 
+■Nonnon Typing
+
+タイピング練習アプリだニャ
+
+■mac/window.c
+
+n_mac_window_is_keywindow() を作ったニャ
+.keywindow と .isKeyWindow で混乱するためだニャ
+
+■mac/n_txtbox.c
+
+FINDICON でハイライトがフェードするようになったニャ
+
+■Nonnon CatPad
+
+検索フィールドの虫眼鏡アイコンがフェードするようになったニャ
+
 
 ◇バグフィクス
+
+■game/transition.c
+
+WHIRL の余白が適切でないのを直したニャ
+
+■Nonnon Paint
+
+レイヤーウィンドウで Grab N Drag した時にカーソルが戻らないのを直したニャ
+８月１０日分のリグレッションだニャ
 
 ----------==========----------==========----------==========----------
 

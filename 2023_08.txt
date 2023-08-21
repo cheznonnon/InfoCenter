@@ -18,7 +18,37 @@ Change Log
 BUGFIX
 
 
+	game/transition.c
+		N_GAME_TRANSITION_WHIRL : transparent color
+			OLD : draw error
+			NEW : fixed
+
+	Nonnon Paint
+		Multi-Layer : Txtbox : Grab N Drag
+			OLD : a arrow cursor is not restored
+			NEW : fixed
+			[x] : BUGFIX @ 2023/08/10
+
+
 NEW_FEATURE
+
+
+	mac/n_txtbox.c
+		Grab N Drag
+			NEW : smoother than older
+		Find Icon
+			NEW : fade-in/out available
+	mac/window.c
+		n_mac_window_is_keywindow()
+			NEW : check key window or not
+			[?] : there is confusion between .keywindow and .isKeyWindow
+
+	Nonnon CatPad
+		Search Field : magnifier icon : highlight
+			NEW : fade-in/out available
+	Nonnon Typing
+		released
+			NEW : typing trainer
 
 
 ----------==========----------==========----------==========----------
