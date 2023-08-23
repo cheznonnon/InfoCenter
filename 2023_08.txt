@@ -23,11 +23,29 @@ BUGFIX
 			OLD : draw error
 			NEW : fixed
 
+	mac/n_button.c
+		when a main window is inactive state
+			OLD : hover-able
+			NEW : fixed
+			[!] : use n_nswindow_set method to register NSWindow*
+	mac/n_scrollbar.c
+		when a main window is inactive state
+			OLD : hover-able
+			NEW : fixed
+			[!] : use n_scrollbar_nswindow_set method to register NSWindow*
+
+	Nonnon CatPad
+		Icon Buttons : when a main window is inactive state
+			OLD : hover-able
+			NEW : fixed
 	Nonnon Paint
 		Multi-Layer : Txtbox : Grab N Drag
 			OLD : a arrow cursor is not restored
 			NEW : fixed
 			[x] : BUGFIX @ 2023/08/10
+		UI : when a main window is inactive state
+			OLD : hover-able
+			NEW : fixed
 
 
 NEW_FEATURE
@@ -38,6 +56,10 @@ NEW_FEATURE
 			NEW : smoother than older
 		Find Icon
 			NEW : fade-in/out available
+	mac/sound.c
+		n_mac_sound2
+			NEW : AVAudioEngine implementation
+			[!] : faster than AVAudioPlayer
 	mac/window.c
 		n_mac_window_is_keywindow()
 			NEW : check key window or not
