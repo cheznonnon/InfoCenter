@@ -23,6 +23,11 @@ BUGFIX
 			OLD : draw error
 			NEW : fixed
 
+	mac/_mac.c
+		keyCode
+			OLD : N_MAC_KEYCODE_ENTER
+			NEW : N_MAC_KEYCODE_RETURN
+			[!] : N_MAC_KEYCODE_ENTER indicates numeric keypad one
 	mac/n_button.c
 		when a main window is inactive state
 			OLD : hover-able
@@ -65,6 +70,9 @@ NEW_FEATURE
 			NEW : check key window or not
 			[?] : there is confusion between .keywindow and .isKeyWindow
 
+	LINE MASHER 2
+		sound playback
+			NEW : richer than older
 	Nonnon CatPad
 		Search Field : magnifier icon : highlight
 			NEW : fade-in/out available
