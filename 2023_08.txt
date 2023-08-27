@@ -39,6 +39,11 @@ BUGFIX
 			NEW : fixed
 			[!] : use n_scrollbar_nswindow_set method to register NSWindow*
 
+	neutral/time.c
+		n_time_compare_mtime() : exFAT comparison
+			OLD : logic is inaccurate
+			NEW : fixed
+
 	Nonnon CatPad
 		Icon Buttons : when a main window is inactive state
 			OLD : hover-able
@@ -51,6 +56,10 @@ BUGFIX
 		UI : when a main window is inactive state
 			OLD : hover-able
 			NEW : fixed
+	Project Checker
+		exFAT drives : behavior
+			OLD : inaccurate
+			NEW : fixed
 
 
 NEW_FEATURE
@@ -61,6 +70,9 @@ NEW_FEATURE
 			NEW : smoother than older
 		Find Icon
 			NEW : fade-in/out available
+		Key Binding
+			NEW : "Enter" in numeric keypad is supported
+			[!] : in Mac, Return and Enter are different
 	mac/sound.c
 		n_mac_sound2
 			NEW : AVAudioEngine implementation
