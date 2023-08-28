@@ -56,9 +56,15 @@ BUGFIX
 		UI : when a main window is inactive state
 			OLD : hover-able
 			NEW : fixed
+		timer
+			OLD : misbehave when integer overflow
+			NEW : fixed
 	Project Checker
 		exFAT drives : behavior
 			OLD : inaccurate
+			NEW : fixed
+		timer
+			OLD : misbehave when integer overflow
 			NEW : fixed
 
 
