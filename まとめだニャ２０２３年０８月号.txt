@@ -87,6 +87,11 @@ AVAudioPlayer より高速だニャ
 
 サウンドの再生がリッチになったニャ
 
+■game/helper.c
+
+n_game_timer_once() が追加されたニャ
+１回限りの動作だニャ
+
 
 ◇バグフィクス
 

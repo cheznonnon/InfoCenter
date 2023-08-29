@@ -71,6 +71,10 @@ BUGFIX
 NEW_FEATURE
 
 
+	game/helper.c
+		n_game_timer_once()
+			NEW : for one-shot
+
 	mac/n_txtbox.c
 		Grab N Drag
 			NEW : smoother than older
