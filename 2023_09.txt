@@ -1,0 +1,67 @@
+
+
+----------==========----------==========----------==========----------
+
+
+"Eat Your Own Catfood."
+
+
+----------==========----------==========----------==========----------
+
+
+Change Log
+
+
+2023/09/30
+
+
+BUGFIX
+
+
+NEW_FEATURE
+
+
+----------==========----------==========----------==========----------
+
+
+Change Log
+
+
+2023/09/20
+
+
+BUGFIX
+
+
+NEW_FEATURE
+
+
+----------==========----------==========----------==========----------
+
+
+Change Log
+
+
+2023/09/10
+
+
+BUGFIX
+
+
+NEW_FEATURE
+
+
+	mac/_mac.c
+		n_mac_rect_resize()
+			NEW : NSRect resizer
+
+	Nonnon CatPad
+		Search Field : magnifier icon
+			NEW : revamped
+	Nyaagle
+		Search Field : magnifier icon
+			NEW : revamped
+
+
+----------==========----------==========----------==========----------
+
