@@ -48,6 +48,12 @@ Change Log
 BUGFIX
 
 
+	Nonnon Paint
+		Grid : blue lines
+			OLD : inaccurate
+			NEW : fixed
+
+
 NEW_FEATURE
 
 
@@ -58,6 +64,14 @@ NEW_FEATURE
 	Nonnon CatPad
 		Search Field : magnifier icon
 			NEW : revamped
+	Nonnon Paint
+		Grid : zoom-out
+			NEW : supported
+		Preview
+			NEW : grid available
+			[!] : on when Grid is on
+		Grid and Pixel Grid
+			NEW : remember the last on/off
 	Nyaagle
 		Search Field : magnifier icon
 			NEW : revamped
