@@ -52,6 +52,9 @@ BUGFIX
 		Grid : blue lines
 			OLD : inaccurate
 			NEW : fixed
+		Multi-Layer : Resizer : like "Cell Art x2"
+			OLD : not working
+			NEW : fixed
 
 
 NEW_FEATURE
