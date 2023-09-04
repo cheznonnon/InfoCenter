@@ -55,6 +55,20 @@ BUGFIX
 		Multi-Layer : Resizer : like "Cell Art x2"
 			OLD : not working
 			NEW : fixed
+		Preview : window
+			OLD : top-most
+			NEW : no top-most
+			[!] : using older code
+		Grabber : Animated Frame
+			OLD : dot is too large in some cases
+			NEW : fixed
+		Multi-Layer : Layer Window
+			OLD : misbehave in z-order
+			NEW : fixed
+			[!] : happen when drop a non-layer file and re-drop a layer folder
+		Multi-Layer : Layer Window : Listbox
+			OLD : internal confusion when swapped or moved
+			NEW : fixed
 
 
 NEW_FEATURE
@@ -75,6 +89,11 @@ NEW_FEATURE
 			[!] : on when Grid is on
 		Grid and Pixel Grid
 			NEW : remember the last on/off
+		Readme
+			NEW : "Nonnon INI2GDI" is added
+			[!] : "INI2GDI" is a INI file based useful script language
+		Grabber
+			NEW : hide frame temporarily when you press "Z"
 	Nyaagle
 		Search Field : magnifier icon
 			NEW : revamped
