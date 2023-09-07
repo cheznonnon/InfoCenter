@@ -48,6 +48,11 @@ Change Log
 BUGFIX
 
 
+	mac/n_txtbox.c
+		HiDPI : FINDBOX : delete circle : "x"
+			OLD : inaccurate position
+			NEW : fixed
+
 	Nonnon Paint
 		Grid : blue lines
 			OLD : inaccurate
@@ -69,6 +74,9 @@ BUGFIX
 		Multi-Layer : Layer Window : Listbox
 			OLD : internal confusion when swapped or moved
 			NEW : fixed
+		Multi-Layer : Grabber : DnD
+			OLD : accept but reject
+			NEW : not accept
 
 
 NEW_FEATURE
@@ -94,6 +102,8 @@ NEW_FEATURE
 			[!] : "INI2GDI" is a INI file based useful script language
 		Grabber
 			NEW : hide frame temporarily when you press "Z"
+		Multi-Layer : Grabber
+			NEW : better UI context
 	Nyaagle
 		Search Field : magnifier icon
 			NEW : revamped
