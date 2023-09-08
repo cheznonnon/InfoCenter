@@ -77,10 +77,18 @@ BUGFIX
 		Multi-Layer : Grabber : DnD
 			OLD : accept but reject
 			NEW : not accept
+		Loader : when not supported file is dropped
+			OLD : current data will broken
+			NEW : fixed
 
 
 NEW_FEATURE
 
+
+	all
+		backingScaleFactor
+			OLD : not integrated
+			NEW : integrated in n_mac_image_window
 
 	mac/_mac.c
 		n_mac_rect_resize()
