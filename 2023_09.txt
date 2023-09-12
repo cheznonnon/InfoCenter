@@ -33,7 +33,25 @@ Change Log
 BUGFIX
 
 
+	Nonnon Paint
+		Grabber : Tooltip
+			OLD : not shown in some cases
+			NEW : fixed
+
+
 NEW_FEATURE
+
+
+	Nonnon Paint
+		Grabber : Quick Stretch : start stretch
+			OLD : dragged
+			NEW : clicked
+		Grabber : Quick Stretch : select
+			OLD : outer point is used
+			NEW : relative cursor position available
+		Grabber : bad mice support
+			NEW : delay 100 msec. to start
+			[!] : for Select All
 
 
 ----------==========----------==========----------==========----------
@@ -78,7 +96,7 @@ BUGFIX
 			OLD : accept but reject
 			NEW : not accept
 		Loader : when not supported file is dropped
-			OLD : current data will broken
+			OLD : current data will be broken
 			NEW : fixed
 
 
