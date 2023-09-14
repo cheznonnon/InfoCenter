@@ -52,6 +52,8 @@ NEW_FEATURE
 		Grabber : bad mice support
 			NEW : delay 100 msec. to start
 			[!] : for Select All
+		Multi-Layer : Thin Lines
+			NEW : new engine available
 
 
 ----------==========----------==========----------==========----------
