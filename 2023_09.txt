@@ -54,6 +54,8 @@ NEW_FEATURE
 			[!] : for Select All
 		Multi-Layer : Thin Lines
 			NEW : new engine available
+		Grabber : DnD : when you drop into Tool Window
+			NEW : position will be zero
 
 
 ----------==========----------==========----------==========----------
