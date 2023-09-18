@@ -33,15 +33,34 @@ Change Log
 BUGFIX
 
 
+	all
+		some files
+			OLD : first and second lines have the same
+			NEW : fixed
+			[x] : Xcode Command+D causes
 	Nonnon Paint
 		Grabber : Tooltip
 			OLD : not shown in some cases
 			NEW : fixed
+		Multi-Layer : Layer Window : Popup Menu : Index
+			OLD : a highlighted item
+			NEW : an item under a cursor
 
 
 NEW_FEATURE
 
 
+	mac/n_txtbox.c
+		delegate_F3
+			NEW : prototype is changed
+
+	Nonnon CatPad
+		Meow Sound
+			OLD : a little louder
+			NEW : reduced to 66%
+		Search Field : magnifier button
+			NEW : reverse search available
+			[!] : Command+F3 is the same
 	Nonnon Paint
 		Grabber : Quick Stretch : start stretch
 			OLD : dragged
@@ -56,6 +75,10 @@ NEW_FEATURE
 			NEW : new engine available
 		Grabber : DnD : when you drop into Tool Window
 			NEW : position will be zero
+		Multi-Layer : Grabber
+			NEW : better UI context
+		Multi-Layer and Resizer : Scrollbars
+			NEW : delayed apply available
 
 
 ----------==========----------==========----------==========----------
