@@ -60,7 +60,10 @@ NEW_FEATURE
 			NEW : reduced to 66%
 		Search Field : magnifier button
 			NEW : reverse search available
-			[!] : Command+F3 is the same
+			[!] : Command+F3
+			[!] : Shift+click
+		Search Field : magnifier button
+			NEW : rapid-fire available
 	Nonnon Paint
 		Grabber : Quick Stretch : start stretch
 			OLD : dragged
