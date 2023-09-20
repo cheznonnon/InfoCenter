@@ -18,7 +18,18 @@ Change Log
 BUGFIX
 
 
+	Nonnon Pinknoise
+		Button : when you press by inactive window
+			OLD : glitch
+			NEW : fixed
+
+
 NEW_FEATURE
+
+
+	Nonnon Paint
+		Readme
+			NEW : some topics are added
 
 
 ----------==========----------==========----------==========----------
