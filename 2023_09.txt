@@ -22,6 +22,9 @@ BUGFIX
 		Button : when you press by inactive window
 			OLD : glitch
 			NEW : fixed
+		Multi-Layer : Locked Layers
+			OLD : you can clear canvas or so
+			NEW : disabled
 
 
 NEW_FEATURE
@@ -30,6 +33,11 @@ NEW_FEATURE
 	Nonnon Paint
 		Readme
 			NEW : some topics are added
+		Multi-Layer : Blur
+			NEW : much faster than older
+			[!] : cache mechanism and multi-threading are implemented
+		Multi-Layer : Layer Cache
+			NEW : memory usage is reduced
 
 
 ----------==========----------==========----------==========----------
