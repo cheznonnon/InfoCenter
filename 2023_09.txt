@@ -22,6 +22,7 @@ BUGFIX
 		Button : when you press by inactive window
 			OLD : glitch
 			NEW : fixed
+	Nonnon Paint
 		Multi-Layer : Locked Layers
 			OLD : you can clear canvas or so
 			NEW : disabled
