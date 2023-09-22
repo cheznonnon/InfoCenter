@@ -26,6 +26,9 @@ BUGFIX
 		Multi-Layer : Locked Layers
 			OLD : you can clear canvas or so
 			NEW : disabled
+		Multi-Layer : Locked Layers : Cursor : GrabNDrag
+			OLD : not changed
+			NEW : fixed
 
 
 NEW_FEATURE
@@ -39,6 +42,8 @@ NEW_FEATURE
 			[!] : cache mechanism and multi-threading are implemented
 		Multi-Layer : Layer Cache
 			NEW : memory usage is reduced
+		Multi-Layer
+			NEW : performance improvement
 
 
 ----------==========----------==========----------==========----------
