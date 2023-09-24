@@ -29,11 +29,18 @@ BUGFIX
 		Multi-Layer : Locked Layers : Cursor : GrabNDrag
 			OLD : not changed
 			NEW : fixed
+		Grabber : small canvas with zoom-out
+			OLD : draw error
+			NEW : fixed
 
 
 NEW_FEATURE
 
 
+	Nonnon CatPad
+		Icons : Neko, Dump and Text2HTML
+			OLD :  32px
+			NEW : 128px
 	Nonnon Paint
 		Readme
 			NEW : some topics are added
@@ -44,6 +51,12 @@ NEW_FEATURE
 			NEW : memory usage is reduced
 		Multi-Layer
 			NEW : performance improvement
+	Nonnon Pinknoise
+		main icon
+			NEW : squircled
+	Project Checker
+		main icon
+			NEW : squircled
 
 
 ----------==========----------==========----------==========----------
