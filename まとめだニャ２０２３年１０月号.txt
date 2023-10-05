@@ -9,6 +9,10 @@
 
 ◇ニューフィーチャー
 
+■Nonnon Paint
+
+Drop2Save が Lite 版でもできるようになったニャ
+
 
 ◇バグフィクス
 

@@ -57,5 +57,10 @@ BUGFIX
 NEW_FEATURE
 
 
+	Nonnon Paint
+		Lite Version : Drop2Save
+			NEW : supported
+
+
 ----------==========----------==========----------==========----------
 
