@@ -52,6 +52,11 @@ BUGFIX
 		Dump : binary files
 			OLD : not working
 			NEW : fixed
+	Nonnon Paint
+		Multi-Layer : Cache Mechanism : when saved as Multi-Layer
+			OLD : crash
+			NEW : fixed
+			[x] : NEW_FEATURE @ 2023/09/30
 
 
 NEW_FEATURE
