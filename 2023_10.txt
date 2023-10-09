@@ -57,6 +57,13 @@ BUGFIX
 NEW_FEATURE
 
 
+	mac/_mac.c
+		n_mac_doubleclick_detect()
+			NEW : double click detector
+
+	Nonnon Freecell
+		double click
+			NEW : more robust than older
 	Nonnon Paint
 		Lite Version : Drop2Save
 			NEW : supported

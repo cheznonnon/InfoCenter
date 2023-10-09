@@ -13,6 +13,14 @@
 
 Drop2Save が Lite 版でもできるようになったニャ
 
+■mac/_mac.c
+
+n_mac_doubleclick_detect() が追加されたニャ
+
+■Nonnon Freecell
+
+ダブルクリックがもっと堅くなったニャ
+
 
 ◇バグフィクス
 
