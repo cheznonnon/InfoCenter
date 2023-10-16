@@ -33,6 +33,17 @@ Change Log
 BUGFIX
 
 
+	mac/n_txtbox.c
+		mouse wheel input
+			OLD : too much Mos app centric
+			NEW : fixed
+
+	Nyaagle
+		Dark Mode : Text Search : Logo
+			OLD : hard to recognize
+			NEW : fixed
+
+
 NEW_FEATURE
 
 
