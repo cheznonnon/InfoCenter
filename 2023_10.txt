@@ -33,6 +33,10 @@ Change Log
 BUGFIX
 
 
+	mac/n_scrollbar.c
+		mouse wheel input
+			OLD : too much Mos app centric
+			NEW : fixed
 	mac/n_txtbox.c
 		mouse wheel input
 			OLD : too much Mos app centric
@@ -45,6 +49,13 @@ BUGFIX
 
 
 NEW_FEATURE
+
+
+	hunyapiyo3
+		Wheeling
+			NEW : supported
+		Cat Panels : UI
+			NEW : transition animation available
 
 
 ----------==========----------==========----------==========----------
