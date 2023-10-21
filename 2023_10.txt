@@ -21,6 +21,12 @@ BUGFIX
 NEW_FEATURE
 
 
+	mac/n_txtbox.c
+		mouse wheel input : without Mos
+			NEW : refined
+			[!] : Mos auto detector is implemented
+
+
 ----------==========----------==========----------==========----------
 
 
@@ -56,6 +62,9 @@ NEW_FEATURE
 			NEW : supported
 		Cat Panels : UI
 			NEW : transition animation available
+	Nonnon Paint
+		Readme
+			NEW : "for Mos app users" is added
 
 
 ----------==========----------==========----------==========----------
