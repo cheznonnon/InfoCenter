@@ -26,6 +26,10 @@ NEW_FEATURE
 			NEW : refined
 			[!] : Mos auto detector is implemented
 
+	Nonnon Paint
+		Resizer : Rotate
+			NEW : delayed apply available
+
 
 ----------==========----------==========----------==========----------
 
