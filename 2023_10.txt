@@ -18,6 +18,12 @@ Change Log
 BUGFIX
 
 
+	mac/n_txtbox.c
+		paste
+			OLD : UTF-8 error dialog will appear in some cases
+			NEW : fixed
+
+
 NEW_FEATURE
 
 
@@ -26,9 +32,19 @@ NEW_FEATURE
 			NEW : refined
 			[!] : Mos auto detector is implemented
 
+	neutral/bmp/ui/pie_throbber.c
+		released
+			NEW : pie chart based throbber
+
+	hunyapiyo3
+		font renderer
+			OLD : NSImage
+			NEW : Nonnon GDI / much faster than older
+		count down
+			NEW : pie throbber is added
 	Nonnon Paint
 		Resizer : Rotate
-			NEW : delayed apply available
+			NEW : delayed application available
 
 
 ----------==========----------==========----------==========----------
