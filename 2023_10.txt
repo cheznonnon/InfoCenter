@@ -42,9 +42,15 @@ NEW_FEATURE
 			NEW : Nonnon GDI / much faster than older
 		count down
 			NEW : pie throbber is added
+	Nonnon Freecell
+		performance
+			NEW : lighter than older
 	Nonnon Paint
 		Resizer : Rotate
 			NEW : delayed application available
+		Multi-Layer : Blur Cache
+			OLD : always using 5 sec. wait
+			NEW : faster than older
 
 
 ----------==========----------==========----------==========----------
