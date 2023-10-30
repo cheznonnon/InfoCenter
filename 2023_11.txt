@@ -1,0 +1,74 @@
+
+
+----------==========----------==========----------==========----------
+
+
+"Eat Your Own Catfood."
+
+
+----------==========----------==========----------==========----------
+
+
+Change Log
+
+
+2023/11/30
+
+
+BUGFIX
+
+
+NEW_FEATURE
+
+
+----------==========----------==========----------==========----------
+
+
+Change Log
+
+
+2023/11/20
+
+
+BUGFIX
+
+
+NEW_FEATURE
+
+
+----------==========----------==========----------==========----------
+
+
+Change Log
+
+
+2023/11/10
+
+
+BUGFIX
+
+
+	mac/n_txtbox.c
+		error dialog
+			OLD : n_txt_load_utf8 does
+			NEW : n_txtbox_open does
+
+	All
+		using mac/n_txtbox.c
+			OLD : loose integrity
+			NEW : stricter than older
+	Nonnon Paint
+		source code
+			OLD : unused #include "neutral/ini.c"
+			NEW : removed
+	Pen Trainer
+		source code
+			OLD : unused #include "neutral/ini.c"
+			NEW : removed
+
+
+NEW_FEATURE
+
+
+----------==========----------==========----------==========----------
+
