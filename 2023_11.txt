@@ -70,5 +70,12 @@ BUGFIX
 NEW_FEATURE
 
 
+	Nonnon CatPad
+		Scroll Wheel
+			NEW : smooth scroll without Mos app
+		Scroll Wheel : Mos app Support : behavior
+			NEW : re-tuned
+
+
 ----------==========----------==========----------==========----------
 
