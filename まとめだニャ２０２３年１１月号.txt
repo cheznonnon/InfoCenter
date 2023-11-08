@@ -21,6 +21,8 @@ Mos のある環境での動作をチューンし直したニャ
 
 エラーダイアログの権限を n_txt_load_utf8 から n_txtbox_open に移したニャ
 
+Grab N Drag の動作をもっと自然になるように調整したニャ
+
 ■Nonnon Paint
 
 使われない neutral/ini.c へのインクルードを削除したニャ

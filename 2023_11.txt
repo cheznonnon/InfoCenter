@@ -52,6 +52,9 @@ BUGFIX
 		error dialog
 			OLD : n_txt_load_utf8 does
 			NEW : n_txtbox_open does
+		Grab N Drag
+			OLD : not smooth
+			NEW : fixed
 
 	All
 		using mac/n_txtbox.c
