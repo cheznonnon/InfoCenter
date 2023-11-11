@@ -33,7 +33,18 @@ Change Log
 BUGFIX
 
 
+	mac/n_txtbox.c
+		Trackpad Scrolling Support
+			OLD : inaccurate
+			NEW : fixed
+
+
 NEW_FEATURE
+
+
+	mac/n_txtbox.c
+		Scroll Wheel : Nonnon Original Smooth Scroll
+			NEW : re-tuned
 
 
 ----------==========----------==========----------==========----------
