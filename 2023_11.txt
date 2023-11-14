@@ -37,6 +37,15 @@ BUGFIX
 		Trackpad Scrolling Support
 			OLD : inaccurate
 			NEW : fixed
+		find icon
+			OLD : memory leak
+			NEW : fixed
+		CPU usage
+			OLD : too high
+			NEW : reduced
+		Key Bindings : F5
+			OLD : not redrawn
+			NEW : fixed
 
 
 NEW_FEATURE
@@ -45,6 +54,10 @@ NEW_FEATURE
 	mac/n_txtbox.c
 		Scroll Wheel : Nonnon Original Smooth Scroll
 			NEW : re-tuned
+
+	Nonnon Paint
+		Multi-Layer : Whole Layer Eraser
+			NEW : strong eraser
 
 
 ----------==========----------==========----------==========----------
