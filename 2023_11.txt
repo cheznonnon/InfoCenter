@@ -47,6 +47,11 @@ BUGFIX
 			OLD : not redrawn
 			NEW : fixed
 
+	Nonnon Freecell
+		Draw Engine : multi-thread
+			OLD : garbage pixels might be made
+			NEW : fixed
+
 
 NEW_FEATURE
 
@@ -55,6 +60,9 @@ NEW_FEATURE
 		Scroll Wheel : Nonnon Original Smooth Scroll
 			NEW : re-tuned
 
+	Nonnon CatPad
+		Tool Band
+			NEW : you can drag the main window by Tool Band margin
 	Nonnon Paint
 		Multi-Layer : Whole Layer Eraser
 			NEW : strong eraser
