@@ -18,6 +18,12 @@ Change Log
 BUGFIX
 
 
+	Nonnon Paint
+		Preview : when a canvas is not square
+			OLD : misbehave
+			NEW : fixed
+
+
 NEW_FEATURE
 
 
