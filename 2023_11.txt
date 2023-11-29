@@ -18,6 +18,12 @@ Change Log
 BUGFIX
 
 
+	Nonnon CatPad
+		Drag Selection when drag under zero-th line
+			OLD : misbehave
+			NEW : rixed
+			[!] : a : a caret will move into a minus line
+			[!] : b : a tool button is triggered
 	Nonnon Paint
 		Preview : when a canvas is not square
 			OLD : misbehave
