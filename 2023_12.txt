@@ -50,7 +50,7 @@ BUGFIX
 
 	Nonnon Paint
 		Multi-Layer : Whole Layer Eraser
-			OLD : too edge-y
+			OLD : Mix is not used
 			NEW : fixed
 
 
