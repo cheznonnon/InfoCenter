@@ -52,6 +52,9 @@ BUGFIX
 		Multi-Layer : Whole Layer Eraser
 			OLD : Mix is not used
 			NEW : fixed
+		Grabber : Color Picker
+			OLD : from the main canvas
+			NEW : from the grabbed area
 
 
 NEW_FEATURE
