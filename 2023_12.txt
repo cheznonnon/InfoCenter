@@ -33,7 +33,27 @@ Change Log
 BUGFIX
 
 
+	Nonnon Marie
+		Fit is Off : Rotate
+			OLD : draw error
+			NEW : fixed
+
+
 NEW_FEATURE
+
+
+	project_nonnon.zip
+		release segment
+			OLD : "project_nonnon.zip" for Win32 and Mac
+			NEW : integrated into "Nonnon for Mac Source.zip"
+			[!] : Win32-specific resources are removed
+
+	Nonnon CatPad
+		Key Bindings : Command + Q
+			NEW : disabled for safety
+	Nonnon Marie
+		Readme
+			NEW : a topic about "Fit" is added
 
 
 ----------==========----------==========----------==========----------
