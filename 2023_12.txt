@@ -33,6 +33,10 @@ Change Log
 BUGFIX
 
 
+	hunyapiyo3
+		source code
+			OLD : unused global variable
+			NEW : removed
 	Nonnon Marie
 		Fit is Off : Rotate
 			OLD : draw error
