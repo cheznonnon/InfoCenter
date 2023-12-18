@@ -41,6 +41,10 @@ BUGFIX
 		Fit is Off : Rotate
 			OLD : draw error
 			NEW : fixed
+	Nonnon Paint
+		Grabber : resize dots : when mode is changed
+			OLD : color doesn't change
+			NEW : fixed
 
 
 NEW_FEATURE
