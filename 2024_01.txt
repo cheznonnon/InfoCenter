@@ -48,12 +48,22 @@ Change Log
 BUGFIX
 
 
+	Nonnon Paint
+		Multi-Layer : Renamer
+			OLD : grayed menus are not restored as enabled state
+			NEW : fixed
+
+
 NEW_FEATURE
 
 
 	mac/_mac.c
 		n_mac_keystate_get()
 			NEW : you can use this like GetAsyncKeyState() in Win32
+
+	Nonnon Paint
+		Pen/Fill/Grabber
+			NEW : an upper line in a canvas is used as color indicator
 
 
 ----------==========----------==========----------==========----------
