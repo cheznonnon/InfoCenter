@@ -52,6 +52,17 @@ BUGFIX
 		Multi-Layer : Renamer
 			OLD : grayed menus are not restored as enabled state
 			NEW : fixed
+		Multi-Layer : Layer Menu
+			OLD : not shown in some cases
+			NEW : fixed
+			[!] : when another image is dropped
+		Grabber : frame hider
+			OLD : conflict with quick eraser
+			NEW : fixed
+			[!] : borders will be overwritten by pen input
+		Multi-Layer : Grabber : when a file is dropped
+			OLD : basic filters misbehave
+			NEW : fixed
 
 
 NEW_FEATURE
