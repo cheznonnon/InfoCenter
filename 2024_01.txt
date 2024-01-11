@@ -33,7 +33,21 @@ Change Log
 BUGFIX
 
 
+	Nonnon Marie
+		loader
+			OLD : some formats are not available
+			NEW : fixed
+			[!] : Mac System loader's limitation
+
+
 NEW_FEATURE
+
+
+	game/transition.c
+		n_game_transition_main()
+			NEW : run many transitions at the same time
+			[!] : usage is changed from n_game_transition()
+			[!] : n_game_transition() uses n_game_transition_main() internally
 
 
 ----------==========----------==========----------==========----------
