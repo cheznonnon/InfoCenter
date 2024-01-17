@@ -49,6 +49,10 @@ NEW_FEATURE
 			[!] : usage is changed from n_game_transition()
 			[!] : n_game_transition() uses n_game_transition_main() internally
 
+	neutral/bmp/ui/animated_counter.c
+		released
+			NEW : animated number rolling counter
+
 
 ----------==========----------==========----------==========----------
 

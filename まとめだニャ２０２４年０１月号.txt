@@ -43,6 +43,10 @@ n_game_transition_main() が実装されたニャ
 構造体を使って複数のトランジションを並行して動かせるようになったニャ
 n_game_transition() は n_game_transition_main() を内部で呼ぶ仕様になったニャ
 
+■neutral/bmp/ui/animated_counter.c
+
+数字のカウンターで縦方向にスロットマシーンのように回転するものだニャ
+
 
 ◇バグフィクス
 
