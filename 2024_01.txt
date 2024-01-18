@@ -33,6 +33,13 @@ Change Log
 BUGFIX
 
 
+	LINE MASHER 2
+		when inactive window
+			OLD : keep on running
+			NEW : pause
+		score : too large value
+			OLD : integer overflow
+			NEW : limit 8 digit figures
 	Nonnon Marie
 		loader
 			OLD : some formats are not available
@@ -52,6 +59,10 @@ NEW_FEATURE
 	neutral/bmp/ui/animated_counter.c
 		released
 			NEW : animated number rolling counter
+
+	LINE MASHER 2
+		score
+			NEW : rolling counter is implemented
 
 
 ----------==========----------==========----------==========----------
