@@ -21,6 +21,11 @@ BUGFIX
 NEW_FEATURE
 
 
+	LINE MASHER 2
+		animated rolling counter
+			NEW : more stable than older
+
+
 ----------==========----------==========----------==========----------
 
 
