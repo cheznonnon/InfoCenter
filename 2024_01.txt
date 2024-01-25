@@ -18,8 +18,30 @@ Change Log
 BUGFIX
 
 
+	mac/n_button.c
+		macOS Sonoma Xcode 15
+			OLD : draw error at the first run
+			NEW : fixed
+			[!] : drawRect method has entire window size at the first run
+	mac/n_textfield.c
+		macOS Sonoma Xcode 15
+			OLD : draw error at the first run
+			NEW : fixed
+			[!] : drawRect method has entire window size at the first run
+
+	All
+		macOS Sonoma : Txtbox : Listbox
+			OLD : flip when initialized
+			NEW : fixed
+
+
 NEW_FEATURE
 
+
+	mac/window.c
+		n_mac_window_is_visible()
+			NEW : wrapper of occlusionState
+			[!] : isVisible is deprecated in Sonoma
 
 	LINE MASHER 2
 		animated rolling counter
