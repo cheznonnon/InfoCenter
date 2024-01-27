@@ -78,6 +78,18 @@ macOS Sonoma で Txtbox のリストボックスモードで初期化時にフ�
 原因は不明だニャ
 新しくビルドし直したら直ったニャ
 
+■Nonnon Pinknoise
+
+Sonoma で Full HD のモニターだとアイコンボタンのラベルフォントが大きすぎるのを直したニャ
+
+■Nonnon Tools
+
+Sonoma の Safari で Favorites2HTML の作る HTML のフォントがボールドがきついのを直したニャ
+
+■mac/gamepad.c
+
+GCController のラッパーと使い方が書いてあるニャ
+
 
 [ ０１月３０日 ]
 
@@ -86,6 +98,8 @@ macOS Sonoma で Txtbox のリストボックスモードで初期化時にフ�
 ■LINE MASHER 2
 
 カウンターの動作をもっと安定させたニャ
+
+ゲームパッドサポートが付いたニャ
 
 ■mac/window.c
 

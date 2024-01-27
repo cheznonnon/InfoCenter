@@ -33,11 +33,22 @@ BUGFIX
 		macOS Sonoma : Txtbox : Listbox
 			OLD : flip when initialized
 			NEW : fixed
+	Nonnon Pinknoise
+		macOS Sonoma : button label
+			OLD : misbehaves / too large
+			NEW : fixed
+	Nonnon Tools
+		macOS Sonoma : Favorites2HTML
+			OLD : font size is too bold
+			NEW : fixed
 
 
 NEW_FEATURE
 
 
+	mac/gamepad.c
+		released
+			NEW : GCController helper
 	mac/window.c
 		n_mac_window_is_visible()
 			NEW : wrapper of occlusionState
@@ -46,6 +57,8 @@ NEW_FEATURE
 	LINE MASHER 2
 		animated rolling counter
 			NEW : more stable than older
+		Gamepad Support
+			NEW : implemented
 
 
 ----------==========----------==========----------==========----------
