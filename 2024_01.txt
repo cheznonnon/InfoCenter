@@ -28,6 +28,11 @@ BUGFIX
 			OLD : draw error at the first run
 			NEW : fixed
 			[!] : drawRect method has entire window size at the first run
+	mac/n_txtbox.c
+		macOS Sonoma Xcode 15
+			OLD : draw error at the first run
+			NEW : fixed
+			[!] : drawRect method has entire window size at the first run
 
 	All
 		macOS Sonoma : Txtbox : Listbox

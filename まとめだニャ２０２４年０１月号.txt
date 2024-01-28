@@ -72,24 +72,6 @@ Mac のシステムのローダーの問題だニャ
 Sonoma で初期描画がウィンドウサイズになってしまうのを直したニャ
 drawRect の互換性の問題だニャ
 
-■All
-
-macOS Sonoma で Txtbox のリストボックスモードで初期化時にフリップする問題が出ているニャ
-原因は不明だニャ
-新しくビルドし直したら直ったニャ
-
-■Nonnon Pinknoise
-
-Sonoma で Full HD のモニターだとアイコンボタンのラベルフォントが大きすぎるのを直したニャ
-
-■Nonnon Tools
-
-Sonoma の Safari で Favorites2HTML の作る HTML のフォントがボールドがきついのを直したニャ
-
-■mac/gamepad.c
-
-GCController のラッパーと使い方が書いてあるニャ
-
 
 [ ０１月３０日 ]
 
@@ -106,8 +88,26 @@ GCController のラッパーと使い方が書いてあるニャ
 n_mac_window_is_visible() が実装されたニャ
 Sonoma だと isVisible が使えないためだニャ
 
+■mac/gamepad.c
+
+GCController のラッパーと使い方が書いてあるニャ
+
 
 ◇バグフィクス
+
+■All
+
+macOS Sonoma で Txtbox のリストボックスモードで初期化時にフリップする問題が出ているニャ
+原因は不明だニャ
+新しくビルドし直したら直ったニャ
+
+■Nonnon Pinknoise
+
+Sonoma で Full HD のモニターだとアイコンボタンのラベルフォントが大きすぎるのを直したニャ
+
+■Nonnon Tools
+
+Sonoma の Safari で Favorites2HTML の作る HTML のフォントがボールドがきついのを直したニャ
 
 ----------==========----------==========----------==========----------
 
