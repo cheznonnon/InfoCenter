@@ -12,6 +12,24 @@
 Change Log
 
 
+2024/01/31
+
+
+BUGFIX
+
+
+	Nonnon Paint
+		macOS Sonoma
+			OLD : garbage pixel happens
+			NEW : fixed
+
+
+----------==========----------==========----------==========----------
+
+
+Change Log
+
+
 2024/01/30
 
 
