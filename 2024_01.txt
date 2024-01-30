@@ -38,6 +38,14 @@ BUGFIX
 		macOS Sonoma : Txtbox : Listbox
 			OLD : flip when initialized
 			NEW : fixed
+	LINE MASHER 2
+		macOS Sonoma : startup fade
+			OLD : glitch
+			NEW : fixed
+	Nonnon Freecell
+		macOS Sonoma : startup fade
+			OLD : glitch
+			NEW : fixed
 	Nonnon Pinknoise
 		macOS Sonoma : button label
 			OLD : misbehaves / too large
@@ -50,6 +58,10 @@ BUGFIX
 
 NEW_FEATURE
 
+
+	game/transition.c
+		FADE
+			NEW : multi-threaded
 
 	mac/gamepad.c
 		released
