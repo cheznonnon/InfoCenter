@@ -61,5 +61,10 @@ BUGFIX
 NEW_FEATURE
 
 
+	Nonnon Freecell
+		"Replay" and "New Game"
+			NEW : transition available
+
+
 ----------==========----------==========----------==========----------
 

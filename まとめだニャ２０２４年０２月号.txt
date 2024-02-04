@@ -9,6 +9,10 @@
 
 ◇ニューフィーチャー
 
+■Nonnon Freecell
+
+"Replay" と "New Game" にトランジションが実装されたニャ
+
 
 ◇バグフィクス
 
