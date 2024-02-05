@@ -56,6 +56,10 @@ BUGFIX
 		Grabber
 			OLD : crash in some cases
 			NEW : fixed
+	Project Checker
+		Go!
+			OLD : line selection remains
+			NEW : fixed
 
 
 NEW_FEATURE
