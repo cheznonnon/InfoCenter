@@ -33,6 +33,12 @@ Change Log
 BUGFIX
 
 
+	Nonnon Freecell
+		double-click
+			OLD : detection error happens
+			NEW : fixed
+
+
 NEW_FEATURE
 
 
