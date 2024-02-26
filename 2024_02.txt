@@ -22,6 +22,10 @@ BUGFIX
 		at launch
 			OLD : glitchy
 			NEW : fixed again
+		regression : accent color or dark mode is changed
+			OLD : misbehave
+			NEW : fixed
+			[!] : use older code / I cannot fix
 
 
 NEW_FEATURE
