@@ -18,6 +18,12 @@ Change Log
 BUGFIX
 
 
+	Nonnon Freecell
+		at launch
+			OLD : glitchy
+			NEW : fixed again
+
+
 NEW_FEATURE
 
 
