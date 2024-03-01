@@ -1,0 +1,63 @@
+
+
+----------==========----------==========----------==========----------
+
+
+"Eat Your Own Catfood."
+
+
+----------==========----------==========----------==========----------
+
+
+Change Log
+
+
+2024/03/30
+
+
+BUGFIX
+
+
+NEW_FEATURE
+
+
+----------==========----------==========----------==========----------
+
+
+Change Log
+
+
+2024/03/20
+
+
+BUGFIX
+
+
+NEW_FEATURE
+
+
+----------==========----------==========----------==========----------
+
+
+Change Log
+
+
+2024/03/10
+
+
+BUGFIX
+
+
+	Nonnon Tools
+		Favorites2HTML : Chrome : Font
+			OLD : Hiragino is ignored
+			NEW : fixed
+			[!] : maybe japanese character name is unsupported
+			[!] : "Hiragino Maru Gothic Pro" is available
+
+
+NEW_FEATURE
+
+
+----------==========----------==========----------==========----------
+
