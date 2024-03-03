@@ -48,6 +48,10 @@ Change Log
 BUGFIX
 
 
+	Nonnon Paint
+		Sonoma : Preview : when you resize a window
+			OLD : glitch
+			NEW : fixed
 	Nonnon Tools
 		Favorites2HTML : Chrome : Font
 			OLD : Hiragino is ignored

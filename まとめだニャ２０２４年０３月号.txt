@@ -18,6 +18,10 @@ Favorites2HTML
 Chrome でヒラギノが使われないのを直したニャ
 最近のアップデート以降起こるニャ
 
+■Nonnon Paint
+
+Sonoma で Preview のリサイズをしようとすると誤作動するのを直したニャ
+
 
 [ ０３月２０日 ]
 
