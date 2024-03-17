@@ -33,6 +33,13 @@ Change Log
 BUGFIX
 
 
+	mac/sound.c
+		source code : when included
+			OLD : compile error
+			NEW : fixed
+			[!] : "neutral/posix.c" is needed
+
+
 NEW_FEATURE
 
 
