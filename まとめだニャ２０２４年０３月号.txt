@@ -40,6 +40,11 @@ Sonoma で Preview のリサイズをしようとすると誤作動するのを�
 
 ◇ニューフィーチャー
 
+■Nonnon Marie
+
+AirDrop 機能が付いたニャ
+iPhone に簡単に画像を送ることができるニャ
+
 
 ◇バグフィクス
 

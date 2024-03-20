@@ -21,6 +21,12 @@ BUGFIX
 NEW_FEATURE
 
 
+	Nonnon Marie
+		menu : "AirDrop"
+			NEW : you can share an image using AirDrop
+			[!] : AirDrop can send an image to your iPhone easily
+
+
 ----------==========----------==========----------==========----------
 
 
