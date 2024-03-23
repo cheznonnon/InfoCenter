@@ -18,6 +18,12 @@ Change Log
 BUGFIX
 
 
+	Nonnon Paint
+		Sonoma : Color History : when you select a color
+			OLD : inaccurate color is selected
+			NEW : fixed
+
+
 NEW_FEATURE
 
 
