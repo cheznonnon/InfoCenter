@@ -22,10 +22,17 @@ BUGFIX
 		Sonoma : Color History : when you select a color
 			OLD : inaccurate color is selected
 			NEW : fixed
+		Alpha Value Support
+			OLD : not natural changement happens
+			NEW : fixed
 
 
 NEW_FEATURE
 
+
+	mac/image.c
+		n_mac_image_nbmp_direct_draw()
+			NEW : CGContextSetBlendMode() is added
 
 	Nonnon Marie
 		menu : "AirDrop"
