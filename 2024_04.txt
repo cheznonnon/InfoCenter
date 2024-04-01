@@ -53,6 +53,21 @@ BUGFIX
 			OLD : a little flaky
 			NEW : fixed
 
+	Nonnon CatPad
+		Search Field : Delete Circle
+			OLD : "x" is not drawn
+			NEW : fixed
+			[!] : kCGBlendModeCopy causes
+			[x] : NEW_FEATURE @ 2024/03/30
+	Nonnon Marie
+		alpha
+			OLD : glows after second drop
+			NEW : fixed
+	Nonnon Paint
+		Multi-Layer : Folder Drop
+			OLD : you cannot drop when invisible layer
+			NEW : fixed
+
 
 NEW_FEATURE
 
@@ -60,6 +75,10 @@ NEW_FEATURE
 	mac/n_txtbox.c
 		code for scrollbar
 			NEW : refactored
+
+	Nonnon Paint
+		menu : "Alpha Emphasizer"
+			NEW : to clean alpha garbage pixels
 
 
 ----------==========----------==========----------==========----------
