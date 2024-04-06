@@ -18,6 +18,12 @@
 メニューに "Alpha Emphasizer" が付いたニャ
 アルファ値のゴミピクセルを取るために使うニャ
 
+■game/transition.c
+
+n_game_transition_percent_smooth が実装されたニャ
+パーセントを sin() で解釈し直すニャ
+そうすると動きがスムーズに見えるようになるニャ
+
 
 ◇バグフィクス
 

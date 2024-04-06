@@ -72,6 +72,10 @@ BUGFIX
 NEW_FEATURE
 
 
+	game/transition.c
+		n_game_transition_percent_smooth
+			NEW : sin() based percentage increment
+
 	mac/n_txtbox.c
 		code for scrollbar
 			NEW : refactored
