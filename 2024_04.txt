@@ -59,10 +59,6 @@ BUGFIX
 			NEW : fixed
 			[!] : kCGBlendModeCopy causes
 			[x] : NEW_FEATURE @ 2024/03/30
-	Nonnon Marie
-		alpha
-			OLD : glows after second drop
-			NEW : fixed
 	Nonnon Paint
 		Multi-Layer : Folder Drop
 			OLD : you cannot drop when invisible layer
