@@ -63,6 +63,9 @@ BUGFIX
 		Multi-Layer : Folder Drop
 			OLD : you cannot drop when invisible layer
 			NEW : fixed
+		Pen : Quick Eraser
+			OLD : mistouch will happen
+			NEW : fixed
 
 
 NEW_FEATURE
