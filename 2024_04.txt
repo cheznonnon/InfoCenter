@@ -22,7 +22,7 @@ NEW_FEATURE
 
 
 ----------==========----------==========----------==========----------
-
+ 
 
 Change Log
 
@@ -31,6 +31,13 @@ Change Log
 
 
 BUGFIX
+
+
+	Pen Trainer
+		Sonoma : Canvas
+			OLD : garbage pixels are made
+			NEW : fixed
+			[!] : drawRect incompatibility problem
 
 
 NEW_FEATURE

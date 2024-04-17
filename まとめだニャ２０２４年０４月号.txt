@@ -45,6 +45,11 @@ n_game_transition_percent_smooth が実装されたニャ
 
 ◇バグフィクス
 
+■Pen Trainer
+
+Sonoma でゴミピクセルが出る問題を直したニャ
+drawRect の互換性に問題があるためだニャ
+
 
 [ ０４月３０日 ]
 
