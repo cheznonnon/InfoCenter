@@ -38,6 +38,10 @@ BUGFIX
 			OLD : garbage pixels are made
 			NEW : fixed
 			[!] : drawRect incompatibility problem
+	Nyaagle
+		reset
+			OLD : clipboard will be cleared
+			NEW : no touch for usability
 
 
 NEW_FEATURE
