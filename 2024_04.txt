@@ -21,6 +21,12 @@ BUGFIX
 NEW_FEATURE
 
 
+	Nonnon Paint
+		soure code
+			NEW : n_paint_bmp_flush_alpha_base_color()
+			[!] : for internal use like making Nyaagle icon
+
+
 ----------==========----------==========----------==========----------
  
 

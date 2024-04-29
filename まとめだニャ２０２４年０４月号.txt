@@ -60,6 +60,11 @@ drawRect の互換性に問題があるためだニャ
 
 ◇ニューフィーチャー
 
+■Nonnon Paint
+
+n_paint_bmp_flush_alpha_base_color() が実装されたニャ
+内部用だニャ
+
 
 ◇バグフィクス
 
