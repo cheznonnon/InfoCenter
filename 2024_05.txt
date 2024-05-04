@@ -57,5 +57,16 @@ BUGFIX
 NEW_FEATURE
 
 
+	Nonnon Freecell
+		at launch : fade-in
+			NEW : smoother than older
+		fanfare sound
+			NEW : stereo pan available
+	Nyaagle
+		App Icons
+			OLD : gray only
+			NEW : gray for Finder Launcher, else white with black edge
+
+
 ----------==========----------==========----------==========----------
 
