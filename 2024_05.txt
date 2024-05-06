@@ -48,6 +48,10 @@ Change Log
 BUGFIX
 
 
+	Nonon CatPad
+		Sonoma : IME : indicator
+			OLD : inaccurate position at the first time
+			NEW : fixed
 	Nonnon Paint
 		Multi-Layer : when the first layer name is empty
 			OLD : broken or crash
