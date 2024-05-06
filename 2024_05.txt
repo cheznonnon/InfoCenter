@@ -58,8 +58,6 @@ NEW_FEATURE
 
 
 	Nonnon Freecell
-		at launch : fade-in
-			NEW : smoother than older
 		fanfare sound
 			NEW : stereo pan available
 	Nyaagle
