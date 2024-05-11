@@ -33,6 +33,12 @@ Change Log
 BUGFIX
 
 
+	mac/n_txtbox.c
+		scroll : undershoot at the first line
+			OLD : not clamped to zero
+			NEW : fixed
+
+
 NEW_FEATURE
 
 
