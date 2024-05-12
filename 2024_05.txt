@@ -34,8 +34,8 @@ BUGFIX
 
 
 	mac/n_txtbox.c
-		scroll : undershoot at the first line
-			OLD : not clamped to zero
+		scroll : thumb : drag a thumb
+			OLD : not clamped at minimum/maximum position
 			NEW : fixed
 
 
