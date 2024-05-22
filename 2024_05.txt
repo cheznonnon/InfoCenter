@@ -18,7 +18,42 @@ Change Log
 BUGFIX
 
 
+	project/cardgenerator/cardgenerator.c
+		Win32
+			OLD : compile error
+			NEW : fixed
+
+	Nonnon Freecell Win32
+		double-click
+			OLD : misbehave in some cases
+			NEW : fixed
+			[!] : sync'ed with Mac version
+
+
 NEW_FEATURE
+
+
+	neutral/bmp/ui/search_icon.c
+		released
+			NEW : magnifier icon maker
+
+	Nonnon CatPad
+		search icon
+			OLD : picked up from the internet
+			NEW : nonnon original
+	Nonnon Freecell
+		sound : get.wav
+			NEW : smoother than older
+	Nonnon Paint
+		Resizer : Resize Option
+			OLD : "Squircle 256px"
+			NEW : "Squircle Icon Maker"
+			[!] : any size available
+			[!] : readme : add a topic too
+	Nyaagle
+		search icon
+			OLD : picked up from the internet
+			NEW : nonnon original
 
 
 ----------==========----------==========----------==========----------
@@ -40,6 +75,11 @@ BUGFIX
 
 
 NEW_FEATURE
+
+
+	mac/sound.c
+		n_mac_sound3
+			NEW : infinite loop available
 
 
 ----------==========----------==========----------==========----------

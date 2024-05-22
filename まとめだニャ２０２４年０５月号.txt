@@ -33,6 +33,11 @@ Sonoma で IME のインジケーターが初回だけ不正確な位置にな�
 
 ◇ニューフィーチャー
 
+■mac/sound.c
+
+n_mac_sound3 が実装されたニャ
+無限ループ再生ができるニャ
+
 
 ◇バグフィクス
 
@@ -45,8 +50,39 @@ Sonoma で IME のインジケーターが初回だけ不正確な位置にな�
 
 ◇ニューフィーチャー
 
+■neutral/bmp/ui/search_icon.c
+
+検索アイコンを作るモジュールだニャ
+
+■Nonnon CatPad
+
+検索アイコンが Nonnon オリジナルになったニャ
+元のはネットで拾った物だったニャ
+
+■Nyaagle
+
+アイコンが Nonnon オリジナルになったニャ
+元のはネットで拾った物だったニャ
+
+■Nonnon Freecell
+
+ファンファーレのサウンドのノイズを取ったニャ
+
+■Nonnon Paint
+
+Resizer の "Squircle 256px" が "Squircle Icon Maker" に進化したニャ
+どんなサイズでも扱えるニャ
+
 
 ◇バグフィクス
+
+■Nonnon Freecell Win32
+
+Mac 版と同期してバグを修正したニャ
+
+■project/cardgenerator/cardgenerator.c
+
+Win32 版でコンパイルエラーが出るのを直したニャ
 
 ----------==========----------==========----------==========----------
 
