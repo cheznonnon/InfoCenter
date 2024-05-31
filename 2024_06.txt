@@ -1,0 +1,70 @@
+
+
+----------==========----------==========----------==========----------
+
+
+"Eat Your Own Catfood."
+
+
+----------==========----------==========----------==========----------
+
+
+Change Log
+
+
+2024/06/30
+
+
+BUGFIX
+
+
+NEW_FEATURE
+
+
+----------==========----------==========----------==========----------
+
+
+Change Log
+
+
+2024/06/20
+
+
+BUGFIX
+
+
+NEW_FEATURE
+
+
+----------==========----------==========----------==========----------
+
+
+Change Log
+
+
+2024/06/10
+
+
+BUGFIX
+
+
+	Nonnon CatPad
+		Window
+			OLD : layout misbehaves when a smaller window
+			NEW : minimum size is set
+
+	Nonnon Freecell
+		double-click
+			NEW : smarter than older
+
+
+NEW_FEATURE
+
+
+	Nonnon CatPad
+		Meow Sound
+			NEW : In-App Volume Tweaker available
+
+
+----------==========----------==========----------==========----------
+
