@@ -48,6 +48,11 @@ Change Log
 BUGFIX
 
 
+	neutral/midi.c
+		n_midi_encode()
+			OLD : silent cast is problematic
+			NEW : fixed
+
 	Nonnon CatPad
 		Window
 			OLD : layout misbehaves when a smaller window
@@ -61,9 +66,22 @@ BUGFIX
 NEW_FEATURE
 
 
+	mac/sound.c
+		effect
+			NEW : reverb available
+		usage
+			NEW : changed for pan/delay/reverb
+
+	neutral/memory.c
+		n_memory_padding_u8()
+			NEW : u8 based version
+
 	Nonnon CatPad
 		Meow Sound
 			NEW : In-App Volume Tweaker available
+	Nonnon Tools
+		Nonnon MIDI
+			NEW : MIDI file maker
 
 
 ----------==========----------==========----------==========----------
