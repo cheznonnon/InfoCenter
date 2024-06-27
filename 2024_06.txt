@@ -21,6 +21,16 @@ BUGFIX
 NEW_FEATURE
 
 
+	game/click.c
+		Mac Support
+			NEW : added
+			[x] : currently broken, not working accurately
+
+	game/chara.c
+		cursor position
+			NEW : getter module is implemented
+
+
 ----------==========----------==========----------==========----------
 
 
@@ -33,7 +43,13 @@ Change Log
 BUGFIX
 
 
+	zzz...
+
+
 NEW_FEATURE
+
+
+	zzz...
 
 
 ----------==========----------==========----------==========----------
