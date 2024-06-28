@@ -61,7 +61,6 @@ zzz....
 ■game/click.c
 
 Mac 対応を実装したニャ
-しかし今の所は上手く動かないニャ
 
 ■game/chara.c
 

@@ -24,7 +24,6 @@ NEW_FEATURE
 	game/click.c
 		Mac Support
 			NEW : added
-			[x] : currently broken, not working accurately
 
 	game/chara.c
 		cursor position
