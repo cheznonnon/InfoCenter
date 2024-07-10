@@ -48,12 +48,30 @@ Change Log
 BUGFIX
 
 
+	neutral/bmp/transform
+		n_bmp_scaler_big()
+			OLD : crash
+			NEW : fixed
+
+	Nonnon Paint
+		"2x" button : too large value
+			OLD : crash
+			NEW : fixed
+		Resizer : X and Y : too large value
+			OLD : do nothing
+			NEW : set SHRT_MAX
+
+
 NEW_FEATURE
 
 
 	game/transition.c
 		Mac Version : CIRCLE
 			NEW : multi-threaded
+
+	Nonnon Paint
+		readme
+			NEW : "largest editable size is 32767 px" is added
 
 
 ----------==========----------==========----------==========----------
