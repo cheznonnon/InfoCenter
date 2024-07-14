@@ -33,6 +33,12 @@ Change Log
 BUGFIX
 
 
+	Nonnon Paint
+		Win32 Version : "2x" button : too large value
+			OLD : crash
+			NEW : fixed
+
+
 NEW_FEATURE
 
 
