@@ -36,6 +36,11 @@ BUGFIX
 NEW_FEATURE
 
 
+	Nyaagle
+		search field : delete circle
+			NEW : full reset available
+
+
 ----------==========----------==========----------==========----------
 
 
