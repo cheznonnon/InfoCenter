@@ -37,7 +37,7 @@ BUGFIX
 		Multi-Layer : when resized : save
 			OLD : integrity is broken in some cases
 			NEW : fixed
-			[!] : when pixel count is same but width and hight are different
+			[!] : when pixel count is same but width and height are different
 
 
 NEW_FEATURE
