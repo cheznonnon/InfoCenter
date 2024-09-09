@@ -54,8 +54,8 @@ BUGFIX
 			NEW : disabled
 	Nonnon Freecell
 		window : full screen mode
-			OLD : enabled
-			NEW : disabled
+			OLD : enabled but not supported
+			NEW : fixed
 
 
 NEW_FEATURE
