@@ -36,6 +36,11 @@ BUGFIX
 NEW_FEATURE
 
 
+	Nyaagle
+		Logo Area
+			NEW : droppable
+
+
 ----------==========----------==========----------==========----------
 
 
