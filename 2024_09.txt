@@ -18,6 +18,14 @@ Change Log
 BUGFIX
 
 
+	Nonnon CatPad
+		Search Field : Delete Circle
+			OLD : not fade-out when a cursor exited
+	Nyaagle
+		Search Field : Delete Circle
+			OLD : not fade-out when a cursor exited
+
+
 NEW_FEATURE
 
 
