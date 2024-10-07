@@ -48,12 +48,24 @@ Change Log
 BUGFIX
 
 
+	Nonnon Paint
+		Grid
+			OLD : inaccurate at bottom and right edge
+			NEW : fixed
+		Pen and Color Picker
+			OLD : inaccurate when Zoom has a large value
+			NEW : fixed
+
+
 NEW_FEATURE
 
 
 	Nonnon CatPad
 		margin double-click
 			NEW : maximize a window
+	Nyaagle
+		logo double-click
+			NEW : enlarge 700px x 700px
 
 
 ----------==========----------==========----------==========----------
