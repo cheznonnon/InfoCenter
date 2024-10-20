@@ -36,6 +36,11 @@ BUGFIX
 NEW_FEATURE
 
 
+	win32/gdi.c
+		Mac Support
+			NEW : HiDPI check debug code is added
+
+
 ----------==========----------==========----------==========----------
 
 
@@ -59,6 +64,10 @@ BUGFIX
 
 NEW_FEATURE
 
+
+	win32/gdi.c
+		backingScaleFactor
+			NEW : debug code is added
 
 	Nonnon CatPad
 		margin double-click
