@@ -18,6 +18,13 @@ Change Log
 BUGFIX
 
 
+	mac/txtbox.c
+		when a shaft is clicked
+			OLD : glitch near zero
+			NEW : fixed
+
+
+
 NEW_FEATURE
 
 
