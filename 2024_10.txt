@@ -19,7 +19,7 @@ BUGFIX
 
 
 	mac/txtbox.c
-		when a shaft is clicked
+		scrollbar : when a shaft is clicked
 			OLD : glitch near zero
 			NEW : fixed
 
