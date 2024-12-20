@@ -24,6 +24,10 @@ macOS 15 Sequoia : 起動時に自動的に最小化する機能が壊れてい�
 
 ◇バグフィクス
 
+■project/cardgenerator.c
+
+Mac サポート : HiDPI でカスタムサイズを指定すると誤作動するのを直したニャ
+
 
 [ １２月３０日 ]
 
