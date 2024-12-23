@@ -21,6 +21,11 @@ BUGFIX
 NEW_FEATURE
 
 
+	project/cardgenerator.c
+		J/Q/K
+			NEW : suit mark background available
+
+
 ----------==========----------==========----------==========----------
 
 
