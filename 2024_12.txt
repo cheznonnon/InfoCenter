@@ -18,6 +18,12 @@ Change Log
 BUGFIX
 
 
+	win32/gdi.c
+		Mac Support : N_GDI_FONT_BOLD
+			OLD : not supported
+			NEW :     supported
+
+
 NEW_FEATURE
 
 
