@@ -19,7 +19,7 @@ BUGFIX
 
 
 	win32/gdi.c
-		Mac Support : N_GDI_FONT_BOLD
+		Mac Support : N_GDI_FONT_BOLD, _ITALIC
 			OLD : not supported
 			NEW :     supported
 
