@@ -53,6 +53,11 @@ BUGFIX
 			OLD : compile warning
 			NEW : fixed
 
+	Nonnon Paint
+		Multi-Layer : Basic Filters : Mirror : Grabber Mode
+			OLD : re-position
+			NEW : do nothing
+
 
 NEW_FEATURE
 
