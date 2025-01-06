@@ -48,9 +48,24 @@ Change Log
 BUGFIX
 
 
+	neutral/wav.c
+		Mac Support : cast to char*
+			OLD : compile warning
+			NEW : fixed
+
+
 NEW_FEATURE
 
 
+	hunyapiyo3
+		sound : get.wav
+			NEW : copy from Freecell
+			[!] : some noise is removed
+	Nonnon Freecell
+		project
+			NEW : maintenanced
+			[!] : get.wav is moved
+			[!] : debug sound playback is added
 	Nonnon Poker
 		released
 			NEW : simple poker game
