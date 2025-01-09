@@ -36,6 +36,15 @@ BUGFIX
 NEW_FEATURE
 
 
+	mac/_mac.c
+		n_mac_is_sandbox()
+			NEW : TRUE under App Sandbox
+
+	Nonnon Paint
+		Tool Window : Title Bar
+			NEW : "Lite" is added when sandbox is enabled
+
+
 ----------==========----------==========----------==========----------
 
 
