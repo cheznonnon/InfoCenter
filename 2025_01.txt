@@ -43,6 +43,11 @@ NEW_FEATURE
 	Nonnon Paint
 		Tool Window : Title Bar
 			NEW : "Lite" is added when sandbox is enabled
+	Nonnon Poker
+		Card Generator
+			OLD : project shared
+			NEW : Poker only
+			[!] : full scalable
 
 
 ----------==========----------==========----------==========----------
