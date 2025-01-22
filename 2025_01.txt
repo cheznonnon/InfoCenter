@@ -18,6 +18,12 @@ Change Log
 BUGFIX
 
 
+	Nonnon Paint
+		Grabber : Animated Frame : resize dots
+			OLD : too large in some cases
+			NEW : fixed
+
+
 NEW_FEATURE
 
 
