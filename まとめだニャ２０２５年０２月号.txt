@@ -14,8 +14,27 @@
 16-bit .WAV が付いたニャ
 古い Windows で使えるフォーマットに変換するニャ
 
+■Nekomimi Nina 2
+
+レトロ２Ｄアクションゲームだニャ
+
 
 ◇バグフィクス
+
+■Nekomimi Nina 2
+
+サポート OS が Sequoia 以降から Catalina 以降に変更になったニャ
+でもアプリは Big Sur 以降のサポートになるニャ
+
+■Nonnon Poker
+
+サポート OS が Sequoia 以降から Catalina 以降に変更になったニャ
+でもアプリは Big Sur 以降のサポートになるニャ
+
+■win32/gdi.c
+
+n_gdi_scale_factor が新設されたニャ
+NSWindow.backingScaleFactor を直接代入すると "メインスレッドしかダメだ" と出るためだニャ
 
 
 [ ０２月２０日 ]

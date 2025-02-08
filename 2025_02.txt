@@ -48,9 +48,30 @@ Change Log
 BUGFIX
 
 
+	win32/gdi.c
+		n_gdi_scale_factor
+			OLD : set NSWindow.backingScaleFactor directly
+			NEW : set n_gdi_scale_factor
+			[?] : for "main thread only" warning
+
+	Nekomimi Nina 2
+		minimal supported macOS
+			OLD : Sequoia or later
+			NEW : Catalina or later
+			[!] : but a made App will be Big Sur or later
+	Nonnon Poker
+		minimal supported macOS
+			OLD : Sequoia or later
+			NEW : Catalina or later
+			[!] : but a made App will be Big Sur or later
+
+
 NEW_FEATURE
 
 
+	Nekomimi Nina 2
+		released
+			NEW : retro 2D action game
 	Nonnon Tools
 		16-bit .WAV
 			NEW : make old Windows compatible .WAV
