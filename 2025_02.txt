@@ -36,6 +36,15 @@ BUGFIX
 NEW_FEATURE
 
 
+	All
+		release segment
+			OLD : paid
+			NEW : freewares
+			[!] : I don't wanna pay $130 with Apple
+			[!] : maybe you cannot run latest binaries on your Mac
+			[!] : use Xcode to build for your one
+
+
 ----------==========----------==========----------==========----------
 
 
@@ -49,9 +58,10 @@ BUGFIX
 
 
 	win32/gdi.c
-		n_gdi_scale_factor
+		HiDPI support
 			OLD : set NSWindow.backingScaleFactor directly
 			NEW : set n_gdi_scale_factor
+			[!] : compatibility will be broken
 			[?] : for "main thread only" warning
 
 	Nekomimi Nina 2
@@ -64,6 +74,8 @@ BUGFIX
 			OLD : Sequoia or later
 			NEW : Catalina or later
 			[!] : but a made App will be Big Sur or later
+		HiDPI : Number 10 : digit bitmap
+			NEW : re-tuned
 
 
 NEW_FEATURE
