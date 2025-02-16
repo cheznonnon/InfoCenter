@@ -43,6 +43,12 @@ NEW_FEATURE
 			[!] : I don't wanna pay $130 with Apple
 			[!] : maybe you cannot run latest binaries on your Mac
 			[!] : use Xcode to build for your one
+	Nekomimi Nina 2
+		load sequence
+			NEW : re-tuned
+		when unused keys are pressed
+			NEW : simple manual sheet window will appear
+			[!] : for stupids like Apple employee
 
 
 ----------==========----------==========----------==========----------
