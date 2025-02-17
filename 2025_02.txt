@@ -49,6 +49,8 @@ NEW_FEATURE
 		when unused keys are pressed
 			NEW : simple manual sheet window will appear
 			[!] : for stupids like Apple employee
+		key bindings : escape
+			NEW : simple manual
 
 
 ----------==========----------==========----------==========----------
