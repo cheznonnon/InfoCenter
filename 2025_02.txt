@@ -21,6 +21,12 @@ BUGFIX
 NEW_FEATURE
 
 
+	Nekomimi Nina 2
+		Help Sheet
+			NEW : you can exit by pressing any keys
+			[!] : thanx DeepSeek AI
+
+
 ----------==========----------==========----------==========----------
 
 
@@ -48,7 +54,7 @@ NEW_FEATURE
 			NEW : re-tuned
 		when unused keys are pressed
 			NEW : simple manual sheet window will appear
-			[!] : for stupids like Apple employee
+			[!] : for stupids like Apple employees
 		key bindings : escape
 			NEW : simple manual
 
