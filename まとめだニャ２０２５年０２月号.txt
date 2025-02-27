@@ -72,6 +72,11 @@ Xcode を使って作ったらいいのニャ
 ヘルプシートをどんなキーでも閉じることができるようになったニャ
 AI の DeepSeek さんが教えてくれたニャ
 
+■mac/image.c
+
+n_mac_image_nbmp_direct_draw_fast() が出たニャ
+kCGBlendModeCopy を使うので多分速くなると思うニャ
+
 
 ◇バグフィクス
 

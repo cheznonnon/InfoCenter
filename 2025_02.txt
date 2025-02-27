@@ -21,6 +21,10 @@ BUGFIX
 NEW_FEATURE
 
 
+	mac/image.c
+		n_mac_image_nbmp_direct_draw_fast()
+			NEW : maybe faster version using kCGBlendModeCopy
+
 	Nekomimi Nina 2
 		Help Sheet
 			NEW : you can exit by pressing any keys
