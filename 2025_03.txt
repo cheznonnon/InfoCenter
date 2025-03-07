@@ -48,6 +48,16 @@ Change Log
 BUGFIX
 
 
+	Pen Trainer
+		canvas : bottom and right edges
+			OLD : 1px insufficient
+			NEW : fixed
+	Nonnon Paint
+		canvas : bottom and right edges
+			OLD : 1px insufficient
+			NEW : fixed
+
+
 NEW_FEATURE
 
 
@@ -63,6 +73,11 @@ NEW_FEATURE
 	Nekomimi Nina 2
 		on clouds
 			NEW : fluffy effect available
+		sea stage #6
+			NEW : splash sound is added
+			[!] : thanx : "Free Sounds Library"
+		sound : enter pipes
+			NEW : retuned
 
 
 ----------==========----------==========----------==========----------
