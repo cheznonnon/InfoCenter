@@ -33,6 +33,13 @@ Change Log
 BUGFIX
 
 
+	Nekomimi Nina 2
+		sea stage #6 : splash sound
+			OLD : not played when fast move
+			NEW : fixed
+			[x] : NEW_FEATURE @ 2025/03/10
+
+
 NEW_FEATURE
 
 
