@@ -18,7 +18,25 @@ Change Log
 BUGFIX
 
 
+	Nonnon Paint
+		largest editable size
+			OLD : 32767 x 32767 : error
+			NEW : 20000 x 20000
+			[!] : currently, I don't know why
+
+
 NEW_FEATURE
+
+
+	neutral/memory.c
+		when memory is insufficient
+			OLD : exit silently
+			NEW : a callback function will be called
+
+	Nonnon Paint
+		when memory is insufficient
+			OLD : exit silently
+			NEW : a dialog will appear
 
 
 ----------==========----------==========----------==========----------
