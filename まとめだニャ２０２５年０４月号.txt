@@ -41,8 +41,20 @@ n_bmp_pattern_polkadot_foam() を呼ぶニャ
 
 INI2GDI に "polkadot_foam" が追加になったニャ
 
+"Smooth Fill" が実装されたニャ
+レイヤー作業でだけ上手くいく機能だニャ
+
+"Thick/Thin Lines" で使われる色が黒からスポイトの色に変更になったニャ
+
 
 ◇バグフィクス
+
+■Nonnon Paint
+
+Multi-Layer の Whole Grab で メニューが常に出ないのを緩和したニャ
+領域選択されている時だけ出なくなるニャ
+
+Color History で下の部分に空白ができるのを直したニャ
 
 
 [ ０４月２０日 ]

@@ -48,6 +48,16 @@ Change Log
 BUGFIX
 
 
+	Nonnon Paint
+		Multi-Layer : Whole Grab : Menu Popup
+			OLD : off always
+			NEW : off when grabbed
+		Color History
+			OLD : not drawn in bottom side
+			NEW : fixed
+			[!] : window size will be 250px
+
+
 NEW_FEATURE
 
 
@@ -77,6 +87,12 @@ NEW_FEATURE
 	Nonnon Paint
 		INI2GDI
 			NEW : "polkadot_foam" available
+		Fill
+			NEW : Smooth Fill available
+			[!] : for layer works
+		Multi-Layer : Thick/Thin Lines
+			OLD : black
+			NEW : picked color
 
 
 ----------==========----------==========----------==========----------
