@@ -47,6 +47,9 @@ NEW_FEATURE
 		Multi-Layer : Key Binding : F3
 			NEW : used layer indicator available
 			[!] : for removing pixel noises
+	Nonnon Poker
+		Diff
+			NEW : display coin diff of current session
 
 
 ----------==========----------==========----------==========----------
