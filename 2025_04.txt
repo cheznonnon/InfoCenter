@@ -36,6 +36,19 @@ BUGFIX
 NEW_FEATURE
 
 
+	mac/txtbpx.c
+		decoration : second character : "!"
+			NEW : thin highlight available
+
+	Nonnon Paint
+		Smooth Fill
+			OLD : alpha will be visible always
+			NEW : use parameter's alpha
+		Multi-Layer : Key Binding : F3
+			NEW : used layer indicator available
+			[!] : for removing pixel noises
+
+
 ----------==========----------==========----------==========----------
 
 
