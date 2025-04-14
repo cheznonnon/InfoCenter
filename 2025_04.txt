@@ -33,6 +33,12 @@ Change Log
 BUGFIX
 
 
+	Nonnon Poker
+		Menu : Readme
+			OLD : not shown
+			NEW : fixed
+
+
 NEW_FEATURE
 
 
@@ -40,6 +46,9 @@ NEW_FEATURE
 		decoration : second character : "!"
 			NEW : thin highlight available
 
+	Nonnon CatPad
+		readme
+			NEW : usage of "iconv" command is added
 	Nonnon Paint
 		Smooth Fill
 			OLD : alpha will be visible always
