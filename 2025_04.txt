@@ -21,6 +21,11 @@ BUGFIX
 NEW_FEATURE
 
 
+	Nonnon Paint
+		Multi-Layer : layer window : popup menu
+			NEW : key indicator available
+
+
 ----------==========----------==========----------==========----------
 
 
