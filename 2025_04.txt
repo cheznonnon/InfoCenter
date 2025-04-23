@@ -18,8 +18,17 @@ Change Log
 BUGFIX
 
 
+	Nekomimi Nina 2
+		cloud lifts : flowy effect
+			NEW : not rewind when stand on earth
+
+
 NEW_FEATURE
 
+
+	Nekomimi Nina 2
+		hipdrop
+			NEW : pass-thru on cloud lifts
 
 	Nonnon Paint
 		Multi-Layer : layer window : popup menu
