@@ -21,6 +21,12 @@ BUGFIX
 	Nekomimi Nina 2
 		cloud lifts : flowy effect
 			NEW : not rewind when stand on earth
+		jump : when jump button keeps on pressing
+			OLD : input is accepted twice or more
+			NEW : once only
+		enter a pipe when hipdrop
+			OLD : draw error happens
+			NEW : fixed
 
 
 NEW_FEATURE
@@ -29,6 +35,10 @@ NEW_FEATURE
 	Nekomimi Nina 2
 		hipdrop
 			NEW : pass-thru on cloud lifts
+		dust
+			NEW : revamped
+		water splash
+			NEW : revamped
 
 	Nonnon Paint
 		Multi-Layer : layer window : popup menu
