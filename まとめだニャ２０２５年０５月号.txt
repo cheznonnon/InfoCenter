@@ -25,6 +25,10 @@
 
 クリックカウントのハンドリングに間違いがあったニャ
 
+■All
+
+applicationSupportsSecureRestorableState が無いアプリがあったので実装したニャ
+
 
 [ ０５月２０日 ]
 

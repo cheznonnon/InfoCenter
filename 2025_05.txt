@@ -53,6 +53,10 @@ BUGFIX
 			OLD : inaccurate
 			NEW : fixed
 
+	All
+		applicationSupportsSecureRestorableState
+			OLD : some apps are not implemented
+			NEW : fixed
 	Nonnon CatPad
 		TxtBox : click count handling
 			OLD : inaccurate
