@@ -1,0 +1,70 @@
+
+
+----------==========----------==========----------==========----------
+
+
+"Eat Your Own Catfood."
+
+
+----------==========----------==========----------==========----------
+
+
+Change Log
+
+
+2025/05/30
+
+
+BUGFIX
+
+
+NEW_FEATURE
+
+
+----------==========----------==========----------==========----------
+
+
+Change Log
+
+
+2025/05/20
+
+
+BUGFIX
+
+
+NEW_FEATURE
+
+
+----------==========----------==========----------==========----------
+
+
+Change Log
+
+
+2025/05/10
+
+
+BUGFIX
+
+
+	mac/txtbox.c
+		click count handling
+			OLD : inaccurate
+			NEW : fixed
+
+	Nonnon CatPad
+		TxtBox : click count handling
+			OLD : inaccurate
+			NEW : fixed
+	Nonnon Paint
+		TxtBox : click count handling
+			OLD : inaccurate
+			NEW : fixed
+
+
+NEW_FEATURE
+
+
+----------==========----------==========----------==========----------
+
