@@ -33,6 +33,12 @@ Change Log
 BUGFIX
 
 
+	Nonnon Paint
+		Canvas : zoom-out : pen input
+			OLD : not redrawn accurately
+			NEW : fixed
+
+
 NEW_FEATURE
 
 
@@ -68,6 +74,12 @@ BUGFIX
 
 
 NEW_FEATURE
+
+
+	Nonnon Paint
+		Layer Window
+			NEW : "Whole Save" checkbox available
+			[!] : default is ON (same behavior)
 
 
 ----------==========----------==========----------==========----------
