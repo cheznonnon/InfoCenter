@@ -45,6 +45,17 @@ BUGFIX
 NEW_FEATURE
 
 
+	Nonnon Paint
+		Tool Window : Icon Buttons : Mouse Input : condition to press
+			OLD : up
+			NEW : down
+			[!] : crispy behavior
+		Tool Window : Color Well
+			NEW : obsoleted
+			[x] : output unknown warning
+			[!] : Color History will be shown
+
+
 ----------==========----------==========----------==========----------
 
 
