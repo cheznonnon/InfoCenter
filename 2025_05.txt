@@ -37,6 +37,9 @@ BUGFIX
 		Canvas : zoom-out : pen input
 			OLD : not redrawn accurately
 			NEW : fixed
+		Grabber : Key Bindings : Arrow Key : on tool window
+			OLD : not working and crash
+			NEW : fixed
 
 
 NEW_FEATURE
