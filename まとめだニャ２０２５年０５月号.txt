@@ -48,6 +48,10 @@ applicationSupportsSecureRestorableState が無いアプリがあったので実
 謎の警告が出るためだニャ
 今 Mac 開発は検索しても情報がなくて直せないのニャ
 
+■neutral/bmp/color.c
+
+n_bmp_grayscale_pixel() が高速になったニャ
+
 
 ◇バグフィクス
 
@@ -56,6 +60,8 @@ applicationSupportsSecureRestorableState が無いアプリがあったので実
 ズームアウトした時にペン入力をすると再描画されない問題を直したニャ
 
 Grabber で矢印キーをカーソルがツールウィンドウの上にある時に使うとクラッシュするのを直したニャ
+
+キャンバスのホイールでのズームが不正確なのを直したニャ
 
 
 [ ０５月３０日 ]

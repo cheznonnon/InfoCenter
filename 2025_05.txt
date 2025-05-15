@@ -40,10 +40,17 @@ BUGFIX
 		Grabber : Key Bindings : Arrow Key : on tool window
 			OLD : not working and crash
 			NEW : fixed
+		Canvas : Smart Zoom
+			OLD : inaccurate
+			NEW : fixed
 
 
 NEW_FEATURE
 
+
+	neutral/bmp/color.c
+		n_bmp_grayscale_pixel()
+			NEW : faster than older
 
 	Nonnon Paint
 		Tool Window : Icon Buttons : Mouse Input : condition to press
