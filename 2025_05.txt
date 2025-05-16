@@ -61,6 +61,11 @@ NEW_FEATURE
 			NEW : obsoleted
 			[x] : output unknown warning
 			[!] : Color History will be shown
+		Tool Window : Grabber : Style
+			NEW : two styles available
+			[!] : "Ant"   : same bahavior
+			[!] : "Pixel" : pixel unit
+			[!] : Nonnon Paint remembers the last setting
 
 
 ----------==========----------==========----------==========----------

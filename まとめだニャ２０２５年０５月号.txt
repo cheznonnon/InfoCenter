@@ -52,6 +52,12 @@ applicationSupportsSecureRestorableState が無いアプリがあったので実
 
 n_bmp_grayscale_pixel() が高速になったニャ
 
+Grabber の選択枠が２種類になったニャ
+ツールウィンドウに設定のコンボボックスが付くニャ
+最後の設定を覚える仕様にしたニャ
+"Ant" は元と同じもの、"Pixel" はピクセル単位だニャ
+一長一短があるので使い分けて欲しいニャ
+
 
 ◇バグフィクス
 
