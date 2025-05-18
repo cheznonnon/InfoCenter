@@ -43,6 +43,9 @@ BUGFIX
 		Canvas : Smart Zoom
 			OLD : inaccurate
 			NEW : fixed
+		Grabber : Frame : GrabNDrag
+			OLD : not sync'ed between canvas and frame
+			NEW : fixed
 
 
 NEW_FEATURE
@@ -63,9 +66,11 @@ NEW_FEATURE
 			[!] : Color History will be shown
 		Tool Window : Grabber : Style
 			NEW : two styles available
-			[!] : "Ant"   : same bahavior
+			[!] : "Edge"  : same bahavior
 			[!] : "Pixel" : pixel unit
 			[!] : Nonnon Paint remembers the last setting
+		Tool Window : Status Bar
+			NEW : background color and border
 
 
 ----------==========----------==========----------==========----------
