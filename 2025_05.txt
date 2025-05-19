@@ -33,6 +33,16 @@ Change Log
 BUGFIX
 
 
+	mac/n_button.c
+		fake
+			NEW : pressing-effect-only option
+		behavior
+			OLD : rough and buggy
+			NEW : more accurate behavior
+
+	ALL
+		Icon Buttons
+			NEW : more accurate behavior
 	Nonnon Paint
 		Canvas : zoom-out : pen input
 			OLD : not redrawn accurately
@@ -45,6 +55,9 @@ BUGFIX
 			NEW : fixed
 		Grabber : Frame : GrabNDrag
 			OLD : not sync'ed between canvas and frame
+			NEW : fixed
+		Tool Window : Buttons
+			OLD : inaccurate handling
 			NEW : fixed
 
 
