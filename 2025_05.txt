@@ -18,6 +18,16 @@ Change Log
 BUGFIX
 
 
+	Nonnon Freecell
+		Card DnD : when a window lost focus
+			OLD : glitch
+			NEW : fixed
+	Nonnon Paint
+		Canvas : Smart Zoom
+			OLD : glitch at in/out crossing
+			NEW : fixed
+
+
 NEW_FEATURE
 
 
