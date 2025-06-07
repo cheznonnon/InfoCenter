@@ -48,6 +48,12 @@ Change Log
 BUGFIX
 
 
+	Nonnon Paint
+		Grabber : Tooltip
+			OLD : remains after finished when arrow key is used
+			NEW : fixed
+
+
 NEW_FEATURE
 
 
