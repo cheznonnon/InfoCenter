@@ -57,6 +57,9 @@ BUGFIX
 NEW_FEATURE
 
 
+	Nonnon CatPad
+		Search Field
+			NEW : focus highlight border available
 	Nonnon Poker
 		Card Generator : suit mark
 			NEW : a little larger
