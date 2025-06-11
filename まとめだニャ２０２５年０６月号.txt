@@ -13,9 +13,9 @@
 
 マークを少し大きくしたニャ
 
-■Nonnon CatPad
+■mac/n_txtbox.c
 
-検索フィールドにハイライトボーダーが付いたニャ
+FINDBOX にハイライトボーダーが付いたニャ
 
 
 ◇バグフィクス
@@ -28,6 +28,15 @@ Grabber で矢印キーでツールチップが遅延する時に貼り付ける
 [ ０６月２０日 ]
 
 ◇ニューフィーチャー
+
+■mac/n_txtbox.c
+
+EDITBOX に .n_border_separator_only が追加されたニャ
+macOS 26 Tahoe で必要そうだと思ったニャ
+
+■Nonnon CatPad
+
+エディタ部分のボーダーを少し変えたニャ
 
 
 ◇バグフィクス

@@ -36,6 +36,16 @@ BUGFIX
 NEW_FEATURE
 
 
+	mac/n_txtbox.c
+		EDITBOX
+			NEW : .n_border_separator_only available
+			[!] : for macOS 26 Tahoe
+
+	CatPad
+		TxtBox : border
+			NEW : separator only
+
+
 ----------==========----------==========----------==========----------
 
 
@@ -57,9 +67,10 @@ BUGFIX
 NEW_FEATURE
 
 
-	Nonnon CatPad
-		Search Field
+	mac/n_txtbox.c
+		FINDBOX
 			NEW : focus highlight border available
+
 	Nonnon Poker
 		Card Generator : suit mark
 			NEW : a little larger
