@@ -33,6 +33,15 @@ Change Log
 BUGFIX
 
 
+	Nonnon Paint
+		Readme : explanation for INI2GDI : font
+			OLD : Osaka
+			NEW : Osaka-Mono
+		Readme : base_margin : "rect_tile"
+			OLD : supported but not written
+			NEW : added
+
+
 NEW_FEATURE
 
 
