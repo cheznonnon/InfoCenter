@@ -37,7 +37,7 @@ BUGFIX
 		Readme : explanation for INI2GDI : font
 			OLD : Osaka
 			NEW : Osaka-Mono
-		Readme : base_margin : "rect_tile"
+		Readme : INI2GDI : base_margin : "rect_tile"
 			OLD : supported but not written
 			NEW : added
 
@@ -53,6 +53,12 @@ NEW_FEATURE
 	CatPad
 		TxtBox : border
 			NEW : separator only
+			[!] : for macOS 26 Tahoe
+	Nonnon Paint
+		Save : PNG
+			OLD : Z_BEST_COMPRESSION
+			NEW : Z_BEST_SPEED
+			[!] : much faster
 
 
 ----------==========----------==========----------==========----------

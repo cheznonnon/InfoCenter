@@ -45,7 +45,7 @@ macOS 26 Tahoe で必要そうだと思ったニャ
 
 Readme の INI2GDI のフォントを Osaka から Osaka-Mono に変えたニャ
 
-Readme の base_margin が "rect_tile" をサポートしているのに記述されていないのを直したニャ
+Readme の INI2GDI の base_margin が "rect_tile" をサポートしているのに記述されていないのを直したニャ
 
 
 [ ０６月３０日 ]
