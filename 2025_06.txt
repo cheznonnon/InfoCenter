@@ -21,6 +21,11 @@ BUGFIX
 NEW_FEATURE
 
 
+	Nonnon Poker
+		Odds
+			NEW : re-tuned by math
+
+
 ----------==========----------==========----------==========----------
 
 

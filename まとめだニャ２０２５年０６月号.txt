@@ -52,6 +52,10 @@ Readme の INI2GDI の base_margin が "rect_tile" をサポートしている�
 
 ◇ニューフィーチャー
 
+■Nonnon Poker
+
+数学的確率を使ってオッズをチューンしたニャ
+
 
 ◇バグフィクス
 
