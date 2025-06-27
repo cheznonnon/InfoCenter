@@ -33,6 +33,10 @@ BUGFIX
 			NEW : fixed
 			[?] : Mac hasn't "Mouse Capture" in Win32
 			[!] : notarized version is not available
+		Multi-Layer : Pen : Whole Layer Eraser
+			OLD : not erased completely in some cases
+			NEW : fixed
+			[!] : notarized version is not available
 
 
 NEW_FEATURE
