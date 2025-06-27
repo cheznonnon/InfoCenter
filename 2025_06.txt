@@ -18,6 +18,23 @@ Change Log
 BUGFIX
 
 
+	Nonnon Paint
+		cursor handling : GrabNDrag
+			OLD : not reset when release on non-canvas window
+			NEW : fixed
+			[?] : Mac hasn't "Mouse Capture" in Win32
+			[!] : notarized version is not available
+		cursor handling : Resizer : X/Y fields
+			OLD : blinking
+			NEW : fixed
+			[!] : notarized version is not available
+		cursor handling : when a clicked window and a released window are different
+			OLD : glitch
+			NEW : fixed
+			[?] : Mac hasn't "Mouse Capture" in Win32
+			[!] : notarized version is not available
+
+
 NEW_FEATURE
 
 
