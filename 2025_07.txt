@@ -48,11 +48,23 @@ Change Log
 BUGFIX
 
 
+	CatPad
+		Undo
+			OLD : save button is still gray after undo
+			NEW : fixed
+
+
 NEW_FEATURE
 
 
 	mac/n_txtbox.c
 		Undo
+			NEW : revamped
+		delegate : N_MAC_TXTBOX_DELEGATE_UNDO
+			NEW : call after undo
+
+	NonnonTyping
+		engine
 			NEW : revamped
 
 
