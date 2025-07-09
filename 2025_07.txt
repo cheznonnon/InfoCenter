@@ -48,9 +48,13 @@ Change Log
 BUGFIX
 
 
-	CatPad
+	Nonnon CatPad
 		Undo
 			OLD : save button is still gray after undo
+			NEW : fixed
+	Nonnon Paint
+		Pen : pixel-wise accuracy
+			OLD : inaccurate by scroll position
 			NEW : fixed
 
 
@@ -63,9 +67,13 @@ NEW_FEATURE
 		delegate : N_MAC_TXTBOX_DELEGATE_UNDO
 			NEW : call after undo
 
-	NonnonTyping
+	Nonnon Typing
 		engine
 			NEW : revamped
+	Pen Trainer
+		engine
+			NEW : refactored
+			[!] : unused Nonnon Paint codes are removed
 
 
 ----------==========----------==========----------==========----------

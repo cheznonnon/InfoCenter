@@ -16,9 +16,13 @@
 N_MAC_TXTBOX_DELEGATE_UNDO が新設されたニャ
 アンドゥの後で呼ぶニャ
 
-■NonnonTyping
+■Nonnon Typing
 
-エンジンを調整したニャ
+エンジンをリバンプしたニャ
+
+■Pen Trainer
+
+エンジンをリファクタしたニャ
 
 
 ◇バグフィクス
@@ -26,6 +30,10 @@ N_MAC_TXTBOX_DELEGATE_UNDO が新設されたニャ
 ■Nonnon CatPad
 
 アンドゥの後でセーブボタンが有効にならないのを直したニャ
+
+■Nonnon Paint
+
+ペンの座標処理でスクロール位置によっては不正確になるのを直したニャ
 
 
 [ ０７月２０日 ]
