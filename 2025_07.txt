@@ -36,6 +36,16 @@ BUGFIX
 NEW_FEATURE
 
 
+	mac/GIFAnimationView.c
+		released
+			NEW : gift from DeepSeek AI
+
+	Nonnon Marie
+		Animation GIFs
+			NEW : pause and resume available
+			[!] : thanx : DeepSeek AI
+
+
 ----------==========----------==========----------==========----------
 
 

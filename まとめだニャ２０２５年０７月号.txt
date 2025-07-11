@@ -40,6 +40,15 @@ N_MAC_TXTBOX_DELEGATE_UNDO が新設されたニャ
 
 ◇ニューフィーチャー
 
+■mac/GIFAnimationView.c
+
+DeepSeek AI からのプレゼントだニャ
+
+■Nonnon Marie
+
+Animation GIF のポーズとレジュームができるようになったニャ
+DeepSeek AI のおかげだニャ
+
 
 ◇バグフィクス
 
