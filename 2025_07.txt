@@ -44,6 +44,8 @@ NEW_FEATURE
 		Animation GIFs
 			NEW : pause and resume available
 			[!] : thanx : DeepSeek AI
+		Key Bindings : Return
+			NEW : save a current image as PNG
 
 
 ----------==========----------==========----------==========----------
