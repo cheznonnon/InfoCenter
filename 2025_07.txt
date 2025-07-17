@@ -45,6 +45,10 @@ NEW_FEATURE
 	mac/GIFAnimationView.c
 		released
 			NEW : gift from DeepSeek AI
+	mac/n_button.c
+		press'n'run preventer : watching timer interval
+			OLD :  200 msec : high CPU usage
+			NEW : 1000 msec
 
 	Nonnon Marie
 		Animation GIFs
