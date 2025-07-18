@@ -47,8 +47,8 @@ NEW_FEATURE
 			NEW : gift from DeepSeek AI
 	mac/n_button.c
 		press'n'run preventer : watching timer interval
-			OLD :  200 msec : high CPU usage
-			NEW : 1000 msec
+			OLD : 200 msec : high CPU usage
+			NEW : 500 msec
 
 	Nonnon Marie
 		Animation GIFs
