@@ -33,6 +33,10 @@ Change Log
 BUGFIX
 
 
+	All
+		timer
+			OLD : inaccurate use
+			NEW : fixed
 	Nonnon CatPad
 		search
 			OLD : not moved when many lines are selected
@@ -42,6 +46,9 @@ BUGFIX
 NEW_FEATURE
 
 
+	mac/_mac.c
+		n_mac_timer_init_once()
+			NEW : call one time only
 	mac/GIFAnimationView.c
 		released
 			NEW : gift from DeepSeek AI
