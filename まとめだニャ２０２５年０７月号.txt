@@ -59,6 +59,14 @@ DeepSeek AI のおかげだニャ
 
 n_mac_timer_init_once() が実装されたニャ
 
+■Pen Trainer
+
+"Digit" が追加されたニャ
+
+■Nonnon Typing
+
+Trainer Mode に '-' ',' '.' が追加されたニャ
+
 
 ◇バグフィクス
 

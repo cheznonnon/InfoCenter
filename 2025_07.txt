@@ -63,6 +63,12 @@ NEW_FEATURE
 			[!] : thanx : DeepSeek AI
 		Key Bindings : Return
 			NEW : save a current image as PNG
+	Nonnon Typing
+		Trainer Mode
+			NEW : '-' ',' '.' available
+	Pen Trainer
+		Digit
+			NEW : digit available
 
 
 ----------==========----------==========----------==========----------
