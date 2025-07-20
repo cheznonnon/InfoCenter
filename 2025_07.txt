@@ -18,6 +18,12 @@ Change Log
 BUGFIX
 
 
+	Nonnon Paint
+		Resizer : delayed timer
+			OLD : inaccurate / cursor blinking
+			NEW : fixed
+
+
 NEW_FEATURE
 
 
@@ -40,6 +46,10 @@ BUGFIX
 	Nonnon CatPad
 		search
 			OLD : not moved when many lines are selected
+			NEW : fixed
+	Nonnon Paint
+		Layer Window : Txtbox : when menu-clicked
+			OLD : internal focus is not changed
 			NEW : fixed
 
 
@@ -66,6 +76,9 @@ NEW_FEATURE
 	Nonnon Typing
 		Trainer Mode
 			NEW : '-' ',' '.' available
+		Trainer Mode : Space and Return
+			OLD : random
+			NEW : interval
 	Pen Trainer
 		Digit
 			NEW : digit available
