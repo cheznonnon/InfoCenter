@@ -27,6 +27,18 @@ BUGFIX
 NEW_FEATURE
 
 
+	mac/n_scrollbar.c
+		method : n_scrollbar_is_clicking
+			NEW : TRUE while clicking
+
+	Nekomimi Nina 2
+		icon
+			NEW : re-tuned
+	Nonnon Paint
+		Tool Window : UI : Grabber
+			NEW : re-arranged
+
+
 ----------==========----------==========----------==========----------
 
 

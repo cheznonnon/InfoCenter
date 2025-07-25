@@ -88,6 +88,18 @@ Trainer Mode でスペースとリターンをランダムから一定間隔ご�
 
 ◇ニューフィーチャー
 
+■mac/n_scrollbar.c
+
+n_scrollbar_is_clicking メソッドが追加されたニャ
+クリック中は TRUE になるニャ
+
+■Nekomimi Nina 2
+
+アイコンを新しくしたニャ
+
+■Nonnon Paint
+
+ツールウィンドウの Grabber の UI を再配置し直したニャ
 
 ◇バグフィクス
 
