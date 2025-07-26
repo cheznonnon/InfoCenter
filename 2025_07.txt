@@ -18,6 +18,10 @@ Change Log
 BUGFIX
 
 
+	Nonnon Marie
+		Fit On/Off : Off
+			OLD : centering is forced
+			NEW : fixed 
 	Nonnon Paint
 		Resizer : delayed timer
 			OLD : inaccurate / cursor blinking
