@@ -25,6 +25,12 @@ BUGFIX
 	Nonnon Paint
 		Resizer : delayed timer
 			OLD : inaccurate / cursor blinking
+			NEW : not used : comment-out'ed
+		Resizer : Gamma
+			OLD : a thumb doesn't move from the last position
+			NEW : fixed
+		Resizer : "Color Wheel" and "Vividness"
+			OLD : inaccurate behavior
 			NEW : fixed
 
 

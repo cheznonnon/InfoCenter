@@ -105,7 +105,11 @@ n_scrollbar_is_clicking メソッドが追加されたニャ
 
 ■Nonnon Paint
 
-Resizer の遅延タイマーでカーソルが不自然に点滅するのを直したニャ
+Resizer の遅延タイマーが正確に動かないので使わないようにコメントアウトしたニャ
+
+Resizer : Gamma : スクロールバーのつまみが最後の位置から動かなくなるのを直したニャ
+
+Resizer : "Color Wheel" と "Vividness" が不正確な動作をするのを直したニャ
 
 ■Nonnon Marie
 
