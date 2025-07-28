@@ -88,11 +88,6 @@ Trainer Mode でスペースとリターンをランダムから一定間隔ご�
 
 ◇ニューフィーチャー
 
-■mac/n_scrollbar.c
-
-n_scrollbar_is_clicking メソッドが追加されたニャ
-クリック中は TRUE になるニャ
-
 ■Nekomimi Nina 2
 
 アイコンを新しくしたニャ
@@ -114,6 +109,10 @@ Resizer : "Color Wheel" と "Vividness" が不正確な動作をするのを直�
 ■Nonnon Marie
 
 Fit On/Off がオフの時にウィンドウを動かすとセンタリングがかかるグリッチを直したニャ
+
+■neutral/bmp.c
+
+Mac での HSL の扱いが間違っているのを直したニャ
 
 ----------==========----------==========----------==========----------
 

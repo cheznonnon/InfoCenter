@@ -18,6 +18,11 @@ Change Log
 BUGFIX
 
 
+	neutral/bmp.c
+		Mac : HSL Support
+			OLD : inaccurate
+			NEW : fixed
+
 	Nonnon Marie
 		Fit On/Off : Off
 			OLD : centering is forced
