@@ -105,11 +105,11 @@ n_scrollbar_is_clicking メソッドが追加されたニャ
 
 ■Nonnon Paint
 
-Resizer の遅延タイマーが正確に動かないので使わないようにコメントアウトしたニャ
-
 Resizer : Gamma : スクロールバーのつまみが最後の位置から動かなくなるのを直したニャ
 
 Resizer : "Color Wheel" と "Vividness" が不正確な動作をするのを直したニャ
+
+遅延適用タイマーが正確に動かないのを直したニャ
 
 ■Nonnon Marie
 
