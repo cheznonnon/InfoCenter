@@ -54,6 +54,8 @@ NEW_FEATURE
 	mac/n_txtbox.c
 		Smart Selection
 			NEW : by digit is available
+		Search Marker
+			NEW : marker on scrollbar shaft like Xcode or Chrome
 
 	Project Checker
 		TxtBox : Path Ellipsis
