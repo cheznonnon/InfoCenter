@@ -48,6 +48,12 @@ Change Log
 BUGFIX
 
 
+	Nonnon Paint
+		Resizer : delayed timer : Wheeling
+			OLD : not supported
+			NEW : fixed
+
+
 NEW_FEATURE
 
 
@@ -57,6 +63,9 @@ NEW_FEATURE
 		Search Marker
 			NEW : marker on scrollbar shaft like Xcode or Chrome
 
+	Nyaagle
+		TxtBox : Path Ellipsis
+			NEW : implemented
 	Project Checker
 		TxtBox : Path Ellipsis
 			NEW : implemented
