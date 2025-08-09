@@ -52,6 +52,9 @@ BUGFIX
 		Resizer : delayed timer : Wheeling
 			OLD : not supported
 			NEW : fixed
+		DnD : Pen and Fill
+			OLD : droppable when grabbed
+			NEW : fixed
 
 
 NEW_FEATURE
@@ -66,6 +69,8 @@ NEW_FEATURE
 	Nyaagle
 		TxtBox : Path Ellipsis
 			NEW : implemented
+		when a new item is dropped
+			NEW : reset TxtBox
 	Project Checker
 		TxtBox : Path Ellipsis
 			NEW : implemented
