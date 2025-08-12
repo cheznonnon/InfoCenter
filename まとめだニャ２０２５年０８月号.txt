@@ -39,10 +39,6 @@
 
 ボタンを押したのに押されたエフェクトが掛かるのに反応しない事があるのを直したニャ
 
-■mac/n_scrollbar.c
-
-n_win_scrollbar_scroll_pixel() のパッチコードが要らなくなったニャ
-
 
 [ ０８月２０日 ]
 
@@ -50,6 +46,10 @@ n_win_scrollbar_scroll_pixel() のパッチコードが要らなくなったニ�
 
 
 ◇バグフィクス
+
+■mac/n_scrollbar.c
+
+n_win_scrollbar_scroll_pixel() のパッチコードが要らなくなったニャ
 
 
 [ ０８月３０日 ]
