@@ -48,6 +48,11 @@ Change Log
 BUGFIX
 
 
+	mac/n_scrollbar.c
+		n_win_scrollbar_scroll_pixel() : last position patch
+			OLD : patched code
+			NEW : fully resolved
+
 	Nonnon Paint
 		Resizer : delayed timer : Wheeling
 			OLD : not supported
