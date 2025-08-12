@@ -55,6 +55,10 @@ BUGFIX
 		DnD : Pen and Fill
 			OLD : droppable when grabbed
 			NEW : fixed
+	Nonnon Poker
+		Buttons
+			OLD : pressed but not accepted in some cases
+			NEW : fixed
 
 
 NEW_FEATURE
