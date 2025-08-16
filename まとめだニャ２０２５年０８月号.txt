@@ -44,12 +44,20 @@
 
 ◇ニューフィーチャー
 
+■Nonnon Tools
+
+Favorites2HTML がラウンドコーナーになったニャ
+
 
 ◇バグフィクス
 
 ■mac/n_scrollbar.c
 
 n_win_scrollbar_scroll_pixel() のパッチコードが要らなくなったニャ
+
+■Pen Trainer
+
+アクセントカラーがサポートされないのを直したニャ
 
 
 [ ０８月３０日 ]

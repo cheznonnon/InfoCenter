@@ -38,8 +38,18 @@ BUGFIX
 			OLD : patched code
 			NEW : fully resolved
 
+	Pen Trainer
+		Accent Color
+			OLD : not supported
+			NEW :     supported
+
 
 NEW_FEATURE
+
+
+	Nonnon Tools
+		Favorites2HTML
+			NEW : round corner available
 
 
 ----------==========----------==========----------==========----------
