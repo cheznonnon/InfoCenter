@@ -50,6 +50,9 @@ NEW_FEATURE
 	Nonnon Tools
 		Favorites2HTML
 			NEW : round corner available
+	Nonnon Typing
+		incorrect answer
+			NEW : display an input answer for a moment
 
 
 ----------==========----------==========----------==========----------
