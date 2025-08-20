@@ -47,6 +47,31 @@ BUGFIX
 NEW_FEATURE
 
 
+	neutral/bmp.c
+		n_bmp_flush()
+			NEW : faster than older
+			[!] : thx for Copilot AI
+	neutral/bmp/draw.c
+		n_bmp_gradient()
+			NEW : faster than older
+			[!] : thx for Copilot AI
+	neutral/bmp/filter.c
+		n_bmp_antialias()
+			NEW : faster than older
+			[!] : thx for Copilot AI
+	neutral/png.c
+		n_png_compress()
+			NEW : faster than older
+
+	GitHub
+		repos are made
+			NEW : hunyapiyo3
+			NEW : Nekomimi Nina 2
+			NEW : Nonnon Paint
+
+	All
+		Copilot AI : Optimization
+			NEW : faster than older
 	Nonnon Tools
 		Favorites2HTML
 			NEW : round corner available
