@@ -63,7 +63,7 @@ neutral/png.c : n_png_compress()
 
 ■GitHub
 
-リポジトリが解説されたニャ
+リポジトリが開設されたニャ
 今の所は以下の３つだけだニャ
 
 hunyapiyo3
@@ -85,6 +85,12 @@ n_win_scrollbar_scroll_pixel() のパッチコードが要らなくなったニ�
 
 ◇ニューフィーチャー
 
+■neutral/bmp/_fastcopy.c
+■neutral/bmp/color.c
+■neutral/bmp/detect.c
+■neutral/bmp/draw.c
+
+Copilot AI によって高速になったニャ
 
 ◇バグフィクス
 

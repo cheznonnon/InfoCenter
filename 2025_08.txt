@@ -21,6 +21,14 @@ BUGFIX
 NEW_FEATURE
 
 
+	neutral/bmp/_fastcopy.c
+	neutral/bmp/color.c
+	neutral/bmp/detect.c
+	neutral/bmp/draw.c
+		Copilot Optimization
+			NEW : faster than older
+
+
 ----------==========----------==========----------==========----------
 
 
