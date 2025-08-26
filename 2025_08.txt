@@ -18,8 +18,28 @@ Change Log
 BUGFIX
 
 
+	CatPad
+		double-click : tab : latter half
+			OLD : next character
+			NEW : tab
+	Nonnon Typing
+		incorrect answer
+			OLD : internal confusion in some cases
+			NEW : fixed
+			[x] : NEW_FEATURE @ 2025/08/20
+
+
 NEW_FEATURE
 
+
+	mac/draw.c
+		n_mac_draw_box_invert()
+			OLD : stub
+			NEW : invert is implemented
+
+	foss
+		NEW : removed
+		[!] : use homebrew to enable Unix world libraries
 
 	neutral/bmp/_fastcopy.c
 	neutral/bmp/color.c
@@ -27,6 +47,10 @@ NEW_FEATURE
 	neutral/bmp/draw.c
 		Copilot Optimization
 			NEW : faster than older
+
+	CatPad
+		shaft indicator : caret position
+			NEW : implemented like VSCode
 
 
 ----------==========----------==========----------==========----------
