@@ -37,10 +37,6 @@ NEW_FEATURE
 			OLD : stub
 			NEW : invert is implemented
 
-	foss
-		NEW : removed
-		[!] : use homebrew to enable Unix world libraries
-
 	neutral/bmp/_fastcopy.c
 	neutral/bmp/color.c
 	neutral/bmp/detect.c
@@ -48,6 +44,11 @@ NEW_FEATURE
 		Copilot Optimization
 			NEW : faster than older
 
+	All
+		Minimum Supported Version
+			OLD : 10.15 Catalina
+			NEW : 12 Monterey
+			[!] : code itself is buildable in any versions
 	CatPad
 		shaft indicator : caret position
 			NEW : implemented like VSCode
