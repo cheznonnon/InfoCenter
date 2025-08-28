@@ -18,6 +18,11 @@ Change Log
 BUGFIX
 
 
+	mac/n_txctbox/01_character.c
+		full-width detection
+			OLD : inaccurate
+			NEW : fixed
+
 	CatPad
 		double-click : tab : latter half
 			OLD : next character
@@ -27,6 +32,10 @@ BUGFIX
 			OLD : internal confusion in some cases
 			NEW : fixed
 			[x] : NEW_FEATURE @ 2025/08/20
+	Nyaagle
+		open file
+			OLD : deprecated method is used
+			NEW : fixed
 
 
 NEW_FEATURE
