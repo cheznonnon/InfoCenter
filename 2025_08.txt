@@ -43,6 +43,12 @@ NEW_FEATURE
 	neutral/bmp/draw.c
 		Copilot Optimization
 			NEW : faster than older
+	neutral/jpg.c
+		libjpeg
+			OLD : Nonnon-made embeddable layer
+			NEW : libjpeg-turbo
+			[!] : floss/libjpeg is not needed
+			[!] : faster than older
 
 	All
 		Minimum Supported Version

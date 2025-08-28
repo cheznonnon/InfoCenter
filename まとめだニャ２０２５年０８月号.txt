@@ -101,6 +101,12 @@ n_mac_draw_box_invert() が遂に実装されたニャ
 
 VSCode のようにキャレット位置もインジケータを出すようにしたニャ
 
+■neutral/jpg.c
+
+libjpeg が自作埋め込みレイヤーから libjpeg-turbo に変更されたニャ
+ファイル数が少なくて済むニャ
+高速化もするはずだニャ
+
 ◇バグフィクス
 
 ■CatPad
