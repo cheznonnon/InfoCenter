@@ -41,11 +41,6 @@ BUGFIX
 NEW_FEATURE
 
 
-	mac/draw.c
-		n_mac_draw_box_invert()
-			OLD : stub
-			NEW : invert is implemented
-
 	neutral/bmp/_fastcopy.c
 	neutral/bmp/color.c
 	neutral/bmp/detect.c

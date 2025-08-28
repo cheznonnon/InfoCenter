@@ -92,11 +92,6 @@ n_win_scrollbar_scroll_pixel() のパッチコードが要らなくなったニ�
 
 Copilot AI によって高速になったニャ
 
-■mac/draw.c
-
-n_mac_draw_box_invert() が遂に実装されたニャ
-今まではただのスタブだったニャ
-
 ■CatPad
 
 VSCode のようにキャレット位置もインジケータを出すようにしたニャ
