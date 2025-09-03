@@ -1,0 +1,71 @@
+
+
+----------==========----------==========----------==========----------
+
+
+"Eat Your Own Catfood."
+
+
+----------==========----------==========----------==========----------
+
+
+Change Log
+
+
+2025/09/30
+
+
+BUGFIX
+
+
+NEW_FEATURE
+
+
+----------==========----------==========----------==========----------
+
+
+Change Log
+
+
+2025/09/20
+
+
+BUGFIX
+
+
+NEW_FEATURE
+
+
+----------==========----------==========----------==========----------
+
+
+Change Log
+
+
+2025/09/10
+
+
+BUGFIX
+
+	All
+		accent color change
+			OLD : not applied
+			NEW : fixed
+			[?] : macOS system is buggy
+			[!] : timer is used internally
+
+
+NEW_FEATURE
+
+
+	mac/n_txtbox.c
+		performance
+			NEW : lighter than older
+
+	Nonnon Tools
+		Favorites2HTML : CSS : round corner
+			NEW : re-tuned
+
+
+----------==========----------==========----------==========----------
+
