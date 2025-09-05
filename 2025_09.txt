@@ -47,6 +47,7 @@ Change Log
 
 BUGFIX
 
+
 	All
 		accent color change
 			OLD : not applied
@@ -58,10 +59,29 @@ BUGFIX
 NEW_FEATURE
 
 
+	mac/_template
+		n_spritekit.c
+			NEW : released
+			[!] : SpriteKit Gaming Engine implementation
+			[x] : heavy, useless
+	mac/image.c
+		n_mac_image_imagerep2nsimage()
+			NEW : separated from n_mac_image_nbmp2nsimage()
+		n_mac_image_rep_alias()
+			NEW : n_bmp alias of NSBitmapImageRep
+		n_mac_image_imagerep_sync()
+			NEW : canvas sync'er
+		n_mac_image_nbmp_direct_draw_faster()
+			NEW : faster than n_mac_image_nbmp_direct_draw_fast()
+		n_mac_image_nsimage_draw()
+			NEW : separated from n_mac_image_nbmp_direct_draw()
 	mac/n_txtbox.c
 		performance
 			NEW : lighter than older
 
+	Games
+		Performance
+			NEW : faster/lighter than older
 	Nonnon Tools
 		Favorites2HTML : CSS : round corner
 			NEW : re-tuned

@@ -13,6 +13,32 @@
 
 以前より軽くなったニャ
 
+■mac/_template/n_spritekit.c
+
+SpriteKit によるゲームエンジンだニャ
+重たいから使えなかったニャ
+
+■mac/image.c
+
+n_mac_image_imagerep2nsimage()
+n_mac_image_nbmp2nsimage() から分離されたニャ
+
+n_mac_image_rep_alias()
+NSBitmapImageRep の n_bmp を使ったエイリアスを作るニャ
+
+n_mac_image_imagerep_sync()
+drawRect で使うニャ
+
+n_mac_image_nbmp_direct_draw_faster()
+n_mac_image_nbmp_direct_draw_fast() より高速だニャ
+
+n_mac_image_nsimage_draw()
+n_mac_image_nbmp_direct_draw() から分離されたニャ
+
+■ゲームと Nonnon Paint
+
+以前より軽くて高速になったニャ
+
 ◇バグフィクス
 
 ■Nonnon Tools
