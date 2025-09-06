@@ -35,9 +35,27 @@ n_mac_image_nbmp_direct_draw_fast() より高速だニャ
 n_mac_image_nsimage_draw()
 n_mac_image_nbmp_direct_draw() から分離されたニャ
 
+■neutral/bmp/_fastcopy.c
+
+n_bmp_flush_fastcopy()
+n_bmp_fastcopy() を呼んでいたのを memcpy() に変えたニャ
+とても速くなるはずだニャ
+
 ■ゲームと Nonnon Paint
 
 以前より軽くて高速になったニャ
+
+■GitHub
+
+#include を同期しやすいように一元化したにゃ
+
+■hunyapiyo3
+
+跳ねるテキストが滑らかになったニャ
+
+■Nonnon CatPad
+
+Nonnon Smooth Scroll をチューンし直したニャ
 
 ◇バグフィクス
 

@@ -79,9 +79,27 @@ NEW_FEATURE
 		performance
 			NEW : lighter than older
 
+	neutral/bmp/_fastcopy.c
+		n_bmp_flush_fastcopy()
+			OLD : n_bmp_fastcopy()
+			NEW : memcpy()
+			[!] : much faster
+
+	GitHub
+		All : #include
+			OLD : each files
+			NEW : one-stop
+			[!] : for easy to sync
+
 	Games
 		Performance
 			NEW : faster/lighter than older
+	hunyapiyo3
+		text bounce
+			NEW : smoother than older
+	Nonnon CatPad
+		Nonnon Smooth Scroll
+			NEW : re-tuned
 	Nonnon Tools
 		Favorites2HTML : CSS : round corner
 			NEW : re-tuned
