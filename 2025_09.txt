@@ -54,6 +54,10 @@ BUGFIX
 			NEW : fixed
 			[?] : macOS system is buggy
 			[!] : timer is used internally
+	Nekomimi Nina 2
+		hidden bricks
+			OLD : jam resolver conflicts
+			NEW : fixed
 
 
 NEW_FEATURE
