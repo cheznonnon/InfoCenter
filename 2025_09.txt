@@ -58,6 +58,11 @@ BUGFIX
 		hidden bricks
 			OLD : jam resolver conflicts
 			NEW : fixed
+	Nonnon Freecell
+		window resizing : when transition is running
+			OLD : glitch
+			NEW : fixed
+			[!] : stop resizing while transition is running
 
 
 NEW_FEATURE
@@ -79,6 +84,9 @@ NEW_FEATURE
 			NEW : faster than n_mac_image_nbmp_direct_draw_fast()
 		n_mac_image_nsimage_draw()
 			NEW : separated from n_mac_image_nbmp_direct_draw()
+		n_mac_image_debug_save()
+			NEW : debug lighter
+			[!] : sandbox off needed
 	mac/n_txtbox.c
 		performance
 			NEW : lighter than older
@@ -104,6 +112,9 @@ NEW_FEATURE
 	Nonnon CatPad
 		Nonnon Smooth Scroll
 			NEW : re-tuned
+	Nonnon Paint
+		Performance
+			NEW : faster/lighter than older
 	Nonnon Tools
 		Favorites2HTML : CSS : round corner
 			NEW : re-tuned
