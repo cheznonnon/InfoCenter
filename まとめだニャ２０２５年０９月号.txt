@@ -57,6 +57,10 @@ n_bmp_fastcopy() を呼んでいたのを memcpy() に変えたニャ
 
 Nonnon Smooth Scroll をチューンし直したニャ
 
+■Nekomimi Nina 2
+
+スプライトアニメーションを合理化したニャ
+
 ◇バグフィクス
 
 ■Nonnon Tools
