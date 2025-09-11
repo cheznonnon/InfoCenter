@@ -87,6 +87,9 @@ macOS のシステムのバグだニャ
 
 ◇ニューフィーチャー
 
+■mac/n_txtbox.c
+
+Nonnon Smooth Scroll をチューンし直したニャ
 
 ◇バグフィクス
 
