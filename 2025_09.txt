@@ -36,6 +36,10 @@ BUGFIX
 NEW_FEATURE
 
 
+	mac/image.c
+		n_mac_image_imagerep_alias_fast()
+			NEW : unsafer but faster version
+			[!] : use width and height are the same
 	mac/n_txtbox.c
 		Nonnon Smooth Scroll
 			NEW : re-tuned

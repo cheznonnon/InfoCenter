@@ -91,6 +91,11 @@ macOS のシステムのバグだニャ
 
 Nonnon Smooth Scroll をチューンし直したニャ
 
+■mac/image.c
+
+n_mac_image_imagerep_alias_fast() が増えたニャ
+縦と横のサイズが同じ時に使うといいニャ
+
 ◇バグフィクス
 
 
