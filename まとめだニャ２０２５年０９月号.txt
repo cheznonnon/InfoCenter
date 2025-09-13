@@ -98,6 +98,12 @@ n_mac_image_imagerep_alias_fast() が増えたニャ
 
 ◇バグフィクス
 
+■Nonnon Poker
+■Nonnon Tools
+■Nonnon Typing
+
+タイトルバーをダブルクリックすると変な動きをするのを直したニャ
+緑ボタンは無効化されるニャ
 
 [ ０９月３０日 ]
 

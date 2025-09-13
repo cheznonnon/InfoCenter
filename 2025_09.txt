@@ -33,6 +33,20 @@ Change Log
 BUGFIX
 
 
+	Nonnon Poker
+		window : title bar double click
+			OLD : misbehave
+			NEW : fixed
+	Nonnon Tools
+		window : title bar double click
+			OLD : misbehave
+			NEW : fixed
+	Nonnon Typing
+		window : title bar double click
+			OLD : misbehave
+			NEW : fixed
+
+
 NEW_FEATURE
 
 
@@ -72,6 +86,18 @@ BUGFIX
 			OLD : glitch
 			NEW : fixed
 			[!] : stop resizing while transition is running
+	Nonnon Poker
+		window
+			OLD : resizable but not working
+			NEW : not resizable
+	Nonnon Tools
+		window
+			OLD : resizable but not working
+			NEW : not resizable
+	Nonnon Typing
+		window
+			OLD : resizable but not working
+			NEW : not resizable
 
 
 NEW_FEATURE
