@@ -58,6 +58,13 @@ NEW_FEATURE
 		Nonnon Smooth Scroll
 			NEW : re-tuned
 
+	Nonnon Typing
+		performance
+			NEW : faster/lighter than older
+	Pen Trainer
+		performance
+			NEW : faster/lighter than older
+
 
 ----------==========----------==========----------==========----------
 

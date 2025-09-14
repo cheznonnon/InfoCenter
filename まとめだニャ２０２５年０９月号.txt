@@ -96,6 +96,14 @@ Nonnon Smooth Scroll をチューンし直したニャ
 n_mac_image_imagerep_alias_fast() が増えたニャ
 縦と横のサイズが同じ時に使うといいニャ
 
+■Pen Trainer
+
+以前より軽くて高速になったニャ
+
+■Nonnon Typing
+
+以前より軽くて高速になったニャ
+
 ◇バグフィクス
 
 ■Nonnon Poker
