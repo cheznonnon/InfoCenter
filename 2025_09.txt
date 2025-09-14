@@ -58,6 +58,10 @@ NEW_FEATURE
 		Nonnon Smooth Scroll
 			NEW : re-tuned
 
+	hunyapiyo3
+		launch sequence
+			OLD : complicated
+			NEW : simpler than older
 	Nonnon Typing
 		performance
 			NEW : faster/lighter than older
