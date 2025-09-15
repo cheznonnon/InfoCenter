@@ -33,6 +33,10 @@ Change Log
 BUGFIX
 
 
+	Nekomimi Nina 2
+		hole
+			OLD : misbehave in some cases
+			NEW : fixed
 	Nonnon Poker
 		window : title bar double click
 			OLD : misbehave
