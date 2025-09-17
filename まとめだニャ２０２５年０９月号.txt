@@ -108,6 +108,10 @@ n_mac_image_imagerep_alias_fast() が増えたニャ
 
 初期化が複雑化しているのをシンプルな感じに直したニャ
 
+■neutral/bmp/draw.c
+
+n_bmp_frame() を作ったニャ
+
 ◇バグフィクス
 
 ■Nonnon Poker

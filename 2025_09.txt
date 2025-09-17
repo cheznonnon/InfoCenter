@@ -62,6 +62,10 @@ NEW_FEATURE
 		Nonnon Smooth Scroll
 			NEW : re-tuned
 
+	neutral/bmp/draw.c
+		n_bmp_frame()
+			NEW : frame renderer
+
 	hunyapiyo3
 		launch sequence
 			OLD : complicated
