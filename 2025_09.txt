@@ -33,21 +33,14 @@ Change Log
 BUGFIX
 
 
+	neutral/bmp
+		n_bmp_ui_rectframe_drawedge()
+			OLD : inaccurate behavior
+			NEW : fixed
+
 	Nekomimi Nina 2
 		hole
 			OLD : misbehave in some cases
-			NEW : fixed
-	Nonnon Poker
-		window : title bar double click
-			OLD : misbehave
-			NEW : fixed
-	Nonnon Tools
-		window : title bar double click
-			OLD : misbehave
-			NEW : fixed
-	Nonnon Typing
-		window : title bar double click
-			OLD : misbehave
 			NEW : fixed
 
 
@@ -70,6 +63,9 @@ NEW_FEATURE
 		launch sequence
 			OLD : complicated
 			NEW : simpler than older
+	Nekomimi Nina 2
+		Sprite Animation
+			NEW : tweaked some
 	Nonnon Typing
 		performance
 			NEW : faster/lighter than older

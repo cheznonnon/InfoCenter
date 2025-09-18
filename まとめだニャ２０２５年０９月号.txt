@@ -112,6 +112,10 @@ n_mac_image_imagerep_alias_fast() が増えたニャ
 
 n_bmp_frame() を作ったニャ
 
+■Nekomimi Nina 2
+
+スプライトアニメーションを微調整したニャ
+
 ◇バグフィクス
 
 ■Nonnon Poker
@@ -124,6 +128,14 @@ n_bmp_frame() を作ったニャ
 ■Nekomimi Nina 2
 
 穴に落ちる時に誤作動することがあるのを直したニャ
+
+■neutral/bmp
+
+n_bmp_ui_rectframe_drawedge() が適切に動かないのを直したニャ
+
+■neutral/bmp
+
+n_bmp_ui_rectframe_drawedge() が正確に動作しないのを直したニャ
 
 
 [ ０９月３０日 ]
