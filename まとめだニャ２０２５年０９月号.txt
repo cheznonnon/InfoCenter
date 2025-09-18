@@ -116,6 +116,10 @@ n_bmp_frame() を作ったニャ
 
 スプライトアニメーションを微調整したニャ
 
+■Nonnon Poker
+
+カードの背面の画像をリッチにしたニャ
+
 ◇バグフィクス
 
 ■Nonnon Poker
@@ -132,10 +136,6 @@ n_bmp_frame() を作ったニャ
 ■neutral/bmp
 
 n_bmp_ui_rectframe_drawedge() が適切に動かないのを直したニャ
-
-■neutral/bmp
-
-n_bmp_ui_rectframe_drawedge() が正確に動作しないのを直したニャ
 
 
 [ ０９月３０日 ]

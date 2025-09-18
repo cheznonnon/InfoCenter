@@ -66,6 +66,9 @@ NEW_FEATURE
 	Nekomimi Nina 2
 		Sprite Animation
 			NEW : tweaked some
+	Nonnon Poker
+		card graphics : reverse side
+			NEW : re-tuned
 	Nonnon Typing
 		performance
 			NEW : faster/lighter than older
