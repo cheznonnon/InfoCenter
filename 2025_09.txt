@@ -42,6 +42,10 @@ BUGFIX
 		hole
 			OLD : misbehave in some cases
 			NEW : fixed
+	Nonnon Poker
+		Dark Mode : diff label background
+			OLD : not changed
+			NEW : fixed
 
 
 NEW_FEATURE
@@ -59,6 +63,10 @@ NEW_FEATURE
 		n_bmp_frame()
 			NEW : frame renderer
 
+	All
+		some apps
+			NEW : Xcode 26 "Icon Composer" made 1024px icon
+			[!] : for Tahoe support
 	hunyapiyo3
 		launch sequence
 			OLD : complicated

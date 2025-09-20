@@ -120,6 +120,10 @@ n_bmp_frame() を作ったニャ
 
 カードの背面の画像をリッチにしたニャ
 
+■All : 一部のアプリ
+
+Xcode 26 の "Icon Composer" で 1024px のアイコンを作ったニャ
+
 ◇バグフィクス
 
 ■Nonnon Poker
@@ -136,6 +140,10 @@ n_bmp_frame() を作ったニャ
 ■neutral/bmp
 
 n_bmp_ui_rectframe_drawedge() が適切に動かないのを直したニャ
+
+■Nonnon Poker
+
+ダークモードをオン・オフした時に差分の数字の背景が変化しないのを直したニャ
 
 
 [ ０９月３０日 ]
