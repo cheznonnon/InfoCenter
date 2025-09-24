@@ -18,6 +18,12 @@ Change Log
 BUGFIX
 
 
+	Nonnon CatPad
+		TxtBox : Paste : auto-scroll
+			OLD : not accurate
+			NEW : fixed
+
+
 NEW_FEATURE
 
 
