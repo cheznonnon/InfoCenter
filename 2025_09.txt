@@ -22,6 +22,10 @@ BUGFIX
 		TxtBox : Paste : auto-scroll
 			OLD : not accurate
 			NEW : fixed
+		TxtBox : IME
+			OLD : a caret doesn't blink
+			NEW : fixed
+			[x] : NEW_FEATURE @ 2025/09/10
 
 
 NEW_FEATURE
