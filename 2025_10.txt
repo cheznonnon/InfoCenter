@@ -36,6 +36,16 @@ BUGFIX
 NEW_FEATURE
 
 
+	Nonnon Paint
+		Menu : "Pressure On/Off"
+			NEW : for buggy tablet driver
+	Pen Trainer
+		Tablet Support : Pen Pressure
+			OLD :     supported
+			NEW : not supported
+			[?] : tablet driver is buggy
+
+
 ----------==========----------==========----------==========----------
 
 
