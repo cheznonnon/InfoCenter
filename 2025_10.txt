@@ -21,6 +21,11 @@ BUGFIX
 NEW_FEATURE
 
 
+	LINE MASHER 2
+		performance
+			NEW : lighter than older
+
+
 ----------==========----------==========----------==========----------
 
 
@@ -33,12 +38,28 @@ Change Log
 BUGFIX
 
 
+	game/helper.c
+		n_game_timer() : when overflown
+			OLD : misbehave
+			NEW : fixed
+
+
 NEW_FEATURE
 
 
+	mac/_mac.c
+		n_mac_game_timer()
+			NEW : microsecond-based timer
+
+	Nekomimi Nina 2
+		performance
+			NEW : lighter than older
 	Nonnon Paint
 		Menu : "Pressure On/Off"
 			NEW : for buggy tablet driver
+		Pen : Multi-Layer Eraser : output
+			NEW : slower than older
+			[!] : for fade-out effect
 	Pen Trainer
 		Tablet Support : Pen Pressure
 			OLD :     supported
