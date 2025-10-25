@@ -21,11 +21,6 @@ BUGFIX
 NEW_FEATURE
 
 
-	LINE MASHER 2
-		performance
-			NEW : lighter than older
-
-
 ----------==========----------==========----------==========----------
 
 
@@ -47,13 +42,6 @@ BUGFIX
 NEW_FEATURE
 
 
-	mac/_mac.c
-		n_mac_game_timer()
-			NEW : microsecond-based timer
-
-	Nekomimi Nina 2
-		performance
-			NEW : lighter than older
 	Nonnon Paint
 		Menu : "Pressure On/Off"
 			NEW : for buggy tablet driver
