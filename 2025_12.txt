@@ -36,6 +36,21 @@ BUGFIX
 NEW_FEATURE
 
 
+	neutral/bmp.c
+		n_bmp_is_overflow()
+			OLD : width or height is SHRT_MAX or larger
+			NEW : by pixels ( SHRT_MAX x SHRT_MAX )
+	neutral/memory.c
+		callback
+			OLD : comment-out'ed
+			NEW : call a function
+
+	Nonnon Paint
+		Editable Size Limit
+			OLD : 20000 x 20000
+			NEW : by pixels ( 32767 x 32767 )
+
+
 ----------==========----------==========----------==========----------
 
 
