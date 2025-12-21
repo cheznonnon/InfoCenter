@@ -36,16 +36,6 @@ n_bmp_is_overflow()
 
 ◇ニューフィーチャー
 
-
-◇バグフィクス
-
-■neutral/wav.c
-
-n_wav_new_by_sample() で元のファイルフォーマットのパラメータがセットされないのを直したニャ
-
-
-NEW_FEATURE
-
 ■neutral/wav/filter.c
 
 n_wav_peak_value() : ピーク値を取得するモジュールだニャ
@@ -56,6 +46,13 @@ n_wav_float() : IEEE_FLOAT サポートだニャ
 
 n_wav_load() : 32-bit 浮動小数点がサポートされたニャ
 ただし内部で 16-bit short に変換されるニャ
+
+
+◇バグフィクス
+
+■neutral/wav.c
+
+n_wav_new_by_sample() で元のファイルフォーマットのパラメータがセットされないのを直したニャ
 
 ----------==========----------==========----------==========----------
 
