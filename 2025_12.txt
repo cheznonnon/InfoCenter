@@ -18,7 +18,24 @@ Change Log
 BUGFIX
 
 
+	neutral/wav.c
+		n_wav_new_by_sample()
+			OLD : original file spec are not set
+			NEW : fixed
+
+
 NEW_FEATURE
+
+
+	neutral/wav/filter.c
+		n_wav_peak_value()
+			NEW : peak value getter
+	neutral/wav.c
+		n_wav_float()
+			NEW : IEEE_FLOAT support
+		n_wav_load()
+			NEW : 32-bit float available
+			[!] : convert to 16-bit short internally
 
 
 ----------==========----------==========----------==========----------
