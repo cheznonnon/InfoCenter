@@ -36,7 +36,10 @@ NEW_FEATURE
 		n_wav_load()
 			NEW : 32-bit float available
 			[!] : convert to 16-bit short internally
-
+		all : internal format
+			NEW : 32-bit float available
+			[!] : use macro N_WAV_FORMAT_DEFAULT to enable
+			[!] : 16-bit short is available for backward compatibility
 
 ----------==========----------==========----------==========----------
 
