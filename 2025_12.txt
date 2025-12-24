@@ -22,10 +22,19 @@ BUGFIX
 		n_wav_new_by_sample()
 			OLD : original file spec are not set
 			NEW : fixed
+		n_wav_new() : integer overflow
+			OLD : data wil be broken
+			NEW : fixed
 
 
 NEW_FEATURE
 
+
+	neutral/posox.c
+		n_posix_math_gcd()
+			NEW : Greatest Common Divisor
+		n_posix_math_lcm()
+			NEW : Least Common Multiple
 
 	neutral/wav/filter.c
 		n_wav_peak_value()
