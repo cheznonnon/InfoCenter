@@ -30,6 +30,12 @@ BUGFIX
 NEW_FEATURE
 
 
+	mac/n_scrollbar.c
+		Press'n'Run Preventer
+			OLD : manual / user should implement it
+			NEW : auto resolver available
+			[!] : Win32 Mouse Capture-like logic is implemented
+
 	neutral/posox.c
 		n_posix_math_gcd()
 			NEW : Greatest Common Divisor
@@ -49,6 +55,7 @@ NEW_FEATURE
 			NEW : 32-bit float available
 			[!] : use macro N_WAV_FORMAT_DEFAULT to enable
 			[!] : 16-bit short is available for backward compatibility
+
 
 ----------==========----------==========----------==========----------
 
