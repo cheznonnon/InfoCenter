@@ -36,7 +36,7 @@ NEW_FEATURE
 			NEW : auto resolver available
 			[!] : Win32 Mouse Capture-like logic is implemented
 
-	neutral/posox.c
+	neutral/posix.c
 		n_posix_math_gcd()
 			NEW : Greatest Common Divisor
 		n_posix_math_lcm()
@@ -45,6 +45,7 @@ NEW_FEATURE
 	neutral/wav/filter.c
 		n_wav_peak_value()
 			NEW : peak value getter
+			[!] : Mac : multi-thread available
 	neutral/wav.c
 		n_wav_float()
 			NEW : IEEE_FLOAT support
@@ -55,6 +56,14 @@ NEW_FEATURE
 			NEW : 32-bit float available
 			[!] : use macro N_WAV_FORMAT_DEFAULT to enable
 			[!] : 16-bit short is available for backward compatibility
+
+	Nonnon Nyaurism
+		released
+			NEW : .WAV tweaker for Mac
+			[!] : almost parts are defferent with Win32 version
+	Nonnon Paint
+		Tool Window : Buttons : click with inactive window
+			NEW : direct click available
 
 
 ----------==========----------==========----------==========----------
