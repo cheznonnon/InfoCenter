@@ -46,10 +46,9 @@ Mac ではマルチスレッド動作をするニャ
 n_wav_float() : IEEE_FLOAT サポートだニャ
 
 n_wav_load() : 32-bit 浮動小数点がサポートされたニャ
-ただし内部で 16-bit short に変換されるニャ
 
 内部フォーマットを 32-bit 浮動小数点にできるようになったニャ
-今の所はマクロ分岐で有効になるニャ
+今の所はマクロ分岐（N_WAV_FORMAT_FLOAT_ON）で有効になるニャ
 
 ■neutral/posox.c
 

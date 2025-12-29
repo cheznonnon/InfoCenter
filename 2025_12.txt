@@ -51,16 +51,15 @@ NEW_FEATURE
 			NEW : IEEE_FLOAT support
 		n_wav_load()
 			NEW : 32-bit float available
-			[!] : convert to 16-bit short internally
 		all : internal format
 			NEW : 32-bit float available
-			[!] : use macro N_WAV_FORMAT_DEFAULT to enable
+			[!] : use macro N_WAV_FORMAT_FLOAT_ON to enable
 			[!] : 16-bit short is available for backward compatibility
 
 	Nonnon Nyaurism
 		released
 			NEW : .WAV tweaker for Mac
-			[!] : almost parts are defferent with Win32 version
+			[!] : almost usage are defferent with Win32 version
 	Nonnon Paint
 		Tool Window : Buttons : click with inactive window
 			NEW : direct click available
