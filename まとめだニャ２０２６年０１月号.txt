@@ -24,11 +24,25 @@ Win32 版からだいぶ進歩したニャ
 
 キャレットのリセットをチューンしたニャ
 
+■Nonnon CatPad
+
+猫の鳴き声を Nonnon Nyaurism で調整したニャ
+
+猫のアイコンをリバンプしたニャ
+
+■Nonnon Freecell
+
+サウンドを Nonnon Nyaurism で調整したニャ
+
+■Nekomimi Nina
+
+ブレーキサウンドを Nonnon Nyaurism で調整したニャ
+
 
 ◇バグフィクス
 
 ■Nonnon Paint
-		
+
 Grabber : Tooltip : メインキャンバス以外でキーを押すと消えないのを直したニャ
 
 Layer Window : Layer List : ダブルクリック

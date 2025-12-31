@@ -72,6 +72,17 @@ NEW_FEATURE
 		renewed
 			NEW : fully functional by DeepSeek AI
 
+	Nekomimi Nina
+		brake sound
+			NEW : arranged by Nonnon Nyaurism
+	Nonnon CatPad
+		cat meow
+			NEW : arranged by Nonnon Nyaurism
+		neko icons
+			NEW : revamped
+	Nonnon Freecell
+		sound
+			NEW : arranged by Nonnon Nyaurism
 	Nonnon Nyaurism
 		released
 			NEW : .WAV tweaker
