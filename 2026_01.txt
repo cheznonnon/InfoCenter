@@ -1,0 +1,82 @@
+
+
+----------==========----------==========----------==========----------
+
+
+"Eat Your Own Catfood."
+
+
+----------==========----------==========----------==========----------
+
+
+Change Log
+
+
+2026/01/30
+
+
+BUGFIX
+
+
+NEW_FEATURE
+
+
+----------==========----------==========----------==========----------
+
+
+Change Log
+
+
+2026/01/20
+
+
+BUGFIX
+
+
+NEW_FEATURE
+
+
+----------==========----------==========----------==========----------
+
+
+Change Log
+
+
+2026/01/10
+
+
+BUGFIX
+
+
+	Nonnon Paint
+		Grabber : Tooltip
+			OLD : not disappear when input in non-main canvas
+			NEW : fixed
+		Layer Window : Layer List : double-click
+			OLD : #1 clicked, #2 released, then #2 is input
+			NEW : fixed
+	Project Checker
+		Txtbox : double-click
+			OLD : selected partial two lines in some cases
+			NEW : fixed?
+
+
+NEW_FEATURE
+
+
+	mac/n_txtbox.c
+		reset caret
+			NEW : re-tuned
+
+	neutral/fft.c
+		renewed
+			NEW : fully functional by DeepSeek AI
+
+	Nonnon Nyaurism
+		released
+			NEW : .WAV tweaker
+			[!] : much evolved from Win32 version
+
+
+----------==========----------==========----------==========----------
+
