@@ -50,7 +50,7 @@ BUGFIX
 
 	Nonnon Paint
 		Grabber : Tooltip
-			OLD : not disappear when input in non-main canvas
+			OLD : not disappear in some cases
 			NEW : fixed
 		Layer Window : Layer List : double-click
 			OLD : #1 clicked, #2 released, then #2 is input
@@ -64,10 +64,23 @@ BUGFIX
 NEW_FEATURE
 
 
+	mac/n_button.c
+		prevent press'n'run
+			OLD : timer based
+			NEW : local monitor based
+			[!] : local monitor is Win32 local hook like approach
+			[!] : CPU usage is reduced
 	mac/n_txtbox.c
 		reset caret
 			NEW : re-tuned
 
+	neutral/wav/__deprecated.c
+		released
+			NEW : low quality code collection
+			[!] : for compatibility with Nyaurism Win32
+	neutral/wav/filter.c
+		n_wav_fade_in_partial(), n_wav_fade_out_partial()
+			NEW : more effective than older
 	neutral/fft.c
 		renewed
 			NEW : fully functional by DeepSeek AI

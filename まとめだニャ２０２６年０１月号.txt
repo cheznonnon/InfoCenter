@@ -38,12 +38,22 @@ Win32 版からだいぶ進歩したニャ
 
 ブレーキサウンドを Nonnon Nyaurism で調整したニャ
 
+■neutral/wav/filter.c
+
+n_wav_fade_in_partial() と n_wav_fade_out_partial() がもっと効果的になったニャ
+
+■neutral/wav/__deprecated.c
+
+品質の悪い実用的でないコードを集めたニャ
+Win32 版 Nyaurism で使われていたものだニャ
+互換性のため取っておくニャ
+
 
 ◇バグフィクス
 
 ■Nonnon Paint
 
-Grabber : Tooltip : メインキャンバス以外でキーを押すと消えないのを直したニャ
+Grabber : Tooltip : 消えないことがあるのを直したニャ
 
 Layer Window : Layer List : ダブルクリック
 ＃１のレイヤーをダブルクリックして＃２で離されると誤作動するのを直したニャ
