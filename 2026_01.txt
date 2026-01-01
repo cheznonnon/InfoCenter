@@ -81,12 +81,14 @@ NEW_FEATURE
 	neutral/wav/filter.c
 		n_wav_fade_in_partial(), n_wav_fade_out_partial()
 			NEW : more effective than older
+		n_wav_L2R_partial(), n_wav_R2L_partial()
+			NEW : copy L to R, or R to L
 	neutral/fft.c
 		renewed
 			NEW : fully functional by DeepSeek AI
 
 	Nekomimi Nina
-		brake sound
+		sound effects
 			NEW : arranged by Nonnon Nyaurism
 	Nonnon CatPad
 		cat meow

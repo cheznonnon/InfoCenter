@@ -36,11 +36,14 @@ Win32 版からだいぶ進歩したニャ
 
 ■Nekomimi Nina
 
-ブレーキサウンドを Nonnon Nyaurism で調整したニャ
+サウンドを Nonnon Nyaurism で調整したニャ
 
 ■neutral/wav/filter.c
 
 n_wav_fade_in_partial() と n_wav_fade_out_partial() がもっと効果的になったニャ
+
+n_wav_L2R_partial(), n_wav_R2L_partial() が作られたニャ
+ステレオの片方をもう片方にコピーするニャ
 
 ■neutral/wav/__deprecated.c
 
