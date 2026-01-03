@@ -45,11 +45,22 @@ n_wav_fade_in_partial() と n_wav_fade_out_partial() がもっと効果的にな
 n_wav_L2R_partial(), n_wav_R2L_partial() が作られたニャ
 ステレオの片方をもう片方にコピーするニャ
 
+n_wav_normalize_partial() : Mac ではマルチスレッド動作するニャ
+とても高速になるニャ
+
 ■neutral/wav/__deprecated.c
 
 品質の悪い実用的でないコードを集めたニャ
 Win32 版 Nyaurism で使われていたものだニャ
 互換性のため取っておくニャ
+
+■mac/window.c
+
+n_mac_window_all_controls_onoff() : ウィンドウ内のコントロールを全部有効／無効にするニャ
+
+■mac/_template/*.c
+
+いくらかの使い物にならないファイルを削除したニャ
 
 
 ◇バグフィクス
@@ -64,6 +75,14 @@ Layer Window : Layer List : ダブルクリック
 ■Project Checker
 
 Txtbox : ダブルクリック : ２行選択されることがあるのを直したニャ（本当かニャ？）
+
+■neutral/wav/*.c
+
+#include "../wav.c" が書いていないファイルがあったので直したニャ
+
+■neutral/wav/filter.c
+
+n_wav_normalize_partial() で左右のピーク値を同期しているのをやめたニャ
 
 
 [ ０１月２０日 ]

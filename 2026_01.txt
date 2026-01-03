@@ -48,6 +48,15 @@ Change Log
 BUGFIX
 
 
+	neutral/wav/*.c
+		#include "../wav.c"
+			OLD : lacked
+			NEW : added
+	neutral/wav/filter.c
+		n_wav_normalize_partial
+			OLD : L/R sync
+			NEW : no touch
+
 	Nonnon Paint
 		Grabber : Tooltip
 			OLD : not disappear in some cases
@@ -64,6 +73,10 @@ BUGFIX
 NEW_FEATURE
 
 
+	mac/_template/*.c
+		some files
+			NEW : removed
+			[?] : useless
 	mac/n_button.c
 		prevent press'n'run
 			OLD : timer based
@@ -73,6 +86,9 @@ NEW_FEATURE
 	mac/n_txtbox.c
 		reset caret
 			NEW : re-tuned
+	mac/window.c
+		n_mac_window_all_controls_onoff()
+			NEW : enable/disable all controls in a window
 
 	neutral/wav/__deprecated.c
 		released
@@ -83,6 +99,9 @@ NEW_FEATURE
 			NEW : more effective than older
 		n_wav_L2R_partial(), n_wav_R2L_partial()
 			NEW : copy L to R, or R to L
+		n_wav_normalize_partial() : Mac
+			NEW : multi-thread available
+			[!] : much faster than older
 	neutral/fft.c
 		renewed
 			NEW : fully functional by DeepSeek AI
