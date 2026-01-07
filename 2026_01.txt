@@ -102,6 +102,15 @@ NEW_FEATURE
 		n_wav_normalize_partial() : Mac
 			NEW : multi-thread available
 			[!] : much faster than older
+		n_wav_smoother_partial()
+			NEW : Savitzky-Golay Filter
+	neutral/wav/sample.c
+		n_wav_sample_clamp()
+			NEW : clamper
+		n_wav_sample_clamp_normalized()
+			NEW : make 1.0 to -1.0
+		all : clamping
+			NEW : stricter than older
 	neutral/fft.c
 		renewed
 			NEW : fully functional by DeepSeek AI
