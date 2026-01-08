@@ -72,6 +72,10 @@ n_wav_sample_clamp_normalized() : 1.0 から -1.0 にするニャ
 
 All : クランプ処理を強化したニャ
 
+■mac/_mac.c
+
+n_mac_fork_rename() : 日付でリネームするニャ
+
 
 ◇バグフィクス
 

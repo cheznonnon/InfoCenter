@@ -77,6 +77,9 @@ NEW_FEATURE
 		some files
 			NEW : removed
 			[?] : useless
+	mac/_mac.c
+		n_mac_fork_rename()
+			NEW : name by date
 	mac/n_button.c
 		prevent press'n'run
 			OLD : timer based
