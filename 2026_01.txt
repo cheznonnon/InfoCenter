@@ -107,6 +107,8 @@ NEW_FEATURE
 			[!] : much faster than older
 		n_wav_smoother_partial()
 			NEW : Savitzky-Golay Filter
+		n_wav_overdrive_partial()
+			NEW : Distortion/Overdrive Filter
 	neutral/wav/sample.c
 		n_wav_sample_clamp()
 			NEW : clamper
@@ -125,6 +127,8 @@ NEW_FEATURE
 		cat meow
 			NEW : arranged by Nonnon Nyaurism
 		neko icons
+			NEW : revamped
+		Sheet Windows
 			NEW : revamped
 	Nonnon Freecell
 		sound

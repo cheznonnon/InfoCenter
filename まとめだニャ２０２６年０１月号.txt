@@ -30,6 +30,8 @@ Win32 版からだいぶ進歩したニャ
 
 猫のアイコンをリバンプしたニャ
 
+シートウィンドウをリバンプしたニャ
+
 ■Nonnon Freecell
 
 サウンドを Nonnon Nyaurism で調整したニャ
@@ -49,6 +51,8 @@ n_wav_normalize_partial() : Mac ではマルチスレッド動作するニャ
 とても高速になるニャ
 
 n_wav_smoother_partial() : Savitzky-Golay フィルターに変えたニャ
+
+n_wav_overdrive_partial() : ディストーション、矩形波にするフィルターだニャ
 
 ■neutral/wav/__deprecated.c
 
