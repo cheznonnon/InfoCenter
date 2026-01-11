@@ -111,9 +111,20 @@ n_wav_normalize_partial() で左右のピーク値を同期しているのをや
 
 n_wav_smoother_partial() と n_wav_overdrive_partial() がマルチスレッドで２倍速になったニャ
 
+互換性を壊したニャ
+使われない共通パラメータを無くしたニャ
+いくつかのモジュール名を変更したニャ
+Win32 : 古いバージョンに最新の安全な変更を施したものがインクルードされるニャ
+
 ■Nonnon Nyaurism
 
 フィルターに "Monaural" "White Noise" "Pinknoise" が追加されたニャ
+
+ＬＲのどちらかのみ適用ができるようになったニャ
+Shift + Cmd を使うのニャ
+
+メニューのコンテキストスイッチが可能になったニャ
+Shift 時には編集機能はオフになるニャ
 
 
 ◇バグフィクス
@@ -122,6 +133,13 @@ n_wav_smoother_partial() と n_wav_overdrive_partial() がマルチスレッド�
 
 Mix がオンの時にドロップするとデータが壊れるのを直したニャ
 開発段階でペーストの仕様を変更した結果起こるようになったニャ
+
+メニューがシフトキーとコンフリクトするのを直したニャ
+
+■Nonnon Paint
+
+メニューのコンテキスト : アイテムのオンオフが機能しないのを直したニャ
+validateMenuItem は NSMenuItemValidation プロトコルが必要になったためだニャ
 
 
 [ ０１月３０日 ]

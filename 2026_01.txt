@@ -33,11 +33,26 @@ Change Log
 BUGFIX
 
 
+	neutral/wav/filter.c
+		revamped
+			NEW : incompatible with older version
+			[!] : unused uniformed parameters are removed
+			[!] : some modules are renamed
+			[!] : Win32 : deprecated version will be included
+
 	Nonnon Nyaurism
 		Mix : DnD
 			OLD : broken
 			NEW : fixed
-			[?] : paste spec is chenged
+			[?] : paste spec is changed
+		Menu : with Shift key
+			OLD : conflict
+			NEW : fixed
+	Nonnon Paint
+		Menu : Context : menu item on/off
+			OLD : not working
+			NEW : fixed
+			[!] : validateMenuItem needs NSMenuItemValidation
 
 
 NEW_FEATURE
@@ -50,10 +65,17 @@ NEW_FEATURE
 		renamed
 			OLD : sandstorm
 			NEW : whitenoise
+		renamed
+			OLD : marsian
+			NEW : martian
 
 	Nonnon Nyaurism
 		Filters
 			NEW : "Monaural" "White Noise" "Pinknoise" are available
+		Shift + Cmd
+			NEW : one of L/R will be applied
+		Menu Context
+			NEW : Edit will be off when Shift is used
 
 
 ----------==========----------==========----------==========----------
