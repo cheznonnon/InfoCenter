@@ -107,8 +107,21 @@ n_wav_normalize_partial() で左右のピーク値を同期しているのをや
 
 ◇ニューフィーチャー
 
+■neutral/wav/filter.c
+
+n_wav_smoother_partial() と n_wav_overdrive_partial() がマルチスレッドで２倍速になったニャ
+
+■Nonnon Nyaurism
+
+フィルターに "Monaural" "White Noise" "Pinknoise" が追加されたニャ
+
 
 ◇バグフィクス
+
+■Nonnon Nyaurism
+
+Mix がオンの時にドロップするとデータが壊れるのを直したニャ
+開発段階でペーストの仕様を変更した結果起こるようになったニャ
 
 
 [ ０１月３０日 ]

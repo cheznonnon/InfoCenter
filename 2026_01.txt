@@ -33,7 +33,27 @@ Change Log
 BUGFIX
 
 
+	Nonnon Nyaurism
+		Mix : DnD
+			OLD : broken
+			NEW : fixed
+			[?] : paste spec is chenged
+
+
 NEW_FEATURE
+
+
+	neutral/wav/filter.c
+		n_wav_smoother_partial()
+		n_wav_overdrive_partial()
+			NEW : multi-threaded / twice faster
+		renamed
+			OLD : sandstorm
+			NEW : whitenoise
+
+	Nonnon Nyaurism
+		Filters
+			NEW : "Monaural" "White Noise" "Pinknoise" are available
 
 
 ----------==========----------==========----------==========----------
