@@ -53,6 +53,11 @@ BUGFIX
 			OLD : not working
 			NEW : fixed
 			[!] : validateMenuItem needs NSMenuItemValidation
+	Nonnon Pinknoise
+		Window : at launch
+			OLD : not centered in some cases
+			NEW : fixed
+			[x] : a bug of macOS
 
 
 NEW_FEATURE
@@ -76,6 +81,9 @@ NEW_FEATURE
 			NEW : one of L/R will be applied
 		Menu Context
 			NEW : Edit will be off when Shift is used
+		Plotter UI
+			NEW : revemped
+			[!] : more useful than older
 
 
 ----------==========----------==========----------==========----------
