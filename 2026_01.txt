@@ -33,13 +33,6 @@ Change Log
 BUGFIX
 
 
-	neutral/wav/filter.c
-		revamped
-			NEW : incompatible with older version
-			[!] : unused uniformed parameters are removed
-			[!] : some modules are renamed
-			[!] : Win32 : deprecated version will be included
-
 	Nonnon Nyaurism
 		Mix : DnD
 			OLD : broken
@@ -63,8 +56,17 @@ BUGFIX
 NEW_FEATURE
 
 
+	neutral/wav/*.c
+		rate : support
+			OLD : 44100 only
+			NEW : any
 	neutral/wav/filter.c
+		revamped
+			NEW : incompatible with older version
+			[!] : unused uniformed parameters are removed
+			[!] : Win32 : deprecated version will be included
 		n_wav_smoother_partial()
+			NEW : multi-threaded / twice faster
 		n_wav_overdrive_partial()
 			NEW : multi-threaded / twice faster
 		renamed
@@ -73,6 +75,12 @@ NEW_FEATURE
 		renamed
 			OLD : marsian
 			NEW : martian
+		n_wav_copy()
+			NEW : pass-thru mode and minus value available
+			[!] : incompatible : macro usage is changed
+	neutral/wav/sample.c
+		n_wav_sample_blend()
+			NEW : blend function
 
 	Nonnon Nyaurism
 		Filters
