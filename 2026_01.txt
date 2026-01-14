@@ -76,7 +76,7 @@ NEW_FEATURE
 			OLD : marsian
 			NEW : martian
 		n_wav_copy()
-			NEW : pass-thru mode and minus value available
+			NEW : pass-thru mode , minus value and multithread available
 			[!] : incompatible : macro usage is changed
 	neutral/wav/sample.c
 		n_wav_sample_blend()
