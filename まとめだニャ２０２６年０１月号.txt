@@ -143,6 +143,11 @@ Shift 時には編集機能はオフになるニャ
 
 n_wav_sample_blend() : ブレンドファンクションだニャ
 
+■nonnon/bridge
+
+Windows と macOS で共有されるコードを集めたニャ
+nonnon/game, nonnon/project, nonnon/win32 から移動したニャ
+
 
 ◇バグフィクス
 

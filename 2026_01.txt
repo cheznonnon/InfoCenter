@@ -82,6 +82,11 @@ NEW_FEATURE
 		n_wav_sample_blend()
 			NEW : blend function
 
+	nonnon/bridge
+		released
+			NEW : bridging code collection berween Windows and macOS
+			[!] : moved from nonnon/game, nonnon/project, nonnon/win32
+
 	Nonnon Nyaurism
 		Filters
 			NEW : "Monaural" "White Noise" "Pinknoise" are available
