@@ -135,6 +135,8 @@ Shift 時には編集機能はオフになるニャ
 
 プロッターの UI がもっと便利になったニャ
 
+ソースコードをリファクタしたニャ
+
 ■neutral/wav/*.c
 
 レートで 44100 以外もサポートしたニャ
@@ -147,6 +149,10 @@ n_wav_sample_blend() : ブレンドファンクションだニャ
 
 Windows と macOS で共有されるコードを集めたニャ
 nonnon/game, nonnon/project, nonnon/win32 から移動したニャ
+
+■Nonnon Paint
+
+ソースコードをリファクタしたニャ
 
 
 ◇バグフィクス

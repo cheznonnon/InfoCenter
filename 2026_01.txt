@@ -97,6 +97,11 @@ NEW_FEATURE
 		Plotter UI
 			NEW : revemped
 			[!] : more useful than older
+		source code
+			NEW : refactored
+	Nonnon Paint
+		source code
+			NEW : refactored
 
 
 ----------==========----------==========----------==========----------
