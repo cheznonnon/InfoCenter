@@ -154,6 +154,14 @@ nonnon/game, nonnon/project, nonnon/win32 から移動したニャ
 
 ソースコードをリファクタしたニャ
 
+■neutral/posix.c
+
+Mac : n_posix_bool を bool (stdbool) から BOOL に変えたニャ
+
+■neutral/bmp/draw.c
+
+n_bmp_gradient() : DeepSeek AI のお陰で高速化したニャ
+
 
 ◇バグフィクス
 

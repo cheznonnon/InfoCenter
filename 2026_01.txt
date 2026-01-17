@@ -33,6 +33,10 @@ Change Log
 BUGFIX
 
 
+	neutral/type.c
+		source code
+			NEW : typo fixed
+
 	Nonnon Nyaurism
 		Mix : DnD
 			OLD : broken
@@ -56,6 +60,10 @@ BUGFIX
 NEW_FEATURE
 
 
+	neutral/bmp/draw.c
+		n_bmp_gradient()
+			NEW : faster than older
+			[!] : Thx : DeepSeek AI
 	neutral/wav/*.c
 		rate : support
 			OLD : 44100 only
@@ -81,6 +89,10 @@ NEW_FEATURE
 	neutral/wav/sample.c
 		n_wav_sample_blend()
 			NEW : blend function
+	neutral/posix.c
+		Mac : n_posix_bool
+			OLD : bool (stdbool)
+			NEW : BOOL
 
 	nonnon/bridge
 		released
