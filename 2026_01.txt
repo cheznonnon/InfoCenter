@@ -111,6 +111,8 @@ NEW_FEATURE
 			[!] : more useful than older
 		source code
 			NEW : refactored
+		Filter : "Tremolo"
+			NEW : LFO Filter 3 Hz
 	Nonnon Paint
 		source code
 			NEW : refactored
