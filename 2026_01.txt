@@ -102,10 +102,10 @@ NEW_FEATURE
 	Nonnon Nyaurism
 		Filters
 			NEW : "Monaural" "White Noise" "Pinknoise" are available
-		Shift + Cmd
+		Key Binding : Command + Drag
 			NEW : one of L/R will be applied
 		Menu Context
-			NEW : Edit will be off when Shift is used
+			NEW : Edit will be off when Shift or Command is used
 		Plotter UI
 			NEW : revemped
 			[!] : more useful than older
