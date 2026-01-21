@@ -107,7 +107,7 @@ NEW_FEATURE
 		Menu Context
 			NEW : Edit will be off when Shift or Command is used
 		Plotter UI
-			NEW : revemped
+			NEW : revamped
 			[!] : more useful than older
 		source code
 			NEW : refactored
@@ -222,4 +222,5 @@ NEW_FEATURE
 
 
 ----------==========----------==========----------==========----------
+
 
