@@ -35,12 +35,20 @@ BUGFIX
 NEW_FEATURE
 
 
+	neutral/bmp/ui
+		pmr.c, progressbar.c, timer.c, transition.c
+			NEW : moved from nonnon/bridge and nonnon/game
+			[!] : incompatible in namespace and some modules are removed
 	neutral/posix.c
 		MinGW-w64 support
 			NEW : implemented
 			[!] : currently, stupid warning is output
 			[x] : don't use "-Wall -Werror" : sprintf() problem occurs
 			[!] : UCRT version is used
+		Windows : timeGetTime
+			NEW : auto-enabler available
+			[!] : -lwinmm is needed
+			[!] : game/timegettime.c is not needed
 	neutral/thread.c
 		Win32 : mutex
 			NEW : moved from nonnon/win32
@@ -54,6 +62,12 @@ NEW_FEATURE
 	Marie for Win32
 		at load
 			NEW : auto-stretch available
+	Nonnon Paint for Win32
+		Resizer : Squircle Icon Maker
+			NEW : Mac-like icon maker
+		Resizer : Vanishing Point
+			NEW : removed
+			[?] : not important feature
 	Nonnon Pinknoise for Win64
 		released
 			NEW : same as Mac version

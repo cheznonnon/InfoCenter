@@ -161,6 +161,9 @@ nonnon/game, nonnon/project, nonnon/win32 から移動したニャ
 
 Mac : n_posix_bool を bool (stdbool) から BOOL に変えたニャ
 
+Windows : timeGetTime : 自動的に初期化と終了処理をするニャ : -lwinmm が必要だニャ
+つまりは game/timegettime.c は不要になったニャ
+
 ■neutral/bmp/draw.c
 
 n_bmp_gradient() : DeepSeek AI のお陰で高速化したニャ
@@ -213,6 +216,19 @@ Mac 版と同じように動くものだニャ
 ■Marie for Win32
 
 ロード時にオートストレッチするように動作を変更したニャ
+
+■neutral/bmp/ui
+
+pmr.c, progressbar.c, timer.c, transition.c が nonnon/bridge and nonnon/game から移動されたニャ
+互換性が壊れるニャ
+
+■Nonnon Paint for Win32
+
+Resizer : Squircle Icon Maker
+Mac 風アイコンを作るものだニャ
+
+Resizer : Vanishing Point
+イマイチな機能なので廃止したニャ
 
 
 ◇バグフィクス
