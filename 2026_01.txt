@@ -22,14 +22,10 @@ BUGFIX
 		MinGW-w64 warning
 			NEW : some errors are fixed
 
-	CatPad for Win32
+	CatPad : Win32
 		TxtBox : drag
 			OLD : glitch
 			NEW : fixed
-		Multi-line tab adder/remover
-			OLD : Ctrl
-			NEW : Alt
-			[!] : for usability
 
 
 NEW_FEATURE
@@ -39,11 +35,14 @@ NEW_FEATURE
 		pmr.c, progressbar.c, timer.c, transition.c
 			NEW : moved from nonnon/bridge and nonnon/game
 			[!] : incompatible in namespace and some modules are removed
+	neutral/bmp/ui/pie_throbber.c
+		engine
+			NEW : more beautiful than older
+
 	neutral/posix.c
 		MinGW-w64 support
 			NEW : implemented
 			[!] : currently, stupid warning is output
-			[x] : don't use "-Wall -Werror" : sprintf() problem occurs
 			[!] : UCRT version is used
 		Windows : timeGetTime
 			NEW : auto-enabler available
@@ -59,18 +58,29 @@ NEW_FEATURE
 			[!] : Windows 11 or later is needed
 			[!] : currently, UI is window and button only
 
-	Marie for Win32
+
+	hunyapiyo3 : Win64
+		released
+			NEW : ported from Mac version
+	Marie : Win32
 		at load
 			NEW : auto-stretch available
-	Nonnon Paint for Win32
+	Nonnon CatPad : Win32 and Mac
+		Tab Adder/Remover
+			NEW : same as Xcode
+			[?] : macOS uses Cmd+Tab, Windows uses Alt+Tab for task switch
+	Nonnon Nyaurism : Win32
+		Formatter
+			NEW : you can save with 32-bit float
+	Nonnon Paint : Win32
 		Resizer : Squircle Icon Maker
 			NEW : Mac-like icon maker
 		Resizer : Vanishing Point
 			NEW : removed
 			[?] : not important feature
-	Nonnon Pinknoise for Win64
+	Nonnon Pinknoise : Win64
 		released
-			NEW : same as Mac version
+			NEW : ported from Mac version
 
 
 ----------==========----------==========----------==========----------

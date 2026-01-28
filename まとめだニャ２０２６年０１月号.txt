@@ -168,6 +168,18 @@ Windows : timeGetTime : 自動的に初期化と終了処理をするニャ : -l
 
 n_bmp_gradient() : DeepSeek AI のお陰で高速化したニャ
 
+■Nonnon Nyaurism for Win32
+
+Formatter : 32-bit float でセーブできるようになったニャ
+
+■neutral/bmp/ui/pie_throbber.c
+
+描画が綺麗になったニャ
+
+■hunyapiyo3 for Win64
+
+Mac 版を Windows 11 に移植したニャ
+
 
 ◇バグフィクス
 
@@ -209,11 +221,11 @@ MinGW-w64 や libjpeg のインストール方法は自分で探して欲しい�
 Windows 11 以降でのみちゃんと動くようになるニャ
 今はウィンドウとボタンしか出ないニャ
 
-■Nonnon Pinknoise for Win64
+■Nonnon Pinknoise : Win64
 
-Mac 版と同じように動くものだニャ
+Mac 版から移植したニャ
 
-■Marie for Win32
+■Marie : Win32
 
 ロード時にオートストレッチするように動作を変更したニャ
 
@@ -222,7 +234,7 @@ Mac 版と同じように動くものだニャ
 pmr.c, progressbar.c, timer.c, transition.c が nonnon/bridge and nonnon/game から移動されたニャ
 互換性が壊れるニャ
 
-■Nonnon Paint for Win32
+■Nonnon Paint : Win32
 
 Resizer : Squircle Icon Maker
 Mac 風アイコンを作るものだニャ
@@ -230,20 +242,20 @@ Mac 風アイコンを作るものだニャ
 Resizer : Vanishing Point
 イマイチな機能なので廃止したニャ
 
+■CatPad : Win32, Mac
+
+マルチラインタブ付加／除去を Xcode と同じ操作にしたニャ
+
+■hunyapiyo3 : Win64
+
+Mac 版から移植したニャ
+
 
 ◇バグフィクス
 
-■CatPad for Win32
+■CatPad : Win32
 
 TxtBox でドラッグするとグリッチするのを直したニャ
-
-マルチラインタブ操作を Ctrl キーから Alt キーに変えたニャ
-間違えて押すとフラストレーションが溜まるからだニャ
-ちなみに Mac では Cmd+Tab はタスク選択に使われているから使えなかったニャ
-その結果 Option キーにしたのニャがそれをバックポートするものだニャ
-
-Xcode では選択されている時にタブを押すと付加、シフト＋タブだと除去になるニャ
-これは微妙に操作性が悪いニャ
 
 ■all
 
