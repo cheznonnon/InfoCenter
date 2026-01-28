@@ -158,7 +158,7 @@ NEW_FEATURE
 
 	nonnon/bridge
 		released
-			NEW : bridging code collection berween Windows and macOS
+			NEW : bridging code collection between Windows and macOS
 			[!] : moved from nonnon/game, nonnon/project, nonnon/win32
 
 	Nonnon Nyaurism
