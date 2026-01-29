@@ -211,6 +211,12 @@ MinGW-w64 がサポートされたニャ
 MinGW-w64 や libjpeg のインストール方法は自分で探して欲しいニャ
 ちなみに UCRT 版というのを使っているニャ
 
+n_posix_sprintf() : Win64 UNICODE : 問題が起こるニャ
+n_posix_snprintf() を使うのニャ
+かなり苦しい設計になると思うニャ
+swprintf() を M$ のクソが snwprintf() と同じプロトタイプにしているためだニャ
+swprintf() が使えるようになる方法を探しているニャ
+
 ■neutral/thread.c
 
 ミューテックス絡みのコードを win32 フォルダから移動したニャ

@@ -48,6 +48,12 @@ NEW_FEATURE
 			NEW : auto-enabler available
 			[!] : -lwinmm is needed
 			[!] : game/timegettime.c is not needed
+		n_posix_sprintf()
+			OLD : macro
+			NEW : function
+			[!] : Win64 UNICODE : stupid M$ adds a cch parameter as same as snprintf()
+			[!] : incompatible (try to search how to fix)
+			[!] : workaround : use n_posix_snprintf() : I think hard to implement
 	neutral/thread.c
 		Win32 : mutex
 			NEW : moved from nonnon/win32
