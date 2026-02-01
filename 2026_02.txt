@@ -71,7 +71,6 @@ NEW_FEATURE
 	win64/ui/_color_scheme.c
 		released
 			NEW : placeholder for darkmode and accent color
-			[x] : currently not working accurately
 	win64/ui/menu.c
 		released
 			NEW : menu handler

@@ -36,7 +36,6 @@ Unicode 版になったニャ
 ■win64/ui/_colorscheme.c
 
 ダークモードとアクセントカラーを扱うプレースホルダーだニャ
-現状一部ちゃんと動かないニャ
 
 ■Nonnon CatPad : Win32
 
