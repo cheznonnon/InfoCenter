@@ -1,0 +1,96 @@
+
+
+----------==========----------==========----------==========----------
+
+
+"Eat Your Own Catfood."
+
+
+----------==========----------==========----------==========----------
+
+
+Change Log
+
+
+2026/02/28
+
+
+BUGFIX
+
+
+NEW_FEATURE
+
+
+----------==========----------==========----------==========----------
+
+
+Change Log
+
+
+2026/02/20
+
+
+BUGFIX
+
+
+NEW_FEATURE
+
+
+----------==========----------==========----------==========----------
+
+
+Change Log
+
+
+2026/02/10
+
+
+BUGFIX
+
+
+NEW_FEATURE
+
+
+	all
+		source code : usage of n_posix_sprintf()
+			NEW : moved to n_posix_snprintf()
+			[!] : to solve Win64 Unicode problem (swprintf() has a length parameter)
+		n_posix_sprintf()
+			NEW : deprecated
+			[!] : use n_posix_snprintf()
+
+	neutral/path.c
+		removed
+			[?] : too old implementation, hard to modernize
+
+	win32/win_txtbox.c
+		undo
+			NEW : revised
+			[!] : same as Mac version
+
+	win64/ui/_color_scheme.c
+		released
+			NEW : placeholder for darkmode and accent color
+			[x] : currently not working accurately
+	win64/ui/menu.c
+		released
+			NEW : menu handler
+
+	Win64
+		Unicode
+			NEW : implemented
+		darkmode
+			NEW : supported
+		accent color
+			NEW : supported
+	Nonnon CatPad : Win32
+		dakmode
+			NEW : not handle WM_SETTINGCHANGE
+			[?] : not working accurately / redraw error happens
+	Nonnon Freecell : Win64
+		system menu
+			NEW : "Replay" and "New Game" are added
+
+
+----------==========----------==========----------==========----------
+
