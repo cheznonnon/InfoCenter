@@ -59,6 +59,10 @@ Windows Imaging Component サポートだニャ
 
 便利ツールだニャ
 
+■win64/IShellLink.c
+
+ショートカットを扱うものだニャ
+
 
 ◇バグフィクス
 
