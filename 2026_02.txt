@@ -74,6 +74,9 @@ NEW_FEATURE
 	win64/ui/menu.c
 		released
 			NEW : menu handler
+	win64/wic.c
+		released
+			NEW : Windows Imaging Component
 
 	Win64
 		Unicode
@@ -89,6 +92,9 @@ NEW_FEATURE
 	Nonnon Freecell : Win64
 		system menu
 			NEW : "Replay" and "New Game" are added
+	Nonnon Marie : Win64
+		released
+			NEW : simple image viewer
 
 
 ----------==========----------==========----------==========----------

@@ -46,6 +46,15 @@ WM_SETTINGCHANGE で上手く動かないためだニャ
 
 アンドゥの実装を Mac 版と同じにしたニャ
 
+■win64/wic.c
+
+Windows Imaging Component サポートだニャ
+何でも開けるニャ
+
+■Nonnon Marie : Win64
+
+シンプルな画像ビューアーだニャ
+
 
 ◇バグフィクス
 
