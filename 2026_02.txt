@@ -95,6 +95,9 @@ NEW_FEATURE
 	Nonnon Marie : Win64
 		released
 			NEW : simple image viewer
+	Nonnon Tools : Win64
+		released
+			NEW : misc tools
 
 
 ----------==========----------==========----------==========----------

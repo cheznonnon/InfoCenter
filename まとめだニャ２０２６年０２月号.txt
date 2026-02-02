@@ -55,6 +55,10 @@ Windows Imaging Component サポートだニャ
 
 シンプルな画像ビューアーだニャ
 
+■Nonnon Tools : Win64
+
+便利ツールだニャ
+
 
 ◇バグフィクス
 
