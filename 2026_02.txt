@@ -48,6 +48,15 @@ Change Log
 BUGFIX
 
 
+	neutral/bmp/ui/animated_counter.c
+		n_posix_snprintf()
+			NEW : n_posix_snprintf_literal()
+		Win32 : gdi.c support
+			OLD : style will be overwritten
+			NEW : fixed
+			[?] : Mac always uses antialiased font
+
+
 NEW_FEATURE
 
 
@@ -85,9 +94,9 @@ NEW_FEATURE
 		Unicode
 			NEW : implemented
 		darkmode
-			NEW : supported
+			NEW : supported / launch time detection only
 		accent color
-			NEW : supported
+			NEW : supported / launch time detection only
 	Nonnon CatPad : Win32
 		dakmode
 			NEW : not handle WM_SETTINGCHANGE
@@ -98,6 +107,9 @@ NEW_FEATURE
 	Nonnon Marie : Win64
 		released
 			NEW : simple image viewer
+	Nonnon Poker : Win64
+		released
+			NEW : simple poker
 	Nonnon Tools : Win64
 		released
 			NEW : misc tools

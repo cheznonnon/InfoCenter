@@ -63,8 +63,20 @@ Windows Imaging Component サポートだニャ
 
 ショートカットを扱うものだニャ
 
+■Nonnon Poker : Win64
+
+シンプルポーカーの移植版だニャ
+
 
 ◇バグフィクス
+
+■neutral/bmp/ui/animated_counter.c
+
+n_posix_snprintf() : n_posix_snprintf_literal() になっていないのを直したニャ
+
+Win32 : gdi.c サポート
+スタイルが上書きされるのを直したニャ
+Mac では常にアンチエイリアスがかかるから SMOOTH が不要だったので気付かなかったニャ
 
 
 [ ０２月２０日 ]
