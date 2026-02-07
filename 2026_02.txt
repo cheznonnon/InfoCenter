@@ -56,6 +56,19 @@ BUGFIX
 			NEW : fixed
 			[?] : Mac always uses antialiased font
 
+	Nonnon CatPad : Win32
+		Input Resizer
+			OLD : conflict with an editable area's left-edge
+			NEW : fixed
+	Nonnon Nyaurism : Win32
+		Win11 : Resizer : Input Popup
+			OLD : not working
+			NEW : not shown
+	Nonnon Paint : Win32
+		Win11 : Resizer : Input Popup
+			OLD : not working
+			NEW : not shown
+
 
 NEW_FEATURE
 
@@ -68,10 +81,24 @@ NEW_FEATURE
 			NEW : deprecated
 			[!] : use n_posix_snprintf()
 
+	mac/n_txtbox.c
+		source code
+			OLD : Objective-C class based
+			NEW : C structure based
+			[!] : for porting to Win64
+
 	neutral/path.c
 		removed
 			[?] : too old implementation, hard to modernize
 
+	win32/win_combobox.c
+		Win11 : drop shadow
+			OLD : tricky routine
+			NEW : old and system
+	win32/win_simplemenu.c
+		Win11 : drop shadow
+			OLD : tricky routine
+			NEW : old and system
 	win32/win_txtbox.c
 		undo
 			NEW : revised
@@ -93,14 +120,23 @@ NEW_FEATURE
 	Win64
 		Unicode
 			NEW : implemented
-		darkmode
-			NEW : supported / launch time detection only
-		accent color
-			NEW : supported / launch time detection only
+		Darkmode
+			NEW : supported
+		Accent Color
+			NEW : supported
 	Nonnon CatPad : Win32
-		dakmode
+		Darkmode
 			NEW : not handle WM_SETTINGCHANGE
 			[?] : not working accurately / redraw error happens
+		Search History
+			NEW : removed
+			[?] : not working accurately
+		UTF-8 Detection
+			NEW : more robust than older
+			[!] : Control + Drop is not needed
+		Search
+			NEW : reverse Search available
+			[!] : same as Mac Version
 	Nonnon Freecell : Win64
 		system menu
 			NEW : "Replay" and "New Game" are added

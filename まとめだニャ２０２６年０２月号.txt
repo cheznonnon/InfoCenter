@@ -42,6 +42,15 @@ Unicode 版になったニャ
 ダークモードの動的変更をやめたニャ
 WM_SETTINGCHANGE で上手く動かないためだニャ
 
+サーチヒストリーが廃止になったニャ
+Win11 でちゃんと動かないからだニャ
+
+UTF-8 ディテクションが進歩したニャ
+もう Control キーを押す必要はないニャ
+
+検索でリバース検索が可能になったニャ
+Mac 版と同じ実装だニャ
+
 ■win32/win_txtbox.c
 
 アンドゥの実装を Mac 版と同じにしたニャ
@@ -67,6 +76,21 @@ Windows Imaging Component サポートだニャ
 
 シンプルポーカーの移植版だニャ
 
+■mac/n_txtbox.c
+
+Objective-C ベースの実装から、極力構造体を使うようにしたニャ
+Win64 に移植するためだニャ
+
+■win32/win_combobox.c
+
+Win11 : Fluent UI : ドロップシャドウをシステムに変更したニャ
+ちゃんと動かないためだニャ
+
+■win32/win_simplemenu.c
+
+Win11 : Fluent UI : ドロップシャドウをシステムに変更したニャ
+ちゃんと動かないためだニャ
+
 
 ◇バグフィクス
 
@@ -77,6 +101,18 @@ n_posix_snprintf() : n_posix_snprintf_literal() になっていないのを直�
 Win32 : gdi.c サポート
 スタイルが上書きされるのを直したニャ
 Mac では常にアンチエイリアスがかかるから SMOOTH が不要だったので気付かなかったニャ
+
+■Nonnon CatPad : Win32
+
+インプットリサイザーが編集領域の左端に干渉するのを直したニャ
+
+■Nonnon Nyaurism : Win32
+
+インプットポップアップが Win11 で機能しないので廃止したニャ
+
+■Nonnon Paint : Win32
+
+インプットポップアップが Win11 で機能しないので廃止したニャ
 
 
 [ ０２月２０日 ]
