@@ -91,6 +91,19 @@ Win11 : Fluent UI : ドロップシャドウをシステムに変更したニャ
 Win11 : Fluent UI : ドロップシャドウをシステムに変更したニャ
 ちゃんと動かないためだニャ
 
+■Nonnon Tools : Mac
+
+リードミーに nmidi スクリプトのリファレンスを追加したニャ
+
+■win64/_windows.c
+
+以下のモジュールが追加されたニャ
+
+n_win64_stdfont_hfont() font_exit() font_logfont2hfont()
+n_win64_text_pixelsize()
+n_win64_topmost()
+n_win64_execute() exec() exec_literal()
+
 
 ◇バグフィクス
 
@@ -113,6 +126,10 @@ Mac では常にアンチエイリアスがかかるから SMOOTH が不要だ�
 ■Nonnon Paint : Win32
 
 インプットポップアップが Win11 で機能しないので廃止したニャ
+
+■ProjectChecker : Mac
+
+スクロールバーが場合によってはマージン描画によって上書きされてしまうのを直したニャ
 
 
 [ ０２月２０日 ]

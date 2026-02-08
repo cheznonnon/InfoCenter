@@ -68,6 +68,10 @@ BUGFIX
 		Win11 : Resizer : Input Popup
 			OLD : not working
 			NEW : not shown
+	ProjectChecker : Mac
+		Txtbox : scrollbar : the last position
+			OLD : overwritten by margin in some cases
+			NEW : fixed
 
 
 NEW_FEATURE
@@ -110,6 +114,12 @@ NEW_FEATURE
 	win64/ui/menu.c
 		released
 			NEW : menu handler
+	win64/_windows.c
+		functions : added
+			NEW : n_win64_stdfont_hfont() font_exit() font_logfont2hfont()
+			NEW : n_win64_text_pixelsize()
+			NEW : n_win64_topmost()
+			NEW : n_win64_execute() exec() exec_literal()
 	win64/IShellLink.c
 		released
 			NEW : Windows Shortcut (.LNK) handler
@@ -149,6 +159,9 @@ NEW_FEATURE
 	Nonnon Tools : Win64
 		released
 			NEW : misc tools
+	Nonnon Tools : Mac
+		readme
+			NEW : nmidi script reference is added
 
 
 ----------==========----------==========----------==========----------
