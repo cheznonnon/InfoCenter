@@ -33,7 +33,34 @@ Change Log
 BUGFIX
 
 
+	mac/n_txtbox/01_chracter.c
+		UTF-8 string
+			OLD : u8* (cast needed when you use)
+			NEW : n_posix_char* then u8*
+			[!] : backport from Win64 version
+
+	neutral/bmp/ui/search_icon.c
+		Win64
+			OLD : compile error
+			NEW : fixed
+
+
 NEW_FEATURE
+
+
+	win64/ui/txtbox.c
+		released
+			NEW : ported from Mac version
+			[!] : currently, EDITBOX only supported
+	win64/clipboard.c
+		released
+			NEW : clipboard handler
+			[!] : ported from Win32 version
+
+	Nonnon CatPad : Win64
+		released
+			NEW : text editor
+			[!] : ported from Mac version
 
 
 ----------==========----------==========----------==========----------

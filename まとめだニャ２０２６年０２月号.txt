@@ -136,8 +136,31 @@ Mac では常にアンチエイリアスがかかるから SMOOTH が不要だ�
 
 ◇ニューフィーチャー
 
+■win64/clipboard.c
+
+クリップボードハンドラーの移植版だニャ
+
+■win64/ui/txtbox.c
+
+Mac からの再移植版だニャ
+今は EDITBOX だけちゃんと動くニャ
+
+■Nonnon CatPad : Win64
+
+テキストエディタだニャ
+Win32 版というよりは Mac 版に近い実装になるニャ
+
 
 ◇バグフィクス
+
+■mac/n_txtbox/01_chracter.c
+
+パラメータを u8* でキャストしなくて良くなったニャ
+Win64 版のエラーを直していたら出てきた問題だニャ
+
+■neutral/bmp/ui/search_icon.c
+
+Windows 環境でコンパイルエラーになるのを直したニャ
 
 
 [ ０２月２８日 ]
