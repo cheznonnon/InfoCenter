@@ -48,6 +48,11 @@ BUGFIX
 NEW_FEATURE
 
 
+	mac/n_txtbox.c
+		FINDBOX : search icon
+			OLD : manual
+			NEW : automated
+
 	win64/ui/txtbox.c
 		released
 			NEW : ported from Mac version
