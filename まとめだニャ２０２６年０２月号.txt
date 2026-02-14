@@ -147,7 +147,6 @@ Mac では常にアンチエイリアスがかかるから SMOOTH が不要だ�
 ■win64/ui/txtbox.c
 
 Mac からの再移植版だニャ
-今は EDITBOX だけちゃんと動くニャ
 
 ■Nonnon CatPad : Win64
 

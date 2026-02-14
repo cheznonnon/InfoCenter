@@ -56,7 +56,6 @@ NEW_FEATURE
 	win64/ui/txtbox.c
 		released
 			NEW : ported from Mac version
-			[!] : currently, EDITBOX only supported
 	win64/clipboard.c
 		released
 			NEW : clipboard handler
