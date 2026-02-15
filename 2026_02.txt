@@ -48,6 +48,12 @@ BUGFIX
 NEW_FEATURE
 
 
+	bridge/gdi.c
+		N_GDI_ICON_STRETCH
+			OLD : unused
+			NEW : change a name to N_GDI_ICON_UI
+			[!] : auto-shrink when larger than specified size
+
 	mac/n_txtbox.c
 		FINDBOX : search icon
 			OLD : manual
