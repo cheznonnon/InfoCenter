@@ -52,12 +52,21 @@ NEW_FEATURE
 		N_GDI_ICON_STRETCH
 			OLD : unused
 			NEW : change a name to N_GDI_ICON_UI
+			[!] : internal only
 			[!] : auto-shrink when larger than specified size
+			[!] : system themed available
 
 	mac/n_txtbox.c
 		FINDBOX : search icon
 			OLD : manual
 			NEW : automated
+
+	neutral/txt.c
+		Win64 : n_txt_load() : detection
+			NEW : more robust than older
+	neutral/unicode.c
+		n_unicode_utf8_encode_no_bom()
+			NEW : encoder with no BOM
 
 	win64/ui/txtbox.c
 		released

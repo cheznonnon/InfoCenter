@@ -157,6 +157,16 @@ Win32 版というよりは Mac 版に近い実装になるニャ
 
 未使用の N_GDI_ICON_STRETCH を N_GDI_ICON_UI に変えたニャ
 指定サイズより大きい時に自動的に縮小するニャ
+システム色に置き換える機能を付けたニャ
+内部用だニャ
+
+■neutral/txt.c
+
+Win64 : n_txt_load() : 文字セットのディテクションがもっと信頼できるものになったニャ
+
+■neutral/unicode.c
+
+n_unicode_utf8_encode_no_bom() : BOM を処理しないバージョンだニャ
 
 
 ◇バグフィクス
