@@ -168,6 +168,10 @@ Win64 : n_txt_load() : 文字セットのディテクションがもっと信頼
 
 n_unicode_utf8_encode_no_bom() : BOM を処理しないバージョンだニャ
 
+■mac/n_txtbox.c
+
+少し軽くなったニャ
+
 
 ◇バグフィクス
 

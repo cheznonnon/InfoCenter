@@ -60,6 +60,8 @@ NEW_FEATURE
 		FINDBOX : search icon
 			OLD : manual
 			NEW : automated
+		performance
+			NEW : lighter than older
 
 	neutral/txt.c
 		Win64 : n_txt_load() : detection
