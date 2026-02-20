@@ -108,6 +108,9 @@ BUGFIX
 		Input Resizer
 			OLD : conflict with an editable area's left-edge
 			NEW : fixed
+	Nonnon Marie : Win64
+		Window
+			NEW : titlebar-less window
 	Nonnon Nyaurism : Win32
 		Win11 : Resizer : Input Popup
 			OLD : not working
