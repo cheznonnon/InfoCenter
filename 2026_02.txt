@@ -21,6 +21,26 @@ BUGFIX
 NEW_FEATURE
 
 
+	Nonnon CatPad : Win64
+		second instance : launch position
+			OLD : same position
+			NEW : position shifting available
+			[!] : you can see two windows easily
+	Nonnon Marie : Win64
+		customized window
+			NEW : re-tuned
+
+	Project Checker
+		double click
+			OLD : launch Finder
+			NEW : direct file i/o
+			[!] : same as Win32 version
+			[!] : special overwrite dialog will appear
+		menu double click
+			OLD : direct file i/o
+			NEW : launch Finder
+
+
 ----------==========----------==========----------==========----------
 
 
