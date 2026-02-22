@@ -18,8 +18,26 @@ Change Log
 BUGFIX
 
 
+	mac/n_txtbox.c
+		bottom area : when resized
+			OLD : not drawn area is made
+			NEW : fixed
+
+	win64/ui/button.c
+		Dark Mode : border color
+			NEW : better than older
+	win64/ui/txtbox.c
+		bottom area : when resized
+			OLD : not drawn area is made
+			NEW : fixed
+
+
 NEW_FEATURE
 
+
+	win64/ui/txtbox.c
+		ONELINE
+			NEW : input field
 
 	Nonnon CatPad : Win64
 		second instance : launch position
@@ -30,7 +48,10 @@ NEW_FEATURE
 		customized window
 			NEW : re-tuned
 
-	Project Checker
+	Nonnon Nyaagle : Win64
+		released
+			NEW : Local Search Engine
+	Project Checker : Mac
 		double click
 			OLD : launch Finder
 			NEW : direct file i/o
