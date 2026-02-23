@@ -31,13 +31,27 @@ BUGFIX
 			OLD : not drawn area is made
 			NEW : fixed
 
+	Nonnon CatPad : Win64
+		app
+			NEW : many bugs are fixed
+
 
 NEW_FEATURE
 
 
+	win64/ui/_color_scheme.c
+		n_win64_ui_stdsize()
+			NEW : for compliance
+	win64/ui/radio.c
+		released
+			NEW : radio button control
 	win64/ui/txtbox.c
 		ONELINE
 			NEW : input field
+	win64/font.c
+		n_win64_font_ui()
+			NEW : a little larger font will be made
+			[!] : Win11 : too small
 
 	Nonnon CatPad : Win64
 		second instance : launch position
