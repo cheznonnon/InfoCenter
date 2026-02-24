@@ -31,7 +31,7 @@ BUGFIX
 			OLD : not drawn area is made
 			NEW : fixed
 
-	Nonnon CatPad : Win64
+	All : Win64
 		app
 			NEW : many bugs are fixed
 
@@ -61,19 +61,21 @@ NEW_FEATURE
 	Nonnon Marie : Win64
 		customized window
 			NEW : re-tuned
-
 	Nonnon Nyaagle : Win64
 		released
 			NEW : Local Search Engine
 	Project Checker : Mac
 		double click
 			OLD : launch Finder
-			NEW : direct file i/o
+			NEW : direct file I/O
 			[!] : same as Win32 version
 			[!] : special overwrite dialog will appear
 		menu double click
-			OLD : direct file i/o
-			NEW : launch Finder
+			OLD : direct file I/O
+			NEW : launch by Finder
+	Project Checker : Win64
+		released
+			NEW : Diff Tool
 
 
 ----------==========----------==========----------==========----------
