@@ -22,6 +22,10 @@ BUGFIX
 		bottom area : when resized
 			OLD : not drawn area is made
 			NEW : fixed
+		decsender
+			OLD : problematic in some fonts
+			NEW : fided
+			[!] : like "g" or "y"
 
 	win64/ui/button.c
 		Dark Mode : border color
@@ -42,6 +46,8 @@ NEW_FEATURE
 	win64/ui/_color_scheme.c
 		n_win64_ui_stdsize()
 			NEW : for compliance
+	win64/ui/groupbox.c
+			NEW : group box control
 	win64/ui/radio.c
 		released
 			NEW : radio button control
@@ -53,11 +59,16 @@ NEW_FEATURE
 			NEW : a little larger font will be made
 			[!] : Win11 : too small
 
+	Nonnon CatPad : Mac
+		Font Chooser
+			NEW : you can use any fonts
 	Nonnon CatPad : Win64
 		second instance : launch position
 			OLD : same position
 			NEW : position shifting available
 			[!] : you can see two windows easily
+		Font Chooser
+			NEW : you can use any fonts
 	Nonnon Marie : Win64
 		customized window
 			NEW : re-tuned
