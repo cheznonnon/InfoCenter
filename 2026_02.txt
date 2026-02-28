@@ -51,6 +51,9 @@ NEW_FEATURE
 	win64/ui/radio.c
 		released
 			NEW : radio button control
+	win64/ui/scrollbar.c
+		released
+			NEW : scrollbar control
 	win64/ui/slider.c
 		released
 			NEW : slider control
@@ -62,6 +65,9 @@ NEW_FEATURE
 			NEW : a little larger font will be made
 			[!] : Win11 : too small
 
+	Nekomimi Nina 2
+		performance
+			NEW : lighter than older
 	Nonnon CatPad : Mac
 		Font Chooser
 			NEW : you can use any fonts
@@ -72,12 +78,21 @@ NEW_FEATURE
 			[!] : you can see two windows easily
 		Font Chooser
 			NEW : you can use any fonts
+	Nonnon Freecell
+		performance
+			NEW : lighter than older
+	Nonnon Marie : Mac
+		performance
+			NEW : lighter than older
 	Nonnon Marie : Win64
 		customized window
 			NEW : re-tuned
 	Nonnon Nyaagle : Win64
 		released
 			NEW : Local Search Engine
+	Nonnon Paint
+		performance
+			NEW : lighter than older
 	Project Checker : Mac
 		double click
 			OLD : launch Finder

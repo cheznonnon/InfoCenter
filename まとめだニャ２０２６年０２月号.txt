@@ -249,6 +249,26 @@ Win11 で小さすぎるので少し大きくしたニャ
 
 目盛り付きスライダーだニャ
 
+■Nekomimi Nina 2
+
+少し軽くなったニャ
+
+■Nonnon Freecell
+
+少し軽くなったニャ
+
+■Nonnon Marie : Mac
+
+少し軽くなったニャ
+
+■Nonnon Paint
+
+少し軽くなったニャ
+
+■win64/ui/scrollbar.c
+
+スクロールバーだニャ
+
 
 ◇バグフィクス
 
