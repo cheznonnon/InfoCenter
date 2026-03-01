@@ -1,0 +1,82 @@
+
+
+----------==========----------==========----------==========----------
+
+
+"Eat Your Own Catfood."
+
+
+----------==========----------==========----------==========----------
+
+
+Change Log
+
+
+2026/03/30
+
+
+BUGFIX
+
+
+NEW_FEATURE
+
+
+----------==========----------==========----------==========----------
+
+
+Change Log
+
+
+2026/03/20
+
+
+BUGFIX
+
+
+NEW_FEATURE
+
+
+----------==========----------==========----------==========----------
+
+
+Change Log
+
+
+2026/03/10
+
+
+BUGFIX
+
+
+	Nonnon CatPad : Mac
+		Darkmode : Icon
+			OLD : jaggy
+			NEW : fixed
+		Icon Buttons : Topmost
+			OLD : not getting back to hover state
+			NEW : fixed
+
+
+NEW_FEATURE
+
+
+	mac/n_button.c
+		revamped
+			NEW : simple and robust
+	mac/n_scrollbar.c
+		revamped
+			NEW : simple and robust
+
+	neutral/bmp/fade.c
+		revamped
+			NEW : now you can set "msec"
+			NEW : auto middle state available
+			[!] : usage is changed : if you use members .color_*
+
+	win64/ui/scrollbar.c
+		revamped
+			NEW : simple and robust
+
+
+----------==========----------==========----------==========----------
+
