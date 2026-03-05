@@ -48,12 +48,26 @@ Change Log
 BUGFIX
 
 
+	win64/ui/txtbox.c
+		FINDBOX : delete button
+			OLD : focus will be -1
+			NEW : fixed
+	win64/doublebuffer.c
+		init()
+			OLD : zero-clear twice is needed
+			NEW : fixed
+			[!] : HDC check statement causes
+
 	Nonnon CatPad : Mac
 		Darkmode : Icon
 			OLD : jaggy
 			NEW : fixed
 		Icon Buttons : Topmost
 			OLD : not getting back to hover state
+			NEW : fixed
+	Nonnon Nyaagle : Win64
+		search field : delete button
+			OLD : not reset
 			NEW : fixed
 
 
@@ -66,6 +80,9 @@ NEW_FEATURE
 	mac/n_scrollbar.c
 		revamped
 			NEW : simple and robust
+	mac/n_txtbox.c
+		scrollbar calculation
+			NEW : revamped
 
 	neutral/bmp/fade.c
 		revamped
@@ -73,9 +90,21 @@ NEW_FEATURE
 			NEW : auto middle state available
 			[!] : usage is changed : if you use members .color_*
 
+	win64/ui/*.c
+		renderer
+			NEW : delayed render available
+			[!] : you can stop the last BitBlt()
 	win64/ui/scrollbar.c
 		revamped
 			NEW : simple and robust
+	win64/ui/txtbox.c
+		scrollbar calculation
+			NEW : revamped
+
+	All : Win64
+		drawing
+			NEW : more robust than older
+			[!] : but Windows cannot make a window like macOS (ugly initialization)
 
 
 ----------==========----------==========----------==========----------
