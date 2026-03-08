@@ -48,6 +48,11 @@ Change Log
 BUGFIX
 
 
+	neutral/string_path.c
+		n_string_path_tmpname_cch()
+			OLD : compile error
+			NEW : fixed
+
 	win64/ui/txtbox.c
 		FINDBOX : delete button
 			OLD : focus will be -1
