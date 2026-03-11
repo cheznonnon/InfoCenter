@@ -33,7 +33,28 @@ Change Log
 BUGFIX
 
 
+
+
 NEW_FEATURE
+
+
+	mac/n_button.c
+		.hide_onoff
+			NEW : removed
+			[?] : you can use .hidden property
+	mac/n_txtbox.c
+		Caret Indicator
+			NEW : re-tuned
+
+	win64/ui/slider.c
+		EnableWindow() support
+			NEW : added / auto-gray-out
+	win64/ui/txtbox.c
+		Caret Indicator
+			NEW : re-tuned
+	win64/ui/value.c
+		EnableWindow() support
+			NEW : added / auto-gray-out
 
 
 ----------==========----------==========----------==========----------
@@ -105,6 +126,9 @@ NEW_FEATURE
 	win64/ui/txtbox.c
 		scrollbar calculation
 			NEW : revamped
+	win64/ui/value.c
+		released
+			NEW : label and value
 
 	All : Win64
 		drawing
