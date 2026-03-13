@@ -33,6 +33,24 @@ Change Log
 BUGFIX
 
 
+	mac/n_txtbox.c
+		scroller
+			OLD : buggy in some cases
+			NEW : fixed
+
+	win64/ui/button.c
+		press
+			OLD : condition is too loose
+			NEW : fixed
+	win64/ui/txtbox.c
+		scroller
+			OLD : buggy in some cases
+			NEW : fixed
+
+	Project Checker : Win64
+		dark mode
+			OLD : not supported
+			NEW :     supported
 
 
 NEW_FEATURE
@@ -45,6 +63,8 @@ NEW_FEATURE
 	mac/n_txtbox.c
 		Caret Indicator
 			NEW : re-tuned
+		Scroller
+			NEW : more revamped
 
 	win64/ui/slider.c
 		EnableWindow() support
@@ -52,9 +72,21 @@ NEW_FEATURE
 	win64/ui/txtbox.c
 		Caret Indicator
 			NEW : re-tuned
+		n_txt handling
+			OLD : user needs to manage
+			NEW : internal/auto-init available
+		Scroller
+			NEW : more revamped
 	win64/ui/value.c
 		EnableWindow() support
 			NEW : added / auto-gray-out
+
+	All : Win64
+		dark mode
+			NEW : system menu will be dark
+	Nonnon Nyaurism : Win64
+		released : beta version
+			NEW : .WAV sound tweaker
 
 
 ----------==========----------==========----------==========----------
