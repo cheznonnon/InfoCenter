@@ -33,10 +33,20 @@ Change Log
 BUGFIX
 
 
+	mac/n_button.c
+		hover
+			OLD : disabled state can hover over
+			NEW : fixed
 	mac/n_txtbox.c
 		scroller
 			OLD : buggy in some cases
 			NEW : fixed
+
+	neutral/fft.c
+		Win64
+			OLD : compile error
+			NEW : fixed
+			[!] : there is Mac only code like NSLog()
 
 	win64/ui/button.c
 		press
@@ -66,6 +76,9 @@ NEW_FEATURE
 		Scroller
 			NEW : more revamped
 
+	win64/ui/label.c
+		released
+			NEW : always-centering text label UI
 	win64/ui/slider.c
 		EnableWindow() support
 			NEW : added / auto-gray-out
@@ -84,8 +97,12 @@ NEW_FEATURE
 	All : Win64
 		dark mode
 			NEW : system menu will be dark
+		main icon
+			OLD : multi-icons
+			NEW : .PNG only
+			[x] : File Explorer is so buggy
 	Nonnon Nyaurism : Win64
-		released : beta version
+		released
 			NEW : .WAV sound tweaker
 
 
