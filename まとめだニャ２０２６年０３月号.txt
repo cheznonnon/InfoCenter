@@ -105,6 +105,11 @@ File Explorer がバグっていて適切に動作しないためだニャ
 
 常にセンタリングするテキストのＵＩだニャ
 
+■win64/ui/_color_scheme.c
+
+n_win64_darkmode_on_WM_SETTINGCHANGE()
+タイトルバーを処理して親子ウィンドウに InvalidateRect() を呼ぶニャ
+
 
 ◇バグフィクス
 

@@ -76,6 +76,11 @@ NEW_FEATURE
 		Scroller
 			NEW : more revamped
 
+	win64/ui/_color_scheme.c
+		n_win64_darkmode_on_WM_SETTINGCHANGE()
+			NEW : an auto refresh module
+			[!] : call InvalidateRect() for each child windows
+			[!] : a title bar and a parent window are handled too
 	win64/ui/label.c
 		released
 			NEW : always-centering text label UI
