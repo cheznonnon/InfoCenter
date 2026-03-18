@@ -37,6 +37,11 @@ BUGFIX
 		hover
 			OLD : disabled state can hover over
 			NEW : fixed
+	mac/n_scrollbar.c
+		press'n'run prevention
+			OLD : not enough
+			NEW : fixed
+			[!] : hover state remains in some cases
 	mac/n_txtbox.c
 		scroller
 			OLD : buggy in some cases
@@ -70,11 +75,6 @@ NEW_FEATURE
 		.hide_onoff
 			NEW : removed
 			[?] : you can use .hidden property
-	mac/n_txtbox.c
-		Caret Indicator
-			NEW : re-tuned
-		Scroller
-			NEW : more revamped
 
 	win64/ui/_color_scheme.c
 		n_win64_darkmode_on_WM_SETTINGCHANGE()
@@ -106,6 +106,10 @@ NEW_FEATURE
 			OLD : multi-icons
 			NEW : .PNG only
 			[x] : File Explorer is so buggy
+	Nonnon Nyaagle : Mac
+		app name
+			OLD : Nyaagle
+			NEW : Nonnon Nyaagle
 	Nonnon Nyaurism : Win64
 		released
 			NEW : .WAV sound tweaker
