@@ -18,7 +18,27 @@ Change Log
 BUGFIX
 
 
+	mac/n_txtbox.c
+		Dark Mode
+			NEW : re-tuned
+
+	Project Checker : Mac
+		Dark Mode : Filer UI
+			OLD : display badly
+			NEW : fixed
+
+
 NEW_FEATURE
+
+
+	bridge/gdi.c
+		n_bmp .icon_in
+			NEW : use n_bmp as an icon
+
+	mac/n_button.c
+		.auto_halo_onoff
+			NEW : an icon has halo effect
+			[!] : default is ON : n_auto_halo method to change status
 
 
 ----------==========----------==========----------==========----------
@@ -61,11 +81,17 @@ BUGFIX
 		scroller
 			OLD : buggy in some cases
 			NEW : fixed
+		notify message : mouse buttons : menu double click
+			OLD : confusion
+			NEW : fixed
 
 	Project Checker : Win64
 		dark mode
 			OLD : not supported
 			NEW :     supported
+		menu button double click
+			OLD : confusion
+			NEW : fixed
 
 
 NEW_FEATURE
@@ -110,9 +136,15 @@ NEW_FEATURE
 		app name
 			OLD : Nyaagle
 			NEW : Nonnon Nyaagle
+	Nonnon Nyaurism : Mac
+		Dark Mode : Icons
+			NEW : easier to recognize than older
 	Nonnon Nyaurism : Win64
 		released
 			NEW : .WAV sound tweaker
+	Nonnon Poker
+		Dark Mode : Card Graphics
+			NEW : easier to recognize than older
 
 
 ----------==========----------==========----------==========----------
