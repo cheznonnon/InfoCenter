@@ -40,6 +40,34 @@ NEW_FEATURE
 			NEW : an icon has halo effect
 			[!] : default is ON : n_auto_halo method to change status
 
+	win64/ui/image.c
+		released
+			NEW : n_bmp renderer
+	win64/ui/fontchooser.c
+		released
+			NEW : font chooser dialog
+	win64/ui/radio.c
+		margin
+			NEW : add a little margin between radio button and text
+	win64/ui/slider.c
+		.tick_onoff
+			NEW : you can turn off ticks
+	win64/font.c
+		unit
+			OLD : loose / no touch
+			NEW : always use minus value (which means "pixel unit")
+
+	Nonnon CatPad : Win64
+		Font Chooser
+			OLD : Win32 Common Dialog
+			NEW : Nonnon Original
+			[?] : dark mode is not supported
+	Projecet Checker : Mac
+		Overwrite Dialog : Dark Mode
+			OLD : accent color
+			NEW : contour/outline available
+			[!] : idea is backported from Win64 version
+
 
 ----------==========----------==========----------==========----------
 
