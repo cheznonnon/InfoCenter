@@ -21,6 +21,14 @@ BUGFIX
 	mac/n_txtbox.c
 		Dark Mode
 			NEW : re-tuned
+		Scroll : maximum lines
+			OLD : auto-calculated (inaccurate in some cases)
+			NEW : two lines are added as patch (no error in most of cases)
+
+	win64/ui/txtbox.c
+		Scroll : maximum lines
+			OLD : auto-calculated (inaccurate in some cases)
+			NEW : two lines are added as patch (no error in most of cases)
 
 	Project Checker : Mac
 		Dark Mode : Filer UI
@@ -39,6 +47,11 @@ NEW_FEATURE
 		.auto_halo_onoff
 			NEW : an icon has halo effect
 			[!] : default is ON : n_auto_halo method to change status
+
+	neutral/bmp/filter.c
+		n_bmp_rasterizer() : clear_onoff
+			NEW : deprecated
+			[?] : useless / hard to implement
 
 	win64/ui/image.c
 		released
