@@ -21,15 +21,11 @@ BUGFIX
 	mac/n_txtbox.c
 		Dark Mode
 			NEW : re-tuned
-		Scroll : maximum lines
-			OLD : auto-calculated (inaccurate in some cases)
-			NEW : two lines are added as patch (no error in most of cases)
 
-	win64/ui/txtbox.c
-		Scroll : maximum lines
-			OLD : auto-calculated (inaccurate in some cases)
-			NEW : two lines are added as patch (no error in most of cases)
-
+	Nonnon CatPad : Mac
+		full-width characters
+			OLD : some characters are handled as half-width in some cases
+			NEW : fixed
 	Project Checker : Mac
 		Dark Mode : Filer UI
 			OLD : display badly
