@@ -19,12 +19,27 @@ Icon Button : ndump : "0x"
 Icon Button : mix : "Mix"
 ドット絵から n_gdi による動的生成になったニャ
 
+■win64/_windows.c
+
+n_log_init()/exit() n_log()
+
+NSLog() のようなデバグシステムだニャ
+n_log_init()/exit() は DEBUG が宣言されていたら自動的に有効になるニャ
+n_log() を printf() のように呼ぶだけだニャ
+
 
 ◇バグフィクス
 
 ■Nonnon Poker
 
+
 J/Q/K の背景がセンタリングされないのを直したニャ
+
+■Nonnon Paint
+
+マルチレイヤー : レイヤーウィンドウ : 使用色報告
+スクロールすると誤作動するのを直したニャ
+[!] : 2026/03/30 のリリースをリコールしたニャ
 
 
 [ ０４月２０日 ]

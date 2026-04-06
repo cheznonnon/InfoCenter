@@ -18,6 +18,11 @@ Change Log
 BUGFIX
 
 
+	Nonnon Paint
+		Multi-Layer : Layer Window : Used Color Indicator
+			OLD : misbehave when scrolled
+			NEW : fixed
+			[!] : backported to 2026/03/30 release
 	Nonnon Poker : Win64
 		J/Q/K background
 			OLD : not centered
@@ -27,6 +32,11 @@ BUGFIX
 NEW_FEATURE
 
 
+	win64/_windows.c
+		n_log_init()/exit() n_log()
+			NEW : NSLog()-like debug facility
+			[!] : n_log_init()/exit() is auto-enabled when DEBUG
+			[!] : you need to call n_log() only
 	Nonnon CatPad
 		Icon Button : ndump : "0x"
 			OLD : a dot-based image
