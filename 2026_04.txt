@@ -22,7 +22,11 @@ BUGFIX
 		Multi-Layer : Layer Window : Used Color Indicator
 			OLD : misbehave when scrolled
 			NEW : fixed
-			[!] : backported to 2026/03/30 release
+			[!] : backported to 2026/03/30 release #4
+		Multi-Layer : Layer Window : Rename
+			OLD : renamed names are not saved
+			NEW : fixed
+			[!] : backported to 2026/03/30 release #5
 	Nonnon Poker : Win64
 		J/Q/K background
 			OLD : not centered
