@@ -18,6 +18,14 @@ Change Log
 BUGFIX
 
 
+	All : Win64
+		zlib1.dll
+			OLD : "missing" error happens
+			NEW : included
+	Nonnon Nyaurism : Mac
+		Stop Button : with Mix Button
+			OLD : pressed effect will be turned off
+			NEW : fixed
 	Nonnon Paint
 		Multi-Layer : Layer Window : Used Color Indicator
 			OLD : misbehave when scrolled
@@ -27,9 +35,16 @@ BUGFIX
 			OLD : renamed names are not saved
 			NEW : fixed
 			[!] : backported to 2026/03/30 release #5
+	Nonnon Poker : Mac
+		High-DPI
+			OLD : window size is too large
+			NEW : fixed
 	Nonnon Poker : Win64
 		J/Q/K background
 			OLD : not centered
+			NEW : fixed
+		High-DPI
+			OLD : unplayable
 			NEW : fixed
 
 
