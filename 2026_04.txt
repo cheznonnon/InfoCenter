@@ -56,6 +56,10 @@ NEW_FEATURE
 			NEW : NSLog()-like debug facility
 			[!] : n_log_init()/exit() is auto-enabled when DEBUG
 			[!] : you need to call n_log() only
+
+	All : Win64
+		High DPI
+			NEW : supported
 	Nonnon CatPad
 		Icon Button : ndump : "0x"
 			OLD : a dot-based image

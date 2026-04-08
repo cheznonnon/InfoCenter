@@ -27,16 +27,20 @@ NSLog() のようなデバグシステムだニャ
 n_log_init()/exit() は DEBUG が宣言されていたら自動的に有効になるニャ
 n_log() を printf() のように呼ぶだけだニャ
 
+■All : Win64
+
+高ＤＰＩサポートが実装されたニャ
+
 
 ◇バグフィクス
 
-■Nonnon Poker
+■Nonnon Poker : Win64
 
 J/Q/K の背景がセンタリングされないのを直したニャ
 
 高ＤＰＩ環境でプレイできないのを直したニャ
 
-■Nonnon Paint
+■Nonnon Paint : Mac
 
 マルチレイヤー : レイヤーウィンドウ : 使用色報告
 スクロールすると誤作動するのを直したニャ
