@@ -22,6 +22,10 @@ BUGFIX
 		zlib1.dll
 			OLD : "missing" error happens
 			NEW : included
+	Nonnon CatPad : Win64
+		keyboard : pressing enter key
+			OLD : a cat button will not activate
+			NEW : fixed
 	Nonnon Nyaurism : Mac
 		Stop Button : with Mix Button
 			OLD : pressed effect will be turned off
@@ -60,6 +64,7 @@ NEW_FEATURE
 	All : Win64
 		High DPI
 			NEW : supported
+			[!] : Games : dynamic change is not implemented yet
 	Nonnon CatPad
 		Icon Button : ndump : "0x"
 			OLD : a dot-based image
