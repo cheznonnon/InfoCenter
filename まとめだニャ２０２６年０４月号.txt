@@ -73,8 +73,22 @@ DLL が同梱されるニャ
 
 ◇ニューフィーチャー
 
+■Win64
+
+高ＤＰＩ対応を更に押し進めたニャ
+
+■Nonnon Paint : Mac
+
+"Thicken Lines" "Thin Lines" がレイヤーウィンドウからリサイザーに移ったニャ
+[!] : "Morphology Delation/Erosion" が実装されたニャ
+[!] : Thx : DeepSeek AI
+
 
 ◇バグフィクス
+
+■Games : Win64
+
+高ＤＰＩに動的に変更があると誤作動するのを直したニャ
 
 
 [ ０４月３０日 ]
