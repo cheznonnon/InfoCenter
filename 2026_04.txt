@@ -37,6 +37,14 @@ BUGFIX
 		High DPI
 			OLD : misbehaves
 			NEW : fixed
+	Nonnon Nyaagle : Win64
+		High DPI : when scale factor is 2.0 or higher
+			OLD : width will be too large
+			NEW : fixed
+	Nonnon Paint : Mac
+		Layer Window : Listbox : when add a new layer
+			OLD : not scrolled
+			NEW : fixed
 
 
 NEW_FEATURE
@@ -51,6 +59,10 @@ NEW_FEATURE
 			OLD : Layer only
 			NEW : Resizer does
 			[!] : "Morphology Delation/Erosion" is implemented
+			[!] : Thx : DeepSeek AI
+		Smooth Fill
+			NEW : revamped
+			[!] : more useful than older
 			[!] : Thx : DeepSeek AI
 
 

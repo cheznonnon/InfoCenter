@@ -83,12 +83,23 @@ DLL が同梱されるニャ
 [!] : "Morphology Delation/Erosion" が実装されたニャ
 [!] : Thx : DeepSeek AI
 
+"Smooth Fill" がもっと便利になったニャ
+[!] : Thx : DeepSeek AI
+
 
 ◇バグフィクス
 
 ■Games : Win64
 
 高ＤＰＩに動的に変更があると誤作動するのを直したニャ
+
+■Nonnon Paint : Mac
+
+レイヤーウィンドウのリストで新規レイヤーが追加された時に自動的にスクロールしないのを直したニャ
+
+■Nonnon Nyaagle : Win64
+
+高ＤＰＩでスケールが 2.0 以上になった時にウィンドウの幅が無闇に大きくなるのを直したニャ
 
 
 [ ０４月３０日 ]
