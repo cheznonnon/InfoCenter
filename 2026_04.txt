@@ -63,7 +63,12 @@ NEW_FEATURE
 	All : Win64
 		High DPI
 			NEW : more robust than older
+		High DPI : Icon Buttons : fog shadow
+			NEW : retuned
 
+	Nonnon CatPad : Win64
+		multiple instances : window position
+			NEW : smarter than older
 	Nonnon Paint : Mac
 		"Thicken Lines" "Thin Lines"
 			OLD : Layer only
@@ -73,6 +78,9 @@ NEW_FEATURE
 		Smooth Fill
 			NEW : revamped
 			[!] : more useful than older
+			[!] : Thx : DeepSeek AI
+		Pen
+			NEW : simple pen smoother is implemented
 			[!] : Thx : DeepSeek AI
 
 
