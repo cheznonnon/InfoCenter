@@ -47,6 +47,12 @@ BUGFIX
 		IME : notify : cat button
 			OLD : not activated
 			NEW : fixed
+		IME : Candidate Window
+			OLD : not shown in some cases
+			NEW : fixed
+		Txtbox : High DPI : scrollbar
+			OLD : too small
+			NEW : fixed
 	Nonnon Nyaagle : Win64
 		High DPI : when scale factor is 2.0 or higher
 			OLD : width will be too large
