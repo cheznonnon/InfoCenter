@@ -37,6 +37,10 @@ BUGFIX
 		High DPI
 			OLD : misbehaves
 			NEW : fixed
+	Nonnon CatPad : Mac
+		Return/Enter key : cat button
+			OLD : not activated
+			NEW : fixed
 	Nonnon CatPad : Win64
 		High DPI : when scale factor is 2.0 or higher
 			OLD : font size will be too large
@@ -61,6 +65,11 @@ BUGFIX
 		Layer Window : Listbox : when add a new layer
 			OLD : not scrolled
 			NEW : fixed
+		Grabber : Quick Stretch
+			OLD : crash in some cases
+			NEW : patched / mutex is implemented
+			[!] : you can see that a confirmation dialog appears twice
+			[!] : maybe a problem of macOS
 
 
 NEW_FEATURE
