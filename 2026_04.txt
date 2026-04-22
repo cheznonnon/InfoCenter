@@ -18,6 +18,17 @@ Change Log
 BUGFIX
 
 
+	win64/ui/fontchooser.c
+		Slider : when value is large
+			OLD : knob will disappear
+			NEW : fixed
+
+	Nonnon Pinknoise : Win64
+		Icon
+			OLD : smaller to fit
+			NEW : fixed
+
+
 NEW_FEATURE
 
 
