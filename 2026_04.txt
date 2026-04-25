@@ -23,6 +23,13 @@ BUGFIX
 			OLD : knob will disappear
 			NEW : fixed
 
+	Nonnon Paint
+		Multi-Layer : Listbox : item double-click
+			OLD : glitchy
+			NEW : fixed
+		Multi-Layer : Listbox : line indicator : when a new file has less layers
+			OLD : misbehaves
+			NEW : fixed
 	Nonnon Pinknoise : Win64
 		Icon
 			OLD : smaller to fit
@@ -30,6 +37,21 @@ BUGFIX
 
 
 NEW_FEATURE
+
+
+	hunyapiyo3 : Mac/Win64
+		Code Auditor
+			NEW : read code and fix some
+		Count Down : animation
+			NEW : smoother than older
+	Nonnon CatPad : Win64
+		Code Auditor
+			NEW : read code and fix some
+	Nonnon Marie : Win64
+		Code Auditor
+			NEW : read code and fix some
+		Menu : "Fit On/Off"
+			NEW : turn off to see original pixel-wise data
 
 
 ----------==========----------==========----------==========----------
