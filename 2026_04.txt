@@ -30,6 +30,9 @@ BUGFIX
 		Multi-Layer : Listbox : line indicator : when a new file has less layers
 			OLD : misbehaves
 			NEW : fixed
+		Multi-Layer : Listbox : Grab'N'Drag
+			OLD : cursor is not restored
+			NEW : fixed
 	Nonnon Pinknoise : Win64
 		Icon
 			OLD : smaller to fit
@@ -52,6 +55,9 @@ NEW_FEATURE
 			NEW : read code and fix some
 		Menu : "Fit On/Off"
 			NEW : turn off to see original pixel-wise data
+	Nonnon Poker
+		High DPI
+			NEW : more robust than older
 
 
 ----------==========----------==========----------==========----------
