@@ -23,6 +23,10 @@ BUGFIX
 			OLD : knob will disappear
 			NEW : fixed
 
+	Nonnon Marie : Mac
+		Fit On/Off
+			OLD : no move
+			NEW : re-centering
 	Nonnon Paint
 		Multi-Layer : Listbox : item double-click
 			OLD : glitchy
@@ -37,10 +41,23 @@ BUGFIX
 		Icon
 			OLD : smaller to fit
 			NEW : fixed
+	Nonnon Poker : Mac/Win64
+		Endless Mode : switch to Bet Mode after win
+			OLD : coin diff is not zero
+			NEW : fixed
+	Nonnon Tools : Mac/Win64
+		source code : dot file remover
+			OLD : mysterious comment
+			NEW : removed
 
 
 NEW_FEATURE
 
+
+	win64/game_engine.c
+		n_game_loop_raw()
+			NEW : for fastest process
+			[!] : use #define N_GAME_LOOP_RAW to enable
 
 	hunyapiyo3 : Mac/Win64
 		Code Auditor
@@ -55,9 +72,14 @@ NEW_FEATURE
 			NEW : read code and fix some
 		Menu : "Fit On/Off"
 			NEW : turn off to see original pixel-wise data
-	Nonnon Poker
+	Nonnon Poker : Win64
 		High DPI
 			NEW : more robust than older
+	Nonnon Poker : Mac / Win64
+		coin counter animation
+			OLD : slowdown in large value
+			NEW : revamped : use Linear Interpolation Method
+			[!] : Thx : DeepSeek AI
 
 
 ----------==========----------==========----------==========----------
