@@ -61,6 +61,9 @@ BUGFIX
 		search field : minimal size
 			OLD : too small
 			NEW : fixed
+		IME On/Off : color switcher : editor and search field
+			OLD : not sync'ed
+			NEW : fixed
 
 
 NEW_FEATURE
