@@ -53,9 +53,22 @@ BUGFIX
 			OLD : always full throttle
 			NEW : fixed
 
+	LINE MASHER 2 : Mac
+		"Press any keys"
+			OLD : hard-coded 24px
+			NEW : calculate by screen width
+	Nonnon CatPad : Win64
+		search field : minimal size
+			OLD : too small
+			NEW : fixed
+
 
 NEW_FEATURE
 
+
+	win64/XInput.c
+		released
+			NEW : XInput support without DLL
 
 	LINE MASHER 2 : Win64
 		released

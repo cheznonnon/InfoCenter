@@ -13,12 +13,25 @@
 
 Mac からの移植版だニャ
 
+■win64/XInput.c
+
+XInput のサポートだニャ
+DLL なしで動くニャ
+
 
 ◇バグフィクス
 
 ■win64/game_engine.c
 
 フレームレートが常にフルスロットルなのを直したニャ
+
+■LINE MASHER 2 : Mac
+
+"Press any keys" がハードコード 24px なのを画面からの相対サイズに変えたニャ
+
+■Nonnon CatPad : Win64
+
+検索フィールドの最小サイズが小さすぎるのを直したニャ
 
 
 [ ０５月２０日 ]
