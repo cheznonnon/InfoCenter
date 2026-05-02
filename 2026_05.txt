@@ -69,6 +69,13 @@ BUGFIX
 NEW_FEATURE
 
 
+	win64/ui/txtbox.c
+		n_txtbox_ime_watcher[ 8 ]
+			NEW : IME watcher
+			[!] : call registerd n_txtbox when on/off event happens
+	win64/_windows.c
+		n_win64_ime_is_on()
+			NEW : moved from Txtbox
 	win64/XInput.c
 		released
 			NEW : XInput support without DLL

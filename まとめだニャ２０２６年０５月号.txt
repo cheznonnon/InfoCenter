@@ -18,6 +18,14 @@ Mac からの移植版だニャ
 XInput のサポートだニャ
 DLL なしで動くニャ
 
+■win64/ui/txtbox.c
+
+n_txtbox_ime_watcher[ 8 ] : 登録すると IME がオンオフされた時に描画モジュールを呼ぶニャ
+
+■win64/_windows.c
+
+n_win64_ime_is_on() : Txtbox から移動したニャ
+
 
 ◇バグフィクス
 
