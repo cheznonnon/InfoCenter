@@ -64,6 +64,10 @@ BUGFIX
 		IME On/Off : color switcher : editor and search field
 			OLD : not sync'ed
 			NEW : fixed
+	Nonnon Poker : Win64
+		High DPI
+			OLD : not perfect
+			NEW : fixed
 
 
 NEW_FEATURE
@@ -83,6 +87,10 @@ NEW_FEATURE
 	LINE MASHER 2 : Win64
 		released
 			NEW : ported from Mac Version
+	LINE MASHER 2 : Mac
+		title screen
+			NEW : lighter than older
+			[!] : by implementeing Win64 version
 
 
 ----------==========----------==========----------==========----------
