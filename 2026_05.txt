@@ -48,6 +48,16 @@ Change Log
 BUGFIX
 
 
+	*/birdge/gdi.c
+		fake bold
+			NEW : deprecated
+			[?] : unused
+
+	neutral/bmp/ui/rectframe.c
+		n_bmp_ui_rectframe()
+			OLD : .transparent_onff TRUE is required
+			NEW : fixed
+
 	win64/game_engine.c
 		frame rate
 			OLD : always full throttle
@@ -73,6 +83,29 @@ BUGFIX
 NEW_FEATURE
 
 
+	bridge/cardgenerator.c
+		released
+			NEW : shared tools for Card Generator
+	bridge/gdi.c
+		N_GDI_TEXT_SYS_SMOOTH
+			NEW : direct render available
+			[!] : not use n_bmp_rasterizer()
+
+	neutral/bmp/color.c
+		n_bmp_color_similarity()
+			NEW : Euclid Distance Method
+		n_bmp_oklab_tweak()
+			NEW : Oklab colorspace implementation
+			[!] : Thx : DeepSeek AI
+	neutral/bmp.c
+		Chroma Key : Black : .transparent_onoff : default setting
+			OLD : ON
+			NEW : OFF
+			[!] : move to deprecated status
+
+	win64/ui/button.c
+		text output
+			NEW : ClearType(TM) available
 	win64/ui/txtbox.c
 		n_txtbox_ime_watcher[ 8 ]
 			NEW : IME watcher
@@ -91,6 +124,12 @@ NEW_FEATURE
 		title screen
 			NEW : lighter than older
 			[!] : by implementeing Win64 version
+	Nonnon Poker : Mac/Win64
+		card graphics
+			NEW : re-tuned
+			[!] : more beautiful than older
+		Win64 : halo color
+			NEW : arranged by Oklab colorspace
 
 
 ----------==========----------==========----------==========----------
