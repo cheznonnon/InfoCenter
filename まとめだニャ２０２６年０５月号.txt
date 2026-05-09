@@ -54,6 +54,9 @@ n_bmp_color_similarity()
 n_bmp_oklab_tweak()
 Oklab 色空間による明るさ補正だニャ
 
+n_bmp_gradient_pixel_*()
+前より高速になったニャ
+
 ■win64/ui/button.c
 
 テキストがクリアタイプ出力になったニャ

@@ -97,6 +97,8 @@ NEW_FEATURE
 		n_bmp_oklab_tweak()
 			NEW : Oklab colorspace implementation
 			[!] : Thx : DeepSeek AI
+		n_bmp_gradient_pixel_*()
+			NEW : faster than older
 	neutral/bmp.c
 		Chroma Key : Black : .transparent_onoff : default setting
 			OLD : ON
