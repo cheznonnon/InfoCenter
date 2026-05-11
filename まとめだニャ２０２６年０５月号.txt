@@ -97,6 +97,31 @@ transparent_onff = TRUE が必要なのを直したニャ
 
 ◇ニューフィーチャー
 
+■bridge/gdi.c
+
+*_CONTOUR : 中央も塗るニャ
+
+■neutral/bmp/color.c
+
+n_bmp_bicubic_pixel() : バイキュービックの実装だニャ
+[!] : Thx : DeepSeek AI
+
+■neutral/bmp/transform.c
+
+n_bmp_resampler()
+バイリニア（拡大のみ）からバイキュービックに改めたニャ
+[!] : Thx : DeepSeek AI
+
+■Nonnon Marie
+
+Manekineko Graphics
+以前より綺麗になったニャ
+
+■Nonnon Paint
+
+Grabber : Quick Stretch
+以前より綺麗になったニャ
+
 
 ◇バグフィクス
 

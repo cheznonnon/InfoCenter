@@ -36,6 +36,28 @@ BUGFIX
 NEW_FEATURE
 
 
+	bridge/gdi.c
+		*_CONTOUR
+			NEW : center is painted
+
+	neutral/bmp/color.c
+		n_bmp_bicubic_pixel()
+			NEW : bicubic implementation
+			[!] : Thx : DeepSeek AI
+	neutral/bmp/transform.c
+		n_bmp_resampler()
+			OLD : bilinear (enplarge only)
+			NEW : bicubic
+			[!] : Thx : DeepSeek AI
+
+	Nonnon Marie
+		Manekineko Graphics
+			NEW : more beautiful than older
+	Nonnon Paint
+		Grabber : Quick Stretch
+			NEW : more beautiful than older
+
+
 ----------==========----------==========----------==========----------
 
 
