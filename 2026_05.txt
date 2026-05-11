@@ -46,7 +46,7 @@ NEW_FEATURE
 			[!] : Thx : DeepSeek AI
 	neutral/bmp/transform.c
 		n_bmp_resampler()
-			OLD : bilinear (enplarge only)
+			OLD : bilinear (enlarge only)
 			NEW : bicubic
 			[!] : Thx : DeepSeek AI
 
