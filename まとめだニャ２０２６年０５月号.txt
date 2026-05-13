@@ -117,10 +117,17 @@ n_bmp_resampler()
 Manekineko Graphics
 以前より綺麗になったニャ
 
+リサンプルエンジンが刷新されたニャ
+
 ■Nonnon Paint
 
 Grabber : Quick Stretch
 以前より綺麗になったニャ
+
+Resizer : Color Option
+"Contour" が "Outline with Picked Color" になったニャ
+ソーベルフィルターが実装されたニャ
+[!] : Thx : DeepSeek AI
 
 
 ◇バグフィクス

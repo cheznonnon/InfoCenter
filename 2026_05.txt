@@ -53,9 +53,16 @@ NEW_FEATURE
 	Nonnon Marie
 		Manekineko Graphics
 			NEW : more beautiful than older
+		Engine
+			NEW : resampler is revamped
 	Nonnon Paint
 		Grabber : Quick Stretch
 			NEW : more beautiful than older
+		Resizer : Color Option
+			OLD : "Contour"
+			NEW : "Outline with Picked Color"
+			[!] : Sobel Filter is implemented
+			[!] : Thx : DeepSeek AI
 
 
 ----------==========----------==========----------==========----------
