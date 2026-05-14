@@ -106,6 +106,9 @@ transparent_onff = TRUE が必要なのを直したニャ
 n_bmp_bicubic_pixel() : バイキュービックの実装だニャ
 [!] : Thx : DeepSeek AI
 
+n_bmp_antialias_pixel() : シンプルな平均からガウシアンブラーに実装を変えたニャ
+[!] : Thx : DeepSeek AI
+
 ■neutral/bmp/transform.c
 
 n_bmp_resampler()

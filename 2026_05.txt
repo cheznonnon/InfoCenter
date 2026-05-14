@@ -44,6 +44,10 @@ NEW_FEATURE
 		n_bmp_bicubic_pixel()
 			NEW : bicubic implementation
 			[!] : Thx : DeepSeek AI
+		n_bmp_antialias_pixel()
+			OLD : simple average based
+			NEW : Gaussian Blur (high quality)
+			[!] : Thx : DeepSeek AI
 	neutral/bmp/transform.c
 		n_bmp_resampler()
 			OLD : bilinear (enlarge only)
@@ -63,6 +67,8 @@ NEW_FEATURE
 			NEW : "Outline with Picked Color"
 			[!] : Sobel Filter is implemented
 			[!] : Thx : DeepSeek AI
+		Resizer : Smoothness : Antialias
+			NEW : more beautiful than older
 
 
 ----------==========----------==========----------==========----------
