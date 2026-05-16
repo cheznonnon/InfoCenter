@@ -101,6 +101,9 @@ transparent_onff = TRUE が必要なのを直したニャ
 
 *_CONTOUR : 中央も塗るニャ
 
+エフェクト周りをリバンプしたニャ
+使い方が変わるけど分かりやすくなったニャ
+
 ■neutral/bmp/color.c
 
 n_bmp_bicubic_pixel() : バイキュービックの実装だニャ
@@ -134,6 +137,10 @@ Resizer : Color Option
 
 
 ◇バグフィクス
+
+■Nonnon CatPad
+
+Load/Save : 新規作成したファイルが開けないのを直したニャ
 
 
 [ ０５月３０日 ]

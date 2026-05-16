@@ -33,12 +33,26 @@ Change Log
 BUGFIX
 
 
+	mac/n_txtbox.c
+		loader : zero byte or newline only files
+			OLD : not supported
+			NEW : fixed
+
+	Nonnon CatPad
+		Load/Save
+			OLD : a new file is not loadable
+			NEW : fixed
+
+
 NEW_FEATURE
 
 
 	bridge/gdi.c
 		*_CONTOUR
 			NEW : center is painted
+		revamped
+			NEW : easier to use than older
+			[!] : usage about effects is changed
 
 	neutral/bmp/color.c
 		n_bmp_bicubic_pixel()
