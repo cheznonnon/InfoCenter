@@ -97,7 +97,7 @@ Change Log
 BUGFIX
 
 
-	*/birdge/gdi.c
+	bridge/gdi.c
 		fake bold
 			NEW : deprecated
 			[?] : unused
