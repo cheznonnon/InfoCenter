@@ -135,12 +135,21 @@ Resizer : Color Option
 ソーベルフィルターが実装されたニャ
 [!] : Thx : DeepSeek AI
 
+■Nonnon Poker : Mac/Win64
+
+グラフィック : 数字 "10"
+チューンし直したニャ
+
 
 ◇バグフィクス
 
-■Nonnon CatPad
+■Nonnon CatPad : Mac
 
 Load/Save : 新規作成したファイルが開けないのを直したニャ
+
+■Nonnon CatPad : Win64
+
+高ＤＰＩ回りの問題を直したニャ
 
 
 [ ０５月３０日 ]
