@@ -18,7 +18,28 @@ Change Log
 BUGFIX
 
 
+	bridge/gdi.c
+		N_GDI_ICON_UI : when scale factor value is zero
+			OLD : hang-up
+			NEW : fixed
+
+	Nonnon CatPad : Mac/Win64
+		Search Marker
+			OLD : not accurate
+			NEW : fixed
+
+
 NEW_FEATURE
+
+
+	bridge/gdi.c
+		.icon_ui_scale
+			NEW : special value for N_GDI_ICON_UI
+
+	Nonnon Paint
+		Icon Buttons : 1/2, x2 : click while pressing Command key
+			NEW : resampler() available
+			[!] : bicubic method is used
 
 
 ----------==========----------==========----------==========----------
