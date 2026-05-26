@@ -27,6 +27,9 @@ BUGFIX
 		Search Marker
 			OLD : not accurate
 			NEW : fixed
+	Nonnon Poker : Mac
+		Hi-DPI : metrics
+			NEW : re-tuned
 
 
 NEW_FEATURE
