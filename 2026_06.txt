@@ -1,0 +1,78 @@
+
+
+----------==========----------==========----------==========----------
+
+
+"Eat Your Own Catfood."
+
+
+----------==========----------==========----------==========----------
+
+
+Change Log
+
+
+2026/06/30
+
+
+BUGFIX
+
+
+NEW_FEATURE
+
+
+----------==========----------==========----------==========----------
+
+
+Change Log
+
+
+2026/06/20
+
+
+BUGFIX
+
+
+NEW_FEATURE
+
+
+----------==========----------==========----------==========----------
+
+
+Change Log
+
+
+2026/06/10
+
+
+BUGFIX
+
+
+NEW_FEATURE
+
+
+	win64/ui/image.c
+		Code Auditor : code
+			NEW : removed
+			[?] : unused
+	win64/clipboard.c
+		Code Auditor : n_clipboard_explorer_*()
+			NEW : removed
+			[?] : unused and unknown to run
+	win64/systemtray.c
+		Code Auditor : code
+			NEW : removed
+			[?] : not working, I don't know how to fix
+	win64/version.c
+		Code Auditor : code
+			NEW : removed
+			[?] : unused
+
+	hunyapiyo3 : Mac
+		resources : hunyapiyo3.png
+			NEW : removed
+			[?] : unused
+
+
+----------==========----------==========----------==========----------
+
