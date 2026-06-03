@@ -31,8 +31,25 @@
 リソース : hunyapiyo3.png
 使われないので削除したニャ
 
+■bridge/app/hunyapiyo3
+
+Mac と Windows で共通のコードをまとめたニャ
+
+■hunyapiyo3 : Mac/Win64
+
+カウントダウンの数字のアニメーションを調整ニャ
+
+■bridge/gdi.c : Win64
+
+.effect_no_bicubic を苦肉の策として付けたにゃ
+ゲームのようにリアルタイム性が重要な時に使うニャ
+
 
 ◇バグフィクス
+
+■CatPad
+
+サーチマーカーが削除ボタンを押してもリセットされないのを直したニャ
 
 
 [ ０６月２０日 ]
