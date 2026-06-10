@@ -44,12 +44,20 @@ Mac と Windows で共通のコードをまとめたニャ
 .effect_no_bicubic を苦肉の策として付けたにゃ
 ゲームのようにリアルタイム性が重要な時に使うニャ
 
+■bridge/gdi.c
+
+エフェクト仕様時の動作が高速になったニャ
+
 
 ◇バグフィクス
 
-■CatPad
+■Nonnon CatPad : Win64
 
 サーチマーカーが削除ボタンを押してもリセットされないのを直したニャ
+
+■Nonnon Freecell : Win64
+
+"Replay" と "New Game" がクラッシュするのを直したニャ
 
 
 [ ０６月２０日 ]

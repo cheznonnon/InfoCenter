@@ -48,22 +48,32 @@ Change Log
 BUGFIX
 
 
-	CatPad
+	CatPad : Win64
 		Search Marker : when delete circle is clicked
 			OLD : not reset
+			NEW : fixed
+	Nonnon Freecell : Win64
+		"Replay" and "New Game"
+			OLD : crash
 			NEW : fixed
 
 
 NEW_FEATURE
 
 
-	bridge/app/hunyapiyo3 : Mac/Win64
+	bridge/app/hunyapiyo3
+		released
+			NEW : shared code between Mac and Windows
+	bridge/app/LINE MASHER 2
 		released
 			NEW : shared code between Mac and Windows
 	bridge/gdi.c : Win64
 		.effect_no_bicubic
 			NEW : patch for too much heavy problem
 			[!] : use for real-time process
+	bridge/gdi.c
+		effect
+			NEW : faster than older
 
 	win64/ui/image.c
 		Code Auditor : code
