@@ -35,6 +35,10 @@
 
 Mac と Windows で共通のコードをまとめたニャ
 
+■bridge/app/LINE MASHER 2
+
+Mac と Windows で共通のコードをまとめたニャ
+
 ■hunyapiyo3 : Mac/Win64
 
 カウントダウンの数字のアニメーションを調整ニャ
@@ -64,8 +68,18 @@ Mac と Windows で共通のコードをまとめたニャ
 
 ◇ニューフィーチャー
 
+■bridge/app/Nonnon Freecell
+
+Mac と Windows で共通のコードをまとめたニャ
+
 
 ◇バグフィクス
+
+■Nonnon Paint
+
+キャンバス : グリッド : 中央線 : Ｙ
+計算が不正確なのを直したニャ : ＹなのにＸを使っていたニャ
+
 
 
 [ ０６月３０日 ]

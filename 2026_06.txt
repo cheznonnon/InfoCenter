@@ -33,7 +33,18 @@ Change Log
 BUGFIX
 
 
+	Nonnon Paint
+		Canvas : Grid : center line : Y
+			OLD : inaccurate calculation : X is used
+			NEW : fixed
+
+
 NEW_FEATURE
+
+
+	bridge/app/Nonnon Freecell
+		released
+			NEW : shared code between Mac and Windows
 
 
 ----------==========----------==========----------==========----------
