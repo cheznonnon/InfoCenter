@@ -18,7 +18,21 @@ Change Log
 BUGFIX
 
 
+	Nonnon Paint
+		Grabber : Resync : Tooltip
+			OLD : redraw error sometimes
+			NEW : fixed
+		source code : n_paint_zero() : sizeof()
+			OLD : n_paint        : inaccurate
+			NEW : n_paint_struct
+
+
 NEW_FEATURE
+
+
+	Nekomimi Nina 2
+		Icon
+			NEW : refreshed
 
 
 ----------==========----------==========----------==========----------
@@ -36,6 +50,9 @@ BUGFIX
 	Nonnon Paint
 		Canvas : Grid : center line : Y
 			OLD : inaccurate calculation : X is used
+			NEW : fixed
+		Resizer : Thick/Thin : grabbed area
+			OLD : crash
 			NEW : fixed
 
 
