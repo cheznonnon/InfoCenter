@@ -36,6 +36,14 @@ BUGFIX
 NEW_FEATURE
 
 
+	Nekomimi Nina 2
+		main icon
+			NEW : renewed
+		source code
+			NEW : more independent from Mac system
+			[!] : preparing to port to Win64
+
+
 ----------==========----------==========----------==========----------
 
 
