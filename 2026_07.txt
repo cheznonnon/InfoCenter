@@ -18,6 +18,13 @@ Change Log
 BUGFIX
 
 
+	Nonnon CatPad : Mac
+		Meow Sound
+			OLD : not smooth playback at the first time
+			NEW : patched
+			[x] : a bug of macOS
+
+
 NEW_FEATURE
 
 
@@ -42,6 +49,11 @@ NEW_FEATURE
 		source code
 			NEW : more independent from Mac system
 			[!] : preparing to port to Win64
+	Nonnon Paint
+		Main Menu : "Gray Canvas On/Off"
+			NEW : make a canvas grayscaled
+			[!] : use brightness sensitive images
+			[!] : data are safe
 
 
 ----------==========----------==========----------==========----------
