@@ -18,11 +18,20 @@ Change Log
 BUGFIX
 
 
+	neutral/wav.c
+		n_wav_new_internal() : msec. mode
+			OLD : inaccurate calculation / lack of cast
+			NEW : fixed
+
 	Nonnon CatPad : Mac
 		Meow Sound
 			OLD : not smooth playback at the first time
 			NEW : patched
 			[x] : a bug of macOS
+	Nonnon Nyaurism
+		Resizer : "msec."
+			OLD : inaccurate calculation
+			NEW : fixed
 
 
 NEW_FEATURE
