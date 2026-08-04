@@ -48,6 +48,11 @@ Change Log
 BUGFIX
 
 
+	mac/n_txtbox.c
+		_ONELINE, _FINDBOX : Wheeling and Grab'N'Drag
+			OLD : inputtable
+			NEW : fixed
+
 	Nonnon Paint
 		Grabber : Basic Filters : Non-Grabber Mode : Sync
 			OLD : inaccurate behavior

@@ -16,6 +16,10 @@
 
 Grabber : 基本フィルタ : ペンとフィル : 同期 : 動作が不正確なのを直したニャ
 
+■mac/n_txtbox.c
+
+_ONELINE, _FINDBOX : ホイールと Grab'N'Drag : 入力できてしまうのを直したニャ
+
 
 [ ０８月２０日 ]
 
