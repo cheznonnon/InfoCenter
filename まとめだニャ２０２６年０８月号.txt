@@ -9,6 +9,12 @@
 
 ◇ニューフィーチャー
 
+■Nonnon Paint
+
+Resizer : Thin/Thick Lines : 実用性がないので廃止したニャ
+
+Fill : Smooth Fill : もっと便利になったニャ
+
 
 ◇バグフィクス
 
