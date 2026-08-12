@@ -36,6 +36,14 @@ BUGFIX
 NEW_FEATURE
 
 
+	Nonnon Paint
+		Resizer : Thin/Thick Lines
+			NEW : removed
+			[?] : useless / low quality
+		Fill : Smooth Fill
+			NEW : more robust than older
+
+
 ----------==========----------==========----------==========----------
 
 
@@ -60,14 +68,6 @@ BUGFIX
 
 
 NEW_FEATURE
-
-
-	Nonnon Paint
-		Resizer : Thin/Thick Lines
-			NEW : removed
-			[?] : useless / low quality
-		Fill : Smooth Fill
-			NEW : more robust than older
 
 
 ----------==========----------==========----------==========----------

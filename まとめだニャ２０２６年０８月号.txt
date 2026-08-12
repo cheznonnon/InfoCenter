@@ -9,12 +9,6 @@
 
 ◇ニューフィーチャー
 
-■Nonnon Paint
-
-Resizer : Thin/Thick Lines : 実用性がないので廃止したニャ
-
-Fill : Smooth Fill : もっと便利になったニャ
-
 
 ◇バグフィクス
 
@@ -30,6 +24,12 @@ _ONELINE, _FINDBOX : ホイールと Grab'N'Drag : 入力できてしまうの�
 [ ０８月２０日 ]
 
 ◇ニューフィーチャー
+
+■Nonnon Paint
+
+Resizer : Thin/Thick Lines : 実用性がないので廃止したニャ
+
+Fill : Smooth Fill : もっと便利になったニャ
 
 
 ◇バグフィクス
