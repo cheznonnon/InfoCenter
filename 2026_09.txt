@@ -60,7 +60,7 @@ BUGFIX
 
 	Nonnon CatPad
 		Tab Adder
-			OLD : last line ie excluded
+			OLD : last line is excluded
 			NEW : fixed
 	Nonnon Paint
 		Layer Window : Cmd + Z
