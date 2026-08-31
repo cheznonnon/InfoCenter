@@ -1,0 +1,75 @@
+
+
+----------==========----------==========----------==========----------
+
+
+"Eat Your Own Catfood."
+
+
+----------==========----------==========----------==========----------
+
+
+Change Log
+
+
+2026/09/30
+
+
+BUGFIX
+
+
+NEW_FEATURE
+
+
+----------==========----------==========----------==========----------
+
+
+Change Log
+
+
+2026/09/20
+
+
+BUGFIX
+
+
+NEW_FEATURE
+
+
+----------==========----------==========----------==========----------
+
+
+Change Log
+
+
+2026/09/10
+
+
+BUGFIX
+
+
+	mac/n_txtbox.c
+		LISTBOX : Keyboard Input
+			OLD : inaccurate handling
+			NEW : fixed
+
+	win64/ui/txtbox.c
+		LISTBOX : Keyboard Input
+			OLD : inaccurate handling
+			NEW : fixed
+
+	Nonnon CatPad
+		Tab Adder
+			OLD : last line ie excluded
+			NEW : fixed
+	Nonnon Paint
+		Layer Window : Cmd + Z
+			OLD : broken
+			NEW : fixed
+
+
+NEW_FEATURE
+
+
+----------==========----------==========----------==========----------
+
