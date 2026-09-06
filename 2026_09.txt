@@ -58,9 +58,12 @@ BUGFIX
 			OLD : inaccurate handling
 			NEW : fixed
 
-	Nonnon CatPad
-		Tab Adder
+	Nonnon CatPad : Win64
+		Tab Adder/Remover
 			OLD : last line is excluded
+			NEW : fixed
+		Readme
+			OLD : Mac terminology is used
 			NEW : fixed
 	Nonnon Paint
 		Layer Window : Cmd + Z
