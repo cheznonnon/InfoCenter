@@ -18,7 +18,18 @@ Change Log
 BUGFIX
 
 
+	Nonnon Paint
+		Layer Window : "Whole Preview"
+			OLD : "*" is not supported
+			NEW : fixed
+
+
 NEW_FEATURE
+
+
+	Nonnon Paint
+		Multi-Layer Whole Eraser
+			NEW : not antialiased
 
 
 ----------==========----------==========----------==========----------
@@ -31,6 +42,12 @@ Change Log
 
 
 BUGFIX
+
+
+	Nonnon Poker : Mac/Win64
+		mouse click
+			OLD : click event is not reset between phases
+			NEW : fixed
 
 
 NEW_FEATURE
