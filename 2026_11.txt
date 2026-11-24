@@ -21,6 +21,12 @@ BUGFIX
 NEW_FEATURE
 
 
+	Nonnon Nyaagle : Mac and Win64
+		Search Field : Key Focus
+			OLD : do nothing
+			NEW : always focused
+
+
 ----------==========----------==========----------==========----------
 
 
@@ -30,10 +36,7 @@ Change Log
 2026/11/20
 
 
-BUGFIX
-
-
-NEW_FEATURE
+zzz...
 
 
 ----------==========----------==========----------==========----------
