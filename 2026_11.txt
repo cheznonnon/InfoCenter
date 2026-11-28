@@ -25,6 +25,8 @@ NEW_FEATURE
 		Search Field : Key Focus
 			OLD : do nothing
 			NEW : always focused
+		Mac Version : Results : when not found
+			NEW : report "nothing found"
 
 
 ----------==========----------==========----------==========----------
